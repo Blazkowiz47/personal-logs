@@ -1,5 +1,9 @@
 # Pipeline Maintenance - pad_candidate
 
+## Active Project
+🔨 **[[Pipeline Refactoring/Index|Pipeline Refactoring Project]]** - Q4 2025
+*Major refactoring to support PAD, MAD, and DeepFake detection*
+
 ## Repository Overview
 Single repository with stitched pipelines:
 - Preprocessing
@@ -7,38 +11,61 @@ Single repository with stitched pipelines:
 - Evaluation (model fusion)
 - Research bench (experimentation)
 
-## Current State
-Functional but needs refactoring
+**Repository:** `pad_candidate`
+**Current Branch:** `main`
+**Refactor Branch:** `refactor/scalable-pipeline`
 
-## Refactoring Goals
-Make pipeline scalable for:
-- [x] PAD (Presentation Attack Detection)
-- [ ] MAD (Morph Attack Detection)
-- [ ] DeepFake Detection
-- [ ] Any deep learning research model
+## Ongoing Maintenance Tasks
 
-## Refactoring Roadmap
-### Phase 1: Architecture Design
-- [ ] Define common interfaces
-- [ ] Separate concerns (data, model, training, eval)
-- [ ] Design config system
+### Regular Tasks
+- [ ] Monitor pipeline health
+- [ ] Fix bugs as they arise
+- [ ] Update dependencies
+- [ ] Code reviews
+- [ ] Performance optimization
 
-### Phase 2: Implementation
-- [ ] Refactor preprocessing
-- [ ] Refactor training loop
-- [ ] Refactor evaluation
-- [ ] Refactor research bench
+### This Week
+- [ ] 
+- [ ] 
 
-### Phase 3: Testing & Documentation
-- [ ] Unit tests
-- [ ] Integration tests
-- [ ] Documentation
+## Recent Changes
+**Date:** 
+**Change:** 
+**Impact:** 
 
-## Technical Debt
+## Known Issues
 - 
 
-## Notes
-- 
+## Technical Debt Log
+*Track technical debt to address later*
+
+| Issue | Impact | Priority | Added Date |
+|-------|--------|----------|------------|
+|       |        |          |            |
+
+## Documentation
+**Location:** 
+- README.md
+- docs/
+
+**To Update:**
+- [ ] After refactoring completes
+- [ ] API documentation
+
+## Related Projects
+- [[Pipeline Refactoring/Index|Pipeline Refactoring]] - Active refactor
+- [[Score Fusion Analysis/Index|Score Fusion]] - Uses this pipeline
+
+## Related Areas
+- [[PAD Algorithm Development/Index]]
+- [[SOTA Research Tracking/Index]]
+
+## Future Improvements
+*After refactoring project completes*
+- Better logging
+- Monitoring dashboard
+- Automated testing
+- CI/CD pipeline
 
 ---
-Tags: #work #pipeline #refactoring #pad_candidate #area
+Tags: #work #pipeline #maintenance #pad_candidate #area
