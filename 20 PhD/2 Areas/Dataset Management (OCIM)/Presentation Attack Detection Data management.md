@@ -2,10 +2,10 @@
 
 ## OCIM Datasets
 Setup complete for 4 SOTA public PAD datasets:
-- ✅ Oulu-NPU
-- ✅ CelebA-Spoof
-- ✅ Idiap Replay-Attack
-- ✅ MSU-MFSD
+- ✅ [[Oulu-NPU]]
+- ✅ [[CelebA-Spoof]]
+- ✅ [[Idiap Replay-Attack]]
+- ✅ [[MSU-MFSD]]
 
 ## Dataset Details
 
@@ -34,10 +34,10 @@ Setup complete for 4 SOTA public PAD datasets:
 **Notes:** 
 
 ## Preprocessing Status
-- [ ] Oulu-NPU preprocessed
-- [ ] CelebA-Spoof preprocessed
-- [ ] Idiap preprocessed
-- [ ] MSU-MFSD preprocessed
+- [x] Oulu-NPU preprocessed
+- [x] CelebA-Spoof preprocessed
+- [x] Idiap preprocessed
+- [x] MSU-MFSD preprocessed
 
 ## Data Splits
 - [ ] Train/val/test splits defined
