@@ -1,0 +1,8 @@
+{
+  "alwaysUpdateLinks": true,
+  "vimMode": true,
+  "showUnsupportedFiles": false,
+  "attachmentFolderPath": "./assets",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "00 Inbox"
+}

@@ -1,0 +1,6 @@
+{
+  "folder": "01 Daily Notes",
+  "autorun": true,
+  "template": "Templates/Daily Note Template",
+  "format": "YYYY/YYYY-MM/YYYY-MM-DD"
+}

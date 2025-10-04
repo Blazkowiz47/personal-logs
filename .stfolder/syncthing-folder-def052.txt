@@ -1,0 +1,5 @@
+# This directory is a Syncthing folder marker.
+# Do not delete.
+
+folderID: xkxip-hrwhn
+created: 2024-10-09T10:06:43+02:00
