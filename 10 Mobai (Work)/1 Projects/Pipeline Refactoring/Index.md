@@ -14,8 +14,8 @@ Refactor pad_candidate repository to be scalable for PAD, MAD, DeepFake detectio
 🟡 Planning Phase
 
 ## Timeline
-- **Start Date:** 2025-10-04
-- **Target Completion:** End of Q4 2025
+- **Start Date:** 2025-10-07
+- **Target Completion:** 2025-10-21
 - **Deadline:** 
 
 ## Background
@@ -23,10 +23,10 @@ Current pad_candidate repo has stitched pipelines (preprocessing, training, eval
 
 ## Scope
 ### In Scope
-- ✅ PAD (Presentation Attack Detection)
-- 🔲 MAD (Morph Attack Detection)
-- 🔲 DeepFake Detection
-- 🔲 Generic deep learning research pipeline
+- [x] PAD (Presentation Attack Detection)
+- [x] MAD (Morph Attack Detection)
+- [ ] DeepFake Detection
+- [x] Generic deep learning research pipeline
 
 ### Out of Scope
 - Production deployment (separate task)
