@@ -147,22 +147,6 @@ pad_candidate/
 - Must coordinate with: [[Score Fusion Analysis/Index]]
 - Blocks: PhD pipeline creation
 
-## Blockers/Issues
-- 
-
-## Next Steps
-- [ ] Create design document
-- [ ] Sketch new architecture
-- [ ] Define interfaces
-- [ ] Start Phase 1
-
-## Deliverables
-- [ ] Refactored codebase
-- [ ] Documentation
-- [ ] Migration guide
-- [ ] Unit tests
-- [ ] Separate PhD pipeline
-
 ## Learnings
 *Document insights as you refactor*
 
