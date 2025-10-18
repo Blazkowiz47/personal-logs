@@ -269,8 +269,6 @@ SORT year ASC
 
 ### Primary Research Area
 - `#pad` - Presentation Attack Detection
-- `#face-antispoofing` - Face anti-spoofing methods
-- `#liveness-detection` - Liveness detection approaches
 
 ### Network Architectures
 - `#cnn` - Convolutional Neural Networks

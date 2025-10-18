@@ -10,6 +10,10 @@ tags:
   - paper
   - pad
   - to-read
+  - "#vit"
+  - transformers
+  - multimodal
+  - attention
 authors: Zitong Yu, Ajian Liu, Chenxu Zhao, Kevin H. M. Cheng, Xu Cheng, Guoying Zhao
 year: "2022"
 venue: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition
