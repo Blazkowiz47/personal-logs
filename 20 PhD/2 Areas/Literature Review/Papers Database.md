@@ -4,7 +4,7 @@ tags: [phd, literature, papers, database]
 
 # Papers Database
 
-This page tracks all research papers I've read or plan to read for my PhD research.
+This page tracks all research papers I've read or plan to read for my PhD research in Presentation Attack Detection.
 
 ## Quick Stats
 ```dataview
@@ -57,9 +57,9 @@ WHERE contains(tags, "paper") AND status = "✅ Read"
 SORT dateread DESC, year DESC
 ```
 
-## Papers by Topic
+## Papers by Research Area
 
-### Presentation Attack Detection (PAD)
+### Presentation Attack Detection (Core)
 ```dataview
 TABLE WITHOUT ID
 	file.link as "Paper",
@@ -71,7 +71,7 @@ WHERE contains(tags, "pad")
 SORT status ASC, year DESC
 ```
 
-### Morph Attack Detection (MAD)
+### Network Architectures
 ```dataview
 TABLE WITHOUT ID
 	file.link as "Paper",
@@ -79,11 +79,11 @@ TABLE WITHOUT ID
 	year as "Year",
 	venue as "Venue"
 FROM "20 PhD/2 Areas/Literature Review"
-WHERE contains(tags, "mad")
+WHERE contains(tags, "architecture") OR contains(tags, "cnn") OR contains(tags, "transformer") OR contains(tags, "vit")
 SORT status ASC, year DESC
 ```
 
-### DeepFake Detection
+### Computer Vision Fundamentals
 ```dataview
 TABLE WITHOUT ID
 	file.link as "Paper",
@@ -91,19 +91,7 @@ TABLE WITHOUT ID
 	year as "Year",
 	venue as "Venue"
 FROM "20 PhD/2 Areas/Literature Review"
-WHERE contains(tags, "deepfake")
-SORT status ASC, year DESC
-```
-
-### Multi-Modal / Cross-Modal
-```dataview
-TABLE WITHOUT ID
-	file.link as "Paper",
-	status as "Status",
-	year as "Year",
-	venue as "Venue"
-FROM "20 PhD/2 Areas/Literature Review"
-WHERE contains(tags, "multimodal") OR contains(tags, "cross-modal")
+WHERE contains(tags, "computer-vision") OR contains(tags, "cv-fundamentals")
 SORT status ASC, year DESC
 ```
 
@@ -119,9 +107,57 @@ WHERE contains(tags, "domain-adaptation") OR contains(tags, "generalization")
 SORT status ASC, year DESC
 ```
 
+### Multi-Modal / Cross-Modal Learning
+```dataview
+TABLE WITHOUT ID
+	file.link as "Paper",
+	status as "Status",
+	year as "Year",
+	venue as "Venue"
+FROM "20 PhD/2 Areas/Literature Review"
+WHERE contains(tags, "multimodal") OR contains(tags, "cross-modal")
+SORT status ASC, year DESC
+```
+
+### Attention Mechanisms
+```dataview
+TABLE WITHOUT ID
+	file.link as "Paper",
+	status as "Status",
+	year as "Year",
+	venue as "Venue"
+FROM "20 PhD/2 Areas/Literature Review"
+WHERE contains(tags, "attention")
+SORT status ASC, year DESC
+```
+
+### Loss Functions & Training
+```dataview
+TABLE WITHOUT ID
+	file.link as "Paper",
+	status as "Status",
+	year as "Year",
+	venue as "Venue"
+FROM "20 PhD/2 Areas/Literature Review"
+WHERE contains(tags, "loss-function") OR contains(tags, "training")
+SORT status ASC, year DESC
+```
+
+### Feature Learning & Representation
+```dataview
+TABLE WITHOUT ID
+	file.link as "Paper",
+	status as "Status",
+	year as "Year",
+	venue as "Venue"
+FROM "20 PhD/2 Areas/Literature Review"
+WHERE contains(tags, "feature-learning") OR contains(tags, "representation")
+SORT status ASC, year DESC
+```
+
 ## Papers by Venue
 
-### Top Conferences
+### Top CV Conferences
 ```dataview
 TABLE WITHOUT ID
 	file.link as "Paper",
@@ -133,7 +169,7 @@ WHERE contains(tags, "paper") AND (contains(venue, "CVPR") OR contains(venue, "I
 SORT venue ASC, year DESC
 ```
 
-### Biometrics & Security Journals
+### Biometrics & Security
 ```dataview
 TABLE WITHOUT ID
 	file.link as "Paper",
@@ -141,8 +177,20 @@ TABLE WITHOUT ID
 	status as "Status",
 	venue as "Venue"
 FROM "20 PhD/2 Areas/Literature Review"
-WHERE contains(tags, "paper") AND (contains(venue, "TIFS") OR contains(venue, "IET") OR contains(venue, "Biometrics") OR contains(venue, "ICB"))
+WHERE contains(tags, "paper") AND (contains(venue, "TIFS") OR contains(venue, "IET") OR contains(venue, "Biometrics") OR contains(venue, "ICB") OR contains(venue, "IJCB") OR contains(venue, "TBIOM"))
 SORT year DESC
+```
+
+### arXiv Preprints
+```dataview
+TABLE WITHOUT ID
+	file.link as "Paper",
+	year as "Year",
+	status as "Status",
+	dateadded as "Added"
+FROM "20 PhD/2 Areas/Literature Review"
+WHERE contains(venue, "arXiv")
+SORT year DESC, dateadded DESC
 ```
 
 ## Papers by Year
@@ -207,6 +255,18 @@ WHERE contains(tags, "high-priority")
 SORT dateadded DESC
 ```
 
+## Foundational Papers
+```dataview
+TABLE WITHOUT ID
+	file.link as "Paper",
+	year as "Year",
+	venue as "Venue",
+	status as "Status"
+FROM "20 PhD/2 Areas/Literature Review"
+WHERE contains(tags, "foundational")
+SORT year ASC
+```
+
 ---
 
 ## How to Use This Database
@@ -216,10 +276,60 @@ SORT dateadded DESC
    - `📚 To Read` - Papers in your reading queue
    - `📖 Reading` - Currently reading
    - `✅ Read` - Finished reading and summarized
-3. **Tag appropriately**: Use relevant tags like #pad, #mad, #deepfake, #multimodal, etc.
+3. **Tag appropriately**: Use relevant tags like:
+   - **Core PAD**: #pad, #face-antispoofing, #liveness-detection
+   - **Architectures**: #cnn, #transformer, #vit, #resnet, #architecture
+   - **CV Topics**: #computer-vision, #attention, #feature-learning
+   - **Methods**: #domain-adaptation, #multimodal, #loss-function
 4. **Add implementation tag**: Use #to-implement for papers you want to replicate
+5. **Mark foundational**: Use #foundational for seminal papers in the field
+
+## Tag Guide
+
+### Primary Research Area
+- `#pad` - Presentation Attack Detection
+- `#face-antispoofing` - Face anti-spoofing methods
+- `#liveness-detection` - Liveness detection approaches
+
+### Network Architectures
+- `#cnn` - Convolutional Neural Networks
+- `#transformer` - Transformer architectures
+- `#vit` - Vision Transformers
+- `#resnet` - ResNet and variants
+- `#mobilenet` - MobileNet architectures
+- `#efficientnet` - EfficientNet models
+- `#architecture` - General architecture papers
+
+### Computer Vision Techniques
+- `#computer-vision` - General CV papers
+- `#attention` - Attention mechanisms
+- `#feature-learning` - Feature extraction/learning
+- `#representation` - Representation learning
+- `#image-processing` - Image processing techniques
+
+### Training & Optimization
+- `#loss-function` - Novel loss functions
+- `#training` - Training strategies
+- `#optimization` - Optimization methods
+- `#data-augmentation` - Augmentation techniques
+
+### PAD-Specific
+- `#domain-adaptation` - Cross-domain PAD
+- `#generalization` - Generalization to unseen attacks
+- `#multimodal` - Multi-modal PAD
+- `#cross-modal` - Cross-modal learning
+- `#zero-shot` - Zero-shot PAD
+
+### Special Categories
+- `#benchmark` - Benchmark/evaluation papers
+- `#survey` - Survey/review papers
+- `#dataset` - Papers introducing datasets
+- `#foundational` - Foundational/seminal papers
+- `#to-implement` - To be implemented
+- `#high-priority` - High priority reading
 
 ## Quick Links
 - [[Index|Literature Review Index]]
 - [[../../1 Projects/|PhD Projects]]
 - [[../Experiment Tracking/Index|Experiment Tracking]]
+- [[../Dataset Management (OCIM)/Presentation Attack Detection Data management|PAD Datasets]]
