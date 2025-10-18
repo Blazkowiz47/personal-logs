@@ -5,16 +5,16 @@ tags:
   - project
   - research
 status: 🟡 In Progress
-start_date:
-  "{ date:YYYY-MM-DD }":
+start_date: 2025-10-18
 ---
-
 # Use of low/high pass filtered images along with rgb images for spoof-detection
 
 ## Research Question
+*What question are you trying to answer?*
 Can low-high pass filtered images aid in improving the spoof detection performance?
+
 ## Status
-🟡 In Progress 
+🟡 In Progress / 🟢 Active / 🔴 Blocked / ✅ Complete
 
 ## Timeline
 - **Start Date:** 2025-10-18
@@ -26,7 +26,8 @@ Observation: When we remove 1%, 5% and 20% of the lower frequencies (post fourie
 
 ## Hypothesis
 Providing the filtered images may aid the deep-learning model to focus on relevant features more compared to simple rgb. 
-As [[FMF]] worked good 
+As [[Flexible-Modal Face Anti-Spoofing - A Benchmark|fmf-pad]] worked good in gathering cues from multiple domains, similar strategy should be ideal to make model focus on 
+
 
 ## Methodology
 ### Approach
@@ -104,7 +105,3 @@ As [[FMF]] worked good
 
 ## Learnings & Insights
 *What did you discover?*
-
-
----
-**Last Updated:** {{date:YYYY-MM-DD}}

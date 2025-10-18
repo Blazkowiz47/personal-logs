@@ -21,17 +21,16 @@ dateread:
 priority: high
 ---
 ## Quick Summary
-*One-sentence summary of what this paper does*
-
+Train a "One-for-all" model on RGB+Depth+Infrared modalities with a single backbone and three feature fusion strategies.
 
 ## Problem Statement
 What problem does this paper address?
-
+Developing a single model which can be deployed flexibly with different modalities.
 
 ## Key Contributions
-1. 
-2. 
-3. 
+1. First flexible-modal benchmark.
+2. Cross-attention fusion module to efficiently mine cross-modal clues for flexible-modal deployment.
+3. Found out that the modality dropout strategy works well in flex-modal intra-testings but poorly in flex-modal cross-testings.
 
 ## Methodology
 ### Architecture
