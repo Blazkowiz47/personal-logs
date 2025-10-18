@@ -7,21 +7,10 @@ venue:
 paper_url: 
 code_url: 
 status: "📚 To Read"
-dateadded: {{date:YYYY-MM-DD}}
+dateadded: <% tp.date.now("YYYY-MM-DD") %>
 dateread: 
 priority: medium
 ---
-
-# [Paper Title]
-
-## Metadata
-- **Authors:** 
-- **Year:** 
-- **Venue:** (e.g., CVPR 2024, ICCV 2023, TIFS, arXiv)
-- **Paper URL:** 
-- **Code URL:** 
-- **Status:** 📚 To Read / 📖 Reading / ✅ Read
-- **Priority:** 🔴 High / 🟡 Medium / 🟢 Low
 
 ## Quick Summary
 *One-sentence summary of what this paper does*
@@ -86,7 +75,7 @@ What problem does this paper address?
 - 
 
 ## Relevance to My Work
-*How does this relate to my PAD/PhD research?*
+*How does this relate to my PAD research?*
 
 ### Direct Applications
 - 
@@ -160,5 +149,3 @@ $$
 - [ ] Experiments
 - [ ] Conclusion
 - [ ] Supplementary Material
-
-**Last Updated:** {{date:YYYY-MM-DD}}

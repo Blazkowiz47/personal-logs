@@ -2,10 +2,8 @@
 aliases: []
 tags: [phd, project, research]
 status: 🟡 In Progress
-start_date: {{date:YYYY-MM-DD}}
+start_date: <% tp.date.now("YYYY-MM-DD") %>
 ---
-
-# {{title}}
 
 ## Research Question
 *What question are you trying to answer?*
@@ -15,7 +13,7 @@ start_date: {{date:YYYY-MM-DD}}
 🟡 In Progress / 🟢 Active / 🔴 Blocked / ✅ Complete
 
 ## Timeline
-- **Start Date:** {{date:YYYY-MM-DD}}
+- **Start Date:** <% tp.date.now("YYYY-MM-DD") %>
 - **Target Completion:** 
 - **Milestone Dates:** 
 
@@ -103,7 +101,3 @@ start_date: {{date:YYYY-MM-DD}}
 
 ## Learnings & Insights
 *What did you discover?*
-
-
----
-**Last Updated:** {{date:YYYY-MM-DD}}

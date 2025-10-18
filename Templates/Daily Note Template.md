@@ -1,4 +1,4 @@
-# {{date:YYYY-MM-DD}} - {{date:dddd}}
+# <% tp.date.now("YYYY-MM-DD") %> - <% tp.date.now("dddd") %>
 
 ## 🌅 Morning Routine
 - [ ] Wake up at 6:00 AM
@@ -61,4 +61,4 @@
 - 
 
 ---
-Tags: #daily #{{date:YYYY}} #{{date:YYYY-MM}}
+Tags: #daily #<% tp.date.now("YYYY") %> #<% tp.date.now("YYYY-MM") %>

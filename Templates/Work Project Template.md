@@ -2,10 +2,8 @@
 aliases: []
 tags: [work, project, mobai]
 status: 🟡 In Progress
-start_date: {{date:YYYY-MM-DD}}
+start_date: <% tp.date.now("YYYY-MM-DD") %>
 ---
-
-# {{title}}
 
 ## Project Goal
 *What are you trying to achieve?*
@@ -15,7 +13,7 @@ start_date: {{date:YYYY-MM-DD}}
 🟡 In Progress / 🟢 Active / 🔴 Blocked / ✅ Complete
 
 ## Timeline
-- **Start Date:** {{date:YYYY-MM-DD}}
+- **Start Date:** <% tp.date.now("YYYY-MM-DD") %>
 - **Target Completion:** 
 - **Deadline:** 
 
@@ -81,7 +79,3 @@ start_date: {{date:YYYY-MM-DD}}
 
 ## Learnings
 *What did you learn from this project?*
-
-
----
-**Last Updated:** {{date:YYYY-MM-DD}}

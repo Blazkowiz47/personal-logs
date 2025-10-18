@@ -4,8 +4,6 @@ tags: [concept, pad, phd]
 related_papers: []
 ---
 
-# [Concept Name]
-
 ## Definition
 *Clear, concise definition*
 
@@ -31,10 +29,10 @@ related_papers: []
 - 
 
 ## Code Example
-\`\`\`python
+```python
 # Simple implementation or pseudocode
 
-\`\`\`
+```
 
 ## Related Concepts
 - [[]]
@@ -50,8 +48,3 @@ related_papers: []
 
 ## My Notes
 *Personal understanding, questions, insights*
-
-
----
-**Date Created:** {{date:YYYY-MM-DD}}
-**Last Updated:** 

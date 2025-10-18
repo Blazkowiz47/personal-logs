@@ -1,4 +1,4 @@
-# Week {{date:YYYY-[W]ww}}
+# Week <% tp.date.now("YYYY-[W]ww") %>
 
 ## 🎯 Goals This Week
 - [ ] 
@@ -38,4 +38,4 @@ Focus areas:
 3. 
 
 ---
-Tags: #weekly #review #{{date:YYYY}}
+Tags: #weekly #review #<% tp.date.now("YYYY") %>

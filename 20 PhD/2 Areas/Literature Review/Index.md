@@ -1,247 +1,318 @@
 # Literature Review
 
-> **Quick Access:** [[Papers Database|📚 View All Papers]] | [[Paper Reading Workflow|📖 How to Use This System]] | [[Quick Reference|⚡ Quick Reference]]
+> My PhD research paper database for **Presentation Attack Detection**, network architectures, and computer vision.
 
-## Overview
-This area tracks all academic papers and research findings for my PhD research in **Presentation Attack Detection (PAD)**, including related topics in network architectures and computer vision.
-
-## Research Focus
-
-### Primary Research Area
-**🎯 Presentation Attack Detection (PAD)** - My core PhD research focus
-- Face anti-spoofing methods
-- Liveness detection
-- Cross-domain generalization
-- Novel attack detection
-
-### Supporting Research Areas
-**🏗️ Network Architectures**
-- CNN architectures (ResNet, EfficientNet, MobileNet)
-- Vision Transformers (ViT)
-- Attention mechanisms
-- Novel architectural designs
-
-**👁️ Computer Vision Fundamentals**
-- Feature learning and representation
-- Image processing techniques
-- Multi-modal learning
-- Domain adaptation
-
-## Papers Database
-The [[Papers Database]] contains all papers organized by:
-- **Status** (To Read, Reading, Read)
-- **Research Area** (PAD, Architectures, CV Fundamentals, etc.)
-- **Venue** (CVPR, ICCV, ECCV, TIFS, etc.)
-- **Year**
-- **Priority**
-
-### Quick Stats
+## Quick Stats
 ```dataview
 TABLE WITHOUT ID
-	status as "Status",
+	choice(status = "✅ Read", "✅", choice(status = "📖 Reading", "📖", "📚")) as "📊",
 	length(rows) as "Count"
 FROM "20 PhD/2 Areas/Literature Review"
 WHERE contains(tags, "paper")
 GROUP BY status
-SORT status DESC
 ```
 
-### Recently Read Papers
+## Papers by Status
+
+### 📚 To Read
 ```dataview
 TABLE WITHOUT ID
 	file.link as "Paper",
-	dateread as "Date Read",
-	venue as "Venue"
+	authors as "Authors",
+	year as "Year",
+	venue as "Venue",
+	dateadded as "Added"
 FROM "20 PhD/2 Areas/Literature Review"
-WHERE contains(tags, "paper") AND status = "✅ Read"
-SORT dateread DESC
-LIMIT 5
+WHERE contains(tags, "paper") AND status = "📚 To Read"
+SORT year DESC, dateadded DESC
 ```
 
-### Current Reading Queue
+### 📖 Currently Reading
+```dataview
+TABLE WITHOUT ID
+	file.link as "Paper",
+	authors as "Authors",
+	year as "Year",
+	venue as "Venue",
+	dateadded as "Added"
+FROM "20 PhD/2 Areas/Literature Review"
+WHERE contains(tags, "paper") AND status = "📖 Reading"
+SORT dateadded DESC
+```
+
+### ✅ Read
+```dataview
+TABLE WITHOUT ID
+	file.link as "Paper",
+	authors as "Authors",
+	year as "Year",
+	venue as "Venue",
+	dateread as "Date Read"
+FROM "20 PhD/2 Areas/Literature Review"
+WHERE contains(tags, "paper") AND status = "✅ Read"
+SORT dateread DESC, year DESC
+```
+
+## Papers by Research Area
+
+### Presentation Attack Detection (Core)
+```dataview
+TABLE WITHOUT ID
+	file.link as "Paper",
+	status as "Status",
+	year as "Year",
+	venue as "Venue"
+FROM "20 PhD/2 Areas/Literature Review"
+WHERE contains(tags, "pad")
+SORT status ASC, year DESC
+```
+
+### Network Architectures
+```dataview
+TABLE WITHOUT ID
+	file.link as "Paper",
+	status as "Status",
+	year as "Year",
+	venue as "Venue"
+FROM "20 PhD/2 Areas/Literature Review"
+WHERE contains(tags, "architecture") OR contains(tags, "cnn") OR contains(tags, "transformer") OR contains(tags, "vit")
+SORT status ASC, year DESC
+```
+
+### Computer Vision Fundamentals
+```dataview
+TABLE WITHOUT ID
+	file.link as "Paper",
+	status as "Status",
+	year as "Year",
+	venue as "Venue"
+FROM "20 PhD/2 Areas/Literature Review"
+WHERE contains(tags, "computer-vision") OR contains(tags, "cv-fundamentals")
+SORT status ASC, year DESC
+```
+
+### Domain Adaptation / Generalization
+```dataview
+TABLE WITHOUT ID
+	file.link as "Paper",
+	status as "Status",
+	year as "Year",
+	venue as "Venue"
+FROM "20 PhD/2 Areas/Literature Review"
+WHERE contains(tags, "domain-adaptation") OR contains(tags, "generalization")
+SORT status ASC, year DESC
+```
+
+### Multi-Modal / Cross-Modal Learning
+```dataview
+TABLE WITHOUT ID
+	file.link as "Paper",
+	status as "Status",
+	year as "Year",
+	venue as "Venue"
+FROM "20 PhD/2 Areas/Literature Review"
+WHERE contains(tags, "multimodal") OR contains(tags, "cross-modal")
+SORT status ASC, year DESC
+```
+
+### Attention Mechanisms
+```dataview
+TABLE WITHOUT ID
+	file.link as "Paper",
+	status as "Status",
+	year as "Year",
+	venue as "Venue"
+FROM "20 PhD/2 Areas/Literature Review"
+WHERE contains(tags, "attention")
+SORT status ASC, year DESC
+```
+
+### Loss Functions & Training
+```dataview
+TABLE WITHOUT ID
+	file.link as "Paper",
+	status as "Status",
+	year as "Year",
+	venue as "Venue"
+FROM "20 PhD/2 Areas/Literature Review"
+WHERE contains(tags, "loss-function") OR contains(tags, "training")
+SORT status ASC, year DESC
+```
+
+### Feature Learning & Representation
+```dataview
+TABLE WITHOUT ID
+	file.link as "Paper",
+	status as "Status",
+	year as "Year",
+	venue as "Venue"
+FROM "20 PhD/2 Areas/Literature Review"
+WHERE contains(tags, "feature-learning") OR contains(tags, "representation")
+SORT status ASC, year DESC
+```
+
+## Papers by Venue
+
+### Top CV Conferences
+```dataview
+TABLE WITHOUT ID
+	file.link as "Paper",
+	year as "Year",
+	status as "Status",
+	authors as "Authors"
+FROM "20 PhD/2 Areas/Literature Review"
+WHERE contains(tags, "paper") AND (contains(venue, "CVPR") OR contains(venue, "ICCV") OR contains(venue, "ECCV") OR contains(venue, "NeurIPS") OR contains(venue, "ICLR"))
+SORT venue ASC, year DESC
+```
+
+### Biometrics & Security
+```dataview
+TABLE WITHOUT ID
+	file.link as "Paper",
+	year as "Year",
+	status as "Status",
+	venue as "Venue"
+FROM "20 PhD/2 Areas/Literature Review"
+WHERE contains(tags, "paper") AND (contains(venue, "TIFS") OR contains(venue, "IET") OR contains(venue, "Biometrics") OR contains(venue, "ICB") OR contains(venue, "IJCB") OR contains(venue, "TBIOM"))
+SORT year DESC
+```
+
+### arXiv Preprints
+```dataview
+TABLE WITHOUT ID
+	file.link as "Paper",
+	year as "Year",
+	status as "Status",
+	dateadded as "Added"
+FROM "20 PhD/2 Areas/Literature Review"
+WHERE contains(venue, "arXiv")
+SORT year DESC, dateadded DESC
+```
+
+## Papers by Year
+
 ```dataview
 TABLE WITHOUT ID
 	file.link as "Paper",
 	venue as "Venue",
-	year as "Year"
+	status as "Status",
+	authors as "Authors"
 FROM "20 PhD/2 Areas/Literature Review"
-WHERE contains(tags, "paper") AND (status = "📖 Reading" OR status = "📚 To Read")
-SORT status DESC, year DESC
+WHERE contains(tags, "paper")
+SORT year DESC, venue ASC
+```
+
+## Recently Added
+```dataview
+TABLE WITHOUT ID
+	file.link as "Paper",
+	status as "Status",
+	year as "Year",
+	venue as "Venue",
+	dateadded as "Added"
+FROM "20 PhD/2 Areas/Literature Review"
+WHERE contains(tags, "paper")
+SORT dateadded DESC
 LIMIT 10
 ```
 
-## Key Themes & Trends
-*Update as you read more papers*
-
-### In PAD Research
-- 
-
-### In Network Architectures
-- 
-
-### In Computer Vision
-- 
-
-## Research Gaps Identified
-*Track gaps you notice while reading*
-
-### PAD-Specific Gaps
-1. 
-2. 
-3. 
-
-### Architecture/Method Gaps
-1. 
-2. 
-3. 
-
-## Potential Research Directions
-*Ideas sparked from literature review*
-
-### Short-term (Next 6 months)
-1. 
-2. 
-3. 
-
-### Long-term (PhD Duration)
-1. 
-2. 
-3. 
-
-## Conference & Journal Deadlines
-
-### Computer Vision Conferences
-| Conference | Deadline | Notification | Focus |
-|------------|----------|--------------|-------|
-| CVPR 2026  |          |              | CV, PAD |
-| ICCV 2025  |          |              | CV, PAD |
-| ECCV 2026  |          |              | CV, PAD |
-| NeurIPS    |          |              | ML, Architectures |
-| ICLR       |          |              | ML, Architectures |
-
-### Biometrics & Security
-| Venue | Deadline | Notification | Focus |
-|-------|----------|--------------|-------|
-| ICB   |          |              | PAD, Biometrics |
-| IJCB  |          |              | PAD, Biometrics |
-| BTAS  |          |              | PAD, Biometrics |
-
-### Important Journals
-- **IEEE TIFS** - Transactions on Information Forensics and Security
-- **IEEE TBIOM** - Transactions on Biometrics, Behavior, and Identity Science
-- **IET Biometrics** - Biometrics journal
-- **Pattern Recognition** - CV and ML methods
-- **IJCV** - International Journal of Computer Vision
-
-## Important Paper Collections
-
-### Foundational PAD Papers
+## Papers with Code
 ```dataview
 TABLE WITHOUT ID
 	file.link as "Paper",
-	year as "Year",
-	venue as "Venue"
+	status as "Status",
+	code_url as "Code"
 FROM "20 PhD/2 Areas/Literature Review"
-WHERE contains(tags, "foundational") AND contains(tags, "pad")
-SORT year ASC
-```
-
-### Foundational Architecture Papers
-```dataview
-TABLE WITHOUT ID
-	file.link as "Paper",
-	year as "Year",
-	venue as "Venue"
-FROM "20 PhD/2 Areas/Literature Review"
-WHERE contains(tags, "foundational") AND contains(tags, "architecture")
-SORT year ASC
-```
-
-### Survey Papers
-```dataview
-TABLE WITHOUT ID
-	file.link as "Paper",
-	year as "Year",
-	venue as "Venue"
-FROM "20 PhD/2 Areas/Literature Review"
-WHERE contains(tags, "survey")
+WHERE contains(tags, "paper") AND code_url
 SORT year DESC
 ```
 
-### Benchmark Papers
+## Papers to Implement
 ```dataview
 TABLE WITHOUT ID
 	file.link as "Paper",
 	year as "Year",
 	venue as "Venue"
 FROM "20 PhD/2 Areas/Literature Review"
-WHERE contains(tags, "benchmark")
+WHERE contains(tags, "to-implement")
 SORT year DESC
 ```
 
-## Related Areas in Vault
-- [[../Dataset Management (OCIM)/Presentation Attack Detection Data management|PAD Datasets]]
+## High Priority Papers
+```dataview
+TABLE WITHOUT ID
+	file.link as "Paper",
+	status as "Status",
+	year as "Year",
+	venue as "Venue",
+	dateadded as "Added"
+FROM "20 PhD/2 Areas/Literature Review"
+WHERE contains(tags, "high-priority")
+SORT dateadded DESC
+```
+
+## Foundational Papers
+```dataview
+TABLE WITHOUT ID
+	file.link as "Paper",
+	year as "Year",
+	venue as "Venue",
+	status as "Status"
+FROM "20 PhD/2 Areas/Literature Review"
+WHERE contains(tags, "foundational")
+SORT year ASC
+```
+
+---
+
+## Tag Guide
+
+### Primary Research Area
+- `#pad` - Presentation Attack Detection
+- `#face-antispoofing` - Face anti-spoofing methods
+- `#liveness-detection` - Liveness detection approaches
+
+### Network Architectures
+- `#cnn` - Convolutional Neural Networks
+- `#transformer` - Transformer architectures
+- `#vit` - Vision Transformers
+- `#resnet` - ResNet and variants
+- `#mobilenet` - MobileNet architectures
+- `#efficientnet` - EfficientNet models
+- `#architecture` - General architecture papers
+
+### Computer Vision Techniques
+- `#computer-vision` - General CV papers
+- `#attention` - Attention mechanisms
+- `#feature-learning` - Feature extraction/learning
+- `#representation` - Representation learning
+- `#image-processing` - Image processing techniques
+
+### Training & Optimization
+- `#loss-function` - Novel loss functions
+- `#training` - Training strategies
+- `#optimization` - Optimization methods
+- `#data-augmentation` - Augmentation techniques
+
+### PAD-Specific
+- `#domain-adaptation` - Cross-domain PAD
+- `#generalization` - Generalization to unseen attacks
+- `#multimodal` - Multi-modal PAD
+- `#cross-modal` - Cross-modal learning
+- `#zero-shot` - Zero-shot PAD
+
+### Special Categories
+- `#benchmark` - Benchmark/evaluation papers
+- `#survey` - Survey/review papers
+- `#dataset` - Papers introducing datasets
+- `#foundational` - Foundational/seminal papers
+- `#to-implement` - To be implemented
+- `#high-priority` - High priority reading
+
+## Quick Links
 - [[../../1 Projects/|PhD Projects]]
 - [[../Experiment Tracking/Index|Experiment Tracking]]
-- [[../Mathematical Foundations/Index|Mathematical Foundations]]
-- [[../../3 Resources/|Research Resources]]
+- [[../Dataset Management (OCIM)/Presentation Attack Detection Data management|PAD Datasets]]
 
 ---
-
-## How to Use This System
-
-### Quick Start
-1. **Read the guide**: Check [[Paper Reading Workflow]] for complete instructions
-2. **Add a paper**: Use the Paper Note Template
-3. **Tag properly**: Use appropriate tags (see guide below)
-4. **Update status**: As you read, update the status field
-5. **Link papers**: Connect related papers together
-
-### Tagging Guide for Your Research
-
-#### When Reading PAD Papers
-Use tags: `#paper #pad #face-antispoofing`
-
-Add specific tags based on content:
-- Domain generalization → `#domain-adaptation #generalization`
-- Multi-modal methods → `#multimodal #cross-modal`
-- Novel datasets → `#dataset`
-
-#### When Reading Architecture Papers
-Use tags: `#paper #architecture #computer-vision`
-
-Add specific architecture tags:
-- CNNs → `#cnn` (+ specific: `#resnet`, `#mobilenet`, `#efficientnet`)
-- Transformers → `#transformer #vit`
-- Attention → `#attention`
-
-#### When Reading CV Fundamentals
-Use tags: `#paper #computer-vision`
-
-Add specific technique tags:
-- Feature learning → `#feature-learning #representation`
-- Loss functions → `#loss-function`
-- Training methods → `#training #optimization`
-
-### Priority Tags
-- `#high-priority` - Must read soon
-- `#foundational` - Seminal papers in the field
-- `#to-implement` - Papers to implement
-- `#survey` - Review/survey papers
-- `#benchmark` - Benchmark/evaluation papers
-
----
-
-## Quick Add Checklist
-When adding a new paper:
-- [ ] Use Paper Note Template
-- [ ] Fill title and metadata (authors, year, venue, URLs)
-- [ ] Set status: `📚 To Read`
-- [ ] Add primary tag: `#paper` + `#pad` or `#architecture` or `#computer-vision`
-- [ ] Add specific technique tags
-- [ ] Set priority if needed
-- [ ] Save in `20 PhD/2 Areas/Literature Review/` folder
-
----
-
-Tags: #phd #literature #review #area
+Tags: #phd #literature #area
