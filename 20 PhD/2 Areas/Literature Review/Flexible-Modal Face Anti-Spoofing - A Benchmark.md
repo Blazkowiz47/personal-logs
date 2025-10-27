@@ -19,7 +19,7 @@ year: "2022"
 venue: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition
 paper_url: https://arxiv.org/pdf/2202.08192
 code_url: https://github.com/ZitongYu/Flex-Modal-FAS
-status: 📚 To Read
+status: ✅ Read
 dateadded: 2025-10-18
 dateread:
 priority: high
@@ -36,25 +36,16 @@ Developing a single model which can be deployed flexibly with different modaliti
 2. Cross-attention fusion module to efficiently mine cross-modal clues for flexible-modal deployment.
 3. Found out that the modality dropout strategy works well in flex-modal intra-testings but poorly in flex-modal cross-testings.
 
-## Methodology
-### Architecture
-
-
-### Key Techniques
--
--
-
-### Novel Components
-*What's new/different from prior work?*
-
-
 ## Experiments
 ### Datasets Used
--
--
+- [[CASIA-SURF]]
+- [[CeFA]]
+- [[WMCA]]
 
 ### Results
-*Key metrics and performance*
+bad performance in general.
+when all three modalities are used while testing it works best.
+- [ ] Cross dataset sucks to generalise.
 
 | Dataset | Metric | Result | Baseline |
 |---------|--------|--------|----------|
@@ -117,36 +108,29 @@ Developing a single model which can be deployed flexibly with different modaliti
 
 Missing modalities are simply blocked as zeros in testing phase and to mimic these scenarios random dropout of modalities is done during the training.
 
-
-
-### Hyperparameters
+### Training Details
 - Finetuned for 30 epochs with epoch halving after 20th epoch.
 
-### Training Details
--
-
-### Reproducibility Notes
--
 
 ## Related Papers
 ### Cited By This Paper
-- [[]]
+- 
 
 ### Papers That Cite This
-- [[]]
+- 
 
 ### Similar Approaches
-- [[]]
+- 
 
 ## Questions & Future Directions
 ### Open Questions
 -
 
 ### Extension Ideas
--
+- 
 
 ### Experimental Ideas
--
+- What if we use fourier transform images maybe  low pass and high pass filetered images as 2 modalities..
 
 ## Notes & Highlights
 ### Key Quotes
@@ -169,10 +153,10 @@ $$
 
 ---
 **Reading Progress:**
-- [ ] Abstract
-- [ ] Introduction
-- [ ] Related Work
-- [ ] Methodology
-- [ ] Experiments
-- [ ] Conclusion
-- [ ] Supplementary Material
+- [x] Abstract
+- [x] Introduction
+- [x] Related Work
+- [x] Methodology
+- [x] Experiments
+- [x] Conclusion
+- [x] Supplementary Material
