@@ -38,7 +38,6 @@ Developing a single model which can be deployed flexibly with different modaliti
 
 ## Methodology
 ### Architecture
-*Describe the model/approach*
 
 
 ### Key Techniques
