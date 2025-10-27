@@ -102,23 +102,25 @@ Developing a single model which can be deployed flexibly with different modaliti
 #### 3 Ways of fusion:
 - Direct concatenation fusion:
 	- F$_{fuse}$ = ReLU(BN(Conv(Concat(F$_{RGB}$, F$_{Depth}$, F$_{IR}$))))
-    
+	Default method.
     
 - Squeeze-and-excitation fusion:
 	- F$^{SE}_{RGB}$ = F$_{RGB}$ $\times$ $\sigma$(FC(ReLU(FC(AvgPool(F$_{RGB}$)))))
 	- F$^{SE}_{Depth}$ = F$_{Depth}$ $\times$ $\sigma$(FC(ReLU(FC(AvgPool(F$_{Depth}$)))))
 	- F$^{SE}_{IR}$ = F$_{IR}$ $\times$ $\sigma$(FC(ReLU(FC(AvgPool(F$_{IR}$)))))
 	- F$_{fuse}$ = ReLU(BN(Conv(Concat(F$^{SE}_{RGB}$,F$^{SE}_{Depth}$,F$^{SE}_{IR}$))))
-
-
+	Intermediate channel numbers are reduced to one eighth of original channels.
 - Cross-attention fusion:
     - F$^{CA}_{Depth}$ = Softmax(F$_{Depth}$(F$_{RGB}$)$^{T}$)F$_{RGB}$
     - F$^{CA}_{IR}$ = Softmax(F$_{IR}$(F$_{RGB}$)$^{T}$)F$_{RGB}$
     - F$_{fuse}$ = ReLU(BN(Conv(F$_{RGB}$+F$^{CA}_{Depth}$+F$^{CA}_{IR}$))) # element wise addition
 
+Missing modalities are simply blocked as zeros in testing phase and to mimic these scenarios random dropout of modalities is done during the training.
+
+
 
 ### Hyperparameters
--
+- Finetuned for 30 epochs with epoch halving after 20th epoch.
 
 ### Training Details
 -
