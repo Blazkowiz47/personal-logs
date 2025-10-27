@@ -41,8 +41,8 @@ Developing a single model which can be deployed flexibly with different modaliti
 
 
 ### Key Techniques
-- 
-- 
+-
+-
 
 ### Novel Components
 *What's new/different from prior work?*
@@ -50,8 +50,8 @@ Developing a single model which can be deployed flexibly with different modaliti
 
 ## Experiments
 ### Datasets Used
-- 
-- 
+-
+-
 
 ### Results
 *Key metrics and performance*
@@ -65,51 +65,66 @@ Developing a single model which can be deployed flexibly with different modaliti
 
 
 ## Strengths
-- 
-- 
+-
+-
 
 ## Limitations
-- 
-- 
+-
+-
 
 ## Critical Analysis
 *My thoughts on the paper*
 
 ### What Works Well
-- 
+-
 
 ### Concerns/Criticisms
-- 
+-
 
 ### Missing Pieces
-- 
+-
 
 ## Relevance to My Work
 *How does this relate to my PAD research?*
 
 ### Direct Applications
-- 
+-
 
 ### Ideas Sparked
-- 
+-
 
 ### Techniques to Borrow
-- 
+-
 
 ## Implementation Notes
-*Anything useful for implementing this*
 
 ### Architecture Details
-- 
+#### 3 Ways of fusion:
+- Direct concatenation fusion:
+	- F$_{fuse}$ = ReLU(BN(Conv(Concat(F$_{RGB}$, F$_{Depth}$, F$_{IR}$))))
+    
+    
+- Squeeze-and-excitation fusion:
+	- F$^{SE}_{RGB}$ = F$_{RGB}$ $\times$ $\sigma$(FC(ReLU(FC(AvgPool(F$_{RGB}$)))))
+	- F$^{SE}_{Depth}$ = F$_{Depth}$ $\times$ $\sigma$(FC(ReLU(FC(AvgPool(F$_{Depth}$)))))
+	- F$^{SE}_{IR}$ = F$_{IR}$ $\times$ $\sigma$(FC(ReLU(FC(AvgPool(F$_{IR}$)))))
+	- F$_{fuse}$ = ReLU(BN(Conv(Concat(F$^{SE}_{RGB}$,F$^{SE}_{Depth}$,F$^{SE}_{IR}$))))
+
+
+- Cross-attention fusion:
+    - F$^{CA}_{Depth}$ = Softmax(F$_{Depth}$(F$_{RGB}$)$^{T}$)F$_{RGB}$
+    - F$^{CA}_{IR}$ = Softmax(F$_{IR}$(F$_{RGB}$)$^{T}$)F$_{RGB}$
+    - F$_{fuse}$ = ReLU(BN(Conv(F$_{RGB}$+F$^{CA}_{Depth}$+F$^{CA}_{IR}$))) # element wise addition
+
 
 ### Hyperparameters
-- 
+-
 
 ### Training Details
-- 
+-
 
 ### Reproducibility Notes
-- 
+-
 
 ## Related Papers
 ### Cited By This Paper
@@ -123,20 +138,20 @@ Developing a single model which can be deployed flexibly with different modaliti
 
 ## Questions & Future Directions
 ### Open Questions
-- 
+-
 
 ### Extension Ideas
-- 
+-
 
 ### Experimental Ideas
-- 
+-
 
 ## Notes & Highlights
 ### Key Quotes
-> 
+>
 
 ### Figures to Remember
-- Figure X: 
+- Figure X:
 
 ### Equations
 $$
@@ -147,11 +162,11 @@ $$
 
 
 ## Action Items
-- [ ] 
-- [ ] 
+- [ ]
+- [ ]
 
 ---
-**Reading Progress:** 
+**Reading Progress:**
 - [ ] Abstract
 - [ ] Introduction
 - [ ] Related Work
