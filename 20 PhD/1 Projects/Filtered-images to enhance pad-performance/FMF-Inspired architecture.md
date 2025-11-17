@@ -4,6 +4,9 @@ tags:
   - phd
   - project
   - research
+  - vit
+  - attention
+  - fourier
 status: 🟡 In Progress
 start_date: 2025-10-18
 ---
@@ -14,8 +17,7 @@ start_date: 2025-10-18
 Can low-high pass filtered images aid in improving the spoof detection performance?
 
 ## Status
-🟡 In Progress / 🟢 Active / 🔴 Blocked / ✅ Complete
-
+🟢 Active
 ## Timeline
 - **Start Date:** 2025-10-18
 - **Target Completion:** 2025-10-25
@@ -31,7 +33,7 @@ As [[Flexible-Modal Face Anti-Spoofing - A Benchmark|fmf-pad]] worked good in ga
 
 ## Methodology
 ### Approach
-- 
+-   
 
 ### Datasets
 - 
@@ -50,21 +52,67 @@ As [[Flexible-Modal Face Anti-Spoofing - A Benchmark|fmf-pad]] worked good in ga
 ## Experiments
 
 ### Experiment 1:
-**Date:**
-**Hypothesis:**
+**Date:** 2025-11-12
+**Hypothesis:** Just a initial sweep with default settings for initial check for feasibility.
 **Setup:**
-- Dataset:
-- Model:
-- Hyperparameters:
+- Dataset: OCIM
+- Model: vit_b_16, resnet34
+- Hyperparameters: BS: 32x4 , adamw optimizer lr: 1e-3, 1e-4
 
-**Results:**
-- 
+**Results:**  [[fourier-initial-sweep-results]]
 
+### Experiment 2 - a:
+**Date:** 2025-11-14
+**Hypothesis:** Checking the resnet variants with SGD optimizer.
+**Setup:**
+- Dataset: OCIM
+- Model: resnet18, resnet34 and resnet50
+- Hyperparameters: 
+	- BS: 32x4 , 
+	- SGD backbone: 0.005 lr, head: 0.05 lr
+
+**Results:**  [[fourier-initial-resnet-sweep]]
 **Analysis:**
-- 
+- Worth exploring
+- Will change the learning rates of backbones and heads
+
+### Experiment 2 - b:
+**Date:** 2025-11-17
+**Hypothesis:** Checking the vit variants with SGD optimizer
+**Setup:**
+- Dataset: OCIM
+- Model: vit_b_16, vit_b_32
+- Hyperparameters: 
+	- BS: 32x4 , 
+	- SGD backbone: 0.005 lr, head: 0.05 lr
+
+**Results:**  [[fourier-initial-vit-sweep]]
+**Analysis:**
+- It seems that vit_b_32 gives more consistent results compared to vit_b_16. 
+- resnet variants don't perform remarkably well compared to vit variants.
 
 **Conclusion:**
-- 
+- It seems the sgd optimizer is not suited for the training, AdamW works best.
+### Experiment 3:
+**Date:** 2025-11-17
+**Hypothesis:** Using vit backbones train on entire dataset with more augmentations.  
+**Setup:**
+- Dataset: OCIM
+- Model: vit_b_16, vit_b_32
+- Hyperparameters: 
+	- BS: 32x4 , 
+	- AdamW 
+		- lr: 1e-5 (backbone), 1e-3 (head)
+		- weight_decay: 1e-7 (backbone), 1e-5 (head)
+	- Augmentation (Removed center crop, now directly resized to (224,224))
+
+**Results:**  [[fourier-initial-vit-sweep]]
+**Analysis:**
+- It seems that vit_b_32 gives more consistent results compared to vit_b_16. 
+- resnet variants don't perform remarkably well compared to vit variants.
+
+**Conclusion:**
+- It seems the sgd optimizer is not suited for the training, AdamW works best.
 
 ## Results Summary
 
@@ -105,3 +153,6 @@ As [[Flexible-Modal Face Anti-Spoofing - A Benchmark|fmf-pad]] worked good in ga
 
 ## Learnings & Insights
 *What did you discover?*
+
+#### For later help
+🔴 Blocked / ✅ Complete
