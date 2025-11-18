@@ -95,6 +95,27 @@ As [[Flexible-Modal Face Anti-Spoofing - A Benchmark|fmf-pad]] worked good in ga
 - It seems the sgd optimizer is not suited for the training, AdamW works best.
 ### Experiment 3:
 **Date:** 2025-11-17
+**Hypothesis:** Using vit backbones train on larger dataset (100_000 per attack).  
+**Setup:**
+- Dataset: OCIM
+- Model: vit_b_16, vit_b_32
+- Hyperparameters: 
+	- BS: 32x4 , 
+	- AdamW 
+		- lr: 1e-5 (backbone), 1e-3 (head)
+		- weight_decay: 1e-7 (backbone), 1e-5 (head)
+	- Augmentation (Removed center crop, now directly resized to (224,224))
+
+**Results:**  [[fourier-vit-experiment-2]]
+**Analysis:**
+- It seems that vit_b_32 gives more consistent results compared to vit_b_16. 
+- resnet variants don't perform remarkably well compared to vit variants.
+
+**Conclusion:**
+- It seems the sgd optimizer is not suited for the training, AdamW works best.
+
+### Experiment 3 - b:
+**Date:** 2025-11-18
 **Hypothesis:** Using vit backbones train on entire dataset with more augmentations.  
 **Setup:**
 - Dataset: OCIM
@@ -106,14 +127,13 @@ As [[Flexible-Modal Face Anti-Spoofing - A Benchmark|fmf-pad]] worked good in ga
 		- weight_decay: 1e-7 (backbone), 1e-5 (head)
 	- Augmentation (Removed center crop, now directly resized to (224,224))
 
-**Results:**  [[fourier-initial-vit-sweep]]
+**Results:**  [[fourier-vit-experiment-2]]
 **Analysis:**
 - It seems that vit_b_32 gives more consistent results compared to vit_b_16. 
 - resnet variants don't perform remarkably well compared to vit variants.
 
 **Conclusion:**
 - It seems the sgd optimizer is not suited for the training, AdamW works best.
-
 ## Results Summary
 
 | Experiment | Dataset | Model | Metric | Result | Notes |
