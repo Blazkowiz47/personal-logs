@@ -95,7 +95,7 @@ As [[Flexible-Modal Face Anti-Spoofing - A Benchmark|fmf-pad]] worked good in ga
 - It seems the sgd optimizer is not suited for the training, AdamW works best.
 ### Experiment 3:
 **Date:** 2025-11-17
-**Hypothesis:** Using vit backbones train on larger dataset (100_000 per attack).  
+**Hypothesis:** Using vit backbones train on larger dataset (100_000 per attack)e 
 **Setup:**
 - Dataset: OCIM
 - Model: vit_b_16, vit_b_32
