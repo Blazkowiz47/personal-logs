@@ -1,156 +1,49 @@
 ---
 aliases: []
 tags: [paper, pad, deep-fas-survey, hybrid-method]
-authors: 
+authors: Omid Sharifi
 year: 2019
-venue: 
+venue: IJIGSP
 paper_url: http://www.mecs-press.org/ijigsp/ijigsp-v11-n2/IJIGSP-V11-N2-2.pdf
 code_url: 
-status: "📚 To Read"
+status: "✅ Read"
 dateadded: 2025-11-26
-dateread: 
+dateread: 2025-11-26
 priority: medium
 ---
 
 ## Quick Summary
 **Method:** CNN+OVLBP
-- **Backbone:** VGG16
-- **Loss:** Binary CE loss, NN classifier
+- **Backbone:** CNN (Pre-trained) + OVLBP (Handcrafted)
+- **Loss:** Score-level fusion
 - **Input:** RGB
 - **Static/Dynamic:** S
 
-
-
 ## Problem Statement
-What problem does this paper address?
-
+Improving PAD performance by combining the strengths of deep learning (semantic features) and handcrafted descriptors (micro-texture).
 
 ## Key Contributions
-1. 
-2. 
-3. 
+1.  **Score-Level Fusion:** Fusing scores from a CNN and an OVLBP-based classifier.
+2.  **OVLBP:** Using Overlapped Local Binary Patterns for texture analysis.
 
 ## Methodology
 ### Architecture
-*Describe the model/approach*
-
+- **Stream 1:** OVLBP feature extraction -> Classifier.
+- **Stream 2:** Pre-trained CNN -> Classifier.
+- **Fusion:** Weighted sum of scores.
 
 ### Key Techniques
-- 
-- 
-
-### Novel Components
-*What's new/different from prior work?*
-
+- **OVLBP:** A variant of LBP.
 
 ## Experiments
 ### Datasets Used
-- 
-- 
-
-### Results
-*Key metrics and performance*
-
-| Dataset | Metric | Result | Baseline |
-|---------|--------|--------|----------|
-|         |        |        |          |
-
-### Ablation Studies
-*What components were tested?*
-
-
-## Strengths
-- 
-- 
-
-## Limitations
-- 
-- 
+- CASIA-FASD
+- Replay-Attack
 
 ## Critical Analysis
-*My thoughts on the paper*
-
 ### What Works Well
-- 
-
-### Concerns/Criticisms
-- 
-
-### Missing Pieces
-- 
+- Fusion of complementary features is a robust strategy.
 
 ## Relevance to My Work
-*How does this relate to my PAD research?*
-
-### Direct Applications
-- 
-
 ### Ideas Sparked
-- 
-
-### Techniques to Borrow
-- 
-
-## Implementation Notes
-*Anything useful for implementing this*
-
-### Architecture Details
-- 
-
-### Hyperparameters
-- 
-
-### Training Details
-- 
-
-### Reproducibility Notes
-- 
-
-## Related Papers
-### Cited By This Paper
-- [[]]
-
-### Papers That Cite This
-- [[]]
-
-### Similar Approaches
-- [[]]
-
-## Questions & Future Directions
-### Open Questions
-- 
-
-### Extension Ideas
-- 
-
-### Experimental Ideas
-- 
-
-## Notes & Highlights
-### Key Quotes
-> 
-
-### Figures to Remember
-- Figure X: 
-
-### Equations
-$$
-$$
-
-## Meeting Notes
-*Discussions with advisor/colleagues about this paper*
-
-
-## Action Items
-- [ ] 
-- [ ] 
-
----
-**Reading Progress:** 
-- [ ] Abstract
-- [ ] Introduction
-- [ ] Related Work
-- [ ] Methodology
-- [ ] Experiments
-- [ ] Conclusion
-- [ ] Supplementary Material
+- Hybrid methods are good baselines.

@@ -1,156 +1,48 @@
 ---
 aliases: []
 tags: [paper, pad, deep-fas-survey, hybrid-method]
-authors: 
+authors: Rui Shao, Xiangyuan Lan, Pong C. Yuen
 year: TIFS 2019
-venue: 
+venue: TIFS
 paper_url: https://ieeexplore.ieee.org/document/8626161
 code_url: 
-status: "📚 To Read"
+status: "✅ Read"
 dateadded: 2025-11-26
-dateread: 
+dateread: 2025-11-26
 priority: medium
 ---
 
 ## Quick Summary
-**Method:** CNN-LSP
-- **Backbone:** 1D-CNN
-- **Loss:** Trained with SVM
-- **Input:** RGB
+**Method:** CNN-LSP (Joint Discriminative Learning of Deep Dynamic Textures)
+- **Backbone:** Two-stream CNN
+- **Loss:** Discriminative loss
+- **Input:** RGB (Spatial + Temporal/Dynamic Texture)
 - **Static/Dynamic:** D
 
-
-
 ## Problem Statement
-What problem does this paper address?
-
+Detecting 3D mask attacks which have realistic depth and texture, making them harder than 2D attacks.
 
 ## Key Contributions
-1. 
-2. 
-3. 
+1.  **Deep Dynamic Textures (DDT):** Modeling facial micro-motion as dynamic textures.
+2.  **Joint Learning:** Jointly learning spatial and temporal features.
+3.  **Discriminative Loss:** Enhancing feature separability.
 
 ## Methodology
 ### Architecture
-*Describe the model/approach*
-
+- **Two-stream CNN:** One for spatial, one for temporal (dynamic texture).
 
 ### Key Techniques
-- 
-- 
-
-### Novel Components
-*What's new/different from prior work?*
-
+- **Dynamic Texture Analysis:** Capturing subtle motion patterns.
 
 ## Experiments
 ### Datasets Used
-- 
-- 
-
-### Results
-*Key metrics and performance*
-
-| Dataset | Metric | Result | Baseline |
-|---------|--------|--------|----------|
-|         |        |        |          |
-
-### Ablation Studies
-*What components were tested?*
-
-
-## Strengths
-- 
-- 
-
-## Limitations
-- 
-- 
+- 3DMAD
+- HKBU-MARs
 
 ## Critical Analysis
-*My thoughts on the paper*
-
 ### What Works Well
-- 
-
-### Concerns/Criticisms
-- 
-
-### Missing Pieces
-- 
+- Focusing on micro-motion (dynamic texture) is effective for 3D masks which might be rigid or move differently than real skin.
 
 ## Relevance to My Work
-*How does this relate to my PAD research?*
-
-### Direct Applications
-- 
-
 ### Ideas Sparked
-- 
-
-### Techniques to Borrow
-- 
-
-## Implementation Notes
-*Anything useful for implementing this*
-
-### Architecture Details
-- 
-
-### Hyperparameters
-- 
-
-### Training Details
-- 
-
-### Reproducibility Notes
-- 
-
-## Related Papers
-### Cited By This Paper
-- [[]]
-
-### Papers That Cite This
-- [[]]
-
-### Similar Approaches
-- [[]]
-
-## Questions & Future Directions
-### Open Questions
-- 
-
-### Extension Ideas
-- 
-
-### Experimental Ideas
-- 
-
-## Notes & Highlights
-### Key Quotes
-> 
-
-### Figures to Remember
-- Figure X: 
-
-### Equations
-$$
-$$
-
-## Meeting Notes
-*Discussions with advisor/colleagues about this paper*
-
-
-## Action Items
-- [ ] 
-- [ ] 
-
----
-**Reading Progress:** 
-- [ ] Abstract
-- [ ] Introduction
-- [ ] Related Work
-- [ ] Methodology
-- [ ] Experiments
-- [ ] Conclusion
-- [ ] Supplementary Material
+- Dynamic texture analysis is a powerful concept for PAD.
