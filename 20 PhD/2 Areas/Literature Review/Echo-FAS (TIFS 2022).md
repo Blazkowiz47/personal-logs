@@ -1,14 +1,14 @@
 ---
 aliases: []
-tags: [paper, pad, deep-fas-survey, multimodal]
-authors: 
-year: TIFS 2022
-venue: 
+tags: [paper, pad, deep-fas-survey, multimodal, acoustic-based]
+authors: Chenqi Kong, Kexin Zheng, Shiqi Wang, Anderson Rocha, Haoliang Li
+year: 2022
+venue: TIFS
 paper_url: https://ieeexplore.ieee.org/abstract/document/9868051
 code_url: 
-status: "📚 To Read"
+status: "✅ Read"
 dateadded: 2025-11-26
-dateread: 
+dateread: 2025-11-26
 priority: medium
 ---
 
@@ -18,6 +18,9 @@ priority: medium
 - **Loss:** Binary CE Loss
 - **Input:** RGB, Vocal
 - **Fusion:** Feature-level
+
+## Abstract
+While RGB-based face anti-spoofing (FAS) models have proven to counter the face spoofing attack effectively, most existing FAS models suffer from the overfitting problem to specific attacks or environments. To address this, this paper proposes a novel acoustic-based FAS system that leverages the unique acoustic signatures of face spoofing attacks. The system, named Echo-FAS, transmits an acoustic signal and analyzes the echoes reflected from the face to distinguish between live faces and spoofing attacks (e.g., masks, screens).
 
 
 

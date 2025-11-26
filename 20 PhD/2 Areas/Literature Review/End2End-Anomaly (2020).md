@@ -1,14 +1,14 @@
 ---
 aliases: []
-tags: [paper, pad, deep-fas-survey, anomaly-detection]
-authors: 
+tags: [paper, pad, deep-fas-survey, anomaly-detection, unknown-attack-detection]
+authors: Yashasvi Baweja, Poojan Oza, Pramuditha Perera, Vishal M. Patel
 year: 2020
-venue: 
+venue: IJCB
 paper_url: https://arxiv.org/abs/2007.05856
-code_url: 
-status: "📚 To Read"
+code_url: https://github.com/yashasvi97/IJCB2020_anomaly
+status: "✅ Read"
 dateadded: 2025-11-26
-dateread: 
+dateread: 2025-11-26
 priority: medium
 ---
 
@@ -17,6 +17,9 @@ priority: medium
 - **Backbone:** VGG-Face
 - **Loss:** Binary CE loss, Pairwise confusion
 - **Input:** RGB
+
+## Abstract
+Anomaly detection-based spoof attack detection is a recent development in face Presentation Attack Detection (fPAD), where a spoof detector is learned using only non-attacked images of users. These detectors are of practical importance as they are shown to generalize well to new attack types. In this paper, we present a deep-learning solution for anomaly detection-based spoof attack detection where both classifier and feature representations are learned together end-to-end. First, we introduce a pseudo-negative class during training in the absence of attacked images. The pseudo-negative class is modeled using a Gaussian distribution whose mean is calculated by a weighted running mean. Secondly, we use pairwise confusion loss to further regularize the training process. The proposed approach benefits from the representation learning power of the CNNs and learns better features for fPAD task.
 
 
 

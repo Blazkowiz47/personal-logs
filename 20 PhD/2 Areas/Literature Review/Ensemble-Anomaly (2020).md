@@ -1,14 +1,14 @@
 ---
 aliases: []
-tags: [paper, pad, deep-fas-survey, anomaly-detection]
-authors: 
+tags: [paper, pad, deep-fas-survey, anomaly-detection, ensemble-learning]
+authors: Soroush Fatemifar, Muhammad Awais, Josef Kittler, Ali Akbari
 year: 2020
-venue: 
+venue: ICIP
 paper_url: https://ieeexplore.ieee.org/document/9190814
 code_url: 
-status: "📚 To Read"
+status: "✅ Read"
 dateadded: 2025-11-26
-dateread: 
+dateread: 2025-11-26
 priority: medium
 ---
 
@@ -17,6 +17,9 @@ priority: medium
 - **Backbone:** GoogLeNet or ResNet50
 - **Loss:** Gaussian Mixture Model (not end-to-end)
 - **Input:** RGB, patches
+
+## Abstract
+This work proposes an ensemble of one-class classifiers fused by a Stacking ensemble method to reduce the generalisation error in the more realistic unseen attack scenario. It formulates the problem as a binary classification task and proposes a novel 2-stage Genetic Algorithm to further improve the generalisation performance of the Stacked ensemble. The method is evaluated on client-specific face anti-spoofing tasks.
 
 
 

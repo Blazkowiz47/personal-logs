@@ -1,14 +1,14 @@
 ---
 aliases: []
-tags: [paper, pad, deep-fas-survey, multimodal]
-authors: 
+tags: [paper, pad, deep-fas-survey, multimodal, lightweight-network]
+authors: Lizhong Li, Zhibin Gao, Lianfen Huang, Hao Zhang, Meijia Lin
 year: 2019
-venue: 
+venue: ICASID
 paper_url: https://ieeexplore.ieee.org/document/8924988
 code_url: 
-status: "📚 To Read"
+status: "✅ Read"
 dateadded: 2025-11-26
-dateread: 
+dateread: 2025-11-26
 priority: medium
 ---
 
@@ -18,6 +18,9 @@ priority: medium
 - **Loss:** Binary CE loss
 - **Input:** RGB, IR
 - **Fusion:** Feature-level
+
+## Abstract
+In this paper, we utilize the near-infrared (NIR) and visible light (VIS) modalities to distinguish the living face from the presentation attacks. We explore different dual-modal combination strategies and propose a dual-modal light-weight network based method for face anti-spoofing. We modify the MobileNetV3 to efficiently fuse features from both modalities.
 
 
 
