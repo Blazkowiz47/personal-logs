@@ -1,3 +1,8 @@
+---
+aliases: [celeba-spoof, CelebA, CelebA-Spoof]
+tags: [dataset, pad]
+---
+
 # CelebA-Spoof
 
 - **Year:** 2020

@@ -1,3 +1,8 @@
+---
+aliases: [OULU-NPU, oulu-npu, Oulu]
+tags: [dataset, pad]
+---
+
 # OULU-NPU
 
 - **Year:** 2017

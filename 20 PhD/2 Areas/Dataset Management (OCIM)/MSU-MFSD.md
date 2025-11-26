@@ -1,3 +1,8 @@
+---
+aliases: [MSU-MFSD, msu-mfsd, MSU]
+tags: [dataset, pad]
+---
+
 # MSU-MFSD
 
 - **Year:** 2014

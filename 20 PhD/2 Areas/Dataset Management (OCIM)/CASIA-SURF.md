@@ -1,3 +1,8 @@
+---
+aliases: [CASIA-SURF, casia-surf, SURF]
+tags: [dataset, pad]
+---
+
 # CASIA-SURF
 
 - **Year:** 2019

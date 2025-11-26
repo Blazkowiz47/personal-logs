@@ -1,3 +1,8 @@
+---
+aliases: [CASIA-MFSD, casia-mfsd, CASIA-fasd, Casia-fasd]
+tags: [dataset, pad]
+---
+
 # CASIA-MFSD
 
 - **Year:** 2012

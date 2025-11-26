@@ -1,3 +1,8 @@
+---
+aliases: [Replay-Attack, replay-attack, Idiap]
+tags: [dataset, pad]
+---
+
 # Idiap Replay-Attack
 
 - **Year:** 2012

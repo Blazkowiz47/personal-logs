@@ -1,3 +1,8 @@
+---
+aliases: [CeFA, cefa, CASIA-SURF CeFA]
+tags: [dataset, pad]
+---
+
 # CASIA-SURF CeFA
 
 - **Year:** 2020

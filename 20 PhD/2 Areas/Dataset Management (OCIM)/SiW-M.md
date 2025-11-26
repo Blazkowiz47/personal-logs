@@ -1,3 +1,8 @@
+---
+aliases: [SiW-M, siw-m, SiW-M v2]
+tags: [dataset, pad]
+---
+
 # SiW-M
 
 - **Year:** 2019

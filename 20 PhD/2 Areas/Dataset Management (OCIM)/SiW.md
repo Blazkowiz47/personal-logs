@@ -1,3 +1,8 @@
+---
+aliases: [SiW, siw, Spoof in the Wild]
+tags: [dataset, pad]
+---
+
 # SiW
 
 - **Year:** 2018
