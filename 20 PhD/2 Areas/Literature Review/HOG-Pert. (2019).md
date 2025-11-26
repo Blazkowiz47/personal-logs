@@ -1,14 +1,14 @@
 ---
 aliases: []
-tags: [paper, pad, deep-fas-survey, hybrid-method]
-authors: 
+tags: [paper, pad, deep-fas-survey, hybrid-method, feature-perturbation]
+authors: Yasar Abbas Ur Rehman, Lai-Man Po, Mengyang Liu, Zijie Zou, Weifeng Ou
 year: 2019
-venue: 
+venue: CISIS
 paper_url: https://link.springer.com/chapter/10.1007/978-3-030-20005-3_1
 code_url: 
-status: "📚 To Read"
+status: "✅ Read"
 dateadded: 2025-11-26
-dateread: 
+dateread: 2025-11-26
 priority: medium
 ---
 
@@ -18,6 +18,9 @@ priority: medium
 - **Loss:** Binary CE loss
 - **Input:** RGB+HOG
 - **Static/Dynamic:** S
+
+## Abstract
+Perturbing convolutional feature maps with Histogram of Oriented Gradients (HOG) features is proposed to improve face liveness detection. The method likely enhances the network's focus on texture details and improves generalization by combining handcrafted features with deep learning representations.
 
 
 
