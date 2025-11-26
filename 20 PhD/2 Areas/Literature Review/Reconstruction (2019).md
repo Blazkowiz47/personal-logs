@@ -1,9 +1,9 @@
 ---
 aliases: []
 tags: [paper, pad, deep-fas-survey, generative-model]
-authors: 
+authors: Yang Chen, Tian Wang, Jingjing Wang, Peng Shi, H. Snoussi
 year: 2019
-venue: 
+venue: 2019 Chinese Automation Congress (CAC)
 paper_url: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8997504
 code_url: 
 status: "📚 To Read"
@@ -12,12 +12,19 @@ dateread:
 priority: medium
 ---
 
+# Towards Good Practices in Face Anti-Spoofing: An Image Reconstruction Based Method
+
+> [!abstract]
+> In this paper, a novel auto-encoder image reconstruction model is proposed to address the face anti-spoofing problem and introduces the multi-scale skip connections to excavate multi-level semantics contained in images. The proposed method utilizes an image reconstruction model to address the face anti-spoofing problem, guiding the network towards better reconstruction results.
+
 ## Quick Summary
 **Method:** Reconstruction
 - **Supervision:** RGB Input (live), ZeroMap (spoof)
 - **Backbone:** U-Net
 - **Input:** RGB
 - **Static/Dynamic:** S
+
+**Abstract:** In this paper, a novel auto-encoder image reconstruction model is proposed to address the face anti-spoofing problem and introduces the multi-scale skip connections to excavate multi-level semantics contained in images. The proposed method utilizes an image reconstruction model to address the face anti-spoofing problem, guiding the network towards better reconstruction results.
 
 
 

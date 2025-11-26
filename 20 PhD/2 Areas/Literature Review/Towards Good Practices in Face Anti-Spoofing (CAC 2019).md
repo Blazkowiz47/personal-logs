@@ -1,10 +1,10 @@
 ---
 aliases: []
-tags: [paper, pad, deep-fas-survey, domain-generalization]
-authors: Yiyou Sun, Yaojie Liu, Xiaoming Liu, Yixuan Li, Wen-Sheng Chu
-year: 2023
-venue: CVPR
-paper_url: https://arxiv.org/abs/2303.13662
+tags: [paper, pad, deep-fas-survey, generative-model]
+authors: Yang Chen, Tian Wang, Jingjing Wang, Peng Shi, H. Snoussi
+year: 2019
+venue: 2019 Chinese Automation Congress (CAC)
+paper_url: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8997504
 code_url: 
 status: "📚 To Read"
 dateadded: 2025-11-26
@@ -12,16 +12,14 @@ dateread:
 priority: medium
 ---
 
-# Rethinking Domain Generalization for Face Anti-spoofing: Separability and Alignment
-
-> [!abstract]
-> This work studies the generalization issue of face anti-spoofing (FAS) models on domain gaps, such as image resolution, blurriness and sensor variations. Most prior works regard domain-specific signals as a negative impact, and apply metric learning or adversarial losses to remove them from feature representation. Though learning a domain-invariant feature space is viable for the training data, we show that the feature shift still exists in an unseen test domain, which backfires on the generalizability of the classifier. In this work, instead of constructing a domain-invariant feature space, we encourage domain separability while aligning the live-to-spoof transition (i.e., the trajectory from live to spoof) to be the same for all domains. We formulate this FAS strategy of separability and alignment (SA-FAS) as a problem of invariant risk minimization (IRM), and learn domain-variant feature representation but domain-invariant classifier. We demonstrate the effectiveness of SA-FAS on challenging cross-domain FAS datasets and establish state-of-the-art performance.
-
 ## Quick Summary
-**Method:** SA-FAS
-- **Backbone:** ResNet18
-- **Loss:** Contrastive loss, Alignment loss
+**Method:** Reconstruction
+- **Supervision:** RGB Input (live), ZeroMap (spoof)
+- **Backbone:** U-Net
+- **Input:** RGB
 - **Static/Dynamic:** S
+
+**Abstract:** In this paper, a novel auto-encoder image reconstruction model is proposed to address the face anti-spoofing problem and introduces the multi-scale skip connections to excavate multi-level semantics contained in images. The proposed method utilizes an image reconstruction model to address the face anti-spoofing problem, guiding the network towards better reconstruction results.
 
 
 
