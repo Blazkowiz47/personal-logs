@@ -1,156 +1,48 @@
 ---
 aliases: []
-tags: [paper, pad, deep-fas-survey, multimodal]
-authors: 
+tags: [paper, pad, deep-fas-survey, multimodal, architecture]
+authors: Weihang Wang, Fei Wen, Haoyuan Zheng, Rendong Ying, Peilin Liu
 year: TIFS 2022
-venue: 
+venue: TIFS
 paper_url: https://ieeexplore.ieee.org/document/9796574
-code_url: 
-status: "📚 To Read"
+code_url: https://github.com/WeihangWANG/Conv-MLP
+status: "✅ Read"
 dateadded: 2025-11-26
-dateread: 
+dateread: 2025-11-26
 priority: medium
 ---
 
 ## Quick Summary
 **Method:** Conv-MLP
-- **Backbone:** Conv-MLP
+- **Backbone:** Hybrid (Conv + MLP)
 - **Loss:** Binary CE Loss, Moat Loss
 - **Input:** RGB, Depth, NIR
-- **Fusion:** Input-level
-
-
+- **Fusion:** Input-level (Signal-level)
 
 ## Problem Statement
-What problem does this paper address?
-
+CNNs are good at local features but struggle with long-range dependencies. Pure MLPs/Transformers are heavy. Need a balance.
 
 ## Key Contributions
-1. 
-2. 
-3. 
+1.  **Conv-MLP Architecture:** Combines local patch convolution (for local features) with global MLPs (for long-range dependencies).
+2.  **Moat Loss:** A new loss function to improve discriminative representation learning and generalization.
+3.  **Signal-Level Fusion:** Direct fusion of multi-modal data.
 
 ## Methodology
 ### Architecture
-*Describe the model/approach*
-
+- **Local Branch:** Convolutional layers.
+- **Global Branch:** MLP layers.
 
 ### Key Techniques
-- 
-- 
-
-### Novel Components
-*What's new/different from prior work?*
-
+- **Moat Loss:** Likely a margin-based loss.
 
 ## Experiments
 ### Datasets Used
-- 
-- 
-
-### Results
-*Key metrics and performance*
-
-| Dataset | Metric | Result | Baseline |
-|---------|--------|--------|----------|
-|         |        |        |          |
-
-### Ablation Studies
-*What components were tested?*
-
-
-## Strengths
-- 
-- 
-
-## Limitations
-- 
-- 
+- Single and Multi-modal datasets.
 
 ## Critical Analysis
-*My thoughts on the paper*
-
 ### What Works Well
-- 
-
-### Concerns/Criticisms
-- 
-
-### Missing Pieces
-- 
+- Hybrid architectures (Conv + MLP/Transformer) are the current trend for efficiency + performance.
 
 ## Relevance to My Work
-*How does this relate to my PAD research?*
-
-### Direct Applications
-- 
-
 ### Ideas Sparked
-- 
-
-### Techniques to Borrow
-- 
-
-## Implementation Notes
-*Anything useful for implementing this*
-
-### Architecture Details
-- 
-
-### Hyperparameters
-- 
-
-### Training Details
-- 
-
-### Reproducibility Notes
-- 
-
-## Related Papers
-### Cited By This Paper
-- [[]]
-
-### Papers That Cite This
-- [[]]
-
-### Similar Approaches
-- [[]]
-
-## Questions & Future Directions
-### Open Questions
-- 
-
-### Extension Ideas
-- 
-
-### Experimental Ideas
-- 
-
-## Notes & Highlights
-### Key Quotes
-> 
-
-### Figures to Remember
-- Figure X: 
-
-### Equations
-$$
-$$
-
-## Meeting Notes
-*Discussions with advisor/colleagues about this paper*
-
-
-## Action Items
-- [ ] 
-- [ ] 
-
----
-**Reading Progress:** 
-- [ ] Abstract
-- [ ] Introduction
-- [ ] Related Work
-- [ ] Methodology
-- [ ] Experiments
-- [ ] Conclusion
-- [ ] Supplementary Material
+- Efficient backbones are crucial. The "Moat Loss" sounds interesting to investigate.

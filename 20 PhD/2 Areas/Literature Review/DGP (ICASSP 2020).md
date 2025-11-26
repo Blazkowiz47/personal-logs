@@ -1,155 +1,44 @@
 ---
 aliases: []
 tags: [paper, pad, deep-fas-survey, domain-adaptation]
-authors: 
+authors: Amir Mohammadi, Sushil Bhattacharjee, Sébastien Marcel
 year: ICASSP 2020
-venue: 
+venue: ICASSP
 paper_url: https://ieeexplore.ieee.org/document/9053685
 code_url: 
-status: "📚 To Read"
+status: "✅ Read"
 dateadded: 2025-11-26
-dateread: 
+dateread: 2025-11-26
 priority: medium
 ---
 
 ## Quick Summary
-**Method:** DGP
+**Method:** DGP (Domain Guided Pruning)
 - **Backbone:** DenseNet161
 - **Loss:** Feature divergence measure, BinaryMask loss
+- **Input:** RGB
 - **Static/Dynamic:** S
 
-
-
 ## Problem Statement
-What problem does this paper address?
-
+PAD systems fail to generalize to new domains (datasets). Collecting PA data in the target domain is difficult/expensive.
 
 ## Key Contributions
-1. 
-2. 
-3. 
+1.  **One-Class Domain Adaptation:** Adapts to a target domain using only bona fide samples (minimal information).
+2.  **Domain Guided Pruning:** Prunes the network to adapt it to the target domain.
 
 ## Methodology
 ### Architecture
-*Describe the model/approach*
-
-
-### Key Techniques
-- 
-- 
-
-### Novel Components
-*What's new/different from prior work?*
-
+- **Backbone:** DenseNet161.
+- **Pruning:** Adapts the network by pruning filters that are not useful for the target domain.
 
 ## Experiments
 ### Datasets Used
-- 
-- 
-
-### Results
-*Key metrics and performance*
-
-| Dataset | Metric | Result | Baseline |
-|---------|--------|--------|----------|
-|         |        |        |          |
-
-### Ablation Studies
-*What components were tested?*
-
-
-## Strengths
-- 
-- 
-
-## Limitations
-- 
-- 
+- Cross-dataset evaluations.
 
 ## Critical Analysis
-*My thoughts on the paper*
-
 ### What Works Well
-- 
-
-### Concerns/Criticisms
-- 
-
-### Missing Pieces
-- 
+- One-class adaptation is very practical because getting real face data is easy, but getting spoof data for a specific new environment is hard.
 
 ## Relevance to My Work
-*How does this relate to my PAD research?*
-
-### Direct Applications
-- 
-
 ### Ideas Sparked
-- 
-
-### Techniques to Borrow
-- 
-
-## Implementation Notes
-*Anything useful for implementing this*
-
-### Architecture Details
-- 
-
-### Hyperparameters
-- 
-
-### Training Details
-- 
-
-### Reproducibility Notes
-- 
-
-## Related Papers
-### Cited By This Paper
-- [[]]
-
-### Papers That Cite This
-- [[]]
-
-### Similar Approaches
-- [[]]
-
-## Questions & Future Directions
-### Open Questions
-- 
-
-### Extension Ideas
-- 
-
-### Experimental Ideas
-- 
-
-## Notes & Highlights
-### Key Quotes
-> 
-
-### Figures to Remember
-- Figure X: 
-
-### Equations
-$$
-$$
-
-## Meeting Notes
-*Discussions with advisor/colleagues about this paper*
-
-
-## Action Items
-- [ ] 
-- [ ] 
-
----
-**Reading Progress:** 
-- [ ] Abstract
-- [ ] Introduction
-- [ ] Related Work
-- [ ] Methodology
-- [ ] Experiments
-- [ ] Conclusion
-- [ ] Supplementary Material
+- Pruning as an adaptation mechanism is an interesting alternative to fine-tuning.

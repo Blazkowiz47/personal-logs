@@ -1,155 +1,49 @@
 ---
 aliases: []
-tags: [paper, pad, deep-fas-survey, continual-learning]
-authors: 
+tags: [paper, pad, deep-fas-survey, continual-learning, domain-generalization]
+authors: Rizhao Cai, Yawen Cui, Zhi Li, Zitong Yu, Haoliang Li, Yongjian Hu, Alex Kot
 year: 2023
-venue: 
+venue: arXiv
 paper_url: https://arxiv.org/abs/2303.09914
 code_url: 
-status: "📚 To Read"
+status: "✅ Read"
 dateadded: 2025-11-26
-dateread: 
+dateread: 2025-11-26
 priority: medium
 ---
 
 ## Quick Summary
-**Method:** DCDCA+PPCR
+**Method:** DCDCA+PPCR (Rehearsal-Free Domain Continual FAS)
 - **Replay or not:** Rehearsal-Free
 - **Backbone:** ViT
-- **Loss:** BCE loss, Proxy Prototype Contrastive Regularization
-
-
+- **Loss:** BCE loss, Proxy Prototype Contrastive Regularization (PPCR)
+- **Input:** RGB
+- **Static/Dynamic:** S
 
 ## Problem Statement
-What problem does this paper address?
-
+Continual learning in FAS usually requires replay buffers (storing old data), which is a privacy risk. Existing methods suffer from catastrophic forgetting without replay.
 
 ## Key Contributions
-1. 
-2. 
-3. 
+1.  **Rehearsal-Free DCL:** First method for Domain Continual Learning (DCL) in FAS without storing previous data.
+2.  **DCDCA (Dynamic Central Difference Convolutional Adapter):** Adapts ViT models to new domains efficiently.
+3.  **PPCR (Proxy Prototype Contrastive Regularization):** Constrains learning using proxy prototypes to prevent forgetting previous domain knowledge.
 
 ## Methodology
 ### Architecture
-*Describe the model/approach*
-
+- **Backbone:** Vision Transformer (ViT).
+- **Adapter:** DCDCA inserted into ViT blocks.
 
 ### Key Techniques
-- 
-- 
-
-### Novel Components
-*What's new/different from prior work?*
-
+- **Proxy Prototypes:** Storing prototypes instead of raw images to preserve privacy and memory.
 
 ## Experiments
 ### Datasets Used
-- 
-- 
-
-### Results
-*Key metrics and performance*
-
-| Dataset | Metric | Result | Baseline |
-|---------|--------|--------|----------|
-|         |        |        |          |
-
-### Ablation Studies
-*What components were tested?*
-
-
-## Strengths
-- 
-- 
-
-## Limitations
-- 
-- 
+- Standard cross-domain benchmarks in a sequential setting.
 
 ## Critical Analysis
-*My thoughts on the paper*
-
 ### What Works Well
-- 
-
-### Concerns/Criticisms
-- 
-
-### Missing Pieces
-- 
+- Rehearsal-free methods are the future for privacy-sensitive applications like Face ID.
 
 ## Relevance to My Work
-*How does this relate to my PAD research?*
-
-### Direct Applications
-- 
-
 ### Ideas Sparked
-- 
-
-### Techniques to Borrow
-- 
-
-## Implementation Notes
-*Anything useful for implementing this*
-
-### Architecture Details
-- 
-
-### Hyperparameters
-- 
-
-### Training Details
-- 
-
-### Reproducibility Notes
-- 
-
-## Related Papers
-### Cited By This Paper
-- [[]]
-
-### Papers That Cite This
-- [[]]
-
-### Similar Approaches
-- [[]]
-
-## Questions & Future Directions
-### Open Questions
-- 
-
-### Extension Ideas
-- 
-
-### Experimental Ideas
-- 
-
-## Notes & Highlights
-### Key Quotes
-> 
-
-### Figures to Remember
-- Figure X: 
-
-### Equations
-$$
-$$
-
-## Meeting Notes
-*Discussions with advisor/colleagues about this paper*
-
-
-## Action Items
-- [ ] 
-- [ ] 
-
----
-**Reading Progress:** 
-- [ ] Abstract
-- [ ] Introduction
-- [ ] Related Work
-- [ ] Methodology
-- [ ] Experiments
-- [ ] Conclusion
-- [ ] Supplementary Material
+- Using adapters for continual learning is a very efficient strategy (parameter-efficient fine-tuning).

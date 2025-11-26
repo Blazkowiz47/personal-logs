@@ -1,155 +1,50 @@
 ---
 aliases: []
-tags: [paper, pad, deep-fas-survey, domain-generalization]
-authors: 
+tags: [paper, pad, deep-fas-survey, domain-generalization, meta-learning]
+authors: Zhihong Chen, Taiping Yao, Kekai Sheng, Shouhong Ding, Ying Tai, Jilin Li, Feiyue Huang, Xinyu Jin
 year: AAAI 2021
-venue: 
+venue: AAAI
 paper_url: https://ojs.aaai.org/index.php/AAAI/article/view/16199
 code_url: 
-status: "📚 To Read"
+status: "✅ Read"
 dateadded: 2025-11-26
-dateread: 
+dateread: 2025-11-26
 priority: medium
 ---
 
 ## Quick Summary
-**Method:** D2AM
-- **Backbone:** DepthNet
-- **Loss:** Binary CE loss, Depth loss, MMD loss
+**Method:** D2AM (Domain Dynamic Adjustment Meta-learning)
+- **Backbone:** DepthNet (likely)
+- **Loss:** Meta-learning loss, MMD loss
+- **Input:** RGB
 - **Static/Dynamic:** S
 
-
-
 ## Problem Statement
-What problem does this paper address?
-
+Existing DG methods assume known domain labels. Real-world data has mixture domains with unknown labels.
 
 ## Key Contributions
-1. 
-2. 
-3. 
+1.  **Mixture Domain DG:** Addresses the problem where domain labels are unknown.
+2.  **D2AM:** Domain Dynamic Adjustment Meta-learning. Iteratively divides mixture domains via discriminative domain representation.
+3.  **DRLM:** Domain Representation Learning Module using Instance Normalization (IN).
 
 ## Methodology
 ### Architecture
-*Describe the model/approach*
-
+- **DRLM:** Extracts domain features.
+- **Clustering:** Divides data into domains dynamically.
+- **Meta-Learning:** Trains a generalizable model on these discovered domains.
 
 ### Key Techniques
-- 
-- 
-
-### Novel Components
-*What's new/different from prior work?*
-
+- **Instance Normalization (IN):** For domain style features.
+- **MMD (Maximum Mean Discrepancy):** To align distributions and reduce outlier effects.
 
 ## Experiments
 ### Datasets Used
-- 
-- 
-
-### Results
-*Key metrics and performance*
-
-| Dataset | Metric | Result | Baseline |
-|---------|--------|--------|----------|
-|         |        |        |          |
-
-### Ablation Studies
-*What components were tested?*
-
-
-## Strengths
-- 
-- 
-
-## Limitations
-- 
-- 
+- Standard cross-domain protocols.
 
 ## Critical Analysis
-*My thoughts on the paper*
-
 ### What Works Well
-- 
-
-### Concerns/Criticisms
-- 
-
-### Missing Pieces
-- 
+- Handling unknown domain labels is a significant step towards "in the wild" generalization.
 
 ## Relevance to My Work
-*How does this relate to my PAD research?*
-
-### Direct Applications
-- 
-
 ### Ideas Sparked
-- 
-
-### Techniques to Borrow
-- 
-
-## Implementation Notes
-*Anything useful for implementing this*
-
-### Architecture Details
-- 
-
-### Hyperparameters
-- 
-
-### Training Details
-- 
-
-### Reproducibility Notes
-- 
-
-## Related Papers
-### Cited By This Paper
-- [[]]
-
-### Papers That Cite This
-- [[]]
-
-### Similar Approaches
-- [[]]
-
-## Questions & Future Directions
-### Open Questions
-- 
-
-### Extension Ideas
-- 
-
-### Experimental Ideas
-- 
-
-## Notes & Highlights
-### Key Quotes
-> 
-
-### Figures to Remember
-- Figure X: 
-
-### Equations
-$$
-$$
-
-## Meeting Notes
-*Discussions with advisor/colleagues about this paper*
-
-
-## Action Items
-- [ ] 
-- [ ] 
-
----
-**Reading Progress:** 
-- [ ] Abstract
-- [ ] Introduction
-- [ ] Related Work
-- [ ] Methodology
-- [ ] Experiments
-- [ ] Conclusion
-- [ ] Supplementary Material
+- Unsupervised domain discovery is a powerful concept.
