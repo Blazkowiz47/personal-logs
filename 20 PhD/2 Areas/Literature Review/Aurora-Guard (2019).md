@@ -13,47 +13,44 @@ priority: medium
 ---
 
 ## Quick Summary
-**Method:** Aurora-Guard
-- **Backbone:** U-Net
-- **Loss:** Binary CE loss, Depth regression, Light Regression
-- **Input:** Casted face with dynamic changing light specified by random light CAPTCHA
-- **Static/Dynamic:** D
-
-
+**Method:** Aurora Guard
+- **Backbone:** Multi-task CNN (U-Net based)
+- **Loss:** Binary CE, Depth Loss, Light Regression Loss
+- **Input:** Video with active light projection (RGB)
+- **Static/Dynamic:** D (Active)
 
 ## Problem Statement
-What problem does this paper address?
-
+Passive FAS methods struggle with complex attacks and generalization. Active methods using specific hardware (IR/Depth) are expensive. This paper proposes a cost-effective active solution using the screen light.
 
 ## Key Contributions
-1. 
-2. 
-3. 
+1. **Aurora Guard (AG):** A light reflection-based FAS method that is fast, simple, and effective.
+2. **Multi-task CNN:** Recovers subject's depth map and performs light CAPTCHA checking (regression).
+3. **Large-scale Dataset:** Collected 12,000 live and spoofing samples with abundant imaging qualities and PAIs.
 
 ## Methodology
 ### Architecture
-*Describe the model/approach*
-
+- **Input:** Sequence of frames with changing screen color (Red, Green, Blue).
+- **Network:** End-to-end trainable multi-task CNN.
+- **Branches:**
+    - **Depth Estimation:** Recovers 3D depth map from reflection patterns.
+    - **Light CAPTCHA:** Regresses the light parameters to verify they match the projected pattern.
 
 ### Key Techniques
-- 
-- 
+- **Active Light Projection:** Uses the smartphone screen to project random colors.
+- **Light Reflection Analysis:** Normal cues are extracted from how light reflects off the face (3D vs 2D).
+- **Light CAPTCHA:** A challenge-response mechanism to ensure the light on the face matches the screen.
 
 ### Novel Components
-*What's new/different from prior work?*
-
+- **Reflection-based Liveness:** Exploiting the difference in surface normal and material properties under changing light.
 
 ## Experiments
 ### Datasets Used
-- 
-- 
+- **Private Dataset:** 12,000 samples.
+- **Public Datasets:** (Likely tested on others for comparison, but main focus is the new method).
 
 ### Results
-*Key metrics and performance*
-
-| Dataset | Metric | Result | Baseline |
-|---------|--------|--------|----------|
-|         |        |        |          |
+- **Performance:** State-of-the-art results on the collected dataset and public benchmarks.
+- **Speed:** Real-time performance on mobile devices.
 
 ### Ablation Studies
 *What components were tested?*

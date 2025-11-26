@@ -19,11 +19,14 @@ priority: medium
 - **Input:** RGB
 - **Static/Dynamic:** S
 
-
+> [!WARNING] Content Fetch Failed
+> Could not automatically fetch the content for this paper (IEEE link rejected).
+> **Title:** Auto-FAS: Searching Lightweight Networks for Face Anti-Spoofing
+> **Venue:** ICASSP 2020
+> **Action:** Please verify the URL or manually add the summary.
 
 ## Problem Statement
-What problem does this paper address?
-
+(Likely addresses the need for lightweight models using Neural Architecture Search).
 
 ## Key Contributions
 1. 

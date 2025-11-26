@@ -18,11 +18,14 @@ priority: medium
 - **Loss:** Triplet loss, Adversarial loss
 - **Static/Dynamic:** S
 
-
+> [!WARNING] Content Fetch Failed
+> Could not automatically fetch the content for this paper (IEEE link rejected).
+> **Title:** Deep Adversarial Learning for Face Anti-Spoofing
+> **Venue:** ICB 2019
+> **Action:** Please verify the URL or manually add the summary.
 
 ## Problem Statement
-What problem does this paper address?
-
+(Likely addresses Domain Generalization using Adversarial Learning).
 
 ## Key Contributions
 1. 
