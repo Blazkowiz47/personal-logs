@@ -1,12 +1,17 @@
 ---
 aliases: []
-tags: [paper, pad, deep-fas-survey, domain-generalization, vision-transformer]
+tags:
+  - paper
+  - pad
+  - deep-fas-survey
+  - domain-generalization
+  - vision-transformer
 authors: Chen-Hao Liao, Wen-Cheng Chen, Hsuan-Tung Liu, Yi-Ren Yeh, Min-Chun Hu, Chu-Song Chen
 year: 2023
 venue: WACV
 paper_url: https://openaccess.thecvf.com/content/WACV2023/papers/Liao_Domain_Invariant_Vision_Transformer_Learning_for_Face_Anti-Spoofing_WACV_2023_paper.pdf
-code_url: 
-status: "✅ Read"
+code_url:
+status: 🟡 In Progress
 dateadded: 2025-11-26
 dateread: 2025-11-26
 priority: medium
@@ -19,8 +24,7 @@ priority: medium
 - **Static/Dynamic:** S
 
 ## Abstract
-This paper proposes a Domain Invariant Vision Transformer (DiVT) for face anti-spoofing. It introduces a novel loss function, the Domain-invariant Concentration and Attack-separation Loss, to learn features that are invariant to domain shifts (e.g., different cameras, lighting) while being discriminative for attack types. The method leverages the global context modeling capabilities of Vision Transformers to improve generalization performance.
----
+Existing face anti-spoofing (FAS) models have achieved high performance on specific datasets. However, for the application of real-world systems, the FAS model should generalize to the data from unknown domains rather than only achieve good results on a single baseline. As vision transformer models have demonstrated astonishing performance and strong capability in learning discriminative information, we investigate applying transformers to distinguish the face presentation attacks over unknown domains. In this work, we propose the Domain-invariant Vision Transformer (DiVT) for FAS, which adopts two losses to improve the generalizability of the vision transformer. First, a concentration loss is employed to learn a domain-invariant representation that aggregates the features of real face data. Second, a separation loss is utilized to union each type of attack from different domains. The experimental results show that our proposed method achieves state-of-the-art performance on the protocols of domain-generalized FAS tasks. Compared to previous domain generalization FAS models, our proposed method is simpler but more effective.
 
 ## Quick Summary
 **Method:** DiVT

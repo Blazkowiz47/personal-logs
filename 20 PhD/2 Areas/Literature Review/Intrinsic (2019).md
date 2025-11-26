@@ -1,14 +1,14 @@
 ---
 aliases: []
-tags: [paper, pad, deep-fas-survey, hybrid-method]
-authors: 
-year: 2019
-venue: 
+tags: [paper, pad, deep-fas-survey, hybrid-method, 3d-mask-attack]
+authors: Lei Li, Zhaoqiang Xia, Xiaoyue Jiang, Yupeng Ma, Fabio Roli, Xiaoyi Feng
+year: 2020
+venue: IET Biometrics
 paper_url: https://onlinelibrary.wiley.com/doi/10.1049/iet-bmt.2019.0155
 code_url: 
-status: "📚 To Read"
+status: "✅ Read"
 dateadded: 2025-11-26
-dateread: 
+dateread: 2025-11-26
 priority: medium
 ---
 
@@ -16,8 +16,11 @@ priority: medium
 **Method:** Intrinsic
 - **Backbone:** 1D-CNN
 - **Loss:** Trained with SVM
-- **Input:** Reflection
+- **Input:** Reflection (Intrinsic Image Decomposition)
 - **Static/Dynamic:** D
+
+## Abstract
+Face presentation attacks have become a major threat against face recognition systems and many countermeasures have been proposed over the past decade. However, most of them are devoted to 2D face presentation attack detection, rather than 3D face masks. Unlike the real face, the 3D face mask is usually made of resin materials and has a smooth surface, resulting in reflectance differences. Therefore, in this study, the authors propose a novel 3D face mask presentation attack detection method based on analysis of image reflectance. In the proposed method, the face image is first processed with intrinsic image decomposition algorithm to compute its reflectance image. Then, the intensity distribution histograms are extracted from three orthogonal planes to represent the intensity differences of reflectance images between the real face and 3D face mask. After that, given that the reflectance image of a smooth surface is more sensitive to illumination changes, 1D convolutional neural network is used to characterise how different materials or surfaces react differently to illumination changes. Extensive experiments with the public available 3DMAD database demonstrate the effectiveness of the proposed method for distinguishing a face mask from the real one and show that the detection performance outperforms other state-of-the-art methods.
 
 
 

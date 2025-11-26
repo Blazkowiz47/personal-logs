@@ -1,14 +1,14 @@
 ---
 aliases: []
-tags: [paper, pad, deep-fas-survey, anomaly-detection]
-authors: 
+tags: [paper, pad, deep-fas-survey, anomaly-detection, unseen-attack-detection]
+authors: Haoliang Li, Zhi Li, Alex ChiChung Kot, Kwok-Yan Lam
 year: 2020
-venue: 
+venue: ICASSP
 paper_url: https://www.researchgate.net/publication/338920244_UNSEEN_FACE_PRESENTATION_ATTACK_DETECTION_WITH_HYPERSPHERE_LOSS
 code_url: 
-status: "📚 To Read"
+status: "✅ Read"
 dateadded: 2025-11-26
-dateread: 
+dateread: 2025-11-26
 priority: medium
 ---
 
@@ -17,6 +17,9 @@ priority: medium
 - **Backbone:** ResNet18
 - **Loss:** Hypersphere loss
 - **Input:** RGB, HSV
+
+## Abstract
+This paper addresses the problem of detecting unseen presentation attacks (attacks not present in the training set) by proposing a new loss function, the "Hypersphere Loss," which aims to learn a more compact and discriminative representation for genuine faces, pushing attacks (both seen and unseen) away from the genuine center in the feature space.
 
 
 
