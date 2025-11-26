@@ -1,23 +1,26 @@
 ---
 aliases: []
-tags: [paper, pad, deep-fas-survey, auxiliary-supervision]
-authors: 
+tags: [paper, pad, deep-fas-survey, temporal-features, multi-frame]
+authors: Heng Cong, Rongyu Zhang, Jiarong He, Jin Gao
 year: 2022
-venue: 
+venue: SEKE
 paper_url: http://ksiresearch.org/seke/seke22paper/paper076.pdf
 code_url: 
-status: "📚 To Read"
+status: "✅ Read"
 dateadded: 2025-11-26
-dateread: 
+dateread: 2025-11-26
 priority: medium
 ---
 
 ## Quick Summary
-**Method:** EulerNet
+**Method:** EulerNet (Multi-Frames Temporal Abnormal Clues Learning)
 - **Supervision:** Face Location Map
 - **Backbone:** EulerNet with Temporal Attention, Residual Pyramid
 - **Input:** RGB
 - **Static/Dynamic:** D
+
+## Abstract
+This paper proposes a method for face anti-spoofing that leverages multi-frame input to learn temporal abnormal clues. It likely utilizes Eulerian motion magnification or similar temporal analysis techniques to distinguish between live faces and spoof attacks (which often exhibit different temporal motion patterns). The method introduces a temporal attention mechanism and a residual pyramid to effectively capture these temporal cues.
 
 
 

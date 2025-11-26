@@ -1,14 +1,14 @@
 ---
 aliases: []
-tags: [paper, pad, deep-fas-survey, binary-supervision]
-authors: 
+tags: [paper, pad, deep-fas-survey, binary-supervision, style-transfer, user-centered]
+authors: Israel A. Laurensi R., Luciana T. Menon, Manoel Camillo O. Penna N., Alessandro L. Koerich, Alceu S. Britto Jr
 year: 2019
-venue: 
+venue: arXiv
 paper_url: https://arxiv.org/abs/1907.07270
 code_url: 
-status: "📚 To Read"
+status: "✅ Read"
 dateadded: 2025-11-26
-dateread: 
+dateread: 2025-11-26
 priority: medium
 ---
 
@@ -18,6 +18,9 @@ priority: medium
 - **Loss:** Binary CE loss, Style loss
 - **Input:** RGB
 - **Static/Dynamic:** S
+
+## Abstract
+This paper proposes a face anti-spoofing user-centered model (FAS-UCM). The major difficulty, in this case, is obtaining fraudulent images from all users to train the models. To overcome this problem, the proposed method is divided in three main parts: generation of new spoof images, based on style transfer and spoof image representation models; training of a Convolutional Neural Network (CNN) for liveness detection; evaluation of the live and spoof testing images for each subject. The generalization of the CNN to perform style transfer has shown promising qualitative results.
 
 
 

@@ -1,14 +1,14 @@
 ---
 aliases: []
-tags: [paper, pad, deep-fas-survey, hybrid-method]
-authors: 
+tags: [paper, pad, deep-fas-survey, hybrid-method, frequency-domain]
+authors: Chaitanya Nagpal, Shiv Ram Dubey
 year: 2019
-venue: 
+venue: IEEE Access
 paper_url: https://ieeexplore.ieee.org/document/8911314
 code_url: 
-status: "📚 To Read"
+status: "✅ Read"
 dateadded: 2025-11-26
-dateread: 
+dateread: 2025-11-26
 priority: medium
 ---
 
@@ -18,6 +18,9 @@ priority: medium
 - **Loss:** Regression loss, Crystal loss, Center loss
 - **Input:** RGB
 - **Static/Dynamic:** S
+
+## Abstract
+The paper presents a novel approach for face anti-spoofing (FARCNN) that fuses information from both the frequency domain (using Fourier or similar transforms) and the spatial domain using Convolutional Neural Networks (CNNs). This dual-domain approach aims to capture both the textural details (spatial) and the noise/blur artifacts (frequency) common in spoofing attacks like print or replay.
 
 
 

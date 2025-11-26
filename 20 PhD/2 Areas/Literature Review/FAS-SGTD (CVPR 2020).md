@@ -21,9 +21,9 @@ year: 2020
 venue: CVPR
 paper_url: https://arxiv.org/abs/2003.08061
 code_url: https://github.com/clks-wzz/FAS-SGTD
-status: "📚 To Read"
+status: "✅ Read"
 dateadded: 2025-11-26
-dateread: 
+dateread: 2025-11-26 
 priority: medium
 ---
 
