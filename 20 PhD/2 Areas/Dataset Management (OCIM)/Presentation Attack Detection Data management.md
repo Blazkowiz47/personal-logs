@@ -3,7 +3,7 @@
 ## OCIM Datasets
 Setup complete for 4 SOTA public PAD datasets:
 - ✅ [[Oulu-NPU]]
-- ✅ [[CelebA-Spoof]]
+- ✅ [[Casia-fasd]]
 - ✅ [[Idiap Replay-Attack]]
 - ✅ [[MSU-MFSD]]
 
