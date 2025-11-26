@@ -1,14 +1,12 @@
----
-aliases: []
-tags: [paper, pad, deep-fas-survey, binary-supervision]
-authors: 
+tags: [paper, pad, deep-fas-survey, binary-supervision, temporal-features]
+authors: Zhenqi Xu, Shan Li, Weihong Deng
 year: 2015
-venue: 
+venue: ACPR
 paper_url: https://ieeexplore.ieee.org/document/7486482
 code_url: 
-status: "📚 To Read"
+status: "✅ Read"
 dateadded: 2025-11-26
-dateread: 
+dateread: 2025-11-26
 priority: medium
 ---
 
@@ -19,10 +17,13 @@ priority: medium
 - **Input:** RGB
 - **Static/Dynamic:** D
 
+## Abstract
+Temporal features is important for face anti-spoofing. Unfortunately existing methods have limitations to explore such temporal features. In this work, we propose a deep neural network architecture combining Long Short-Term Memory (LSTM) units with Convolutional Neural Networks (CNN). Our architecture works well for face anti-spoofing by utilizing the LSTM units' ability of finding long relation from its input sequences as well as extracting local and dense features through convolution operations. Our best model shows significant performance improvement over general CNN architecture (5.93% vs. 7.34%), and hand-crafted features (5.93% vs. 10.00%) on CASIA dataset.
+
 
 
 ## Problem Statement
-What problem does this paper address?
+Temporal features is important for face anti-spoofing. Unfortunately existing methods have limitations to explore such temporal features. In this work, we propose a deep neural network architecture combining Long Short-Term Memory (LSTM) units with Convolutional Neural Networks (CNN). Our architecture works well for face anti-spoofing by utilizing the LSTM units' ability of finding long relation from its input sequences as well as extracting local and dense features through convolution operations. Our best model shows significant performance improvement over general CNN architecture (5.93% vs. 7.34%), and hand-crafted features (5.93% vs. 10.00%) on CASIA dataset.
 
 
 ## Key Contributions

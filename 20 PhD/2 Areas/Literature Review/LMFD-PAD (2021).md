@@ -1,14 +1,14 @@
 ---
 aliases: []
-tags: [paper, pad, deep-fas-survey, auxiliary-supervision]
-authors: 
-year: 2021
-venue: 
-paper_url: https://arxiv.org/pdf/2109.07950.pdf
+tags: [paper, pad, deep-fas-survey, domain-generalization, frequency-decomposition]
+authors: Meiling Fang, Naser Damer, Florian Kirchbuchner, Arjan Kuijper
+year: 2022
+venue: WACV
+paper_url: https://arxiv.org/abs/2109.07950
 code_url: 
-status: "📚 To Read"
+status: "✅ Read"
 dateadded: 2025-11-26
-dateread: 
+dateread: 2025-11-26
 priority: medium
 ---
 
@@ -18,6 +18,9 @@ priority: medium
 - **Backbone:** Dual-ResNet50
 - **Input:** RGB + frequency map
 - **Static/Dynamic:** S
+
+## Abstract
+With the increased deployment of face recognition systems in our daily lives, face presentation attack detection (PAD) is attracting much attention and playing a key role in securing face recognition systems. Despite the great performance achieved by the hand-crafted and deep-learning-based methods in intra-dataset evaluations, the performance drops when dealing with unseen scenarios. In this work, we propose a dual-stream convolution neural networks (CNNs) framework. One stream adapts four learnable frequency filters to learn features in the frequency domain, which are less influenced by variations in sensors/illuminations. The other stream leverages the RGB images to complement the features of the frequency domain. Moreover, we propose a hierarchical attention module integration to join the information from the two streams at different stages by considering the nature of deep features in different layers of the CNN. The proposed method is evaluated in the intra-dataset and cross-dataset setups, and the results demonstrate that our proposed approach enhances the generalizability in most experimental setups in comparison to state-of-the-art, including the methods designed explicitly for domain adaption/shift problems.
 
 
 
