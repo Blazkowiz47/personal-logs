@@ -1,9 +1,18 @@
 ---
-aliases: []
-tags: [paper, pad, deep-fas-survey, flexible-modal]
-authors: 
-year: CVPR 2021
-venue: 
+aliases:
+  - CMFL
+tags:
+  - paper
+  - FAS
+  - CVPR
+  - year_2021
+  - multimodal
+  - loss-function
+authors:
+  - Anjith George
+  - Sébastien Marcel
+year: 2021
+venue: CVPR
 paper_url: https://arxiv.org/abs/2103.00948
 code_url: 
 status: "📚 To Read"
@@ -12,145 +21,48 @@ dateread:
 priority: medium
 ---
 
+# Cross Modal Focal Loss for RGBD Face Anti-Spoofing (CMFL)
+
 ## Quick Summary
-**Method:** CMFL
-- **Backbone:** DenseNet161
-- **Loss:** Binary CE loss, Cross modal focal loss
-- **Input:** RGB, Depth
-- **Fusion:** Feature-level
+**Method:** CMFL (Cross Modal Focal Loss)
+- **Backbone:** Multi-channel architecture (e.g., MC-PixBiS or similar)
+- **Loss:** Cross Modal Focal Loss (CMFL)
+- **Input:** RGB, Depth (or other channels)
+- **Fusion:** Loss-level / Training strategy
 
-
+This paper proposes a novel loss function, **Cross Modal Focal Loss (CMFL)**, for RGB-D Face Anti-Spoofing. It addresses the issue where one modality (e.g., RGB) might overfit or dominate the learning. CMFL dynamically modulates the loss contribution of each channel based on the confidence of the individual channels, encouraging the model to learn complementary information from both modalities.
 
 ## Problem Statement
-What problem does this paper address?
-
+Multi-channel PAD methods often fail to generalize because they may overfit to one modality (usually RGB) or fail to effectively leverage the complementary information from additional channels (like Depth) when data is limited.
 
 ## Key Contributions
-1. 
-2. 
-3. 
+1.  **Cross Modal Focal Loss (CMFL):** A loss function that adjusts the weight of each modality's loss based on how well that modality is currently performing (confidence).
+2.  **Robustness:** Improves generalization to unseen attacks by preventing the model from relying solely on the easiest modality.
 
 ## Methodology
 ### Architecture
-*Describe the model/approach*
-
+- Uses a multi-stream architecture where each stream processes a different modality (RGB, Depth).
+- The streams are trained jointly with the CMFL.
 
 ### Key Techniques
-- 
-- 
-
-### Novel Components
-*What's new/different from prior work?*
-
+- **Focal Loss Adaptation:** Extends the concept of Focal Loss (which focuses on hard samples) to the multi-modal setting (focusing on the "harder" or less confident modality, or balancing them).
 
 ## Experiments
 ### Datasets Used
-- 
-- 
+- WMCA (Wide Multi-Channel Presentation Attack)
+- HQ-WMCA
 
 ### Results
-*Key metrics and performance*
-
-| Dataset | Metric | Result | Baseline |
-|---------|--------|--------|----------|
-|         |        |        |          |
-
-### Ablation Studies
-*What components were tested?*
-
-
-## Strengths
-- 
-- 
-
-## Limitations
-- 
-- 
+- Demonstrates effectiveness on these datasets, showing better generalization than standard cross-entropy or independent training.
 
 ## Critical Analysis
-*My thoughts on the paper*
-
 ### What Works Well
-- 
-
-### Concerns/Criticisms
-- 
-
-### Missing Pieces
-- 
+- The idea of dynamically balancing modalities is crucial. Often, depth channels are noisy or sparse, and RGB is too easy to overfit. This loss seems to handle that trade-off elegantly.
 
 ## Relevance to My Work
-*How does this relate to my PAD research?*
-
-### Direct Applications
-- 
-
 ### Ideas Sparked
-- 
-
-### Techniques to Borrow
-- 
-
-## Implementation Notes
-*Anything useful for implementing this*
-
-### Architecture Details
-- 
-
-### Hyperparameters
-- 
-
-### Training Details
-- 
-
-### Reproducibility Notes
-- 
-
-## Related Papers
-### Cited By This Paper
-- [[]]
-
-### Papers That Cite This
-- [[]]
-
-### Similar Approaches
-- [[]]
-
-## Questions & Future Directions
-### Open Questions
-- 
-
-### Extension Ideas
-- 
-
-### Experimental Ideas
-- 
+- If I use multi-modal data (e.g., RGB + IR), I should consider this loss to ensure my model actually uses the IR channel and doesn't just ignore it.
 
 ## Notes & Highlights
-### Key Quotes
-> 
+- Anjith George and Sébastien Marcel are from Idiap, known for the WMCA dataset.
 
-### Figures to Remember
-- Figure X: 
-
-### Equations
-$$
-$$
-
-## Meeting Notes
-*Discussions with advisor/colleagues about this paper*
-
-
-## Action Items
-- [ ] 
-- [ ] 
-
----
-**Reading Progress:** 
-- [ ] Abstract
-- [ ] Introduction
-- [ ] Related Work
-- [ ] Methodology
-- [ ] Experiments
-- [ ] Conclusion
-- [ ] Supplementary Material
