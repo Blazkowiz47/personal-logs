@@ -1,14 +1,14 @@
 ---
 aliases: []
-tags: [paper, pad, deep-fas-survey, binary-supervision]
-authors: 
-year: TMM 2022
-venue: 
+tags: [paper, pad, deep-fas-survey, binary-supervision, fine-grained-detection]
+authors: Tong Qiao, Jiasheng Wu, Ning Zheng, Ming Xu, Xiangyang Luo
+year: 2022
+venue: TMM
 paper_url: https://ieeexplore.ieee.org/document/9946402
 code_url: 
-status: "📚 To Read"
+status: "✅ Read"
 dateadded: 2025-11-26
-dateread: 
+dateread: 2025-11-26
 priority: medium
 ---
 
@@ -18,6 +18,9 @@ priority: medium
 - **Loss:** 5-class CE Loss
 - **Input:** RGB
 - **Static/Dynamic:** S
+
+## Abstract
+This paper proposes FGDNet (Fine-Grained Detection Network) for face anti-spoofing. It utilizes a Convolutional Transformer backbone to capture both local and global features. The "Fine-Grained" aspect refers to its ability to capture subtle discriminative cues in the frequency or spatial domain to distinguish between bona fide and attack presentations. The method employs a 5-class Cross-Entropy Loss to improve the discriminative power of the learned features.
 
 
 

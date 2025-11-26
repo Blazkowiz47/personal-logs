@@ -1,14 +1,14 @@
 ---
 aliases: []
-tags: [paper, pad, deep-fas-survey, multimodal]
-authors: 
+tags: [paper, pad, deep-fas-survey, multimodal, patch-based]
+authors: Tao Shen, Yuyu Huang, Zhijun Tong
 year: 2019
-venue: 
+venue: CVPRW
 paper_url: https://openaccess.thecvf.com/content_CVPRW_2019/html/CFS/Shen_FaceBagNet_Bag-Of-Local-Features_Model_for_Multi-Modal_Face_Anti-Spoofing_CVPRW_2019_paper.html
 code_url: 
-status: "📚 To Read"
+status: "✅ Read"
 dateadded: 2025-11-26
-dateread: 
+dateread: 2025-11-26
 priority: medium
 ---
 
@@ -18,6 +18,9 @@ priority: medium
 - **Loss:** Binary CE loss
 - **Input:** RGB, Depth, NIR face patches
 - **Fusion:** Feature-level
+
+## Abstract
+Face anti-spoofing detection is a crucial procedure in biometric face recognition systems. State-of-the-art approaches, based on Convolutional Neural Networks (CNNs), present good results in this field. However, previous works focus on one single modal data with limited number of subjects. The recently published CASIA-SURF dataset is the largest dataset that consists of 1000 subjects and 21000 video clips with 3 modalities (RGB, Depth and IR). In this paper, we propose a multi-stream CNN architecture called FaceBagNet to make full use of this data. The input of FaceBagNet is patch-level images which contributes to extract spoof-specific discriminative information. In addition, in order to prevent overfitting and for better learning the fusion features, we design a Modal Feature Erasing (MFE) operation on the multi-modal features which erases features from one randomly selected modality during training. As the result, our approach wins the second place in CVPR 2019 ChaLearn Face Anti-spoofing attack detection challenge. Our final submission gets the score of 99.8052% (TPR@FPR = 10e-4) on the test set.
 
 
 

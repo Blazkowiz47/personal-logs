@@ -1,14 +1,14 @@
 ---
 aliases: []
-tags: [paper, pad, deep-fas-survey, domain-generalization]
-authors: 
-year: AAAI 2022
-venue: 
+tags: [paper, pad, deep-fas-survey, domain-generalization, feature-generation]
+authors: Shice Liu, Shitao Lu, Hongyi Xu, Jing Yang, Shouhong Ding, Lizhuang Ma
+year: 2022
+venue: AAAI
 paper_url: https://arxiv.org/abs/2112.14894
 code_url: 
-status: "📚 To Read"
+status: "✅ Read"
 dateadded: 2025-11-26
-dateread: 
+dateread: 2025-11-26
 priority: medium
 ---
 
@@ -17,6 +17,9 @@ priority: medium
 - **Backbone:** DepthNet
 - **Loss:** Variance + Relative Correlation + Distribution Discrimination Constraints
 - **Static/Dynamic:** S
+
+## Abstract
+Although existing face anti-spoofing (FAS) methods achieve high accuracy in intra-domain experiments, their effects drop severely in cross-domain scenarios because of poor generalization. In this paper, we propose a Feature Generation and Hypothesis Verification framework to alleviate the issues of domain generalization. Above all, feature generation networks which generate hypotheses of real faces and known attacks are introduced for the first time in the FAS task. Subsequently, two hypothesis verification modules are applied to judge whether the input face comes from the real-face space and the real-face distribution respectively. Furthermore, some analyses of the relationship between our framework and Bayesian uncertainty estimation are given, which provides theoretical support for reliable defense in unknown domains.
 
 
 

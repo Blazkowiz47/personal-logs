@@ -1,23 +1,26 @@
 ---
 aliases: []
-tags: [paper, pad, deep-fas-survey, auxiliary-supervision]
-authors: 
+tags: [paper, pad, deep-fas-survey, auxiliary-supervision, local-supervision]
+authors: Wenyun Sun, Yu Song, Changsheng Chen, Jiwu Huang, Alex C. Kot
 year: 2020
-venue: 
+venue: TIFS
 paper_url: https://ieeexplore.ieee.org/document/9056475
 code_url: 
-status: "📚 To Read"
+status: "✅ Read"
 dateadded: 2025-11-26
-dateread: 
+dateread: 2025-11-26
 priority: medium
 ---
 
 ## Quick Summary
 **Method:** FCN-LSA
-- **Supervision:** BinaryMask
+- **Supervision:** BinaryMask (Local Ternary Label)
 - **Backbone:** DepthNet
 - **Input:** RGB
 - **Static/Dynamic:** S
+
+## Abstract
+This paper proposes a method for face spoofing detection using a Fully Convolutional Network (FCN). It introduces a novel "Local Ternary Label Supervision" strategy to guide the network to learn more discriminative features, likely utilizing pixel-wise supervision (e.g., distinguishing between live skin, spoof medium, and background) to improve performance against various attack types.
 
 
 
