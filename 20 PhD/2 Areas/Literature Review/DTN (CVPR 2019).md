@@ -1,156 +1,44 @@
 ---
 aliases: []
-tags: [paper, pad, deep-fas-survey, auxiliary-supervision]
-authors: 
+tags: [paper, pad, deep-fas-survey, zero-shot, anomaly-detection]
+authors: Yaojie Liu, Joel Stehouwer, Amin Jourabloo, Xiaoming Liu
 year: CVPR 2019
-venue: 
-paper_url: https://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Deep_Tree_Learning_for_Zero-Shot_Face_Anti-Spoofing_CVPR_2019_paper.pdf
+venue: CVPR
+paper_url: https://openaccess.thecvf.com/content_CVPR_2019/html/Liu_Deep_Tree_Learning_for_Zero-Shot_Face_Anti-Spoofing_CVPR_2019_paper.html
 code_url: 
-status: "📚 To Read"
+status: "✅ Read"
 dateadded: 2025-11-26
-dateread: 
+dateread: 2025-11-26
 priority: medium
 ---
 
 ## Quick Summary
-**Method:** DTN
+**Method:** DTN (Deep Tree Network)
 - **Supervision:** BinaryMask
 - **Backbone:** Tree Network
 - **Input:** RGB, HSV
 - **Static/Dynamic:** S
 
-
-
 ## Problem Statement
-What problem does this paper address?
-
+Zero-Shot Face Anti-spoofing (ZSFA): Detecting unknown spoof attacks that were not seen during training. Previous works only studied 1-2 types.
 
 ## Key Contributions
-1. 
-2. 
-3. 
+1.  **Deep Tree Network (DTN):** Learns to partition spoof samples into semantic sub-groups in an unsupervised fashion.
+2.  **Zero-Shot Detection:** Routes input to the most similar spoof cluster or detects it as unknown/live.
+3.  **Diverse Attack Dataset:** Introduces a dataset with 13 types of spoof attacks.
 
 ## Methodology
 ### Architecture
-*Describe the model/approach*
-
-
-### Key Techniques
-- 
-- 
-
-### Novel Components
-*What's new/different from prior work?*
-
+- **Tree Structure:** Hierarchical clustering of spoof types.
 
 ## Experiments
 ### Datasets Used
-- 
-- 
-
-### Results
-*Key metrics and performance*
-
-| Dataset | Metric | Result | Baseline |
-|---------|--------|--------|----------|
-|         |        |        |          |
-
-### Ablation Studies
-*What components were tested?*
-
-
-## Strengths
-- 
-- 
-
-## Limitations
-- 
-- 
+- SiW-M (Spoof in the Wild - Multi-attack).
 
 ## Critical Analysis
-*My thoughts on the paper*
-
 ### What Works Well
-- 
-
-### Concerns/Criticisms
-- 
-
-### Missing Pieces
-- 
+- Treating PAD as an anomaly detection or zero-shot problem is the most realistic setup.
 
 ## Relevance to My Work
-*How does this relate to my PAD research?*
-
-### Direct Applications
-- 
-
 ### Ideas Sparked
-- 
-
-### Techniques to Borrow
-- 
-
-## Implementation Notes
-*Anything useful for implementing this*
-
-### Architecture Details
-- 
-
-### Hyperparameters
-- 
-
-### Training Details
-- 
-
-### Reproducibility Notes
-- 
-
-## Related Papers
-### Cited By This Paper
-- [[]]
-
-### Papers That Cite This
-- [[]]
-
-### Similar Approaches
-- [[]]
-
-## Questions & Future Directions
-### Open Questions
-- 
-
-### Extension Ideas
-- 
-
-### Experimental Ideas
-- 
-
-## Notes & Highlights
-### Key Quotes
-> 
-
-### Figures to Remember
-- Figure X: 
-
-### Equations
-$$
-$$
-
-## Meeting Notes
-*Discussions with advisor/colleagues about this paper*
-
-
-## Action Items
-- [ ] 
-- [ ] 
-
----
-**Reading Progress:** 
-- [ ] Abstract
-- [ ] Introduction
-- [ ] Related Work
-- [ ] Methodology
-- [ ] Experiments
-- [ ] Conclusion
-- [ ] Supplementary Material
+- The SiW-M dataset is the gold standard for zero-shot testing. I must use it.

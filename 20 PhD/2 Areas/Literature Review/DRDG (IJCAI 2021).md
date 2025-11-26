@@ -1,155 +1,47 @@
 ---
 aliases: []
-tags: [paper, pad, deep-fas-survey, domain-generalization]
-authors: 
+tags: [paper, pad, deep-fas-survey, domain-generalization, reweighting]
+authors: Shubao Liu, Ke-Yue Zhang, Taiping Yao, Kekai Sheng, Shouhong Ding, Ying Tai, Jilin Li, Yuan Xie, Lizhuang Ma
 year: IJCAI 2021
-venue: 
-paper_url: https://arxiv.org/pdf/2106.16128.pdf
+venue: IJCAI
+paper_url: https://arxiv.org/abs/2106.16128
 code_url: 
-status: "📚 To Read"
+status: "✅ Read"
 dateadded: 2025-11-26
-dateread: 
+dateread: 2025-11-26
 priority: medium
 ---
 
 ## Quick Summary
-**Method:** DRDG
+**Method:** DRDG (Dual Reweighting Domain Generalization)
 - **Backbone:** DepthNet
+- **Modules:** Sample Reweighting Module, Feature Reweighting Module
 - **Loss:** Binary CE loss, Depth loss, Domain loss
 - **Static/Dynamic:** S
 
-
-
 ## Problem Statement
-What problem does this paper address?
-
+Treating all samples from multiple domains equally during training corrupts generalization because of complex and biased data distributions. Some samples have large domain bias.
 
 ## Key Contributions
-1. 
-2. 
-3. 
+1.  **Dual Reweighting:** Iteratively reweights the relative importance of samples and features.
+2.  **Sample Reweighting Module:** Identifies samples with large domain bias and reduces their impact.
+3.  **Feature Reweighting Module:** Focuses on these samples to extract more domain-irrelevant features via self-distillation.
 
 ## Methodology
 ### Architecture
-*Describe the model/approach*
-
+- **Iterative Reweighting:** The two modules work in tandem to refine the learning process.
 
 ### Key Techniques
-- 
-- 
-
-### Novel Components
-*What's new/different from prior work?*
-
+- **Reweighting:** A form of curriculum learning or robust optimization where "hard" or "biased" samples are down-weighted or treated differently.
 
 ## Experiments
 ### Datasets Used
-- 
-- 
-
-### Results
-*Key metrics and performance*
-
-| Dataset | Metric | Result | Baseline |
-|---------|--------|--------|----------|
-|         |        |        |          |
-
-### Ablation Studies
-*What components were tested?*
-
-
-## Strengths
-- 
-- 
-
-## Limitations
-- 
-- 
+- Standard cross-domain benchmarks.
 
 ## Critical Analysis
-*My thoughts on the paper*
-
 ### What Works Well
-- 
-
-### Concerns/Criticisms
-- 
-
-### Missing Pieces
-- 
+- Reweighting is a smart way to handle noisy or biased data without throwing it away.
 
 ## Relevance to My Work
-*How does this relate to my PAD research?*
-
-### Direct Applications
-- 
-
 ### Ideas Sparked
-- 
-
-### Techniques to Borrow
-- 
-
-## Implementation Notes
-*Anything useful for implementing this*
-
-### Architecture Details
-- 
-
-### Hyperparameters
-- 
-
-### Training Details
-- 
-
-### Reproducibility Notes
-- 
-
-## Related Papers
-### Cited By This Paper
-- [[]]
-
-### Papers That Cite This
-- [[]]
-
-### Similar Approaches
-- [[]]
-
-## Questions & Future Directions
-### Open Questions
-- 
-
-### Extension Ideas
-- 
-
-### Experimental Ideas
-- 
-
-## Notes & Highlights
-### Key Quotes
-> 
-
-### Figures to Remember
-- Figure X: 
-
-### Equations
-$$
-$$
-
-## Meeting Notes
-*Discussions with advisor/colleagues about this paper*
-
-
-## Action Items
-- [ ] 
-- [ ] 
-
----
-**Reading Progress:** 
-- [ ] Abstract
-- [ ] Introduction
-- [ ] Related Work
-- [ ] Methodology
-- [ ] Experiments
-- [ ] Conclusion
-- [ ] Supplementary Material
+- Could apply reweighting to my training loop to handle outliers or difficult samples.

@@ -1,156 +1,44 @@
 ---
 aliases: []
-tags: [paper, pad, deep-fas-survey, hybrid-method]
-authors: 
-year: 2019
-venue: 
+tags: [paper, pad, deep-fas-survey, 3d-mask, dynamic-texture]
+authors: Rui Shao, Xiangyuan Lan, Pong C. Yuen
+year: TIFS 2019
+venue: TIFS
 paper_url: https://ieeexplore.ieee.org/document/8453011
 code_url: 
-status: "📚 To Read"
+status: "✅ Read"
 dateadded: 2025-11-26
-dateread: 
+dateread: 2025-11-26
 priority: medium
 ---
 
 ## Quick Summary
-**Method:** DT-Mask
-- **Backbone:** VGG16
-- **Loss:** Binary CE loss, Channel&Spatial discriminability
-- **Input:** RGB+OF
+**Method:** DT-Mask (Deep Dynamic Textures)
+- **Backbone:** VGG16 (likely)
+- **Loss:** Binary CE loss, Channel & Spatial discriminability
+- **Input:** RGB + Optical Flow (Dynamic Textures)
 - **Static/Dynamic:** D
 
-
-
 ## Problem Statement
-What problem does this paper address?
-
+3D mask attacks are challenging because they mimic 3D structure. However, real faces have subtle motion patterns (micro-expressions, blinking) that rigid masks lack.
 
 ## Key Contributions
-1. 
-2. 
-3. 
+1.  **Deep Dynamic Textures:** Captures subtle facial motion using deep features from video.
+2.  **Joint Discriminative Learning:** Weights the discriminability of features from different spatial regions and channels to focus on the most useful motion cues.
 
 ## Methodology
 ### Architecture
-*Describe the model/approach*
-
-
-### Key Techniques
-- 
-- 
-
-### Novel Components
-*What's new/different from prior work?*
-
+- **Input:** Video frames (to capture motion).
+- **Feature Learning:** Extracts dynamic textures.
 
 ## Experiments
 ### Datasets Used
-- 
-- 
-
-### Results
-*Key metrics and performance*
-
-| Dataset | Metric | Result | Baseline |
-|---------|--------|--------|----------|
-|         |        |        |          |
-
-### Ablation Studies
-*What components were tested?*
-
-
-## Strengths
-- 
-- 
-
-## Limitations
-- 
-- 
+- 3D Mask datasets (likely 3DMAD, HKBU-MARs).
 
 ## Critical Analysis
-*My thoughts on the paper*
-
 ### What Works Well
-- 
-
-### Concerns/Criticisms
-- 
-
-### Missing Pieces
-- 
+- Motion is the Achilles' heel of rigid mask attacks.
 
 ## Relevance to My Work
-*How does this relate to my PAD research?*
-
-### Direct Applications
-- 
-
 ### Ideas Sparked
-- 
-
-### Techniques to Borrow
-- 
-
-## Implementation Notes
-*Anything useful for implementing this*
-
-### Architecture Details
-- 
-
-### Hyperparameters
-- 
-
-### Training Details
-- 
-
-### Reproducibility Notes
-- 
-
-## Related Papers
-### Cited By This Paper
-- [[]]
-
-### Papers That Cite This
-- [[]]
-
-### Similar Approaches
-- [[]]
-
-## Questions & Future Directions
-### Open Questions
-- 
-
-### Extension Ideas
-- 
-
-### Experimental Ideas
-- 
-
-## Notes & Highlights
-### Key Quotes
-> 
-
-### Figures to Remember
-- Figure X: 
-
-### Equations
-$$
-$$
-
-## Meeting Notes
-*Discussions with advisor/colleagues about this paper*
-
-
-## Action Items
-- [ ] 
-- [ ] 
-
----
-**Reading Progress:** 
-- [ ] Abstract
-- [ ] Introduction
-- [ ] Related Work
-- [ ] Methodology
-- [ ] Experiments
-- [ ] Conclusion
-- [ ] Supplementary Material
+- Dynamic texture analysis is a classic computer vision technique that is very relevant for rPPG and liveness detection.

@@ -1,19 +1,49 @@
----
-aliases: []
-tags: [paper, pad, deep-fas-survey, hybrid-method]
-authors: 
+tags: [paper, pad, deep-fas-survey, hybrid-method, partial-cnn]
+authors: Lei Li, Xiaoyi Feng, Z. Boulkenafet, Zhaoqiang Xia, Mingming Li, A. Hadid
 year: 2016
-venue: 
+venue: IPTA
 paper_url: https://ieeexplore.ieee.org/document/7821013
 code_url: 
-status: "📚 To Read"
+status: "✅ Read"
 dateadded: 2025-11-26
-dateread: 
+dateread: 2025-11-26
 priority: medium
 ---
 
 ## Quick Summary
-**Method:** DPCNN
+**Method:** DPCNN (Deep Partial CNN)
+- **Backbone:** VGG-Face (Partial)
+- **Loss:** SVM (Hinge Loss)
+- **Input:** RGB
+- **Static/Dynamic:** S
+
+## Problem Statement
+Early deep learning methods for FAS were computationally expensive and prone to overfitting on small datasets.
+
+## Key Contributions
+1.  **Partial CNN:** Uses a pre-trained VGG-Face model but only fine-tunes/uses parts of it to extract features.
+2.  **SVM Classifier:** Uses an SVM on top of the deep features for final classification, which was common in the transition era from handcrafted to deep learning.
+
+## Methodology
+### Architecture
+- **Feature Extractor:** VGG-Face (truncated).
+- **Classifier:** SVM.
+
+## Experiments
+### Datasets Used
+- CASIA-FASD, Replay-Attack.
+
+## Critical Analysis
+### What Works Well
+- Using SVMs on top of deep features is a robust way to handle small datasets.
+
+## Relevance to My Work
+### Ideas Sparked
+- Historical context: shows the evolution from handcrafted -> hybrid (Deep+SVM) -> End-to-End Deep Learning.
+
+## Quick Summary
+**Method:** DPCNN (Deep Partial CNN)
+- **Title:** An original face anti-spoofing approach using partial convolutional neural network
 - **Backbone:** VGG-Face
 - **Loss:** Trained with SVM
 - **Input:** RGB

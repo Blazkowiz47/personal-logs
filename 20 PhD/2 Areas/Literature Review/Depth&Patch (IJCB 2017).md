@@ -1,14 +1,14 @@
 ---
 aliases: []
-tags: [paper, pad, deep-fas-survey, auxiliary-supervision]
-authors: 
-year: IJCB 2017
-venue: 
+tags: [paper, pad, deep-fas-survey, auxiliary-supervision, depth-estimation, patch-based]
+authors: Yousef Atoum, Yaojie Liu, Amin Jourabloo, Xiaoming Liu
+year: 2017
+venue: IJCB
 paper_url: https://ieeexplore.ieee.org/document/8272713/
 code_url: 
-status: "📚 To Read"
+status: "✅ Read"
 dateadded: 2025-11-26
-dateread: 
+dateread: 2025-11-26
 priority: medium
 ---
 
@@ -18,6 +18,9 @@ priority: medium
 - **Backbone:** PatchNet, DepthNet
 - **Input:** YCbCr, HSV
 - **Static/Dynamic:** S
+
+## Abstract
+This paper proposes a novel two-stream Convolutional Neural Network (CNN) architecture for face anti-spoofing. One stream, the **patch-based CNN**, operates on local face patches to extract texture information. The other stream, the **depth-based CNN**, estimates the depth map of the face, leveraging the fact that live faces have 3D depth while spoof faces (photos/videos) are flat. The fusion of these two streams achieves state-of-the-art performance on several benchmark datasets.
 
 
 

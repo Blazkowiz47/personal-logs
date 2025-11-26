@@ -1,156 +1,46 @@
 ---
 aliases: []
-tags: [paper, pad, deep-fas-survey, binary-supervision]
-authors: 
+tags: [paper, pad, deep-fas-survey, reinforcement-learning, attention]
+authors: Rizhao Cai, Haoliang Li, Shiqi Wang, Changsheng Chen, Alex Chichung Kot
 year: TIFS 2020
-venue: 
+venue: TIFS
 paper_url: https://ieeexplore.ieee.org/document/9205636
 code_url: 
-status: "📚 To Read"
+status: "✅ Read"
 dateadded: 2025-11-26
-dateread: 
+dateread: 2025-11-26
 priority: medium
 ---
 
 ## Quick Summary
-**Method:** DRL-FAS
-- **Backbone:** ResNet18+GRU
-- **Loss:** Binary CE loss
+**Method:** DRL-FAS (Deep Reinforcement Learning for FAS)
+- **Backbone:** ResNet18 + RNN
+- **Loss:** Binary CE loss, RL Reward
 - **Input:** RGB
 - **Static/Dynamic:** S
 
-
-
 ## Problem Statement
-What problem does this paper address?
-
+Humans glance globally first, then focus on local regions to detect spoofing. Standard CNNs process the whole image at once or use fixed patches.
 
 ## Key Contributions
-1. 
-2. 
-3. 
+1.  **RL-based Attention:** Uses Deep Reinforcement Learning to sequentially explore local patches that are most discriminative for spoofing.
+2.  **Recurrent Mechanism:** An RNN aggregates information from the sequence of explored patches.
+3.  **Global-Local Fusion:** Fuses global image features with the sequentially learned local features.
 
 ## Methodology
 ### Architecture
-*Describe the model/approach*
-
-
-### Key Techniques
-- 
-- 
-
-### Novel Components
-*What's new/different from prior work?*
-
+- **Policy Network:** Decides which patch to look at next.
+- **RNN:** Integrates the features from the sequence of patches.
+- **CNN:** Extracts features from patches and the global image.
 
 ## Experiments
 ### Datasets Used
-- 
-- 
-
-### Results
-*Key metrics and performance*
-
-| Dataset | Metric | Result | Baseline |
-|---------|--------|--------|----------|
-|         |        |        |          |
-
-### Ablation Studies
-*What components were tested?*
-
-
-## Strengths
-- 
-- 
-
-## Limitations
-- 
-- 
+- Standard benchmarks.
 
 ## Critical Analysis
-*My thoughts on the paper*
-
 ### What Works Well
-- 
-
-### Concerns/Criticisms
-- 
-
-### Missing Pieces
-- 
+- Mimicking human visual attention (saccades) is a biologically plausible way to improve efficiency and accuracy.
 
 ## Relevance to My Work
-*How does this relate to my PAD research?*
-
-### Direct Applications
-- 
-
 ### Ideas Sparked
-- 
-
-### Techniques to Borrow
-- 
-
-## Implementation Notes
-*Anything useful for implementing this*
-
-### Architecture Details
-- 
-
-### Hyperparameters
-- 
-
-### Training Details
-- 
-
-### Reproducibility Notes
-- 
-
-## Related Papers
-### Cited By This Paper
-- [[]]
-
-### Papers That Cite This
-- [[]]
-
-### Similar Approaches
-- [[]]
-
-## Questions & Future Directions
-### Open Questions
-- 
-
-### Extension Ideas
-- 
-
-### Experimental Ideas
-- 
-
-## Notes & Highlights
-### Key Quotes
-> 
-
-### Figures to Remember
-- Figure X: 
-
-### Equations
-$$
-$$
-
-## Meeting Notes
-*Discussions with advisor/colleagues about this paper*
-
-
-## Action Items
-- [ ] 
-- [ ] 
-
----
-**Reading Progress:** 
-- [ ] Abstract
-- [ ] Introduction
-- [ ] Related Work
-- [ ] Methodology
-- [ ] Experiments
-- [ ] Conclusion
-- [ ] Supplementary Material
+- Sequential attention could be useful for video-based PAD, selecting key frames or regions.

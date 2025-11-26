@@ -1,14 +1,14 @@
 ---
 aliases: []
-tags: [paper, pad, deep-fas-survey, generative-model]
-authors: 
-year: WACV 2021
-venue: 
+tags: [paper, pad, deep-fas-survey, generative-model, disentangled-representation]
+authors: Yu-Chun Wang, Chien-Yi Wang, Shang-Hong Lai
+year: 2022
+venue: WACV
 paper_url: https://arxiv.org/abs/2110.09157
 code_url: 
-status: "📚 To Read"
+status: "✅ Read"
 dateadded: 2025-11-26
-dateread: 
+dateread: 2025-11-26
 priority: medium
 ---
 
@@ -18,6 +18,9 @@ priority: medium
 - **Backbone:** U-Net, ResNet18
 - **Input:** RGB
 - **Static/Dynamic:** S
+
+## Abstract
+As face recognition is widely used in diverse security-critical applications, the study of face anti-spoofing (FAS) has attracted more and more attention. Several FAS methods have achieved promising performances if the attack types in the testing data are the same as training data, while the performance significantly degrades for unseen attack types. It is essential to learn more generalized and discriminative features to prevent overfitting to pre-defined spoof attack types. This paper proposes a novel dual-stage disentangled representation learning method that can efficiently untangle spoof-related features from irrelevant ones. Unlike previous FAS disentanglement works with one-stage architecture, we found that the dual-stage training design can improve the training stability and effectively encode the features to detect unseen attack types. Our experiments show that the proposed method provides superior accuracy than the state-of-the-art methods on several cross-type FAS benchmarks.
 
 
 

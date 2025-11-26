@@ -1,14 +1,14 @@
 ---
 aliases: []
-tags: [paper, pad, deep-fas-survey, binary-supervision]
-authors: 
-year: 2018
-venue: 
+tags: [paper, pad, deep-fas-survey, binary-supervision, color-texture, color-spaces]
+authors: Zezheng Wang, Chenxu Zhao, Yunxiao Qin, Qiaoyong Zhou, Zhenan Sun
+year: 2019
+venue: IEEE Access
 paper_url: https://ieeexplore.ieee.org/document/8616677
 code_url: 
-status: "📚 To Read"
+status: "✅ Read"
 dateadded: 2025-11-26
-dateread: 
+dateread: 2025-11-26
 priority: medium
 ---
 
@@ -18,6 +18,9 @@ priority: medium
 - **Loss:** Binary CE loss
 - **Input:** RGB, HSV, YCbCr
 - **Static/Dynamic:** S
+
+## Abstract
+This paper proposes a deep learning method based on color texture features for face anti-spoofing. The authors analyze the effectiveness of different color spaces (RGB, HSV, and YCbCr) in distinguishing between bona fide and spoof faces. They design a specific Convolutional Neural Network (CNN) to learn deep features from these color spaces, demonstrating that color texture information is crucial for robust spoofing detection.
 
 
 

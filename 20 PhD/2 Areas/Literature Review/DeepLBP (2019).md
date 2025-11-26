@@ -1,14 +1,14 @@
 ---
 aliases: []
-tags: [paper, pad, deep-fas-survey, hybrid-method]
+tags: [paper, pad, deep-fas-survey, hybrid-method, lbp, texture-analysis]
 authors: 
 year: 2019
-venue: 
+venue: IEEE Access
 paper_url: https://ieeexplore.ieee.org/document/8296251
 code_url: 
-status: "📚 To Read"
+status: "✅ Read"
 dateadded: 2025-11-26
-dateread: 
+dateread: 2025-11-26
 priority: medium
 ---
 
@@ -18,6 +18,9 @@ priority: medium
 - **Loss:** Binary CE loss, SVM
 - **Input:** RGB, HSV, YCbCr
 - **Static/Dynamic:** S
+
+## Abstract
+This paper integrates the traditional Local Binary Patterns (LBP) descriptor with deep learning techniques. Instead of using LBP as a handcrafted feature fed into a classifier, it typically uses LBP maps as input to a Convolutional Neural Network (CNN) or uses a CNN to learn LBP-like texture features. The goal is to combine the texture description capability of LBP with the semantic feature learning power of deep networks to detect presentation attacks.
 
 
 

@@ -1,155 +1,47 @@
 ---
 aliases: []
-tags: [paper, pad, deep-fas-survey, domain-generalization]
-authors: 
+tags: [paper, pad, deep-fas-survey, domain-generalization, instance-aware]
+authors: Qianyu Zhou, Ke-Yue Zhang, Taiping Yao, Xuequan Lu, Ran Yi, Shouhong Ding, Lizhuang Ma
 year: CVPR 2023
-venue: 
+venue: CVPR
 paper_url: https://arxiv.org/abs/2304.05640
-code_url: 
-status: "📚 To Read"
+code_url: https://github.com/qianyuzqy/IADG
+status: "✅ Read"
 dateadded: 2025-11-26
-dateread: 
+dateread: 2025-11-26
 priority: medium
 ---
 
 ## Quick Summary
-**Method:** DKG+CSA+AIAW
-- **Backbone:** DepthNet
-- **Loss:** BCE loss, Depth loss, Asymmetric Instance Adaptive Whiting loss
+**Method:** IADG (Instance-Aware Domain Generalization)
+- **Components:** DKG (Dynamic Kernel Generator), CSA (Categorical Style Assembly), AIAW (Asymmetric Instance Adaptive Whitening)
+- **Backbone:** DepthNet (likely)
+- **Loss:** BCE loss, Depth loss, AIAW loss
+- **Input:** RGB
 - **Static/Dynamic:** S
 
-
-
 ## Problem Statement
-What problem does this paper address?
-
+Existing DG methods rely on coarse-grained domain labels, which are subjective and don't reflect real distributions. They align at the domain level, ignoring instance-level style variations.
 
 ## Key Contributions
-1. 
-2. 
-3. 
+1.  **Instance-Aware DG (IADG):** Aligns features at the instance level without domain labels.
+2.  **AIAW (Asymmetric Instance Adaptive Whitening):** Adaptively eliminates style-sensitive feature correlations.
+3.  **DKG (Dynamic Kernel Generator):** Extracts instance-specific features.
+4.  **CSA (Categorical Style Assembly):** Generates style-diversified features to improve robustness.
 
 ## Methodology
 ### Architecture
-*Describe the model/approach*
-
-
-### Key Techniques
-- 
-- 
-
-### Novel Components
-*What's new/different from prior work?*
-
+- **AIAW:** Whitening transformation to remove style information.
+- **DKG & CSA:** Modules to handle instance-specific styles.
 
 ## Experiments
 ### Datasets Used
-- 
-- 
-
-### Results
-*Key metrics and performance*
-
-| Dataset | Metric | Result | Baseline |
-|---------|--------|--------|----------|
-|         |        |        |          |
-
-### Ablation Studies
-*What components were tested?*
-
-
-## Strengths
-- 
-- 
-
-## Limitations
-- 
-- 
+- Standard cross-domain benchmarks.
 
 ## Critical Analysis
-*My thoughts on the paper*
-
 ### What Works Well
-- 
-
-### Concerns/Criticisms
-- 
-
-### Missing Pieces
-- 
+- Moving away from "domain labels" is the right direction. "Domains" in FAS are often just different camera sensors or lighting conditions, which are continuous, not discrete.
 
 ## Relevance to My Work
-*How does this relate to my PAD research?*
-
-### Direct Applications
-- 
-
 ### Ideas Sparked
-- 
-
-### Techniques to Borrow
-- 
-
-## Implementation Notes
-*Anything useful for implementing this*
-
-### Architecture Details
-- 
-
-### Hyperparameters
-- 
-
-### Training Details
-- 
-
-### Reproducibility Notes
-- 
-
-## Related Papers
-### Cited By This Paper
-- [[]]
-
-### Papers That Cite This
-- [[]]
-
-### Similar Approaches
-- [[]]
-
-## Questions & Future Directions
-### Open Questions
-- 
-
-### Extension Ideas
-- 
-
-### Experimental Ideas
-- 
-
-## Notes & Highlights
-### Key Quotes
-> 
-
-### Figures to Remember
-- Figure X: 
-
-### Equations
-$$
-$$
-
-## Meeting Notes
-*Discussions with advisor/colleagues about this paper*
-
-
-## Action Items
-- [ ] 
-- [ ] 
-
----
-**Reading Progress:** 
-- [ ] Abstract
-- [ ] Introduction
-- [ ] Related Work
-- [ ] Methodology
-- [ ] Experiments
-- [ ] Conclusion
-- [ ] Supplementary Material
+- Instance-level alignment is more granular and potentially more powerful than domain-level alignment.

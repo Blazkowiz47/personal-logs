@@ -1,15 +1,25 @@
 ---
 aliases: []
-tags: [paper, pad, deep-fas-survey, domain-generalization]
-authors: 
-year: WACV 2023
-venue: 
+tags: [paper, pad, deep-fas-survey, domain-generalization, vision-transformer]
+authors: Chen-Hao Liao, Wen-Cheng Chen, Hsuan-Tung Liu, Yi-Ren Yeh, Min-Chun Hu, Chu-Song Chen
+year: 2023
+venue: WACV
 paper_url: https://openaccess.thecvf.com/content/WACV2023/papers/Liao_Domain_Invariant_Vision_Transformer_Learning_for_Face_Anti-Spoofing_WACV_2023_paper.pdf
 code_url: 
-status: "📚 To Read"
+status: "✅ Read"
 dateadded: 2025-11-26
-dateread: 
+dateread: 2025-11-26
 priority: medium
+---
+
+## Quick Summary
+**Method:** DiVT
+- **Backbone:** MobileViT-S
+- **Loss:** Domain-invariant Concentration and Attack-separation Loss
+- **Static/Dynamic:** S
+
+## Abstract
+This paper proposes a Domain Invariant Vision Transformer (DiVT) for face anti-spoofing. It introduces a novel loss function, the Domain-invariant Concentration and Attack-separation Loss, to learn features that are invariant to domain shifts (e.g., different cameras, lighting) while being discriminative for attack types. The method leverages the global context modeling capabilities of Vision Transformers to improve generalization performance.
 ---
 
 ## Quick Summary
