@@ -27,6 +27,9 @@ WHERE contains(tags, "paper") AND status = "📚 To Read"
 SORT year DESC, dateadded DESC
 ```
 
+## Surveys
+- [[Deep Learning for Face Anti-Spoofing - A Survey]]
+
 ### 📖 Currently Reading
 ```dataview
 TABLE WITHOUT ID
