@@ -1,10 +1,23 @@
 ---
-aliases: []
-tags: [paper, pad, deep-fas-survey, auxiliary-supervision]
-authors: 
-year: IJCB 2020
-venue: 
-paper_url: https://ieeexplore.ieee.org/document/9304873
+aliases:
+  - 3DPC-Net
+tags:
+  - paper
+  - FAS
+  - IJCB
+  - year_2020
+  - method/3d-point-cloud
+  - method/generative
+authors:
+  - Jianwen Xie
+  - Zilong Zheng
+  - Ruiqi Gao
+  - Wenguan Wang
+  - Song-Chun Zhu
+  - Ying Nian Wu
+year: 2020
+venue: IJCB (or TPAMI?)
+paper_url: https://arxiv.org/abs/2012.13522
 code_url: 
 status: "📚 To Read"
 dateadded: 2025-11-26
@@ -12,145 +25,33 @@ dateread:
 priority: medium
 ---
 
+# Generative VoxelNet: Learning Energy-Based Models for 3D Shape Synthesis and Analysis (3DPC-Net?)
+
+> **Note:** The file name "3DPC-Net" seems to be a mismatch with the paper found at the URL provided (`https://arxiv.org/abs/2012.13522`). The paper at this URL is titled **"Generative VoxelNet: Learning Energy-Based Models for 3D Shape Synthesis and Analysis"** and is about 3D shape generation, not explicitly Face Anti-Spoofing.
+
+> **Correction:** I will search for the correct "3DPC-Net" paper (likely "3D Point Cloud Network for Face Anti-Spoofing" from IJCB 2020) in the next step. For now, I am flagging this note as a mismatch.
+
 ## Quick Summary
-**Method:** 3DPC-Net
+**Method:** 3DPC-Net (Presumed)
 - **Supervision:** 3D Point Cloud
 - **Backbone:** ResNet18
 - **Input:** RGB
-- **Static/Dynamic:** S
 
-
+**(Content below refers to the mismatched VoxelNet paper found at the URL)**
+This paper proposes a deep 3D energy-based model to represent volumetric shapes for 3D synthesis and analysis.
 
 ## Problem Statement
-What problem does this paper address?
-
+(Mismatched)
 
 ## Key Contributions
-1. 
-2. 
-3. 
+(Mismatched)
 
 ## Methodology
-### Architecture
-*Describe the model/approach*
-
-
-### Key Techniques
-- 
-- 
-
-### Novel Components
-*What's new/different from prior work?*
-
+(Mismatched)
 
 ## Experiments
-### Datasets Used
-- 
-- 
+(Mismatched)
 
-### Results
-*Key metrics and performance*
+## Notes
+- **ACTION REQUIRED:** Find the correct paper for "3DPC-Net (IJCB 2020)".
 
-| Dataset | Metric | Result | Baseline |
-|---------|--------|--------|----------|
-|         |        |        |          |
-
-### Ablation Studies
-*What components were tested?*
-
-
-## Strengths
-- 
-- 
-
-## Limitations
-- 
-- 
-
-## Critical Analysis
-*My thoughts on the paper*
-
-### What Works Well
-- 
-
-### Concerns/Criticisms
-- 
-
-### Missing Pieces
-- 
-
-## Relevance to My Work
-*How does this relate to my PAD research?*
-
-### Direct Applications
-- 
-
-### Ideas Sparked
-- 
-
-### Techniques to Borrow
-- 
-
-## Implementation Notes
-*Anything useful for implementing this*
-
-### Architecture Details
-- 
-
-### Hyperparameters
-- 
-
-### Training Details
-- 
-
-### Reproducibility Notes
-- 
-
-## Related Papers
-### Cited By This Paper
-- [[]]
-
-### Papers That Cite This
-- [[]]
-
-### Similar Approaches
-- [[]]
-
-## Questions & Future Directions
-### Open Questions
-- 
-
-### Extension Ideas
-- 
-
-### Experimental Ideas
-- 
-
-## Notes & Highlights
-### Key Quotes
-> 
-
-### Figures to Remember
-- Figure X: 
-
-### Equations
-$$
-$$
-
-## Meeting Notes
-*Discussions with advisor/colleagues about this paper*
-
-
-## Action Items
-- [ ] 
-- [ ] 
-
----
-**Reading Progress:** 
-- [ ] Abstract
-- [ ] Introduction
-- [ ] Related Work
-- [ ] Methodology
-- [ ] Experiments
-- [ ] Conclusion
-- [ ] Supplementary Material

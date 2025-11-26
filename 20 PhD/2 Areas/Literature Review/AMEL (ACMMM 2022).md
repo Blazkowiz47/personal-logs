@@ -1,9 +1,23 @@
 ---
-aliases: []
-tags: [paper, pad, deep-fas-survey, domain-generalization]
-authors: 
-year: ACMMM 2022
-venue: 
+aliases:
+  - AMEL
+tags:
+  - paper
+  - FAS
+  - ACMMM
+  - year_2022
+  - domain-generalization
+  - method/mixture-of-experts
+  - method/meta-learning
+authors:
+  - Qianyu Zhou
+  - Ke-Yue Zhang
+  - Taiping Yao
+  - Ran Yi
+  - Shouhong Ding
+  - Lizhuang Ma
+year: 2022
+venue: ACM MM
 paper_url: https://arxiv.org/abs/2207.09868
 code_url: 
 status: "📚 To Read"
@@ -12,144 +26,53 @@ dateread:
 priority: medium
 ---
 
+# Adaptive Mixture of Experts Learning for Generalizable Face Anti-Spoofing (AMEL)
+
 ## Quick Summary
-**Method:** AMEL
-- **Backbone:** DepthNet
+**Method:** AMEL (Adaptive Mixture of Experts Learning)
+- **Backbone:** Mixture of Experts (MoE) framework
 - **Loss:** CE loss, Depth loss, Feature consistency loss
-- **Static/Dynamic:** S
+- **Input:** RGB
+- **Static/Dynamic:** Static
 
-
+This paper proposes an **Adaptive Mixture of Experts Learning (AMEL)** framework for Domain Generalization (DG) in FAS. It argues that existing DG methods focus too much on domain-invariant features and neglect domain-specific characteristics. AMEL uses **Domain-Specific Experts (DSE)** to learn unique features for each source domain and a **Dynamic Expert Aggregation (DEA)** module to adaptively combine them for unseen target domains based on domain relevance.
 
 ## Problem Statement
-What problem does this paper address?
-
+Standard DG methods try to find a common feature space for all domains, which might be suboptimal because different domains (and attack types) have distinct characteristics. Ignoring these specific traits limits generalization.
 
 ## Key Contributions
-1. 
-2. 
-3. 
+1.  **Adaptive Mixture of Experts Learning (AMEL):** A framework that leverages both domain-invariant and domain-specific information.
+2.  **Domain-Specific Experts (DSE):** Experts trained to specialize in individual source domains.
+3.  **Dynamic Expert Aggregation (DEA):** A mechanism to weight the contributions of different experts based on how similar the target input is to the source domains.
+4.  **Meta-Learning Integration:** Used to train the aggregation module to generalize to unseen domains.
 
 ## Methodology
 ### Architecture
-*Describe the model/approach*
-
+- **Experts:** Multiple networks, each expert on a specific domain.
+- **Gating Network (DEA):** Decides how much to trust each expert for a given input.
 
 ### Key Techniques
-- 
-- 
-
-### Novel Components
-*What's new/different from prior work?*
-
+- **Mixture of Experts (MoE):** A classic ensemble technique applied to DG.
+- **Meta-Learning:** Simulating domain shift during training to prepare for the real test.
 
 ## Experiments
 ### Datasets Used
-- 
-- 
+- OULU-NPU
+- CASIA-MFSD
+- Replay-Attack
+- MSU-MFSD
 
 ### Results
-*Key metrics and performance*
-
-| Dataset | Metric | Result | Baseline |
-|---------|--------|--------|----------|
-|         |        |        |          |
-
-### Ablation Studies
-*What components were tested?*
-
-
-## Strengths
-- 
-- 
-
-## Limitations
-- 
-- 
+- Outperforms SOTA competitors on standard DG protocols.
 
 ## Critical Analysis
-*My thoughts on the paper*
-
 ### What Works Well
-- 
-
-### Concerns/Criticisms
-- 
-
-### Missing Pieces
-- 
+- The MoE approach makes a lot of sense for FAS because "spoof" is such a diverse category. A print attack expert might not be good at mask attacks, so having specialized experts and a router is a logical step.
 
 ## Relevance to My Work
-*How does this relate to my PAD research?*
-
-### Direct Applications
-- 
-
 ### Ideas Sparked
-- 
-
-### Techniques to Borrow
-- 
-
-## Implementation Notes
-*Anything useful for implementing this*
-
-### Architecture Details
-- 
-
-### Hyperparameters
-- 
-
-### Training Details
-- 
-
-### Reproducibility Notes
-- 
-
-## Related Papers
-### Cited By This Paper
-- [[]]
-
-### Papers That Cite This
-- [[]]
-
-### Similar Approaches
-- [[]]
-
-## Questions & Future Directions
-### Open Questions
-- 
-
-### Extension Ideas
-- 
-
-### Experimental Ideas
-- 
+- I could implement a simple MoE where I have one expert for "print", one for "replay", and one for "mask", if I have labels for those.
 
 ## Notes & Highlights
-### Key Quotes
-> 
+- Accepted to ACM Multimedia 2022.
 
-### Figures to Remember
-- Figure X: 
-
-### Equations
-$$
-$$
-
-## Meeting Notes
-*Discussions with advisor/colleagues about this paper*
-
-
-## Action Items
-- [ ] 
-- [ ] 
-
----
-**Reading Progress:** 
-- [ ] Abstract
-- [ ] Introduction
-- [ ] Related Work
-- [ ] Methodology
-- [ ] Experiments
-- [ ] Conclusion
-- [ ] Supplementary Material

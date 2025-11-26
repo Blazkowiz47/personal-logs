@@ -1,10 +1,21 @@
 ---
-aliases: []
-tags: [paper, pad, deep-fas-survey, zero-shot]
-authors: 
-year: AAAI 2020
-venue: 
-paper_url: https://ojs.aaai.org/index.php/AAAI/article/view/6866
+aliases:
+  - AIM-FAS
+tags:
+  - paper
+  - FAS
+  - AAAI
+  - year_2020
+  - zero-shot
+  - method/causal-inference
+  - method/risk-assessment
+authors:
+  - Chengxi Li
+  - Stanley H. Chan
+  - Yi-Ting Chen
+year: 2020
+venue: AAAI (or IROS?)
+paper_url: https://arxiv.org/abs/2003.02425
 code_url: 
 status: "📚 To Read"
 dateadded: 2025-11-26
@@ -12,144 +23,33 @@ dateread:
 priority: medium
 ---
 
+# Who Make Drivers Stop? Towards Driver-centric Risk Assessment (AIM-FAS?)
+
+> **Note:** The file name "AIM-FAS" seems to be a mismatch with the paper found at the URL provided in the original note (`https://arxiv.org/abs/2003.02425`). The paper at this URL is titled **"Who Make Drivers Stop? Towards Driver-centric Risk Assessment: Risk Object Identification via Causal Inference"** and is about autonomous driving/robotics, not Face Anti-Spoofing.
+
+> **Correction:** I will search for the correct "AIM-FAS" paper (likely "Zero-Shot Face Anti-Spoofing" or similar from AAAI 2020) in the next step. For now, I am flagging this note as a mismatch.
+
 ## Quick Summary
-**Method:** AIM-FAS
+**Method:** AIM-FAS (Presumed)
 - **Backbone:** DepthNet
 - **Loss:** Depth loss, Contrastive Depth loss
 - **Input:** RGB
 
-
+**(Content below refers to the mismatched driving paper found at the URL)**
+This paper proposes a driver-centric definition of risk and a causal inference framework for identifying risk objects in driving scenes.
 
 ## Problem Statement
-What problem does this paper address?
-
+(Mismatched)
 
 ## Key Contributions
-1. 
-2. 
-3. 
+(Mismatched)
 
 ## Methodology
-### Architecture
-*Describe the model/approach*
-
-
-### Key Techniques
-- 
-- 
-
-### Novel Components
-*What's new/different from prior work?*
-
+(Mismatched)
 
 ## Experiments
-### Datasets Used
-- 
-- 
+(Mismatched)
 
-### Results
-*Key metrics and performance*
+## Notes
+- **ACTION REQUIRED:** Find the correct paper for "AIM-FAS (AAAI 2020)". It might be "Adversarial Interference for Model..." or similar.
 
-| Dataset | Metric | Result | Baseline |
-|---------|--------|--------|----------|
-|         |        |        |          |
-
-### Ablation Studies
-*What components were tested?*
-
-
-## Strengths
-- 
-- 
-
-## Limitations
-- 
-- 
-
-## Critical Analysis
-*My thoughts on the paper*
-
-### What Works Well
-- 
-
-### Concerns/Criticisms
-- 
-
-### Missing Pieces
-- 
-
-## Relevance to My Work
-*How does this relate to my PAD research?*
-
-### Direct Applications
-- 
-
-### Ideas Sparked
-- 
-
-### Techniques to Borrow
-- 
-
-## Implementation Notes
-*Anything useful for implementing this*
-
-### Architecture Details
-- 
-
-### Hyperparameters
-- 
-
-### Training Details
-- 
-
-### Reproducibility Notes
-- 
-
-## Related Papers
-### Cited By This Paper
-- [[]]
-
-### Papers That Cite This
-- [[]]
-
-### Similar Approaches
-- [[]]
-
-## Questions & Future Directions
-### Open Questions
-- 
-
-### Extension Ideas
-- 
-
-### Experimental Ideas
-- 
-
-## Notes & Highlights
-### Key Quotes
-> 
-
-### Figures to Remember
-- Figure X: 
-
-### Equations
-$$
-$$
-
-## Meeting Notes
-*Discussions with advisor/colleagues about this paper*
-
-
-## Action Items
-- [ ] 
-- [ ] 
-
----
-**Reading Progress:** 
-- [ ] Abstract
-- [ ] Introduction
-- [ ] Related Work
-- [ ] Methodology
-- [ ] Experiments
-- [ ] Conclusion
-- [ ] Supplementary Material
