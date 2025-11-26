@@ -1,14 +1,14 @@
 ---
-aliases: []
-tags: [paper, pad, deep-fas-survey, binary-supervision]
-authors: 
-year: BMVC 2021
-venue: 
-paper_url: https://www.bmvc2021-virtualconference.com/assets/papers/0113.pdf
+aliases: ["Multi-Teacher Single-Student Visual Transformer with Multi-Level Attention for Face Spoofing Detection"]
+tags: [paper, pad, deep-fas-survey, binary-supervision, visual-transformer, multi-teacher]
+authors: Yaojia Huang, Jun-Wei Hsieh, Ming-Ching Chang, Lipeng Ke, Siwei Lyu, Avik Santra
+year: 2021
+venue: BMVC
+paper_url: https://cse.buffalo.edu/~siweilyu/papers/BMVC2021.pdf
 code_url: 
-status: "📚 To Read"
+status: "✅ Read"
 dateadded: 2025-11-26
-dateread: 
+dateread: 2025-11-26
 priority: medium
 ---
 
@@ -18,6 +18,20 @@ priority: medium
 - **Loss:** CE Loss
 - **Input:** RGB
 - **Static/Dynamic:** S
+
+## Abstract
+A new Multi-Teacher Single-Student (MTSS) visual Transformer with a multi-level attention design is proposed with a novel Multi-Level Attention Module with a DropBlock (MAMD) designed to strengthen discriminative features while dropping irrelevant spatial features to avoid overfitting.
+---
+
+## Quick Summary
+**Method:** MTSS
+- **Backbone:** ViT+Multi-Level Attention Module
+- **Loss:** CE Loss
+- **Input:** RGB
+- **Static/Dynamic:** S
+
+## Abstract
+A new Multi-Teacher Single-Student (MTSS) visual Transformer with a multi-level attention design is proposed with a novel Multi-Level Attention Module with a DropBlock (MAMD) designed to strengthen discriminative features while dropping irrelevant spatial features to avoid overfitting.
 
 
 
