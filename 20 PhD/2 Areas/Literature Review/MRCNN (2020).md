@@ -1,14 +1,14 @@
 ---
 aliases: []
-tags: [paper, pad, deep-fas-survey, auxiliary-supervision]
-authors: 
+tags: [paper, pad, deep-fas-survey, auxiliary-supervision, multi-regional-cnn]
+authors: Yukun Ma, Lifang Wu, Zeyu Li, Fanghao Liu
 year: 2020
-venue: 
+venue: Pattern Recognition Letters
 paper_url: https://www.sciencedirect.com/science/article/pii/S0167865520300015
 code_url: 
-status: "📚 To Read"
+status: "✅ Read"
 dateadded: 2025-11-26
-dateread: 
+dateread: 2025-11-26
 priority: medium
 ---
 
@@ -18,6 +18,9 @@ priority: medium
 - **Backbone:** Shallow CNN
 - **Input:** RGB
 - **Static/Dynamic:** S
+
+## Abstract
+Face presentation attack detection methods based on deep learning have achieved noticeable results. However, such methods tend to over-emphasize a certain local area, which limits their performance against traditional attacks, and makes the system vulnerable to adversarial example attacks. To utilize more information of the input and enhance the robustness of face presentation attack detection methods against adversarial examples, this paper proposes multi-regional convolutional neural networks, and introduces the concept of local classification loss to local patches, so as to utilize the input information in the entire face region and to avoid over-emphasizing certain local areas. Experimental results demonstrate that the proposed method is more robust against adversarial example attacks, and its performance against traditional attacks is also improved compared to existing methods.
 
 
 

@@ -1,14 +1,14 @@
 ---
 aliases: []
-tags: [paper, pad, deep-fas-survey, multimodal]
-authors: 
+tags: [paper, pad, deep-fas-survey, multimodal, central-difference-convolution]
+authors: Zitong Yu, Yunxiao Qin, Xiaobai Li, Zezheng Wang, Chenxu Zhao, Zhen Lei, Guoying Zhao
 year: 2020
-venue: 
+venue: CVPRW
 paper_url: https://openaccess.thecvf.com/content_CVPRW_2020/papers/w39/Yu_Multi-Modal_Face_Anti-Spoofing_Based_on_Central_Difference_Networks_CVPRW_2020_paper.pdf
 code_url: 
-status: "📚 To Read"
+status: "✅ Read"
 dateadded: 2025-11-26
-dateread: 
+dateread: 2025-11-26
 priority: medium
 ---
 
@@ -18,6 +18,9 @@ priority: medium
 - **Loss:** Pixel-wise binary loss, Contrastive depth loss
 - **Input:** RGB, Depth, NIR
 - **Fusion:** Feature&Decision-level
+
+## Abstract
+Face anti-spoofing (FAS) plays a vital role in securing face recognition systems from presentation attacks. Existing multi-modal FAS methods rely on stacked vanilla convolutions, which is weak in describing detailed intrinsic information from modalities and easily being ineffective when the domain shifts (e.g., cross attack and cross ethnicity). In this paper, we extend the central difference convolutional networks (CDCN) to a multi-modal version, intending to capture intrinsic spoofing patterns among three modalities (RGB, depth and infrared). Meanwhile, we also give an elaborate study about single-modal based CDCN. Our approach won the first place in "Track Multi-Modal" as well as the second place in "Track Single-Modal (RGB)" of ChaLearn Face Anti-spoofing Attack Detection Challenge@CVPR2020. Our final submission obtains 1.02±0.59% and 4.84±1.79% ACER in "Track Multi-Modal" and "Track Single-Modal (RGB)", respectively.
 
 
 

@@ -1,14 +1,14 @@
 ---
 aliases: []
-tags: [paper, pad, deep-fas-survey, generative-model]
-authors: 
-year: PAMI 2021
-venue: 
+tags: [paper, pad, deep-fas-survey, generative-model, meta-learning]
+authors: Yunxiao Qin, Zitong Yu, Longbin Yan, Zezheng Wang, Chenxu Zhao, Zhen Lei
+year: 2021
+venue: TPAMI
 paper_url: https://ieeexplore.ieee.org/document/9462562
 code_url: 
-status: "📚 To Read"
+status: "✅ Read"
 dateadded: 2025-11-26
-dateread: 
+dateread: 2025-11-26
 priority: medium
 ---
 
@@ -18,6 +18,9 @@ priority: medium
 - **Backbone:** DepthNet
 - **Input:** RGB
 - **Static/Dynamic:** S
+
+## Abstract
+Face anti-spoofing (FAS) is essential to secure face recognition systems. Recently, deep learning based methods have shown promising results. However, most existing methods are supervised by predefined binary labels (live/spoof) or pixel-wise maps (e.g., depth map), which may not be optimal for learning discriminative features. In this paper, we propose a novel Meta-Teacher FAS (MT-FAS) method to train a meta-teacher for supervising the FAS model. Specifically, the meta-teacher is trained to learn a bilevel optimization problem, where the outer loop optimizes the teacher to generate better supervision signals for the student (FAS model), and the inner loop updates the student under the supervision of the teacher. The teacher learns to generate pixel-wise supervision maps that are more effective than the predefined ones. Extensive experiments on four public datasets demonstrate the effectiveness of our proposed method.
 
 
 

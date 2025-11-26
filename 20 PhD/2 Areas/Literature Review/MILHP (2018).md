@@ -1,14 +1,14 @@
 ---
 aliases: []
-tags: [paper, pad, deep-fas-survey, binary-supervision]
-authors: 
+tags: [paper, pad, deep-fas-survey, binary-supervision, motion-parameterization]
+authors: Chen Lin, Zhouyingcheng Liao, Peng Zhou, Jianguo Hu, Bingbing Ni
 year: 2018
-venue: 
+venue: IJCAI
 paper_url: https://www.ijcai.org/proceedings/2018/0113.pdf
 code_url: 
-status: "📚 To Read"
+status: "✅ Read"
 dateadded: 2025-11-26
-dateread: 
+dateread: 2025-11-26
 priority: medium
 ---
 
@@ -18,6 +18,9 @@ priority: medium
 - **Loss:** Multiple Instances CE loss
 - **Input:** RGB
 - **Static/Dynamic:** D
+
+## Abstract
+State-of-the-art live face verification methods would easily be attacked by recorded facial expression sequence. This work directly addresses this issue via proposing a patch-wise motion parameterization based verification network infrastructure. This method directly explores the underlying subtle motion difference between the facial movements re-captured from a planer screen (e.g., a pad) and those from a real face; therefore interactive facial expression is no longer required. Furthermore, inspired by the fact that “a fake facial movement sequence MUST contains many patch-wise fake sequences”, we embed our network into a multiple instance learning framework, which further enhance the recall rate of the proposed technique. Extensive experimental results on several face benchmarks well demonstrate the superior performance of our method.
 
 
 

@@ -1,14 +1,14 @@
 ---
 aliases: []
-tags: [paper, pad, deep-fas-survey, multimodal]
-authors: 
+tags: [paper, pad, deep-fas-survey, multimodal, face-recognition-networks]
+authors: Aleksandr Parkin, Oleg Grinchuk
 year: 2019
-venue: 
+venue: CVPRW
 paper_url: https://openaccess.thecvf.com/content_CVPRW_2019/papers/CFS/Parkin_Recognizing_Multi-Modal_Face_Spoofing_With_Face_Recognition_Networks_CVPRW_2019_paper.pdf
 code_url: 
-status: "📚 To Read"
+status: "✅ Read"
 dateadded: 2025-11-26
-dateread: 
+dateread: 2025-11-26
 priority: medium
 ---
 
@@ -18,6 +18,9 @@ priority: medium
 - **Loss:** Binary CE loss
 - **Input:** RGB, NIR, Depth
 - **Fusion:** Feature-level
+
+## Abstract
+Detecting spoofing attacks plays a vital role for deploying automatic face recognition for biometric authentication in applications such as access control, face payment, device unlock, etc. In this paper we propose a new anti-spoofing network architecture that takes advantage of multi-modal image data and aggregates intra-channel features at multiple network layers. We also transfer strong facial features learned for face recognition and show their benefits for detecting spoofing attacks. Finally, to increase the generalization ability of our method to unseen attacks, we use an ensemble of models trained separately for distinct types of spoofing attacks. The proposed method achieves state-of-the-art result on the largest multi-modal anti-spoofing dataset CASIA-SURF.
 
 
 

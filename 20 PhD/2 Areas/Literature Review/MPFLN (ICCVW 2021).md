@@ -1,14 +1,14 @@
 ---
 aliases: []
-tags: [paper, pad, deep-fas-survey, auxiliary-supervision]
-authors: 
-year: ICCVW 2021
-venue: 
+tags: [paper, pad, deep-fas-survey, auxiliary-supervision, multi-perspective-features]
+authors: Zhuming Wang, Yaowen Xu, Lifang Wu, Hu Han, Yukun Ma, Guozhang Ma
+year: 2021
+venue: ICCVW
 paper_url: https://openaccess.thecvf.com/content/ICCV2021W/HTCV/papers/Wang_Multi-Perspective_Features_Learning_for_Face_Anti-Spoofing_ICCVW_2021_paper.pdf
 code_url: 
-status: "📚 To Read"
+status: "✅ Read"
 dateadded: 2025-11-26
-dateread: 
+dateread: 2025-11-26
 priority: medium
 ---
 
@@ -18,6 +18,9 @@ priority: medium
 - **Backbone:** CDCN, 3D-CDCN
 - **Input:** RGB
 - **Static/Dynamic:** S, D
+
+## Abstract
+A Multi-Perspective Feature Learning Network (MPFLN) is proposed to extract representative features from the perspectives of Real + Mask vs. Photo + Video and Real + Video vs. Real vs. Spoof to alleviate the decline in the discrimination of extracted features and achieve comparable performance with state-of-the-art methods.
 
 
 

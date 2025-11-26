@@ -1,14 +1,14 @@
 ---
 aliases: []
-tags: [paper, pad, deep-fas-survey, binary-supervision]
-authors: 
+tags: [paper, pad, deep-fas-survey, binary-supervision, motion-enhancement]
+authors: Zitong Yu, Benjia Zhou, Jun Wan, Pong C. Yuen, Haibin Ling, Guoying Zhao
 year: 2020
-venue: 
+venue: TIFS
 paper_url: https://ieeexplore.ieee.org/document/9203944
 code_url: 
-status: "📚 To Read"
+status: "✅ Read"
 dateadded: 2025-11-26
-dateread: 
+dateread: 2025-11-26
 priority: medium
 ---
 
@@ -18,6 +18,9 @@ priority: medium
 - **Loss:** Binary CE loss
 - **Input:** RGB
 - **Static/Dynamic:** D
+
+## Abstract
+Face anti-spoofing (FAS) plays a vital role in securing face recognition systems. Most existing methods focus on extracting spatial features from static images or stacking spatial features from video frames, ignoring the fine-grained motion information that is crucial for distinguishing live faces from spoofing attacks (e.g., print, replay). In this paper, we propose a Motion-Enhanced Video Representation (MEVR) learning framework for FAS. Specifically, we design a Motion Enhancement Module (MEM) to capture short-term motion cues between adjacent frames and a Video Representation Network (VRN) to aggregate long-term spatiotemporal features. The MEM can be plugged into existing CNN backbones to enhance their sensitivity to motion. We also introduce a cross-entropy loss and a contrastive loss to supervise the training. Experimental results on three large-scale datasets show that our method achieves state-of-the-art performance.
 
 
 
