@@ -1,155 +1,49 @@
 ---
 aliases: []
-tags: [paper, pad, deep-fas-survey, anomaly-detection]
-authors: 
-year: PR 2020
-venue: 
+tags: [paper, pad, deep-fas-survey, anomaly-detection, one-class-classification]
+authors: Soroush Fatemifar, Shervin Rahimzadeh Arashloo, Muhammad Awais, Josef Kittler
+year: 2020
+venue: Pattern Recognition
 paper_url: https://www.sciencedirect.com/science/article/pii/S0031320320304994
 code_url: 
-status: "📚 To Read"
+status: "✅ Read"
 dateadded: 2025-11-26
-dateread: 
+dateread: 2025-11-26
 priority: medium
 ---
 
 ## Quick Summary
 **Method:** ClientAnomaly
-- **Backbone:** ResNet50 or GoogLeNet or VGG16
-- **Loss:** One-class SVM or Mahalanobis distance or Gaussian Mixture Model
+- **Backbone:** ResNet50 / GoogLeNet / VGG16 (Pre-trained on generic objects, not faces)
+- **Loss:** One-Class Classification (OC-SVM, Mahalanobis, GMM)
 - **Input:** RGB
-
-
+- **Static/Dynamic:** S
 
 ## Problem Statement
-What problem does this paper address?
-
+Standard binary classifiers fail on unseen attacks. Anomaly detection is better, but generic anomaly detectors ignore client-specific information.
 
 ## Key Contributions
-1. 
-2. 
-3. 
+1.  **Client-Specific Anomaly Detection:** Proposes training one-class classifiers for each client (or using client-specific thresholds).
+2.  **Generic vs. Face Features:** Shows that CNNs trained for generic object recognition are better for PAD than those trained for Face Recognition (which discard texture details).
 
 ## Methodology
 ### Architecture
-*Describe the model/approach*
-
+- **Feature Extractor:** Pre-trained CNN (ImageNet).
+- **Classifier:** Client-specific One-Class SVM or GMM.
+- **Decision:** Client-specific thresholds.
 
 ### Key Techniques
-- 
-- 
-
-### Novel Components
-*What's new/different from prior work?*
-
+- **One-Class Classification:** Modeling the "live" class distribution.
+- **Client-Specific Modeling:** Personalizing the detector.
 
 ## Experiments
 ### Datasets Used
-- 
-- 
-
-### Results
-*Key metrics and performance*
-
-| Dataset | Metric | Result | Baseline |
-|---------|--------|--------|----------|
-|         |        |        |          |
-
-### Ablation Studies
-*What components were tested?*
-
-
-## Strengths
-- 
-- 
-
-## Limitations
-- 
-- 
+- Standard PAD datasets.
 
 ## Critical Analysis
-*My thoughts on the paper*
-
 ### What Works Well
-- 
-
-### Concerns/Criticisms
-- 
-
-### Missing Pieces
-- 
+- Personalization (Client-Specific) is a powerful way to reduce intra-class variance of the "live" class.
 
 ## Relevance to My Work
-*How does this relate to my PAD research?*
-
-### Direct Applications
-- 
-
 ### Ideas Sparked
-- 
-
-### Techniques to Borrow
-- 
-
-## Implementation Notes
-*Anything useful for implementing this*
-
-### Architecture Details
-- 
-
-### Hyperparameters
-- 
-
-### Training Details
-- 
-
-### Reproducibility Notes
-- 
-
-## Related Papers
-### Cited By This Paper
-- [[]]
-
-### Papers That Cite This
-- [[]]
-
-### Similar Approaches
-- [[]]
-
-## Questions & Future Directions
-### Open Questions
-- 
-
-### Extension Ideas
-- 
-
-### Experimental Ideas
-- 
-
-## Notes & Highlights
-### Key Quotes
-> 
-
-### Figures to Remember
-- Figure X: 
-
-### Equations
-$$
-$$
-
-## Meeting Notes
-*Discussions with advisor/colleagues about this paper*
-
-
-## Action Items
-- [ ] 
-- [ ] 
-
----
-**Reading Progress:** 
-- [ ] Abstract
-- [ ] Introduction
-- [ ] Related Work
-- [ ] Methodology
-- [ ] Experiments
-- [ ] Conclusion
-- [ ] Supplementary Material
+- Personalization is often overlooked in general PAD but is critical for high-security applications (e.g., phone unlock).

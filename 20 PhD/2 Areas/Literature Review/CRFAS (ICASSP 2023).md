@@ -1,155 +1,49 @@
 ---
 aliases: []
-tags: [paper, pad, deep-fas-survey, domain-generalization]
-authors: 
+tags: [paper, pad, deep-fas-survey, domain-generalization, causal-learning]
+authors: Guanghao Zheng, Yuchen Liu, Wenrui Dai, Chenglin Li, Junni Zou, Hongkai Xiong
 year: ICASSP 2023
-venue: 
-paper_url: [https://arxiv.org/abs/2303.13662](https://ieeexplore.ieee.org/document/10095329
+venue: ICASSP
+paper_url: https://ieeexplore.ieee.org/document/10096866
 code_url: 
-status: "📚 To Read"
+status: "✅ Read"
 dateadded: 2025-11-26
-dateread: 
+dateread: 2025-11-26
 priority: medium
 ---
 
 ## Quick Summary
-**Method:** CRFAS
+**Method:** CRFAS (Causal Representations for Face Anti-Spoofing)
 - **Backbone:** ResNet18
-- **Loss:** BCE loss, Domain loss,  asymmetric triplet loss, Counterfactual Feature Generation loss
+- **Loss:** Supervised Contrastive Loss (for counterfactual generation), Backdoor Adjustment
+- **Input:** RGB
 - **Static/Dynamic:** S
 
-
-
 ## Problem Statement
-What problem does this paper address?
-
+Existing DG methods (adversarial/metric learning) are flawed from a causal view. Domain-invariant features don't generalize well theoretically.
 
 ## Key Contributions
-1. 
-2. 
-3. 
+1.  **Causal Perspective:** Models FAS data generation via Structural Causal Model (SCM).
+2.  **Backdoor Adjustment:** Extracts causal features using backdoor adjustment without prior assumptions.
+3.  **Counterfactual Feature Generation:** Uses supervised contrastive loss to generate realistic counterfactual features for the adjustment.
 
 ## Methodology
 ### Architecture
-*Describe the model/approach*
-
+- **Causal Feature Extractor:** Learned via backdoor adjustment.
+- **Counterfactual Generator:** Generates counterfactual samples to de-confound the domain influence.
 
 ### Key Techniques
-- 
-- 
-
-### Novel Components
-*What's new/different from prior work?*
-
+- **Structural Causal Model (SCM):** Modeling the causal graph.
+- **Backdoor Adjustment:** A causal inference technique.
 
 ## Experiments
 ### Datasets Used
-- 
-- 
-
-### Results
-*Key metrics and performance*
-
-| Dataset | Metric | Result | Baseline |
-|---------|--------|--------|----------|
-|         |        |        |          |
-
-### Ablation Studies
-*What components were tested?*
-
-
-## Strengths
-- 
-- 
-
-## Limitations
-- 
-- 
+- Standard cross-domain protocols (OULU-NPU, CASIA-FASD, etc.).
 
 ## Critical Analysis
-*My thoughts on the paper*
-
 ### What Works Well
-- 
-
-### Concerns/Criticisms
-- 
-
-### Missing Pieces
-- 
+- Causal inference is a theoretically grounded way to handle domain shifts, moving beyond simple statistical alignment.
 
 ## Relevance to My Work
-*How does this relate to my PAD research?*
-
-### Direct Applications
-- 
-
 ### Ideas Sparked
-- 
-
-### Techniques to Borrow
-- 
-
-## Implementation Notes
-*Anything useful for implementing this*
-
-### Architecture Details
-- 
-
-### Hyperparameters
-- 
-
-### Training Details
-- 
-
-### Reproducibility Notes
-- 
-
-## Related Papers
-### Cited By This Paper
-- [[]]
-
-### Papers That Cite This
-- [[]]
-
-### Similar Approaches
-- [[]]
-
-## Questions & Future Directions
-### Open Questions
-- 
-
-### Extension Ideas
-- 
-
-### Experimental Ideas
-- 
-
-## Notes & Highlights
-### Key Quotes
-> 
-
-### Figures to Remember
-- Figure X: 
-
-### Equations
-$$
-$$
-
-## Meeting Notes
-*Discussions with advisor/colleagues about this paper*
-
-
-## Action Items
-- [ ] 
-- [ ] 
-
----
-**Reading Progress:** 
-- [ ] Abstract
-- [ ] Introduction
-- [ ] Related Work
-- [ ] Methodology
-- [ ] Experiments
-- [ ] Conclusion
-- [ ] Supplementary Material
+- Causal modeling might be the next step after standard DG.

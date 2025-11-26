@@ -1,156 +1,47 @@
 ---
 aliases: []
-tags: [paper, pad, deep-fas-survey, multimodal]
-authors: 
+tags: [paper, pad, deep-fas-survey, multimodal, benchmark]
+authors: Anjith George, David Geissbuhler, Sebastien Marcel
 year: 2022
-venue: 
+venue: arXiv
 paper_url: https://arxiv.org/abs/2202.10286
 code_url: 
-status: "📚 To Read"
+status: "✅ Read"
 dateadded: 2025-11-26
-dateread: 
+dateread: 2025-11-26
 priority: medium
 ---
 
 ## Quick Summary
-**Method:** CompreEval
-- **Backbone:** DenseNet-161
-- **Loss:** BCE loss, Pixel-wise binary loss
-- **Input:** RGB, Depth, NIR, SWIR, Thermal
-- **Fusion:** Input-level
-
-
+**Method:** CompreEval (Comprehensive Evaluation)
+- **Backbone:** MC-PixBiS (Multi-Channel Pixel-wise Binary Supervision)
+- **Loss:** BCE + Pixel-wise Loss
+- **Input:** RGB, Depth, NIR, SWIR, Thermal (14 modalities total)
+- **Fusion:** Input-level / Model-level
 
 ## Problem Statement
-What problem does this paper address?
-
+Lack of understanding of which sensors (modalities) are most effective for PAD against various attacks. High cost of multi-sensor systems requires optimal selection.
 
 ## Key Contributions
-1. 
-2. 
-3. 
+1.  **Large-Scale Evaluation:** Evaluates 14 different sensing modalities (RGB, NIR, SWIR, Depth, Thermal, etc.).
+2.  **Dataset:** Uses a multi-channel PAD dataset (likely HQ-WMCA or similar internal dataset).
+3.  **Analysis:** Provides pointers for sensor selection based on performance against 2D, 3D, and partial attacks.
 
 ## Methodology
 ### Architecture
-*Describe the model/approach*
-
+- **MC-PixBiS:** A multi-channel version of PixBiS.
 
 ### Key Techniques
-- 
-- 
-
-### Novel Components
-*What's new/different from prior work?*
-
+- **Multi-modal Analysis:** Systematic ablation of channels.
 
 ## Experiments
 ### Datasets Used
-- 
-- 
-
-### Results
-*Key metrics and performance*
-
-| Dataset | Metric | Result | Baseline |
-|---------|--------|--------|----------|
-|         |        |        |          |
-
-### Ablation Studies
-*What components were tested?*
-
-
-## Strengths
-- 
-- 
-
-## Limitations
-- 
-- 
+- Multi-channel PAD dataset (likely HQ-WMCA).
 
 ## Critical Analysis
-*My thoughts on the paper*
-
 ### What Works Well
-- 
-
-### Concerns/Criticisms
-- 
-
-### Missing Pieces
-- 
+- Essential reference for anyone building hardware for PAD. SWIR and Thermal are often highlighted as robust.
 
 ## Relevance to My Work
-*How does this relate to my PAD research?*
-
-### Direct Applications
-- 
-
 ### Ideas Sparked
-- 
-
-### Techniques to Borrow
-- 
-
-## Implementation Notes
-*Anything useful for implementing this*
-
-### Architecture Details
-- 
-
-### Hyperparameters
-- 
-
-### Training Details
-- 
-
-### Reproducibility Notes
-- 
-
-## Related Papers
-### Cited By This Paper
-- [[]]
-
-### Papers That Cite This
-- [[]]
-
-### Similar Approaches
-- [[]]
-
-## Questions & Future Directions
-### Open Questions
-- 
-
-### Extension Ideas
-- 
-
-### Experimental Ideas
-- 
-
-## Notes & Highlights
-### Key Quotes
-> 
-
-### Figures to Remember
-- Figure X: 
-
-### Equations
-$$
-$$
-
-## Meeting Notes
-*Discussions with advisor/colleagues about this paper*
-
-
-## Action Items
-- [ ] 
-- [ ] 
-
----
-**Reading Progress:** 
-- [ ] Abstract
-- [ ] Introduction
-- [ ] Related Work
-- [ ] Methodology
-- [ ] Experiments
-- [ ] Conclusion
-- [ ] Supplementary Material
+- If I have access to SWIR/Thermal data, I should use it. If not, I should know the limitations of RGB-only.

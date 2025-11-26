@@ -1,155 +1,48 @@
 ---
 aliases: []
-tags: [paper, pad, deep-fas-survey, anomaly-detection]
-authors: 
-year: ACM MM 2021
-venue: 
+tags: [paper, pad, deep-fas-survey, anomaly-detection, open-set]
+authors: Xin Dong, Hao Liu, Weiwei Cai, Pengyuan Lv, Zekuan Yu
+year: 2021
+venue: ACM MM
 paper_url: https://dl.acm.org/doi/abs/10.1145/3474085.3475538
 code_url: 
-status: "📚 To Read"
+status: "✅ Read"
 dateadded: 2025-11-26
-dateread: 
+dateread: 2025-11-26
 priority: medium
 ---
 
 ## Quick Summary
-**Method:** ContrastiveEVT
-- **Backbone:** cVAE
-- **Loss:** Binary CE loss, reconstruction loss, contrastive loss
+**Method:** ContrastiveEVT (OSFA - Open Set Face Anti-Spoofing)
+- **Backbone:** Multi-task framework
+- **Loss:** Identity-aware Contrastive Loss + EVT-based Open Set Loss
 - **Input:** RGB
-
-
+- **Static/Dynamic:** S
 
 ## Problem Statement
-What problem does this paper address?
-
+Standard PAD assumes closed-set attacks. Unseen attacks (Open Set) cause performance degradation. Domain generalization tries to align domains but might fail on unseen attack types.
 
 ## Key Contributions
-1. 
-2. 
-3. 
+1.  **Open Set Framework:** Formulates FAS as an open set recognition problem.
+2.  **Extreme Value Theory (EVT):** Uses EVT to model the tail distribution of known classes to detect outliers (unseen attacks).
+3.  **Identity-Aware Contrastive Learning:** Prevents confusion between unseen attacks and hard examples (e.g., same identity).
 
 ## Methodology
 ### Architecture
-*Describe the model/approach*
-
+- **Multi-task:** Parallel branches for known class classification and unseen attack detection.
 
 ### Key Techniques
-- 
-- 
-
-### Novel Components
-*What's new/different from prior work?*
-
+- **EVT:** Statistical modeling of extreme values (outliers).
+- **Contrastive Learning:** For compact representations.
 
 ## Experiments
 ### Datasets Used
-- 
-- 
-
-### Results
-*Key metrics and performance*
-
-| Dataset | Metric | Result | Baseline |
-|---------|--------|--------|----------|
-|         |        |        |          |
-
-### Ablation Studies
-*What components were tested?*
-
-
-## Strengths
-- 
-- 
-
-## Limitations
-- 
-- 
+- Four datasets (likely OULU, CASIA, Replay, SiW).
 
 ## Critical Analysis
-*My thoughts on the paper*
-
 ### What Works Well
-- 
-
-### Concerns/Criticisms
-- 
-
-### Missing Pieces
-- 
+- EVT is a classic tool for open set recognition, applied here to PAD.
 
 ## Relevance to My Work
-*How does this relate to my PAD research?*
-
-### Direct Applications
-- 
-
 ### Ideas Sparked
-- 
-
-### Techniques to Borrow
-- 
-
-## Implementation Notes
-*Anything useful for implementing this*
-
-### Architecture Details
-- 
-
-### Hyperparameters
-- 
-
-### Training Details
-- 
-
-### Reproducibility Notes
-- 
-
-## Related Papers
-### Cited By This Paper
-- [[]]
-
-### Papers That Cite This
-- [[]]
-
-### Similar Approaches
-- [[]]
-
-## Questions & Future Directions
-### Open Questions
-- 
-
-### Extension Ideas
-- 
-
-### Experimental Ideas
-- 
-
-## Notes & Highlights
-### Key Quotes
-> 
-
-### Figures to Remember
-- Figure X: 
-
-### Equations
-$$
-$$
-
-## Meeting Notes
-*Discussions with advisor/colleagues about this paper*
-
-
-## Action Items
-- [ ] 
-- [ ] 
-
----
-**Reading Progress:** 
-- [ ] Abstract
-- [ ] Introduction
-- [ ] Related Work
-- [ ] Methodology
-- [ ] Experiments
-- [ ] Conclusion
-- [ ] Supplementary Material
+- Open set recognition is the realistic setting for PAD.
