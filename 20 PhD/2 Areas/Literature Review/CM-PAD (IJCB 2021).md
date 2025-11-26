@@ -1,28 +1,28 @@
 ---
 aliases: []
-tags: [paper, pad, deep-fas-survey, zero-shot]
-authors: 
-year: IJCB 2021
-venue: 
+tags: [paper, pad, deep-fas-survey, continual-learning, meta-learning]
+authors: Daniel Pérez-Cabo, David Jiménez-Cabello, Artur Costa-Pazo, Roberto Javier López-Sastre
+year: IJCB 2020
+venue: IJCB
 paper_url: https://ieeexplore.ieee.org/document/9304920
 code_url: 
-status: "📚 To Read"
+status: "✅ Read"
 dateadded: 2025-11-26
-dateread: 
+dateread: 2025-11-26
 priority: medium
 ---
 
+> [!WARNING]
+> This seems to be a duplicate of `CM-PAD (IJCB 2020).md`. The URL and content match the 2020 paper.
+
 ## Quick Summary
-**Method:** CM-PAD
+**Method:** CM-PAD (Continual Meta-Learning PAD)
 - **Backbone:** DepthNet, ResNet
-- **Loss:** Binary CE loss, Depth loss, Gradient alignment
+- **Loss:** Meta-learning loss
 - **Input:** RGB
 
-
-
 ## Problem Statement
-What problem does this paper address?
-
+(See `CM-PAD (IJCB 2020).md`)
 
 ## Key Contributions
 1. 

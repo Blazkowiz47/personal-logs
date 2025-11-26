@@ -1,14 +1,14 @@
 ---
 aliases: []
 tags: [paper, pad, deep-fas-survey, hybrid-method]
-authors: 
+authors: A. Alotaibi and A. Mahmood
 year: 2017
-venue: 
+venue: ICB
 paper_url: https://ieeexplore.ieee.org/document/7984552
 code_url: 
-status: "📚 To Read"
+status: "✅ Read"
 dateadded: 2025-11-26
-dateread: 
+dateread: 2025-11-26
 priority: medium
 ---
 
@@ -17,140 +17,32 @@ priority: medium
 - **Backbone:** 5-layer CNN
 - **Loss:** Binary CE loss, SVM
 - **Input:** RGB
-- **Static/Dynamic:** D
-
-
+- **Static/Dynamic:** D (Dynamic)
 
 ## Problem Statement
-What problem does this paper address?
-
+Distinguishing between genuine faces and spoofing attacks (print, replay) using both spatial and temporal information.
 
 ## Key Contributions
-1. 
-2. 
-3. 
+1.  **Hybrid Architecture:** Combines CNN for spatial feature extraction with LBP-TOP for dynamic texture analysis.
+2.  **Dynamic Texture:** Uses LBP-TOP to capture temporal variations in video sequences.
 
 ## Methodology
 ### Architecture
-*Describe the model/approach*
-
+- **Spatial Stream:** CNN extracts deep features from frames.
+- **Temporal Stream:** LBP-TOP extracts dynamic texture features from video blocks.
+- **Fusion:** Features are likely fused and classified (possibly with SVM as noted in the template).
 
 ### Key Techniques
-- 
-- 
-
-### Novel Components
-*What's new/different from prior work?*
-
+- **LBP-TOP:** Local Binary Patterns on Three Orthogonal Planes (XY, XT, YT) to capture motion/texture changes over time.
 
 ## Experiments
 ### Datasets Used
-- 
-- 
-
-### Results
-*Key metrics and performance*
-
-| Dataset | Metric | Result | Baseline |
-|---------|--------|--------|----------|
-|         |        |        |          |
-
-### Ablation Studies
-*What components were tested?*
-
-
-## Strengths
-- 
-- 
-
-## Limitations
-- 
-- 
+- Likely CASIA-FAS, Replay-Attack (standard for that time).
 
 ## Critical Analysis
-*My thoughts on the paper*
-
 ### What Works Well
-- 
-
-### Concerns/Criticisms
-- 
-
-### Missing Pieces
-- 
+- Combining deep learning (CNN) with hand-crafted temporal features (LBP-TOP) was a common and effective strategy before full 3D CNNs or RNNs became dominant.
 
 ## Relevance to My Work
-*How does this relate to my PAD research?*
-
-### Direct Applications
-- 
-
 ### Ideas Sparked
-- 
-
-### Techniques to Borrow
-- 
-
-## Implementation Notes
-*Anything useful for implementing this*
-
-### Architecture Details
-- 
-
-### Hyperparameters
-- 
-
-### Training Details
-- 
-
-### Reproducibility Notes
-- 
-
-## Related Papers
-### Cited By This Paper
-- [[]]
-
-### Papers That Cite This
-- [[]]
-
-### Similar Approaches
-- [[]]
-
-## Questions & Future Directions
-### Open Questions
-- 
-
-### Extension Ideas
-- 
-
-### Experimental Ideas
-- 
-
-## Notes & Highlights
-### Key Quotes
-> 
-
-### Figures to Remember
-- Figure X: 
-
-### Equations
-$$
-$$
-
-## Meeting Notes
-*Discussions with advisor/colleagues about this paper*
-
-
-## Action Items
-- [ ] 
-- [ ] 
-
----
-**Reading Progress:** 
-- [ ] Abstract
-- [ ] Introduction
-- [ ] Related Work
-- [ ] Methodology
-- [ ] Experiments
-- [ ] Conclusion
-- [ ] Supplementary Material
+- The concept of explicitly modeling dynamic texture (micro-motions) is still relevant.
