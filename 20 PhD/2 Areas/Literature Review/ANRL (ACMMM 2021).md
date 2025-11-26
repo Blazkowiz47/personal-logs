@@ -1,9 +1,9 @@
 ---
 aliases: []
 tags: [paper, pad, deep-fas-survey, domain-generalization]
-authors: 
+authors: Shubao Liu, Ke-Yue Zhang, Taiping Yao, Mingwei Bi, Shouhong Ding, Jilin Li, Feiyue Huang, Lizhuang Ma
 year: ACMMM 2021
-venue: 
+venue: ACMMM
 paper_url: https://arxiv.org/abs/2108.02667
 code_url: 
 status: "📚 To Read"
@@ -13,143 +13,42 @@ priority: medium
 ---
 
 ## Quick Summary
-**Method:** ANRL
+**Method:** ANRL (Adaptive Normalized Representation Learning)
 - **Backbone:** DepthNet
 - **Loss:** Binary CE loss, Depth loss, Inter-Domain Compatible Loss, Inter-Class Separable Loss
 - **Static/Dynamic:** S
 
-
+This paper proposes an Adaptive Normalized Representation Learning (ANRL) framework for domain generalization in FAS. It focuses on the feature normalization process, adaptively selecting normalization methods based on inputs to learn domain-agnostic features. It also introduces Dual Calibration Constraints to ensure inter-domain compatibility and inter-class separability.
 
 ## Problem Statement
-What problem does this paper address?
-
+Most DG methods focus on feature alignment but overlook the impact of normalization in the feature extraction process. Improper normalization can hinder the learning of generalized representations across diverse domains.
 
 ## Key Contributions
-1. 
-2. 
-3. 
+1.  **ANRL Framework:** Adaptively selects feature normalization methods to learn domain-agnostic and discriminative representations.
+2.  **Dual Calibration Constraints:**
+    -   **Inter-Domain Compatible Loss:** Aligns features from different domains.
+    -   **Inter-Class Separable Loss:** Ensures separation between bonafide and spoof classes.
+3.  **Performance:** Demonstrates effectiveness against SOTA competitors on standard benchmarks.
 
 ## Methodology
 ### Architecture
-*Describe the model/approach*
-
+-   **Backbone:** DepthNet (likely based on ResNet or similar).
+-   **Normalization:** Adaptive selection mechanism (likely switching between Batch Norm, Instance Norm, etc.).
 
 ### Key Techniques
-- 
-- 
-
-### Novel Components
-*What's new/different from prior work?*
-
+-   **Adaptive Normalization:** Dynamically adjusting normalization statistics to handle domain shifts.
+-   **Dual Calibration:** Loss functions designed to enforce domain invariance and class discriminability simultaneously.
 
 ## Experiments
 ### Datasets Used
-- 
-- 
+-   Standard DG protocols (OULU-NPU, CASIA-MFSD, Idiap Replay-Attack, MSU-MFSD).
 
 ### Results
-*Key metrics and performance*
-
-| Dataset | Metric | Result | Baseline |
-|---------|--------|--------|----------|
-|         |        |        |          |
-
-### Ablation Studies
-*What components were tested?*
-
-
-## Strengths
-- 
-- 
-
-## Limitations
-- 
-- 
+-   Achieves competitive or state-of-the-art performance on cross-domain testing.
 
 ## Critical Analysis
-*My thoughts on the paper*
-
 ### What Works Well
-- 
-
-### Concerns/Criticisms
-- 
-
-### Missing Pieces
-- 
+-   Focusing on normalization is a unique angle compared to standard adversarial learning approaches.
 
 ## Relevance to My Work
-*How does this relate to my PAD research?*
-
-### Direct Applications
-- 
-
-### Ideas Sparked
-- 
-
-### Techniques to Borrow
-- 
-
-## Implementation Notes
-*Anything useful for implementing this*
-
-### Architecture Details
-- 
-
-### Hyperparameters
-- 
-
-### Training Details
-- 
-
-### Reproducibility Notes
-- 
-
-## Related Papers
-### Cited By This Paper
-- [[]]
-
-### Papers That Cite This
-- [[]]
-
-### Similar Approaches
-- [[]]
-
-## Questions & Future Directions
-### Open Questions
-- 
-
-### Extension Ideas
-- 
-
-### Experimental Ideas
-- 
-
-## Notes & Highlights
-### Key Quotes
-> 
-
-### Figures to Remember
-- Figure X: 
-
-### Equations
-$$
-$$
-
-## Meeting Notes
-*Discussions with advisor/colleagues about this paper*
-
-
-## Action Items
-- [ ] 
-- [ ] 
-
----
-**Reading Progress:** 
-- [ ] Abstract
-- [ ] Introduction
-- [ ] Related Work
-- [ ] Methodology
-- [ ] Experiments
-- [ ] Conclusion
-- [ ] Supplementary Material
+-   **Ideas Sparked:** Could adaptive normalization be useful for our "Filtered PAD" project? Maybe different frequency bands require different normalization strategies?

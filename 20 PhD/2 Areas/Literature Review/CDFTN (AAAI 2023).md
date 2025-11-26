@@ -1,9 +1,9 @@
 ---
 aliases: []
 tags: [paper, pad, deep-fas-survey, domain-adaptation]
-authors: 
+authors: Haixiao Yue, Keyao Wang, Guosheng Zhang, Haocheng Feng, Junyu Han, Errui Ding, Jingdong Wang
 year: AAAI 2023
-venue: 
+venue: AAAI
 paper_url: https://arxiv.org/abs/2212.03651
 code_url: 
 status: "📚 To Read"
@@ -13,143 +13,41 @@ priority: medium
 ---
 
 ## Quick Summary
-**Method:** CDFTN
+**Method:** CDFTN (Cyclically Disentangled Feature Translation Network)
 - **Backbone:** ResNet18
 - **Loss:** CE Loss, Reconstruction loss, triplet loss
 - **Static/Dynamic:** S
 
-
+This paper proposes a domain adaptation method that generates pseudo-labeled samples by disentangling "liveness features" (domain-invariant) from "content features" (domain-specific). It uses a cyclic translation process to synthesize images that look like the target domain but preserve the liveness information from the source, enabling robust training on unlabeled target domains.
 
 ## Problem Statement
-What problem does this paper address?
-
+Domain adaptation in FAS is challenging because domain differences (illumination, camera, etc.) are often entangled with liveness features. Existing methods struggle to achieve perfect disentanglement, leading to poor generalization on unseen scenarios.
 
 ## Key Contributions
-1. 
-2. 
-3. 
+1.  **CDFTN:** A novel framework for cross-scenario FAS that cyclically disentangles liveness and content features.
+2.  **Pseudo-Label Generation:** Synthesizes high-quality pseudo-labeled samples combining source liveness with target content.
+3.  **Multi-Target Adaptation:** Extends the framework to leverage data from multiple unlabeled target domains simultaneously.
 
 ## Methodology
 ### Architecture
-*Describe the model/approach*
-
+-   **Generators:** Two generators for translating features between domains.
+-   **Discriminators:** Domain discriminators to enforce indistinguishability of generated features.
+-   **Classifier:** A robust classifier trained on the synthetic pseudo-labeled images.
 
 ### Key Techniques
-- 
-- 
-
-### Novel Components
-*What's new/different from prior work?*
-
+-   **Cyclic Consistency:** Ensures that translating features to the target domain and back recovers the original features.
+-   **Domain Adversarial Training:** Used to disentangle liveness features (shared) from content features (specific).
 
 ## Experiments
 ### Datasets Used
-- 
-- 
+-   Standard cross-domain protocols (e.g., OULU-NPU, CASIA-MFSD, Idiap Replay-Attack, MSU-MFSD).
 
 ### Results
-*Key metrics and performance*
-
-| Dataset | Metric | Result | Baseline |
-|---------|--------|--------|----------|
-|         |        |        |          |
-
-### Ablation Studies
-*What components were tested?*
-
-
-## Strengths
-- 
-- 
-
-## Limitations
-- 
-- 
+-   Outperforms state-of-the-art domain adaptation methods on several public benchmarks.
 
 ## Critical Analysis
-*My thoughts on the paper*
-
 ### What Works Well
-- 
-
-### Concerns/Criticisms
-- 
-
-### Missing Pieces
-- 
+-   The idea of synthesizing training samples that "look" like the target domain is powerful for reducing the domain gap.
 
 ## Relevance to My Work
-*How does this relate to my PAD research?*
-
-### Direct Applications
-- 
-
-### Ideas Sparked
-- 
-
-### Techniques to Borrow
-- 
-
-## Implementation Notes
-*Anything useful for implementing this*
-
-### Architecture Details
-- 
-
-### Hyperparameters
-- 
-
-### Training Details
-- 
-
-### Reproducibility Notes
-- 
-
-## Related Papers
-### Cited By This Paper
-- [[]]
-
-### Papers That Cite This
-- [[]]
-
-### Similar Approaches
-- [[]]
-
-## Questions & Future Directions
-### Open Questions
-- 
-
-### Extension Ideas
-- 
-
-### Experimental Ideas
-- 
-
-## Notes & Highlights
-### Key Quotes
-> 
-
-### Figures to Remember
-- Figure X: 
-
-### Equations
-$$
-$$
-
-## Meeting Notes
-*Discussions with advisor/colleagues about this paper*
-
-
-## Action Items
-- [ ] 
-- [ ] 
-
----
-**Reading Progress:** 
-- [ ] Abstract
-- [ ] Introduction
-- [ ] Related Work
-- [ ] Methodology
-- [ ] Experiments
-- [ ] Conclusion
-- [ ] Supplementary Material
+-   **Direct Application:** Useful for scenarios where we have a labeled source dataset (e.g., OULU) and want to deploy on a new camera setup (target) without labeling new data.
