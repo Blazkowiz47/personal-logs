@@ -3,7 +3,7 @@ aliases: []
 tags: [paper, pad, deep-fas-survey, domain-generalization]
 authors: 
 year: ICME 2022
-venue: 
+venue: ICME
 paper_url: https://ieeexplore.ieee.org/document/9859783
 code_url: 
 status: "📚 To Read"
@@ -11,6 +11,9 @@ dateadded: 2025-11-26
 dateread: 
 priority: medium
 ---
+
+> [!WARNING]
+> Could not retrieve abstract/summary automatically. Please check the PDF link.
 
 ## Quick Summary
 **Method:** CIFAS

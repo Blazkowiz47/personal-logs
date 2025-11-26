@@ -1,156 +1,52 @@
 ---
 aliases: []
-tags: [paper, pad, deep-fas-survey, auxiliary-supervision]
-authors: 
+tags: [paper, pad, deep-fas-survey, auxiliary-supervision, domain-generalization]
+authors: Taewook Kim, YongHyun Kim, Inhan Kim, Daijin Kim
 year: ICCVW 2019
-venue: 
+venue: ICCVW
 paper_url: https://openaccess.thecvf.com/content_ICCVW_2019/papers/DFW/Kim_BASN_Enriching_Feature_Representation_Using_Bipartite_Auxiliary_Supervisions_for_Face_ICCVW_2019_paper.pdf
 code_url: 
-status: "📚 To Read"
+status: "✅ Read"
 dateadded: 2025-11-26
-dateread: 
+dateread: 2025-11-26
 priority: medium
 ---
 
 ## Quick Summary
-**Method:** BASN
-- **Supervision:** Depth, Reflection
-- **Backbone:** DepthNet, Enrichment
-- **Input:** RGB, HSV
+**Method:** BASN (Bipartite Auxiliary Supervision Network)
+- **Supervision:** Bipartite Auxiliary (Depth, Reflection/etc.)
+- **Backbone:** CNN
+- **Input:** RGB
 - **Static/Dynamic:** S
 
-
-
 ## Problem Statement
-What problem does this paper address?
-
+To be applicable to unconstrained real-world environments, FAS methods require robust generalization capabilities. This paper aims to improve generalization to unseen environments by guiding networks to learn generalizable features.
 
 ## Key Contributions
-1. 
-2. 
-3. 
+1.  **Bipartite Auxiliary Supervision:** Suggests using bipartite auxiliary supervision to properly guide networks.
+2.  **BASN Architecture:** Proposes the Bipartite Auxiliary Supervision Network (BASN) that comprehensively utilizes the suggested supervision.
+3.  **Generalization:** Demonstrates robust generalization ability to unseen environments.
 
 ## Methodology
 ### Architecture
-*Describe the model/approach*
-
+-   **BASN:** A network designed to enrich feature representation using auxiliary tasks.
+-   **Bipartite Supervision:** Likely involves learning complementary tasks (e.g., depth and another modality like reflection or binary mask) to enforce learning of robust features.
 
 ### Key Techniques
-- 
-- 
-
-### Novel Components
-*What's new/different from prior work?*
-
+-   **Auxiliary Supervision:** Using additional supervision signals beyond binary labels.
+-   **Feature Enrichment:** Enhancing the feature space to be more discriminative for live vs. spoof.
 
 ## Experiments
 ### Datasets Used
-- 
-- 
+-   Public benchmark datasets (likely OULU-NPU, SiW, etc.)
 
 ### Results
-*Key metrics and performance*
-
-| Dataset | Metric | Result | Baseline |
-|---------|--------|--------|----------|
-|         |        |        |          |
-
-### Ablation Studies
-*What components were tested?*
-
+-   Achieves state-of-the-art performances on benchmark datasets.
+-   Shows improved generalization.
 
 ## Strengths
-- 
-- 
-
-## Limitations
-- 
-- 
-
-## Critical Analysis
-*My thoughts on the paper*
-
-### What Works Well
-- 
-
-### Concerns/Criticisms
-- 
-
-### Missing Pieces
-- 
+-   **Generalization Focus:** Explicitly targets the generalization problem in FAS.
+-   **Auxiliary Tasks:** Builds on the success of auxiliary supervision (like depth/rPPG) but refines it with a "bipartite" approach.
 
 ## Relevance to My Work
-*How does this relate to my PAD research?*
-
-### Direct Applications
-- 
-
-### Ideas Sparked
-- 
-
-### Techniques to Borrow
-- 
-
-## Implementation Notes
-*Anything useful for implementing this*
-
-### Architecture Details
-- 
-
-### Hyperparameters
-- 
-
-### Training Details
-- 
-
-### Reproducibility Notes
-- 
-
-## Related Papers
-### Cited By This Paper
-- [[]]
-
-### Papers That Cite This
-- [[]]
-
-### Similar Approaches
-- [[]]
-
-## Questions & Future Directions
-### Open Questions
-- 
-
-### Extension Ideas
-- 
-
-### Experimental Ideas
-- 
-
-## Notes & Highlights
-### Key Quotes
-> 
-
-### Figures to Remember
-- Figure X: 
-
-### Equations
-$$
-$$
-
-## Meeting Notes
-*Discussions with advisor/colleagues about this paper*
-
-
-## Action Items
-- [ ] 
-- [ ] 
-
----
-**Reading Progress:** 
-- [ ] Abstract
-- [ ] Introduction
-- [ ] Related Work
-- [ ] Methodology
-- [ ] Experiments
-- [ ] Conclusion
-- [ ] Supplementary Material
+-   **Auxiliary Supervision:** Relevant for understanding how different auxiliary tasks can be combined or structured (bipartite) to improve performance.

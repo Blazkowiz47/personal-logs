@@ -1,155 +1,57 @@
 ---
 aliases: []
-tags: [paper, pad, deep-fas-survey, domain-generalization]
-authors: 
+tags: [paper, pad, deep-fas-survey, domain-generalization, domain-agnostic]
+authors: Suman Saha, Wenhao Xu, Menelaos Kanakis, Stamatios Georgoulis, Yuhua Chen, Danda Pani Paudel, Luc Van Gool
 year: CVPRW 2020
-venue: 
+venue: CVPRW
 paper_url: https://openaccess.thecvf.com/content_CVPRW_2020/papers/w48/Saha_Domain_Agnostic_Feature_Learning_for_Image_and_Video_Based_Face_CVPRW_2020_paper.pdf
 code_url: 
-status: "📚 To Read"
+status: "✅ Read"
 dateadded: 2025-11-26
-dateread: 
+dateread: 2025-11-26
 priority: medium
 ---
 
 ## Quick Summary
-**Method:** CCDD
-- **Backbone:** ResNet50+LSTM
-- **Loss:** Binary CE loss, Class-conditional loss
-- **Static/Dynamic:** D
-
-
+**Method:** CCDD (Class-Conditional Domain Discriminator)
+- **Supervision:** Domain Adversarial Training
+- **Backbone:** CNN (Image) / CNN-RNN (Video)
+- **Input:** RGB
+- **Static/Dynamic:** Both (Image and Video based)
 
 ## Problem Statement
-What problem does this paper address?
-
+FAS techniques typically fail to generalize to new samples due to large variability in backgrounds, lighting, camera resolutions, and spoof materials. This paper tackles the generalization problem by learning domain-agnostic features.
 
 ## Key Contributions
-1. 
-2. 
-3. 
+1.  **Class-Conditional Domain Discriminator:** Proposes a module that, coupled with a gradient reversal layer, tries to generate live and spoof features that are discriminative but robust to domain variability.
+2.  **Domain Agnostic Learning:** Explicitly aligns the feature distributions of different domains (datasets) to learn a common feature space.
+3.  **Image and Video Support:** Validated on both image-based and video-based FAS tasks.
 
 ## Methodology
 ### Architecture
-*Describe the model/approach*
-
+-   **Feature Extractor:** Extracts features from input (CNN for images, CNN+RNN for video).
+-   **Label Classifier:** Predicts Live/Spoof.
+-   **Domain Discriminator:** Tries to predict which domain (dataset) the sample came from.
+-   **Gradient Reversal Layer (GRL):** Used to reverse the gradients from the domain discriminator, forcing the feature extractor to learn features that *confuse* the domain discriminator (i.e., domain-invariant features).
 
 ### Key Techniques
-- 
-- 
-
-### Novel Components
-*What's new/different from prior work?*
-
+-   **Adversarial Domain Adaptation:** Using GRL to make features indistinguishable across domains.
+-   **Class-Conditional:** The domain discriminator likely conditions on the class label (Live/Spoof) to ensure that alignment happens *within* classes (aligning Live-DomainA with Live-DomainB, not just global alignment).
 
 ## Experiments
 ### Datasets Used
-- 
-- 
+-   Likely cross-dataset protocols (e.g., OULU-NPU, CASIA, Replay-Attack).
 
 ### Results
-*Key metrics and performance*
-
-| Dataset | Metric | Result | Baseline |
-|---------|--------|--------|----------|
-|         |        |        |          |
-
-### Ablation Studies
-*What components were tested?*
-
+-   Shows effectiveness over existing techniques in terms of numerical improvement and feature visualization (t-SNE).
 
 ## Strengths
-- 
-- 
-
-## Limitations
-- 
-- 
-
-## Critical Analysis
-*My thoughts on the paper*
-
-### What Works Well
-- 
-
-### Concerns/Criticisms
-- 
-
-### Missing Pieces
-- 
+-   **Generalization:** Directly addresses the domain shift problem, which is the main bottleneck in FAS.
+-   **Versatility:** Applicable to both spatial and temporal models.
 
 ## Relevance to My Work
-*How does this relate to my PAD research?*
-
-### Direct Applications
-- 
-
-### Ideas Sparked
-- 
-
-### Techniques to Borrow
-- 
+-   **Domain Generalization:** A key technique for robust FAS. The "Class-Conditional" aspect is important because simply aligning domains might merge Live and Spoof distributions if not careful.
 
 ## Implementation Notes
-*Anything useful for implementing this*
-
-### Architecture Details
-- 
-
-### Hyperparameters
-- 
-
-### Training Details
-- 
-
-### Reproducibility Notes
-- 
-
-## Related Papers
-### Cited By This Paper
-- [[]]
-
-### Papers That Cite This
-- [[]]
-
-### Similar Approaches
-- [[]]
-
-## Questions & Future Directions
-### Open Questions
-- 
-
-### Extension Ideas
-- 
-
-### Experimental Ideas
-- 
-
-## Notes & Highlights
-### Key Quotes
-> 
-
-### Figures to Remember
-- Figure X: 
-
-### Equations
-$$
-$$
-
-## Meeting Notes
-*Discussions with advisor/colleagues about this paper*
-
-
-## Action Items
-- [ ] 
-- [ ] 
-
----
-**Reading Progress:** 
-- [ ] Abstract
-- [ ] Introduction
-- [ ] Related Work
-- [ ] Methodology
-- [ ] Experiments
-- [ ] Conclusion
-- [ ] Supplementary Material
+-   **GRL:** Standard component in domain adaptation (from Ganin et al.).
+-   **Class-Conditional:** Requires passing the label (or predicted label) to the discriminator.

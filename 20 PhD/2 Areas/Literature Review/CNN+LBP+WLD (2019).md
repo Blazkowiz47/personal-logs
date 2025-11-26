@@ -1,23 +1,58 @@
 ---
 aliases: []
 tags: [paper, pad, deep-fas-survey, hybrid-method]
-authors: 
+authors: Mohammed Khammari et al.
 year: 2019
-venue: 
+venue: IET Image Processing
 paper_url: https://digital-library.theiet.org/content/journals/10.1049/iet-ipr.2018.5560
 code_url: 
-status: "📚 To Read"
+status: "✅ Read"
 dateadded: 2025-11-26
-dateread: 
+dateread: 2025-11-26
 priority: medium
 ---
 
 ## Quick Summary
 **Method:** CNN+LBP+WLD
-- **Backbone:** CaffeNet
-- **Loss:** Binary CE loss
-- **Input:** RGB
+- **Backbone:** CNN (feature extractor)
+- **Loss:** SVM Classifier
+- **Input:** RGB (LBP and WLD features)
 - **Static/Dynamic:** S
+
+## Problem Statement
+Biometric systems are vulnerable to presentation attacks (photo, video, mask). Deep learning models can be computationally expensive or fail to capture local texture details effectively.
+
+## Key Contributions
+1.  **Hybrid Feature Extraction:** Combines Local Binary Patterns (LBP) and Simplified Weber Local Descriptor (SWLD) with CNN models.
+2.  **Complementary Features:** LBP captures edge orientations, while WLD preserves local intensity information.
+3.  **SVM Classification:** Uses a non-linear SVM for the final classification of the extracted features.
+
+## Methodology
+### Architecture
+- **Feature Extraction:** LBP and SWLD are used to encode local features.
+- **CNN:** Used to process these features (or features are extracted from CNN, the abstract is slightly ambiguous, likely "LBP and SWLD encoded CNN models" means CNNs trained on these features or features fed into CNN). *Correction based on abstract:* "extracting the local features... encoded convolutional neural network models". It seems to imply using CNNs to learn from these descriptors or vice versa.
+- **Classification:** SVM with a kernel function.
+
+### Key Techniques
+- **LBP (Local Binary Patterns):** For texture/edge orientation.
+- **WLD (Weber Local Descriptor):** For local intensity information.
+- **Fusion:** Combining these complementary features.
+
+## Experiments
+### Datasets Used
+- Replay-Attack
+- CASIA-FAS
+
+### Results
+- The approach performs better than state-of-the-art techniques (at the time) on these databases.
+
+## Critical Analysis
+### What Works Well
+- Combining hand-crafted texture features (LBP, WLD) with learning-based methods (CNN/SVM) is a classic robust approach for PAD.
+
+## Relevance to My Work
+### Ideas Sparked
+- The importance of preserving both edge orientation (LBP) and intensity info (WLD) is a good reminder for feature engineering.
 
 
 

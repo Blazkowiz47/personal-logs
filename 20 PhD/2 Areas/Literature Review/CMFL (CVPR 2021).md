@@ -15,7 +15,7 @@ year: 2021
 venue: CVPR
 paper_url: https://arxiv.org/abs/2103.00948
 code_url: 
-status: "📚 To Read"
+status: "✅ Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium

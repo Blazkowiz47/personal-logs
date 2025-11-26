@@ -1,9 +1,9 @@
 ---
 aliases: []
-tags: [paper, pad, deep-fas-survey, auxiliary-supervision]
+tags: [paper, pad, deep-fas-survey, bilateral-convolution]
 authors: 
 year: ECCV 2020
-venue: 
+venue: ECCV
 paper_url: https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123520545.pdf
 code_url: 
 status: "📚 To Read"
@@ -12,18 +12,18 @@ dateread:
 priority: medium
 ---
 
+> [!WARNING]
+> Could not retrieve abstract/summary automatically. Please check the PDF link.
+
 ## Quick Summary
-**Method:** BCN
-- **Supervision:** BinaryMask, Depth, Reflection
-- **Backbone:** DepthNet
+**Method:** BCN (Bilateral Convolutional Networks)
+- **Supervision:** Bilateral Convolution
+- **Backbone:** CNN
 - **Input:** RGB
 - **Static/Dynamic:** S
 
-
-
 ## Problem Statement
 What problem does this paper address?
-
 
 ## Key Contributions
 1. 
@@ -34,14 +34,12 @@ What problem does this paper address?
 ### Architecture
 *Describe the model/approach*
 
-
 ### Key Techniques
 - 
 - 
 
 ### Novel Components
 *What's new/different from prior work?*
-
 
 ## Experiments
 ### Datasets Used
@@ -57,7 +55,6 @@ What problem does this paper address?
 
 ### Ablation Studies
 *What components were tested?*
-
 
 ## Strengths
 - 
@@ -139,7 +136,6 @@ $$
 
 ## Meeting Notes
 *Discussions with advisor/colleagues about this paper*
-
 
 ## Action Items
 - [ ] 

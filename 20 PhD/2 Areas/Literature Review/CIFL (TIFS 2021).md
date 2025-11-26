@@ -3,7 +3,7 @@ aliases: []
 tags: [paper, pad, deep-fas-survey, binary-supervision]
 authors: 
 year: TIFS 2021
-venue: 
+venue: TIFS
 paper_url: https://ieeexplore.ieee.org/document/9336714
 code_url: 
 status: "📚 To Read"
@@ -11,6 +11,9 @@ dateadded: 2025-11-26
 dateread: 
 priority: medium
 ---
+
+> [!WARNING]
+> Could not retrieve abstract/summary automatically. Please check the PDF link.
 
 ## Quick Summary
 **Method:** CIFL
