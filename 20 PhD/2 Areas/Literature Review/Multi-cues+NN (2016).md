@@ -1,9 +1,9 @@
 ---
 aliases: []
 tags: [paper, pad, deep-fas-survey, hybrid-method]
-authors: 
+authors: Litong Feng, Lai-Man Po, Yuming Li, Xuyuan Xu, Fang Yuan, Terence Chun-Ho Cheung, Kwok-Wai Cheung
 year: 2016
-venue: 
+venue: Journal of Visual Communication and Image Representation (JVCIR)
 paper_url: https://www.sciencedirect.com/science/article/pii/S1047320316300244
 code_url: 
 status: "📚 To Read"
@@ -11,6 +11,9 @@ dateadded: 2025-11-26
 dateread: 
 priority: medium
 ---
+
+> [!abstract]
+> Many trait-specific countermeasures to face spoofing attacks have been developed for security of face authentication. However, there is no superior face anti-spoofing technique to deal with every kind of spoofing attack in varying scenarios. In order to improve the generalization ability of face anti-spoofing approaches, an extendable multi-cues integration framework for face anti-spoofing using a hierarchical neural network is proposed, which can fuse image quality cues and motion cues for liveness detection. Shearlet is utilized to develop an image quality-based liveness feature. Dense optical flow is utilized to extract motion-based liveness features. A bottleneck feature fusion strategy can integrate different liveness features effectively. The proposed approach was evaluated on three public face anti-spoofing databases. A half total error rate (HTER) of 0% and an equal error rate (EER) of 0% were achieved on both REPLAY-ATTACK database and 3D-MAD database. An EER of 5.83% was achieved on CASIA-FASD database.
 
 ## Quick Summary
 **Method:** Multi-cues+NN

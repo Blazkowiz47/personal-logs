@@ -1,9 +1,9 @@
 ---
 aliases: []
 tags: [paper, pad, deep-fas-survey, domain-adaptation]
-authors: 
-year: TIFS 2018
-venue: 
+authors: Haoliang Li, Wen Li, Hong Cao, Shiqi Wang, Feiyue Huang, Alex C. Kot
+year: 2018
+venue: IEEE Transactions on Information Forensics and Security (TIFS)
 paper_url: https://ieeexplore.ieee.org/document/8279564
 code_url: 
 status: "📚 To Read"
@@ -11,6 +11,9 @@ dateadded: 2025-11-26
 dateread: 
 priority: medium
 ---
+
+> [!abstract]
+> This paper addresses the problem of face anti-spoofing in cross-scenario settings where training and testing data come from different distributions (domains). The authors propose an **Unsupervised Domain Adaptation (UDA)** method to learn a generalized feature representation. The method trains a deep neural network (AlexNet backbone) that simultaneously minimizes the classification error on the labeled source domain and the **Maximum Mean Discrepancy (MMD)** between the source and unlabeled target domains. By minimizing MMD, the network learns features that are invariant to the domain shift (e.g., different cameras, lighting), thereby improving performance on the target domain without requiring target labels.
 
 ## Quick Summary
 **Method:** OR-DA
