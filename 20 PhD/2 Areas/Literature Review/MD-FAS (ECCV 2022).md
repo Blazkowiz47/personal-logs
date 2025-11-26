@@ -1,14 +1,14 @@
 ---
 aliases: []
-tags: [paper, pad, deep-fas-survey, domain-generalization]
-authors: 
-year: ECCV 2022
-venue: 
+tags: [paper, pad, deep-fas-survey, domain-generalization, multi-domain-learning]
+authors: Xiao Guo, Yaojie Liu, Anil Jain, Xiaoming Liu
+year: 2022
+venue: ECCV
 paper_url: https://arxiv.org/pdf/2208.11148.pdf
 code_url: 
-status: "📚 To Read"
+status: "✅ Read"
 dateadded: 2025-11-26
-dateread: 
+dateread: 2025-11-26
 priority: medium
 ---
 
@@ -17,6 +17,9 @@ priority: medium
 - **Backbone:** PhySTD
 - **Loss:** CE loss, Binary Mask loss, Source & Target distillation loss
 - **Static/Dynamic:** S
+
+## Abstract
+In this work, we study multi-domain learning for face anti-spoofing(MD-FAS), where a pre-trained FAS model needs to be updated to perform equally well on both source and target domains while only using target domain data for updating. We present a new model for MD-FAS, which addresses the forgetting issue when learning new domain data, while possessing a high level of adaptability. First, we devise a simple yet effective module, called spoof region estimator(SRE), to identify spoof traces in the spoof image. Such spoof traces reflect the source pre-trained model's responses that help upgraded models combat catastrophic forgetting during updating. Unlike prior works that estimate spoof traces which generate multiple outputs or a low-resolution binary mask, SRE produces one single, detailed pixel-wise estimate in an unsupervised manner. Secondly, we propose a novel framework, named FAS-wrapper, which transfers knowledge from the pre-trained models and seamlessly integrates with different FAS models. Lastly, to help the community further advance MD-FAS, we construct a new benchmark based on SIW, SIW-Mv2 and Oulu-NPU, and introduce four distinct protocols for evaluation, where source and target domains are different in terms of spoof type, age, ethnicity, and illumination. Our proposed method achieves superior performance on the MD-FAS benchmark than previous methods. Our code and newly curated SIW-Mv2 are publicly available.
 
 
 

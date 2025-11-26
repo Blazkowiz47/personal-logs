@@ -1,14 +1,14 @@
 ---
 aliases: []
-tags: [paper, pad, deep-fas-survey, anomaly-detection]
-authors: 
-year: 2020
-venue: 
+tags: [paper, pad, deep-fas-survey, anomaly-detection, one-class-classification]
+authors: Anjith George, Sébastien Marcel
+year: 2021
+venue: TIFS
 paper_url: https://ieeexplore.ieee.org/document/9153044
 code_url: 
-status: "📚 To Read"
+status: "✅ Read"
 dateadded: 2025-11-26
-dateread: 
+dateread: 2025-11-26
 priority: medium
 ---
 
@@ -17,6 +17,9 @@ priority: medium
 - **Backbone:** LightCNN
 - **Loss:** Binary CE loss, Contrastive loss
 - **Input:** Grayscale, IR, Depth, Thermal
+
+## Abstract
+Face recognition has evolved as a widely used biometric modality. However, its vulnerability against presentation attacks poses a significant security threat. Though presentation attack detection (PAD) methods try to address this issue, they often fail in generalizing to unseen attacks. In this work, we propose a new framework for PAD using a one-class classifier, where the representation used is learned with a Multi-Channel Convolutional Neural Network (MCCNN). A novel loss function is introduced, which forces the network to learn a compact embedding for bonafide class while being far from the representation of attacks. A one-class Gaussian Mixture Model is used on top of these embeddings for the PAD task. The proposed framework introduces a novel approach to learn a robust PAD system from bonafide and available (known) attack classes. This is particularly important as collecting bonafide data and simpler attacks are much easier than collecting a wide variety of expensive attacks. The proposed system is evaluated on the publicly available WMCA multi-channel face PAD database, which contains a wide variety of 2D and 3D attacks. Further, we have performed experiments with MLFP and SiW-M datasets using RGB channels only. Superior performance in unseen attack protocols shows the effectiveness of the proposed approach. Software, data, and protocols to reproduce the results are made available publicly.
 
 
 

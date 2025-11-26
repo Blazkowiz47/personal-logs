@@ -1,14 +1,14 @@
 ---
 aliases: []
-tags: [paper, pad, deep-fas-survey, specialized-sensor]
-authors: 
+tags: [paper, pad, deep-fas-survey, specialized-sensor, swir]
+authors: Guillaume Heusch, Anjith George, David Geissbuhler, Zohreh Mostaani, Sebastien Marcel
 year: 2020
-venue: 
+venue: arXiv
 paper_url: https://arxiv.org/abs/2007.11469
 code_url: 
-status: "📚 To Read"
+status: "✅ Read"
 dateadded: 2025-11-26
-dateread: 
+dateread: 2025-11-26
 priority: medium
 ---
 
@@ -18,6 +18,9 @@ priority: medium
 - **Loss:** Binary mask loss
 - **Input:** SWIR images differences
 - **Static/Dynamic:** S
+
+## Abstract
+This paper addresses the problem of face presentation attack detection using different image modalities. In particular, the usage of short wave infrared (SWIR) imaging is considered. Face presentation attack detection is performed using recent models based on Convolutional Neural Networks using only carefully selected SWIR image differences as input. Conducted experiments show superior performance over similar models acting on either color images or on a combination of different modalities (visible, NIR, thermal and depth), as well as on a SVM-based classifier acting on SWIR image differences. Experiments have been carried on a new public and freely available database, containing a wide variety of attacks. Video sequences have been recorded thanks to several sensors resulting in 14 different streams in the visible, NIR, SWIR and thermal spectra, as well as depth data. The best proposed approach is able to almost perfectly detect all impersonation attacks while ensuring low bonafide classification errors. On the other hand, obtained results show that obfuscation attacks are more difficult to detect. We hope that the proposed database will foster research on this challenging problem. Finally, all the code and instructions to reproduce presented experiments is made available to the research community.
 
 
 
