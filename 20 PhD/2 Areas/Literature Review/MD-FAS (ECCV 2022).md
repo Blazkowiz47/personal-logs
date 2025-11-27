@@ -1,5 +1,5 @@
 ---
-aliases: [mdfas]
+aliases: [md_fas]
 tags: [paper, pad, deep-fas-survey, domain-generalization, multi-domain-learning]
 authors: Xiao Guo, Yaojie Liu, Anil Jain, Xiaoming Liu
 year: 2022

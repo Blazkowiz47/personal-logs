@@ -1,5 +1,5 @@
 ---
-aliases: [vitranzfas]
+aliases: [vitranz_fas]
 tags: [paper, pad, deep-fas-survey, zero-shot, vit]
 authors: Anjith George, Sebastien Marcel
 year: 2021

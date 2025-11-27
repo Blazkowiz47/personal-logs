@@ -1,5 +1,5 @@
 ---
-aliases: [deepcolorfas]
+aliases: [deepcolor_fas]
 tags: [paper, pad, deep-fas-survey, binary-supervision, color-texture, color-spaces]
 authors: Zezheng Wang, Chenxu Zhao, Yunxiao Qin, Qiaoyong Zhou, Zhenan Sun
 year: 2019

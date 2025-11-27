@@ -1,6 +1,6 @@
 ---
 aliases:
-  - fas_sgtd
+  - sgtd_fas
 tags:
   - paper
   - FAS

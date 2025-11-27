@@ -1,5 +1,5 @@
 ---
-aliases: [safas]
+aliases: [sa_fas]
 tags: [paper, pad, deep-fas-survey, domain-generalization]
 authors: Yiyou Sun, Yaojie Liu, Xiaoming Liu, Yixuan Li, Wen-Sheng Chu
 year: 2023

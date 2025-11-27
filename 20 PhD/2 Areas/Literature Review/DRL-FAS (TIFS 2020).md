@@ -1,5 +1,5 @@
 ---
-aliases: [drlfas]
+aliases: [drl_fas]
 tags: [paper, pad, deep-fas-survey, reinforcement-learning, attention]
 authors: Rizhao Cai, Haoliang Li, Shiqi Wang, Changsheng Chen, Alex Chichung Kot
 year: TIFS 2020

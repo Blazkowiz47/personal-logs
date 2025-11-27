@@ -1,5 +1,5 @@
 ---
-aliases: [fastco]
+aliases: [fast_co]
 tags: [paper, pad, deep-fas-survey, binary-supervision, temporal-consistency]
 authors: Xiang Xu, Yuanjun Xiong, Wei Xia
 year: 2020

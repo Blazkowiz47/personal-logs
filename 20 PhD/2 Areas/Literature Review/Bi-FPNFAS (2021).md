@@ -1,5 +1,5 @@
 ---
-aliases: [bifpnfas]
+aliases: [bi_fpn_fas]
 tags: [paper, pad, deep-fas-survey, auxiliary-supervision, fourier-spectra, feature-pyramid]
 authors: Koushik Roy, Md. Hasan, Labiba Rupty, Md. Sourave Hossain, Shirshajit Sengupta, Shehzad Noor Taus, Nabeel Mohammed
 year: 2021
