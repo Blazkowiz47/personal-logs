@@ -1,5 +1,5 @@
 ---
-aliases: [mm_fas]
+aliases: [mmfas]
 tags: [paper, pad, deep-fas-survey, multimodal, face-recognition-networks]
 authors: Aleksandr Parkin, Oleg Grinchuk
 year: 2019

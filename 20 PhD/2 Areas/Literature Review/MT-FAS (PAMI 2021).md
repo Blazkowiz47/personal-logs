@@ -1,5 +1,5 @@
 ---
-aliases: [mt_fas]
+aliases: [mtfas]
 tags: [paper, pad, deep-fas-survey, generative-model, meta-learning]
 authors: Yunxiao Qin, Zitong Yu, Longbin Yan, Zezheng Wang, Chenxu Zhao, Zhen Lei
 year: 2021

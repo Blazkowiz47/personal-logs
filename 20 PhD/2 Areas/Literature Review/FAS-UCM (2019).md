@@ -1,5 +1,5 @@
 ---
-aliases: [fas_ucm_fas]
+aliases: [fas_ucm]
 tags: [paper, pad, deep-fas-survey, binary-supervision, style-transfer, user-centered]
 authors: Israel A. Laurensi R., Luciana T. Menon, Manoel Camillo O. Penna N., Alessandro L. Koerich, Alceu S. Britto Jr
 year: 2019

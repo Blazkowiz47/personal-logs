@@ -1,5 +1,5 @@
 ---
-aliases: [cfsafas_fas]
+aliases: [cfsafas]
 tags: [paper, pad, deep-fas-survey, binary-supervision]
 authors: 
 year: 2020

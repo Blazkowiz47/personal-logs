@@ -1,6 +1,6 @@
 ---
 aliases:
-  - aimfas_fas
+  - aimfas
 tags:
   - paper
   - FAS

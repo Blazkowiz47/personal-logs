@@ -1,5 +1,5 @@
 ---
-aliases: [cifas_fas]
+aliases: [cifas]
 tags: [paper, pad, deep-fas-survey, domain-generalization]
 authors: 
 year: ICME 2022
