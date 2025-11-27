@@ -1,5 +1,5 @@
 ---
-aliases: [oca_fas_fas]
+aliases: [oca_fas]
 tags: [paper, pad, deep-fas-survey, domain-adaptation]
 authors: Yunxiao Qin, Weiguo Zhang, Jingping Shi, Zezheng Wang, Longbin Yan
 year: 2020

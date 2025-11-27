@@ -1,5 +1,5 @@
 ---
-aliases: [pdl_fas_fas]
+aliases: [pdl_fas]
 tags: [paper, pad, deep-fas-survey, domain-generalization]
 authors: Young Eun Kim, Seong-Whan Lee
 year: 2021
