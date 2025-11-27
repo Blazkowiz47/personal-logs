@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [auxiliary_fas]
 tags: [paper, pad, deep-fas-survey, auxiliary-supervision, rppg, depth-estimation]
 authors: Yaojie Liu, Amin Jourabloo, Xiaoming Liu
 year: CVPR 2018

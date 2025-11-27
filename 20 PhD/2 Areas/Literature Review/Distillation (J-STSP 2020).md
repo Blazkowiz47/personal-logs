@@ -1,5 +1,5 @@
 ---
-aliases: ["Face Anti-Spoofing With Deep Neural Network Distillation"]
+aliases: [distillation_fas]
 tags: [paper, pad, deep-fas-survey, domain-adaptation]
 authors: Haoliang Li, Shiqi Wang, Peisong He, Anderson Rocha
 year: 2020

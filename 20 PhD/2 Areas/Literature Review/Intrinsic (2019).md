@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [intrinsic_fas]
 tags: [paper, pad, deep-fas-survey, hybrid-method, 3d-mask-attack]
 authors: Lei Li, Zhaoqiang Xia, Xiaoyue Jiang, Yupeng Ma, Fabio Roli, Xiaoyi Feng
 year: 2020

@@ -1,6 +1,6 @@
 ---
 aliases:
-  - CMFL
+  - cmfl_fas
 tags:
   - paper
   - FAS

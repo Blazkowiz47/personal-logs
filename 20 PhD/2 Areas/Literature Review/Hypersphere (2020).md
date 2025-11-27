@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [hypersphere_fas]
 tags: [paper, pad, deep-fas-survey, anomaly-detection, unseen-attack-detection]
 authors: Haoliang Li, Zhi Li, Alex ChiChung Kot, Kwok-Yan Lam
 year: 2020

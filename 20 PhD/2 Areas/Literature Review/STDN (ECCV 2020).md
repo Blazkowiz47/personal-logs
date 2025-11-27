@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [stdn_fas]
 tags: [paper, pad, deep-fas-survey, generative-model]
 authors: Yaojie Liu, Joel Stehouwer, Xiaoming Liu
 year: 2020

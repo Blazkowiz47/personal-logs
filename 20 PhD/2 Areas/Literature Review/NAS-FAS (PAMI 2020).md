@@ -1,6 +1,6 @@
 ---
 aliases:
-  - NAS-FAS
+  - nas_fas_fas
 tags:
   - paper
   - FAS

@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [parallel_cnn_fas]
 tags: [paper, pad, deep-fas-survey, multimodal]
 authors: Xin Li, Wei Wu, Tao Li, Yang Su, Lilin Yang
 year: 2020

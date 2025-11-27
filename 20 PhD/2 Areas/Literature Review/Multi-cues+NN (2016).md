@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [multi_cues_nn_fas]
 tags: [paper, pad, deep-fas-survey, hybrid-method]
 authors: Litong Feng, Lai-Man Po, Yuming Li, Xuyuan Xu, Fang Yuan, Terence Chun-Ho Cheung, Kwok-Wai Cheung
 year: 2016

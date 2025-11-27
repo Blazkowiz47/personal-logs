@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [maddg_fas]
 tags: [paper, pad, deep-fas-survey, domain-generalization, multi-adversarial]
 authors: Rui Shao, Xiangyuan Lan, Jiawei Li, Pong C. Yuen
 year: 2019

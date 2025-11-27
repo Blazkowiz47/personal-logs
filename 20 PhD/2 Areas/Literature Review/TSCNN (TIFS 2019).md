@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [tscnn_fas]
 tags: [paper, pad, deep-fas-survey, binary-supervision]
 authors: 
 year: 2019

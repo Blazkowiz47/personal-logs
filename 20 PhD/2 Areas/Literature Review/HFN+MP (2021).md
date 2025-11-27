@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [hfn_mp_fas]
 tags: [paper, pad, deep-fas-survey, domain-generalization, meta-learning]
 authors: Rizhao Cai, Zhi Li, Renjie Wan, Haoliang Li, Yongjian Hu, Alex ChiChung Kot
 year: 2022

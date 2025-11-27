@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [dual_modal_fas]
 tags: [paper, pad, deep-fas-survey, multimodal, lightweight-network]
 authors: Lizhong Li, Zhibin Gao, Lianfen Huang, Hao Zhang, Meijia Lin
 year: 2019

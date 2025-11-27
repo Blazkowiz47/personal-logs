@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [deeplbp_fas]
 tags: [paper, pad, deep-fas-survey, hybrid-method, lbp, texture-analysis]
 authors: 
 year: 2019

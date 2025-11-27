@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [mc_pixbis_fas]
 tags: [paper, pad, deep-fas-survey, specialized-sensor, swir]
 authors: Guillaume Heusch, Anjith George, David Geissbuhler, Zohreh Mostaani, Sebastien Marcel
 year: 2020

@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [mrcnn_fas]
 tags: [paper, pad, deep-fas-survey, auxiliary-supervision, multi-regional-cnn]
 authors: Yukun Ma, Lifang Wu, Zeyu Li, Fanghao Liu
 year: 2020

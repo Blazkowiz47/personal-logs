@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [feathernets_fas]
 tags: [paper, pad, deep-fas-survey, lightweight, multimodal]
 authors: Peng Zhang, Fuhao Zou, Zhiwen Wu, Nengli Dai, Skarpness Mark, Michael Fu, Juan Zhao, Kai Li
 year: 2019

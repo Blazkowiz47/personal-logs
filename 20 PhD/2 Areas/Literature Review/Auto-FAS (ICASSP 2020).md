@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [autofas_fas]
 tags: [paper, pad, deep-fas-survey, auxiliary-supervision]
 authors: 
 year: ICASSP 2020

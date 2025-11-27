@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [patchcnn_fas]
 tags: [paper, pad, deep-fas-survey, binary-supervision]
 authors: Waldir R. Almeida, Fernanda A. Andaló, Rafael Padilha, Gabriel Bertocco, William Dias, Ricardo da S. Torres, Jacques Wainer, Anderson Rocha
 year: 2020

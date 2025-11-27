@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [dual_stage_disentanglement_fas]
 tags: [paper, pad, deep-fas-survey, generative-model, disentangled-representation]
 authors: Yu-Chun Wang, Chien-Yi Wang, Shang-Hong Lai
 year: 2022

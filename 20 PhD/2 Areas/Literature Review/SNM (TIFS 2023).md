@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [snm_fas]
 tags: [paper, pad, deep-fas-survey, multimodal]
 authors: Pengchao Deng, Chenyang Ge, Xin Qiao, Hao Wei, Yuan Sun
 year: 2023

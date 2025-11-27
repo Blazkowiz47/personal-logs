@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [ma_vit_fas]
 tags: [paper, pad, deep-fas-survey, flexible-modal, vision-transformer]
 authors: Ajian Liu, Yanyan Liang
 year: 2022

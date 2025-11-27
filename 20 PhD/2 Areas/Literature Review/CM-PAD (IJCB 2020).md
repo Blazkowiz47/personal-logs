@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [cmpad2020_fas]
 tags: [paper, pad, deep-fas-survey, continual-learning, meta-learning]
 authors: Daniel Pérez-Cabo, David Jiménez-Cabello, Artur Costa-Pazo, Roberto Javier López-Sastre
 year: IJCB 2020

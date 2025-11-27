@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [sdfanet_fas]
 tags: [paper, pad, deep-fas-survey, domain-generalization]
 authors: Luo Zhou, Jun Luo, Xinbo Gao, Weisheng Li, Baocai Lei
 year: 2021

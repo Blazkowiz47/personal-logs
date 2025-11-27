@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [siamese_fas]
 tags: [paper, pad, deep-fas-survey, binary-supervision]
 authors: Huiling Hao, Mingtao Pei, Meng Zhao
 year: 2019

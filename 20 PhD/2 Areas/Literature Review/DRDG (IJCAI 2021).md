@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [drdg_fas]
 tags: [paper, pad, deep-fas-survey, domain-generalization, reweighting]
 authors: Shubao Liu, Ke-Yue Zhang, Taiping Yao, Kekai Sheng, Shouhong Ding, Ying Tai, Jilin Li, Yuan Xie, Lizhuang Ma
 year: IJCAI 2021

@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [slrnn_fas]
 tags: [paper, pad, deep-fas-survey, binary-supervision]
 authors: Umara Muhammad, Tuomas Holmberg, Mourad Oussalah, Jorma Laaksonen
 year: 2019

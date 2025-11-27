@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [d2am_fas]
 tags: [paper, pad, deep-fas-survey, domain-generalization, meta-learning]
 authors: Zhihong Chen, Taiping Yao, Kekai Sheng, Shouhong Ding, Ying Tai, Jilin Li, Feiyue Huang, Xinyu Jin
 year: AAAI 2021

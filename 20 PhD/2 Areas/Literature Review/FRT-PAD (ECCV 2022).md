@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [frt_pad_fas]
 tags: [paper, pad, deep-fas-survey, domain-generalization, face-related-task]
 authors: Wentian Zhang, Haozhe Liu, Feng Liu, Raghavendra Ramachandra, Christoph Busch
 year: 2022

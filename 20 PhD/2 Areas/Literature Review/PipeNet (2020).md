@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [pipenet_fas]
 tags: [paper, pad, deep-fas-survey, multimodal]
 authors: Qing Yang, Xia Zhu, Jong-Kae Fwu, Yun Ye, Ganmei You, Yuan Zhu
 year: 2020

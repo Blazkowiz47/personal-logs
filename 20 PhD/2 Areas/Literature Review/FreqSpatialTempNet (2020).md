@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [freqspatialtempnet_fas]
 tags: [paper, pad, deep-fas-survey, binary-supervision, frequency-domain]
 authors: Ying Huang, Wenwei Zhang, Jinzhuo Wang
 year: 2020

@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [megc_fas]
 tags: [paper, pad, deep-fas-survey, auxiliary-supervision, explainable-cues]
 authors: Ying Bian, Peng Zhang, Jingjing Wang, Chunmao Wang, Shiliang Pu
 year: 2022

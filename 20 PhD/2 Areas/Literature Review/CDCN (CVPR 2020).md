@@ -1,6 +1,6 @@
 ---
 aliases:
-  - CDCN++
+  - cdcn_fas
 tags:
   - paper
   - FAS

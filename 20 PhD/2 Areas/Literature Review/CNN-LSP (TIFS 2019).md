@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [cnnlsp_fas]
 tags: [paper, pad, deep-fas-survey, hybrid-method]
 authors: Rui Shao, Xiangyuan Lan, Pong C. Yuen
 year: TIFS 2019

@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [compactnet_fas]
 tags: [paper, pad, deep-fas-survey, binary-supervision]
 authors: Lei Li, Zhaoqiang Xia, Xiaoyue Jiang, Fabio Roli, Xiaoyi Feng
 year: 2020

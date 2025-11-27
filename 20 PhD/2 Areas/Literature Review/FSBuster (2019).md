@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [fsbuster_fas]
 tags: [paper, pad, deep-fas-survey, binary-supervision, intrinsic-properties]
 authors: Rodrigo Bresan, Allan Pinto, Anderson Rocha, Carlos Beluzo, Tiago Carvalho
 year: 2019

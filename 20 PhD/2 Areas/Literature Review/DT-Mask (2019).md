@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [dt_mask_fas]
 tags: [paper, pad, deep-fas-survey, 3d-mask, dynamic-texture]
 authors: Rui Shao, Xiangyuan Lan, Pong C. Yuen
 year: TIFS 2019

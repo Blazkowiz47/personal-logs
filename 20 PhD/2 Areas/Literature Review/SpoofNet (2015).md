@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [spoofnet_fas]
 tags: [paper, pad, deep-fas-survey, binary-supervision]
 authors: David Menotti, Giovani Chiachia, Allan Pinto, William Robson Schwartz, Helio Pedrini, Alexandre Xavier Falcao, Anderson Rocha
 year: 2015

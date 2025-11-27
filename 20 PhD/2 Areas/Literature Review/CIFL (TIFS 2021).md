@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [cifl_fas]
 tags: [paper, pad, deep-fas-survey, binary-supervision]
 authors: 
 year: TIFS 2021

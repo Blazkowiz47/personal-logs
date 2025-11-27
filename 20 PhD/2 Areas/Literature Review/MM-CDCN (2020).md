@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [mm_cdcn_fas]
 tags: [paper, pad, deep-fas-survey, multimodal, central-difference-convolution]
 authors: Zitong Yu, Yunxiao Qin, Xiaobai Li, Zezheng Wang, Chenxu Zhao, Zhen Lei, Guoying Zhao
 year: 2020

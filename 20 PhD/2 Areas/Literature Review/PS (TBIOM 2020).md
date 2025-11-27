@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [ps_fas]
 tags: [paper, pad, deep-fas-survey, auxiliary-supervision]
 authors: Zitong Yu, Xiaobai Li, Jingang Shi, Zhaoqiang Xia, Guoying Zhao
 year: 2020

@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [multi_channel_detector_fas]
 tags: [paper, pad, deep-fas-survey, multimodal]
 authors: Anjith George, Sebastien Marcel
 year: 2020

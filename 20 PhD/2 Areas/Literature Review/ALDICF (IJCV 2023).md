@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [aldicf_fas]
 tags: [paper, pad, deep-fas-survey, domain-generalization]
 authors: 
 year: IJCV 2023

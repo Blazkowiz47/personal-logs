@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [dtcnn_fas]
 tags: [paper, pad, deep-fas-survey, domain-adaptation, transfer-learning]
 authors: Xiaoguang Tu, Hengsheng Zhang, Mei Xie, Yao Luo, Yuefei Zhang, Zheng Ma
 year: 2019

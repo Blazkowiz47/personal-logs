@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [convmlp_fas]
 tags: [paper, pad, deep-fas-survey, multimodal, architecture]
 authors: Weihang Wang, Fei Wen, Haoyuan Zheng, Rendong Ying, Peilin Liu
 year: TIFS 2022

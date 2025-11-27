@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [oneclasskd_fas]
 tags: [paper, pad, deep-fas-survey, anomaly-detection]
 authors: Zhi Li, Rizhao Cai, Haoliang Li, Kwok-Yan Lam, Yongjian Hu, Alex C. Kot
 year: 2022

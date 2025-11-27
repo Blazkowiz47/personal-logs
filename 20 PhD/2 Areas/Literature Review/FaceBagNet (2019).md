@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [facebagnet_fas]
 tags: [paper, pad, deep-fas-survey, multimodal, patch-based]
 authors: Tao Shen, Yuyu Huang, Zhijun Tong
 year: 2019

@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [aelbp_fas]
 tags: [paper, pad, deep-fas-survey, anomaly-detection]
 authors: 
 year: 2018

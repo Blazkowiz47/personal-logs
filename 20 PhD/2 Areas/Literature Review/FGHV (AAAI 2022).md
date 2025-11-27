@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [fghv_fas]
 tags: [paper, pad, deep-fas-survey, domain-generalization, feature-generation]
 authors: Shice Liu, Shitao Lu, Hongyi Xu, Jing Yang, Shouhong Ding, Lizhuang Ma
 year: 2022

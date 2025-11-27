@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [vitranspad_fas]
 tags: [paper, pad, deep-fas-survey, binary-supervision]
 authors: Zuheng Ming, Zitong Yu, Musab Al-Ghadi, Muriel Visani, Muhammad Muzzamil Luqman, Jean-Christophe Burie
 year: 2022

@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [de_spoof_fas]
 tags: [paper, pad, deep-fas-survey, generative-model, noise-modeling, de-spoofing]
 authors: Amin Jourabloo, Yaojie Liu, Xiaoming Liu
 year: 2018

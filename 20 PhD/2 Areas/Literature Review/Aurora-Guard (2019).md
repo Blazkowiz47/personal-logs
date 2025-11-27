@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [auroraguard_fas]
 tags: [paper, pad, deep-fas-survey, specialized-sensor]
 authors: 
 year: 2019

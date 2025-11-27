@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [fgdnet_fas]
 tags: [paper, pad, deep-fas-survey, binary-supervision, fine-grained-detection]
 authors: Tong Qiao, Jiasheng Wu, Ning Zheng, Ming Xu, Xiangyang Luo
 year: 2022

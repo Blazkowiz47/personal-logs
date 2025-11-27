@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [compreeval_fas]
 tags: [paper, pad, deep-fas-survey, multimodal, benchmark]
 authors: Anjith George, David Geissbuhler, Sebastien Marcel
 year: 2022

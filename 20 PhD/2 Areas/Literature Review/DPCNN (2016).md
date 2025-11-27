@@ -1,3 +1,5 @@
+---
+aliases: [dpcnn_fas]
 tags: [paper, pad, deep-fas-survey, hybrid-method, partial-cnn]
 authors: Lei Li, Xiaoyi Feng, Z. Boulkenafet, Zhaoqiang Xia, Mingming Li, A. Hadid
 year: 2016

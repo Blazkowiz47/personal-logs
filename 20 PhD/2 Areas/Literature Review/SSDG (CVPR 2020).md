@@ -1,6 +1,6 @@
 ---
 aliases:
-  - SSDG
+  - ssdg_fas
 tags:
   - paper
   - FAS

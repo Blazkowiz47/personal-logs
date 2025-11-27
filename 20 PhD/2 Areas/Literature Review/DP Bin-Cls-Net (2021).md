@@ -1,3 +1,5 @@
+---
+aliases: [dp_bin_cls_net_fas]
 tags: [paper, pad, deep-fas-survey, specialized-sensor, dual-pixel]
 authors: 
 year: 2021

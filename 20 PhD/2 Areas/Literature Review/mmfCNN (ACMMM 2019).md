@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [mmfcnn_fas]
 tags: [paper, pad, deep-fas-survey, multimodal]
 authors: Huafeng Kuang, Rongrong Ji, Hong Liu, Shengchuan Zhang, Xiaoshuai Sun, Feiyue Huang, Baochang Zhang
 year: 2019

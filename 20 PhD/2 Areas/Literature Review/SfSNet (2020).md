@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [sfsnet_fas]
 tags: [paper, pad, deep-fas-survey, binary-supervision]
 authors: Soumyadip Sengupta, Angjoo Kanazawa, Carlos D. Castillo, David W. Jacobs
 year: 2020

@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [specdiff_fas]
 tags: [paper, pad, deep-fas-survey, specialized-sensor]
 authors: Akinori F. Ebihara, Kazuyuki Sakurai, Hitoshi Imaoka
 year: 2020

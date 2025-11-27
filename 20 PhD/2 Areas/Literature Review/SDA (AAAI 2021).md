@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [sda_fas]
 tags: [paper, pad, deep-fas-survey, domain-generalization]
 authors: Jingjing Wang, Jingyi Zhang, Ying Bian, Youyi Cai, Chunmao Wang, Shiliang Pu
 year: 2021

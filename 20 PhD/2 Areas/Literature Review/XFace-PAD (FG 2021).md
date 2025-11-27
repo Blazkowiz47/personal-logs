@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [xface_pad_fas]
 tags: [paper, pad, deep-fas-survey, binary-supervision]
 authors: Hengameh Mirzaalian, Mohamed E. Hussein, Leonidas Spinoulas, Jonathan May, Wael Abd-Almageed
 year: 2021

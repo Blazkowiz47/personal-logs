@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [eulernet_fas]
 tags: [paper, pad, deep-fas-survey, temporal-features, multi-frame]
 authors: Heng Cong, Rongyu Zhang, Jiarong He, Jin Gao
 year: 2022

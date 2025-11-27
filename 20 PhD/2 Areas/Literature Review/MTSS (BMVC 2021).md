@@ -1,5 +1,5 @@
 ---
-aliases: ["Multi-Teacher Single-Student Visual Transformer with Multi-Level Attention for Face Spoofing Detection"]
+aliases: [mtss_fas]
 tags: [paper, pad, deep-fas-survey, binary-supervision, visual-transformer, multi-teacher]
 authors: Yaojia Huang, Jun-Wei Hsieh, Ming-Ching Chang, Lipeng Ke, Siwei Lyu, Avik Santra
 year: 2021

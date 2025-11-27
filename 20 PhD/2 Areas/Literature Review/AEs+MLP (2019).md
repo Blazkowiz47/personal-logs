@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [aesmlp_fas]
 tags: [paper, pad, deep-fas-survey, multimodal]
 authors: 
 year: 2019

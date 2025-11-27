@@ -1,5 +1,5 @@
 ---
-aliases: ["Advanced Face Anti-Spoofing with Depth Segmentation"]
+aliases: [depthseg_fas]
 tags: [paper, pad, deep-fas-survey, auxiliary-supervision]
 authors: Licheng Zhang, Nan Sun, Xihong Wu, Dingsheng Luo
 year: 2022

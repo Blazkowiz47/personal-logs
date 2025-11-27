@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [cnnlbpwld_fas]
 tags: [paper, pad, deep-fas-survey, hybrid-method]
 authors: Mohammed Khammari et al.
 year: 2019

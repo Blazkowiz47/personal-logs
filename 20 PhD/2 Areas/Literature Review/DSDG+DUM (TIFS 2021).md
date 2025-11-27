@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [dsdg_dum_fas]
 tags: [paper, pad, deep-fas-survey, generative-model, disentanglement]
 authors: Hangtong Wu, Dan Zeng, Yibo Hu, Hailin Shi, Tao Mei
 year: TIFS 2021

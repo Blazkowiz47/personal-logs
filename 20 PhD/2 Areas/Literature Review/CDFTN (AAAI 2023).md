@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [cdftn_fas]
 tags: [paper, pad, deep-fas-survey, domain-adaptation]
 authors: Haixiao Yue, Keyao Wang, Guosheng Zhang, Haocheng Feng, Junyu Han, Errui Ding, Jingdong Wang
 year: AAAI 2023

@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [cnnovlbp_fas]
 tags: [paper, pad, deep-fas-survey, hybrid-method]
 authors: Omid Sharifi
 year: 2019

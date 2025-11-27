@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [dkg_csa_aiaw_fas]
 tags: [paper, pad, deep-fas-survey, domain-generalization, instance-aware]
 authors: Qianyu Zhou, Ke-Yue Zhang, Taiping Yao, Xuequan Lu, Ran Yi, Shouhong Ding, Lizhuang Ma
 year: CVPR 2023

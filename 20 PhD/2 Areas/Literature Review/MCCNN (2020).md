@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [mccnn_fas]
 tags: [paper, pad, deep-fas-survey, anomaly-detection, one-class-classification]
 authors: Anjith George, Sébastien Marcel
 year: 2021

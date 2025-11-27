@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [farcnn_fas]
 tags: [paper, pad, deep-fas-survey, hybrid-method, frequency-domain]
 authors: Chaitanya Nagpal, Shiv Ram Dubey
 year: 2019

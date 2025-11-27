@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [experience_replay_fas]
 tags: [paper, pad, deep-fas-survey, continual-learning, experience-replay]
 authors: Mohammad Rostami, Leonidas Spinoulas, Mohamed Hussein, Wael Abd-Almageed
 year: 2021

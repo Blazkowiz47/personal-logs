@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [slnet_fas]
 tags: [paper, pad, deep-fas-survey, specialized-sensor]
 authors: Yasar Abbas Ur Rehman, Lai-Man Po, Mengyang Liu
 year: 2020

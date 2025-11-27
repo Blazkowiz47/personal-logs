@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [anomaly2_fas]
 tags: [paper, pad, deep-fas-survey, anomaly-detection]
 authors: 
 year: 2019

@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [hybridcnn_fas]
 tags: [paper, pad, deep-fas-survey, hybrid-method, part-based]
 authors: Lei Li, et al.
 year: 2017

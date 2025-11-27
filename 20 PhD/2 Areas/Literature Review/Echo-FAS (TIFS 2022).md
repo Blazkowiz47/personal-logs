@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [echo_fas_fas]
 tags: [paper, pad, deep-fas-survey, multimodal, acoustic-based]
 authors: Chenqi Kong, Kexin Zheng, Shiqi Wang, Anderson Rocha, Haoliang Li
 year: 2022

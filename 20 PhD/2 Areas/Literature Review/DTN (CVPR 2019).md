@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [dtn_fas]
 tags: [paper, pad, deep-fas-survey, zero-shot, anomaly-detection]
 authors: Yaojie Liu, Joel Stehouwer, Amin Jourabloo, Xiaoming Liu
 year: CVPR 2019

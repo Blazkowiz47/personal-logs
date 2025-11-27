@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [spda_fas]
 tags: [paper, pad, deep-fas-survey, domain-generalization]
 authors: Zhiyi Chen, Yao Lu, Xinzhe Deng, Jia Meng, Shengchuan Zhang, Liujuan Cao
 year: 2023

@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [ultra_deep_fas]
 tags: [paper, pad, deep-fas-survey, binary-supervision]
 authors: 
 year: 2017

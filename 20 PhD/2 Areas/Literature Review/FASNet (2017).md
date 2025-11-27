@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [fasnet_fas]
 tags: [paper, pad, deep-fas-survey, binary-supervision, transfer-learning]
 authors: Oeslle Lucena, Amadeu Junior, Vitor Moia, Roberto Souza, Eduardo Valle, Roberto Lotufo
 year: 2017

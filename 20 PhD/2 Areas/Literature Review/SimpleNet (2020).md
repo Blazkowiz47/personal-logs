@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [simplenet_fas]
 tags: [paper, pad, deep-fas-survey, binary-supervision]
 authors: Aleksandr Parkin, Oleg Grinchuk
 year: 2020

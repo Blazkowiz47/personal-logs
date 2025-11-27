@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [tae_fas]
 tags: [paper, pad, deep-fas-survey, generative-model]
 authors: Amir Mohammadi, Sushil Bhattacharjee, Sébastien Marcel
 year: 2020

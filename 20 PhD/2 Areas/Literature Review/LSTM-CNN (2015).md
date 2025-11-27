@@ -1,3 +1,5 @@
+---
+aliases: [lstm_cnn_fas]
 tags: [paper, pad, deep-fas-survey, binary-supervision, temporal-features]
 authors: Zhenqi Xu, Shan Li, Weihong Deng
 year: 2015

@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [clientanomaly_fas]
 tags: [paper, pad, deep-fas-survey, anomaly-detection, one-class-classification]
 authors: Soroush Fatemifar, Shervin Rahimzadeh Arashloo, Muhammad Awais, Josef Kittler
 year: 2020

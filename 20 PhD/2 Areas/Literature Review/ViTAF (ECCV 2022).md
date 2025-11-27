@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [vitaf_fas]
 tags: [paper, pad, deep-fas-survey, zero-shot]
 authors: Hsin-Ping Huang, Deqing Sun, Yaojie Liu, Wen-Sheng Chu, Taihong Xiao, Jinwei Yuan, Hartwig Adam, Ming-Hsuan Yang
 year: 2022

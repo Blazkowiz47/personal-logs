@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [mpfln_fas]
 tags: [paper, pad, deep-fas-survey, auxiliary-supervision, multi-perspective-features]
 authors: Zhuming Wang, Yaowen Xu, Lifang Wu, Hu Han, Yukun Ma, Guozhang Ma
 year: 2021

@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [ssan_fas]
 tags: [paper, pad, deep-fas-survey, domain-generalization]
 authors: Zhuo Wang, Zezheng Wang, Zitong Yu, Weihong Deng, Jiahong Li, Tingting Gao, Zhongyuan Wang
 year: 2022

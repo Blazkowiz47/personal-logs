@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [basn_fas]
 tags: [paper, pad, deep-fas-survey, auxiliary-supervision, domain-generalization]
 authors: Taewook Kim, YongHyun Kim, Inhan Kim, Daijin Kim
 year: ICCVW 2019

@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [hgcnn_fas]
 tags: [paper, pad, deep-fas-survey, multimodal, hypergraph]
 authors: Wei Hu, Gusi Te, Ju He, Dong Chen, Zongming Guo
 year: 2020

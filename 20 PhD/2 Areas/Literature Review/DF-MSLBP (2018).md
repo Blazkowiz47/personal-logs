@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [df_mslbp_fas]
 tags: [paper, pad, deep-fas-survey, hybrid-method, deep-forest]
 authors: Rizhao Cai, Changsheng Chen
 year: 2018

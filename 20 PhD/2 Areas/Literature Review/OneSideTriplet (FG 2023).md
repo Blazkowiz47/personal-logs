@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [onesidetriplet_fas]
 tags: [paper, pad, deep-fas-survey, domain-generalization]
 authors: Chu-Chun Chuang, Chien-Yi Wang, Shang-Hong Lai
 year: 2023

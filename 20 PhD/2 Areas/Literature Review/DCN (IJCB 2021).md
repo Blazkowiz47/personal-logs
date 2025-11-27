@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [dcn_fas]
 tags:
   - paper
   - pad

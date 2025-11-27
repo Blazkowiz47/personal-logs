@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [dgp_fas]
 tags: [paper, pad, deep-fas-survey, domain-adaptation]
 authors: Amir Mohammadi, Sushil Bhattacharjee, Sébastien Marcel
 year: ICASSP 2020

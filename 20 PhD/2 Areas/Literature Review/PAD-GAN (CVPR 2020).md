@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [pad_gan_fas]
 tags: [paper, pad, deep-fas-survey, domain-generalization]
 authors: Guoqing Wang, Hu Han, Shiguang Shan, Xilin Chen
 year: 2020

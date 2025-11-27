@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [milhp_fas]
 tags: [paper, pad, deep-fas-survey, binary-supervision, motion-parameterization]
 authors: Chen Lin, Zhouyingcheng Liao, Peng Zhou, Jianguo Hu, Bingbing Ni
 year: 2018

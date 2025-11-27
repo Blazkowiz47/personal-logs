@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [livenet_fas]
 tags: [paper, pad, deep-fas-survey, binary-supervision, data-augmentation]
 authors: Yasar Abbas Ur Rehman, Lai Man Po, Mengyang Liu
 year: 2018

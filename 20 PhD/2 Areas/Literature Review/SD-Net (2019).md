@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [sd_net_fas]
 tags: [paper, pad, deep-fas-survey, multimodal]
 authors: Ajian Liu, Zichang Tan, Xuan Li, Jun Wan, Sergio Escalera, Guodong Guo, Stan Z. Li
 year: 2019

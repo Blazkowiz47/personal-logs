@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [thermal_facecnn_fas]
 tags: [paper, pad, deep-fas-survey, specialized-sensor]
 authors: Jongwoo Seo, In-Jeong Chung
 year: 2019

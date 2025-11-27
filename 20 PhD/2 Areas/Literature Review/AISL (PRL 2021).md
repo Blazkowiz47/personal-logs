@@ -1,6 +1,6 @@
 ---
 aliases:
-  - AISL
+  - aisl_fas
 tags:
   - paper
   - FAS

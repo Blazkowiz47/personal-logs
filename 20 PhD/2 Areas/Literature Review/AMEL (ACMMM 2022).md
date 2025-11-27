@@ -1,6 +1,6 @@
 ---
 aliases:
-  - AMEL
+  - amel_fas
 tags:
   - paper
   - FAS

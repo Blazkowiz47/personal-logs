@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [end2end_anomaly_fas]
 tags: [paper, pad, deep-fas-survey, anomaly-detection, unknown-attack-detection]
 authors: Yashasvi Baweja, Poojan Oza, Pramuditha Perera, Vishal M. Patel
 year: 2020

@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [crfas_fas]
 tags: [paper, pad, deep-fas-survey, domain-generalization, causal-learning]
 authors: Guanghao Zheng, Yuchen Liu, Wenrui Dai, Chenglin Li, Junni Zou, Hongkai Xiong
 year: ICASSP 2023

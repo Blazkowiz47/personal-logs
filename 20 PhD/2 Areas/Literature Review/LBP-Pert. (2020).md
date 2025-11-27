@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [lbp_pert_fas]
 tags: [paper, pad, deep-fas-survey, hybrid-method, feature-perturbation]
 authors: Yasar Abbas Ur Rehman, Lai-Man Po, Jukka Komulainen
 year: 2020

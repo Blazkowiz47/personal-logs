@@ -1,6 +1,6 @@
 ---
 aliases:
-  - 3DPC-Net
+  - 3dpcnet_fas
 tags:
   - paper
   - FAS

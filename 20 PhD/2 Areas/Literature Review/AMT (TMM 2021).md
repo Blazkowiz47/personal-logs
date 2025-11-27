@@ -1,6 +1,6 @@
 ---
 aliases:
-  - AMT
+  - amt_fas
 tags:
   - paper
   - FAS

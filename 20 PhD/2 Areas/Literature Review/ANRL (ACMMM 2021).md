@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [anrl_fas]
 tags: [paper, pad, deep-fas-survey, domain-generalization]
 authors: Shubao Liu, Ke-Yue Zhang, Taiping Yao, Mingwei Bi, Shouhong Ding, Jilin Li, Feiyue Huang, Lizhuang Ma
 year: ACMMM 2021

@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [adversarial_fas]
 tags: [paper, pad, deep-fas-survey, domain-adaptation]
 authors: 
 year: ICB 2019

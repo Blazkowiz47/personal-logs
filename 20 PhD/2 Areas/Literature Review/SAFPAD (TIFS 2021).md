@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [safpad_fas]
 tags: [paper, pad, deep-fas-survey, auxiliary-supervision]
 authors: Bingyao Yu, Jiwen Lu, Xiu Li, Jie Zhou
 year: 2021

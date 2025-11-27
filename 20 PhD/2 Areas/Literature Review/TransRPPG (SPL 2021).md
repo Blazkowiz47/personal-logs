@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [transrppg_fas]
 tags: [paper, pad, deep-fas-survey, hybrid-method]
 authors: 
 year: 2021

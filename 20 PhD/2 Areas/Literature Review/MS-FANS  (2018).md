@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [ms_fans_fas]
 tags: [paper, pad, deep-fas-survey, binary-supervision, multi-scale-features]
 authors: Shichao Luo, Meina Kan, Shiguang Shan, Xilin Chen
 year: 2018

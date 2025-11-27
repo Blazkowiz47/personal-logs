@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [or_da_fas]
 tags: [paper, pad, deep-fas-survey, domain-adaptation]
 authors: Haoliang Li, Wen Li, Hong Cao, Shiqi Wang, Feiyue Huang, Alex C. Kot
 year: 2018

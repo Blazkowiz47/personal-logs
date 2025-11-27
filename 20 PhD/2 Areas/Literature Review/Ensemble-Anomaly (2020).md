@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [ensemble_anomaly_fas]
 tags: [paper, pad, deep-fas-survey, anomaly-detection, ensemble-learning]
 authors: Soroush Fatemifar, Muhammad Awais, Josef Kittler, Ali Akbari
 year: 2020

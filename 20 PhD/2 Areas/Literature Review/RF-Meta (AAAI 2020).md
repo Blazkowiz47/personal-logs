@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [rf_meta_fas]
 tags: [paper, pad, deep-fas-survey, domain-generalization]
 authors: Rui Shao, Xiangyuan Lan, Pong C. Yuen
 year: 2020

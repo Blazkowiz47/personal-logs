@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [lmfd_pad_fas]
 tags: [paper, pad, deep-fas-survey, domain-generalization, frequency-decomposition]
 authors: Meiling Fang, Naser Damer, Florian Kirchbuchner, Arjan Kuijper
 year: 2022

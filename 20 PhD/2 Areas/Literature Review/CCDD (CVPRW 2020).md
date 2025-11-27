@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [ccdd_fas]
 tags: [paper, pad, deep-fas-survey, domain-generalization, domain-agnostic]
 authors: Suman Saha, Wenhao Xu, Menelaos Kanakis, Stamatios Georgoulis, Yuhua Chen, Danda Pani Paudel, Luc Van Gool
 year: CVPRW 2020

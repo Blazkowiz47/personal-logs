@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [saplc_fas]
 tags: [paper, pad, deep-fas-survey, auxiliary-supervision]
 authors: Wenyun Sun, Yu Song, Changsheng Chen, Jiwu Huang, Alex C. Kot
 year: 2020

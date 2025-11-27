@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [spmt_ssd_fas]
 tags: [paper, pad, deep-fas-survey, hybrid-method]
 authors: Xiao Song, Xu Zhao, Liangji Fang, Tianwei Lin
 year: 2019

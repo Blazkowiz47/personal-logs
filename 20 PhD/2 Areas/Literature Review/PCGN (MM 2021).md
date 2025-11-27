@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [pcgn_fas]
 tags: [paper, pad, deep-fas-survey, binary-supervision]
 authors: Sheng Li, Xun Zhu, Guorui Feng, Xinpeng Zhang, Zhenxing Qian
 year: 2021

@@ -1,3 +1,5 @@
+---
+aliases: [lscnn_fas]
 tags: [paper, pad, deep-fas-survey, binary-supervision, local-features]
 authors: Gustavo Botelho de Souza, João Paulo Papa, Aparecido Nilceu Marana
 year: 2018

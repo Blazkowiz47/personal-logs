@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [depth_patch_fas]
 tags: [paper, pad, deep-fas-survey, auxiliary-supervision, depth-estimation, patch-based]
 authors: Yousef Atoum, Yaojie Liu, Amin Jourabloo, Xiaoming Liu
 year: 2017

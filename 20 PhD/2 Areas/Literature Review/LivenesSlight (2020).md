@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [liveneslight_fas]
 tags: [paper, pad, deep-fas-survey, active-flash, challenge-response]
 authors: Di Tang, Zhe Zhou, Yinqian Zhang, Kehuan Zhang
 year: 2018

@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [ssr_fcn_fas]
 tags: [paper, pad, deep-fas-survey, binary-supervision]
 authors: Debayan Deb, Anil K. Jain
 year: 2020

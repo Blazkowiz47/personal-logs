@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [fm_vit_fas]
 tags: [paper, pad, deep-fas-survey, flexible-modal, vision-transformer]
 authors: Ajian Liu, Zichang Tan, Zitong Yu, Chenxu Zhao, Jun Wan, Yanyan Liang, Zhen Lei, Du Zhang, Stan Z. Li
 year: 2023

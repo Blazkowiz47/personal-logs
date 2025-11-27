@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [vlad_vsa_fas]
 tags: [paper, pad, deep-fas-survey, domain-generalization]
 authors: Jiong Wang, Zhou Zhao, Weike Jin, Xinyu Duan, Zhen Lei, Baoxing Huai, Yiling Wu, Xiaofei He
 year: 2021

@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [hog_pert_fas]
 tags: [paper, pad, deep-fas-survey, hybrid-method, feature-perturbation]
 authors: Yasar Abbas Ur Rehman, Lai-Man Po, Mengyang Liu, Zijie Zou, Weifeng Ou
 year: 2019

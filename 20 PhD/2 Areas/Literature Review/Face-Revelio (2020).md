@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [face_revelio_fas]
 tags: [paper, pad, deep-fas-survey, specialized-sensor, active-illumination]
 authors: Habiba Farrukh, Reham Mohamed Aburas, Siyuan Cao, He Wang
 year: 2020

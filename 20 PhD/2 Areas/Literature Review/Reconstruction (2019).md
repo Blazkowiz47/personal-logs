@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [reconstruction_fas]
 tags: [paper, pad, deep-fas-survey, generative-model]
 authors: Yang Chen, Tian Wang, Jingjing Wang, Peng Shi, H. Snoussi
 year: 2019

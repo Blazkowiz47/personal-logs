@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [divt_fas]
 tags:
   - paper
   - pad

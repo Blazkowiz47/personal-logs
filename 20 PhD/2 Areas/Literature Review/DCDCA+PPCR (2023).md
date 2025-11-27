@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [dcdca_ppcr_fas]
 tags: [paper, pad, deep-fas-survey, continual-learning, domain-generalization]
 authors: Rizhao Cai, Yawen Cui, Zhi Li, Zitong Yu, Haoliang Li, Yongjian Hu, Alex Kot
 year: 2023

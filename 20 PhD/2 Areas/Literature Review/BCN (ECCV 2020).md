@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [bcn_fas]
 tags: [paper, pad, deep-fas-survey, bilateral-convolution]
 authors: 
 year: ECCV 2020

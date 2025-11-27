@@ -1,6 +1,6 @@
 ---
 aliases:
-  - DC-CDN
+  - dc_cdn_fas
 tags:
   - paper
   - FAS

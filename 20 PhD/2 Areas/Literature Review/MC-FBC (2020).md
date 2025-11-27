@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [mc_fbc_fas]
 tags: [paper, pad, deep-fas-survey, fine-grained-classification, bilinear-coding]
 authors: Shan Jia, Xin Li, Chuanbo Hu, Guodong Guo, Zhengquan Xu
 year: 2020

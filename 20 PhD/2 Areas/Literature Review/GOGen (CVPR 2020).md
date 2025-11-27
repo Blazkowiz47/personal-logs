@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [gogen_fas]
 tags: [paper, pad, deep-fas-survey, generative-model, generic-object-anti-spoofing]
 authors: Joel Stehouwer, Amin Jourabloo, Xiaoming Liu, Liu Ren
 year: 2020

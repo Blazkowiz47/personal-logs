@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [motionenhancement_fas]
 tags: [paper, pad, deep-fas-survey, binary-supervision, motion-enhancement]
 authors: Zitong Yu, Benjia Zhou, Jun Wan, Pong C. Yuen, Haibin Ling, Guoying Zhao
 year: 2020

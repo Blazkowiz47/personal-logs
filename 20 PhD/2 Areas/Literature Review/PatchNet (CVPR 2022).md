@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [patchnet_fas]
 tags: [paper, pad, deep-fas-survey, binary-supervision]
 authors: Chien-Yi Wang, Yu-Ding Lu, Shang-Ta Yang, Shang-Hong Lai
 year: 2022

@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [cnnlbptop_fas]
 tags: [paper, pad, deep-fas-survey, hybrid-method]
 authors: A. Alotaibi and A. Mahmood
 year: 2017

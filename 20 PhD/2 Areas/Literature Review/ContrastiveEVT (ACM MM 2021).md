@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [contrastiveevt_fas]
 tags: [paper, pad, deep-fas-survey, anomaly-detection, open-set]
 authors: Xin Dong, Hao Liu, Weiwei Cai, Pengyuan Lv, Zekuan Yu
 year: 2021

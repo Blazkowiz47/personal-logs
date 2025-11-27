@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [phystd_fas]
 tags: [paper, pad, deep-fas-survey, generative-model]
 authors: Yaojie Liu, Xiaoming Liu
 year: 2022

@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [thermalization_fas]
 tags: [paper, pad, deep-fas-survey, specialized-sensor]
 authors: Marcin Kowalski
 year: 2020

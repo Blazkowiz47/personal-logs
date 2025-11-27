@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [dr_uda_fas]
 tags: [paper, pad, deep-fas-survey, domain-adaptation]
 authors: Guoqing Wang, Hu Han, Shiguang Shan, Xilin Chen
 year: TIFS 2020

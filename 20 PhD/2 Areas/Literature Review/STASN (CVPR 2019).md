@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [stasn_fas]
 tags: [paper, pad, deep-fas-survey, binary-supervision]
 authors: Xiao Yang, Wenhan Luo, Linchao Bao, Yuan Gao, Dihong Gong, Shibao Zheng, Zhifeng Li, Wei Liu
 year: 2019
