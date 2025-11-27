@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [dino_v3_fas]
 tags:
   - paper
   - pad

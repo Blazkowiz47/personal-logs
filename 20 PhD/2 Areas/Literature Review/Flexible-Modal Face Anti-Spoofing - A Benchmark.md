@@ -1,11 +1,6 @@
 ---
 aliases:
-  - FMF
-  - fmf
-  - fmf-pad
-  - FMF-PAD
-  - Fmf-pad
-  - fmfpad
+  - fmf_fas
 tags:
   - paper
   - pad
