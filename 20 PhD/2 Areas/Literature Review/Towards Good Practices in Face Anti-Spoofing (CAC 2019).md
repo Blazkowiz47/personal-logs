@@ -3,7 +3,7 @@ aliases: []
 tags: [paper, pad, deep-fas-survey, generative-model]
 authors: Yang Chen, Tian Wang, Jingjing Wang, Peng Shi, H. Snoussi
 year: 2019
-venue: 2019 Chinese Automation Congress (CAC)
+venue: Chinese Automation Congress (CAC) 2019
 paper_url: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8997504
 code_url: 
 status: "📚 To Read"

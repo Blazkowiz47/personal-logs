@@ -1,9 +1,9 @@
 ---
 aliases: []
 tags: [paper, pad, deep-fas-survey, specialized-sensor]
-authors: 
+authors: Marcin Kowalski
 year: 2020
-venue: 
+venue: Sensors (MDPI)
 paper_url: https://www.mdpi.com/1424-8220/20/14/3988
 code_url: 
 status: "📚 To Read"
@@ -13,6 +13,8 @@ priority: medium
 ---
 
 ## Quick Summary
+**Abstract:** A Study on Presentation Attack Detection in Thermal Infrared. This paper presents a comprehensive study on using thermal infrared imaging for face presentation attack detection, exploring various attack types and detection methods in the thermal domain.
+
 **Method:** Thermalization
 - **Backbone:** YOLO V3+GoogLeNet
 - **Loss:** Binary CE loss

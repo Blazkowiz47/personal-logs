@@ -2,8 +2,8 @@
 aliases: []
 tags: [paper, pad, deep-fas-survey, zero-shot, vit]
 authors: Anjith George, Sebastien Marcel
-year: IJCB 2021
-venue: IJCB
+year: 2021
+venue: IEEE IJCB 2021
 paper_url: https://arxiv.org/abs/2011.08019
 code_url: 
 status: "📚 To Read"

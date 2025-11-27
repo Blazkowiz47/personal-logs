@@ -2,8 +2,8 @@
 aliases: []
 tags: [paper, pad, deep-fas-survey, auxiliary-supervision]
 authors: 
-year: TBIOM 2022
-venue: 
+year: 2022
+venue: IEEE TBIOM 2022
 paper_url: https://ieeexplore.ieee.org/document/9817442
 code_url: 
 status: "📚 To Read"
@@ -13,7 +13,9 @@ priority: medium
 ---
 
 ## Quick Summary
-**Method:** TransFAS
+**Abstract:** (IEEE blocked - metadata unavailable) TransFAS proposes a Transformer-based architecture for face anti-spoofing with Cross-Layer Attentions and depth supervision for improved feature extraction.
+
+**Method:** TransFAS (Transformer for Face Anti-Spoofing)
 - **Supervision:** Depth
 - **Backbone:** ViT with Cross-Layer Attentions
 - **Input:** RGB
