@@ -51,22 +51,13 @@ def clean_file(filepath):
         for line in lines:
             stripped = line.strip()
             
-            # Skip any line that is just a bullet with **Label:** format (no real content after colon)
-            if re.match(r'^[-*]\s*\*\*[^*]+\*\*:\s*\S+.*$', stripped):
-                # This has content after the colon - but check if it's just a single word
-                after_colon = re.sub(r'^[-*]\s*\*\*[^*]+\*\*:\s*', '', stripped)
-                # If it's just a simple value like "RGB" or "S" with no explanation, skip
-                if len(after_colon.split()) <= 3 and not any(c in after_colon for c in '.,:;'):
-                    continue
-            
-            # Skip lines that are ONLY "- **Something:** value" style (method cards)
-            if re.match(r'^[-*]\s*\*\*\w+(/\w+)?\*\*:\s*[A-Za-z0-9,\s\-\(\)]+$', stripped):
+            # Skip ANY line that starts with "- **" (bullet with bold label)
+            if re.match(r'^[-*]\s*\*\*', stripped):
                 continue
             
-            # Skip numbered lists that are just brief labels
-            if re.match(r'^\d+\.\s+\*\*[^*]+\*\*:\s*[^.]+$', stripped) and len(stripped) < 120:
-                # Keep if it has substantial explanation (over 120 chars)
-                pass
+            # Skip numbered items that are just "1. **Label:** short text"
+            if re.match(r'^\d+\.\s+\*\*[^*]+\*\*:', stripped):
+                continue
             
             cleaned_lines.append(line)
         
