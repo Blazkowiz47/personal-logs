@@ -12,18 +12,10 @@ dateread:
 priority: medium
 ---
 ## What does the paper present?
-- **Backbone:** AlexNet
-- **Loss:** Binary CE loss, MMD loss
-- **Input:** RGB
-- **Static/Dynamic:** S
-
 Poor generalization across datasets due to variety of spoofing materials and environmental conditions. Limited labeled data in target domains.
 
 1.  **Deep Transfer Learning:** Uses sparsely labeled data from the target domain to learn invariant features.
 2.  **MMD (Maximum Mean Discrepancy):** Minimizes the distribution distance between source and target domains in the feature space.
-
-- **Backbone:** AlexNet (fine-tuned).
-- **Adaptation:** MMD loss layer.
 
 - Cross-dataset benchmarks.
 

@@ -12,10 +12,6 @@ dateread:
 priority: medium
 ---
 ## What does the paper present?
-- **Backbone:** ResNet18
-- **Loss:** Hypersphere loss
-- **Input:** RGB, HSV
-
 What problem does this paper address?
 
 *Describe the model/approach*

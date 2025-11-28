@@ -15,10 +15,6 @@ priority: medium
 **Abstract:** (IEEE blocked - metadata unavailable) TS-FEN proposes a two-stream feature extraction network for face anti-spoofing using depth supervision with multi-channel input (RGB, YCbCr, HSV).
 
 **Method:** TS-FEN (Two-Stream Feature Extraction Network)
-- **Supervision:** Depth
-- **Backbone:** ResNet34, FCN
-- **Input:** RGB, YCbCr, HSV
-- **Static/Dynamic:** S
 
 What problem does this paper address?
 

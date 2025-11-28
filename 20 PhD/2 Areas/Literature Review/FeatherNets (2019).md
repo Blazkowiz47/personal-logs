@@ -12,11 +12,6 @@ dateread:
 priority: medium
 ---
 ## What does the paper present?
-- **Backbone:** Ensemble-FeatherNet
-- **Loss:** Binary CE loss
-- **Input:** Depth, NIR
-- **Fusion:** Decision-level
-
 What problem does this paper address?
 
 *Describe the model/approach*

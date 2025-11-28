@@ -30,11 +30,6 @@ priority: medium
 # Structure Destruction and Content Combination for Face Anti-Spoofing (DCN)
 
 ## What does the paper present?
-- **Supervision:** Reflection
-- **Backbone:** DepthNet
-- **Input:** RGB
-- **Static/Dynamic:** Static
-
 This paper proposes a method to prevent overfitting in FAS models by destroying the global facial structure and mixing content from different domains. It introduces a **Structure Destruction Module (SDM)** to break images into patches and a **Content Combination Module (CCM)** to recombine them, forcing the model to learn local discriminative features rather than memorizing the entire face structure.
 
 FAS models often overfit by memorizing the complete facial structure in a single image and are sensitive to implicit subdomains within the dataset. This leads to poor generalization on unseen domains.
@@ -44,12 +39,6 @@ FAS models often overfit by memorizing the complete facial structure in a single
 3. **Local Relation Modeling Module (LRM):** Models the second-order relationships between the patches to capture local dependencies.
 
 The architecture focuses on processing patches rather than whole images.
-- **Input Transformation:** Instead of feeding the whole image, the method splits the image into patches (Structure Destruction).
-- **Mixup Strategy:** It mixes patches from different images/classes (Content Combination) to create new training samples that force the network to learn robust features.
-- **Modeling:** A Local Relation Modeling Module is used to understand how these patches relate to each other, focusing on local cues rather than global semantics.
-
-- **Patch-based Learning:** Breaking global structure to focus on local texture/features.
-- **Domain Mixup:** Mixing content from different domains to improve robustness.
 
 - Evaluated on extensive public datasets (likely Oulu-NPU, CASIA-MFSD, Replay-Attack, MSU-MFSD based on the era and topic).
 
@@ -62,13 +51,3 @@ The architecture focuses on processing patches rather than whole images.
 
 - The "DCN" likely refers to "Destruction and Content Combination Network".
 - Similar to jigsaw puzzle pretext tasks in self-supervised learning.
-
----
-**Reading Progress:**
-- [x] Abstract
-- [ ] Introduction
-- [ ] Related Work
-- [ ] Methodology
-- [ ] Experiments
-- [ ] Conclusion
-- [ ] Supplementary Material

@@ -28,11 +28,6 @@ priority: medium
 # Asymmetric Modality Translation For Face Presentation Attack Detection (AMT)
 
 ## What does the paper present?
-- **Backbone:** Translator (Encoder-Decoder) + Discriminator
-- **Loss:** BCE loss, Pixel-wise binary loss, Reconstruction loss, Asymmetric Modality Translation Loss
-- **Input:** RGB + (NIR / Thermal / Depth)
-- **Fusion:** Feature/Image level (via translation)
-
 This paper proposes a framework based on **Asymmetric Modality Translation** for bi-modality FAS. It translates images from one modality (e.g., RGB) to another (e.g., Depth or IR) using an asymmetric translator, and then fuses them. It also introduces an **Illumination Normalization Module** based on **Pattern of Local Gravitational Force (PLGF)**.
 
 Generalization across domains (especially varying illumination) is difficult. Existing multi-modal methods might not fully exploit the relationship between modalities or handle missing modalities well.
@@ -40,12 +35,6 @@ Generalization across domains (especially varying illumination) is difficult. Ex
 1.  **Asymmetric Modality Translation:** Translating one modality to another to establish connections and potentially fill in missing information.
 2.  **Modality Fusion Scheme:** Fusing the translated modality with the original paired image.
 3.  **Illumination Normalization (PLGF):** A preprocessing step to reduce the impact of lighting variations.
-
-- **Translator:** An asymmetric encoder-decoder structure.
-- **Fusion:** Combining the real and "hallucinated" or translated modality.
-
-- **Generative Translation:** Similar to CycleGAN or Pix2Pix but tailored for FAS.
-- **PLGF:** A specific handcrafted feature for illumination invariance.
 
 - Validated on three public datasets (likely CASIA-SURF, OULU-NPU, etc.).
 

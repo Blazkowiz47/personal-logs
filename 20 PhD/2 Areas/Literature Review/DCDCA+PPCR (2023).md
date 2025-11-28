@@ -12,22 +12,11 @@ dateread:
 priority: medium
 ---
 ## What does the paper present?
-- **Replay or not:** Rehearsal-Free
-- **Backbone:** ViT
-- **Loss:** BCE loss, Proxy Prototype Contrastive Regularization (PPCR)
-- **Input:** RGB
-- **Static/Dynamic:** S
-
 Continual learning in FAS usually requires replay buffers (storing old data), which is a privacy risk. Existing methods suffer from catastrophic forgetting without replay.
 
 1.  **Rehearsal-Free DCL:** First method for Domain Continual Learning (DCL) in FAS without storing previous data.
 2.  **DCDCA (Dynamic Central Difference Convolutional Adapter):** Adapts ViT models to new domains efficiently.
 3.  **PPCR (Proxy Prototype Contrastive Regularization):** Constrains learning using proxy prototypes to prevent forgetting previous domain knowledge.
-
-- **Backbone:** Vision Transformer (ViT).
-- **Adapter:** DCDCA inserted into ViT blocks.
-
-- **Proxy Prototypes:** Storing prototypes instead of raw images to preserve privacy and memory.
 
 - Standard cross-domain benchmarks in a sequential setting.
 

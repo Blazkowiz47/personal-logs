@@ -15,10 +15,6 @@ priority: medium
 **Abstract:** (IEEE blocked - metadata unavailable) TransFAS proposes a Transformer-based architecture for face anti-spoofing with Cross-Layer Attentions and depth supervision for improved feature extraction.
 
 **Method:** TransFAS (Transformer for Face Anti-Spoofing)
-- **Supervision:** Depth
-- **Backbone:** ViT with Cross-Layer Attentions
-- **Input:** RGB
-- **Static/Dynamic:** S
 
 What problem does this paper address?
 

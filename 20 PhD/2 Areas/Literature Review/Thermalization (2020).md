@@ -15,10 +15,6 @@ priority: medium
 **Abstract:** A Study on Presentation Attack Detection in Thermal Infrared. This paper presents a comprehensive study on using thermal infrared imaging for face presentation attack detection, exploring various attack types and detection methods in the thermal domain.
 
 **Method:** Thermalization
-- **Backbone:** YOLO V3+GoogLeNet
-- **Loss:** Binary CE loss
-- **Input:** Thermal infrared face image
-- **Static/Dynamic:** S
 
 What problem does this paper address?
 

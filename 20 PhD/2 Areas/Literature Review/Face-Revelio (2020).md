@@ -12,11 +12,6 @@ dateread:
 priority: medium
 ---
 ## What does the paper present?
-- **Backbone:** Siamese-AlexNet
-- **Loss:** L1 distance
-- **Input:** Four flash lights displayed on four quarters of a screen
-- **Static/Dynamic:** D
-
 What problem does this paper address?
 
 *Describe the model/approach*

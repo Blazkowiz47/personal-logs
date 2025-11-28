@@ -12,10 +12,6 @@ dateread:
 priority: medium
 ---
 ## What does the paper present?
-- **Backbone:** PhySTD
-- **Loss:** CE loss, Binary Mask loss, Source & Target distillation loss
-- **Static/Dynamic:** S
-
 What problem does this paper address?
 
 *Describe the model/approach*

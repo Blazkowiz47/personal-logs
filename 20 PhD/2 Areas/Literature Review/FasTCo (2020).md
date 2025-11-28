@@ -12,11 +12,6 @@ dateread:
 priority: medium
 ---
 ## What does the paper present?
-- **Backbone:** ResNet50 or MobileNetV2
-- **Loss:** Multi-class CE loss, Temporal Consistency loss, Class Consistency loss
-- **Input:** RGB
-- **Static/Dynamic:** D
-
 What problem does this paper address?
 
 *Describe the model/approach*

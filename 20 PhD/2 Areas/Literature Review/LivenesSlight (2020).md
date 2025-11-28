@@ -12,11 +12,6 @@ dateread:
 priority: medium
 ---
 ## What does the paper present?
-- **Backbone:** 6-layer CNN
-- **Loss:** Binary CE loss
-- **Input:** RGB (Reflected Light)
-- **Static/Dynamic:** S
-
 What problem does this paper address?
 
 *Describe the model/approach*

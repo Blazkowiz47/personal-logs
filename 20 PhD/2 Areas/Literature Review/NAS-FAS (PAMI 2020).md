@@ -28,11 +28,6 @@ priority: medium
 # NAS-FAS: Static-Dynamic Central Difference Network Search for Face Anti-Spoofing
 
 ## What does the paper present?
-- **Supervision:** Depth, Binary Mask
-- **Backbone:** NAS-searched (based on CDC)
-- **Input:** RGB (Static and Dynamic)
-- **Static/Dynamic:** Static-Dynamic
-
 This paper proposes **NAS-FAS**, the first method to use **Neural Architecture Search (NAS)** to discover task-aware networks for FAS. It introduces a novel search space based on **Central Difference Convolution (CDC)** and pooling operators. It also proposes a **Static-Dynamic Representation** to mine spatio-temporal discrepancies and a **Domain/Type-aware Meta-NAS** for robust searching.
 
 Expert-designed networks may be sub-optimal for FAS. Existing NAS methods focus on generic classification and don't address the specific challenges of FAS:
@@ -44,12 +39,6 @@ Expert-designed networks may be sub-optimal for FAS. Existing NAS methods focus 
 3.  **Static-Dynamic Representation:** Exploiting both static (spatial) and dynamic (temporal) cues efficiently.
 4.  **Domain/Type-aware Meta-NAS:** A meta-learning approach to guide the search process for better generalization.
 5.  **CASIA-SURF 3DMask Dataset:** A large-scale 3D mask dataset released to support a new "cross-dataset cross-type" testing protocol.
-
-- **Search Space:** Includes various CDC operations (different kernel sizes, sparsity) and pooling.
-- **Meta-NAS:** Uses meta-learning to find an architecture that adapts well to new domains/types.
-
-- **Neural Architecture Search:** Automating the design of the backbone.
-- **Meta-Learning:** Improving the search process itself.
 
 - CASIA-SURF 3DMask (New)
 - ... (9 datasets total)

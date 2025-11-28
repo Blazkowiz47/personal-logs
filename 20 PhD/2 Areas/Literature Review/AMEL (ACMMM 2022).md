@@ -28,11 +28,6 @@ priority: medium
 # Adaptive Mixture of Experts Learning for Generalizable Face Anti-Spoofing (AMEL)
 
 ## What does the paper present?
-- **Backbone:** Mixture of Experts (MoE) framework
-- **Loss:** CE loss, Depth loss, Feature consistency loss
-- **Input:** RGB
-- **Static/Dynamic:** Static
-
 This paper proposes an **Adaptive Mixture of Experts Learning (AMEL)** framework for Domain Generalization (DG) in FAS. It argues that existing DG methods focus too much on domain-invariant features and neglect domain-specific characteristics. AMEL uses **Domain-Specific Experts (DSE)** to learn unique features for each source domain and a **Dynamic Expert Aggregation (DEA)** module to adaptively combine them for unseen target domains based on domain relevance.
 
 Standard DG methods try to find a common feature space for all domains, which might be suboptimal because different domains (and attack types) have distinct characteristics. Ignoring these specific traits limits generalization.
@@ -41,12 +36,6 @@ Standard DG methods try to find a common feature space for all domains, which mi
 2.  **Domain-Specific Experts (DSE):** Experts trained to specialize in individual source domains.
 3.  **Dynamic Expert Aggregation (DEA):** A mechanism to weight the contributions of different experts based on how similar the target input is to the source domains.
 4.  **Meta-Learning Integration:** Used to train the aggregation module to generalize to unseen domains.
-
-- **Experts:** Multiple networks, each expert on a specific domain.
-- **Gating Network (DEA):** Decides how much to trust each expert for a given input.
-
-- **Mixture of Experts (MoE):** A classic ensemble technique applied to DG.
-- **Meta-Learning:** Simulating domain shift during training to prepare for the real test.
 
 - Outperforms SOTA competitors on standard DG protocols.
 

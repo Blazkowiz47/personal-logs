@@ -12,11 +12,6 @@ dateread:
 priority: medium
 ---
 ## What does the paper present?
-- **Backbone:** CNN+LSTM
-- **Loss:** Binary CE loss
-- **Input:** RGB
-- **Static/Dynamic:** D
-
 Temporal features is important for face anti-spoofing. Unfortunately existing methods have limitations to explore such temporal features. In this work, we propose a deep neural network architecture combining Long Short-Term Memory (LSTM) units with Convolutional Neural Networks (CNN). Our architecture works well for face anti-spoofing by utilizing the LSTM units' ability of finding long relation from its input sequences as well as extracting local and dense features through convolution operations. Our best model shows significant performance improvement over general CNN architecture (5.93% vs. 7.34%), and hand-crafted features (5.93% vs. 10.00%) on CASIA dataset.
 
 *Describe the model/approach*

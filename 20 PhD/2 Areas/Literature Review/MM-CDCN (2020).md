@@ -12,11 +12,6 @@ dateread:
 priority: medium
 ---
 ## What does the paper present?
-- **Backbone:** CDCN
-- **Loss:** Pixel-wise binary loss, Contrastive depth loss
-- **Input:** RGB, Depth, NIR
-- **Fusion:** Feature&Decision-level
-
 What problem does this paper address?
 
 *Describe the model/approach*

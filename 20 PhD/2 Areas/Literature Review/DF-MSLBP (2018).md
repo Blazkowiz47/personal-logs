@@ -12,18 +12,10 @@ dateread:
 priority: medium
 ---
 ## What does the paper present?
-- **Backbone:** Deep Forest (gcForest)
-- **Loss:** N/A (Decision Tree based)
-- **Input:** HSV+YCbCr (LBP features)
-- **Static/Dynamic:** S
-
 CNNs are vulnerable to adversarial attacks. Handcrafted features combined with non-differentiable models (like Random Forests) might be more robust.
 
 1.  **Deep Forest for FAS:** First attempt to use Deep Forest (gcForest) for Face Anti-Spoofing.
 2.  **Multi-scale LBP:** Replaces the standard scanning mechanism in gcForest with MS-LBP for better texture capture.
-
-- **gcForest:** A deep learning model based on decision trees (random forests) rather than neurons.
-- **Feature Extraction:** Multi-scale LBP on HSV and YCbCr color spaces.
 
 - Replay-Attack (0% EER reported).
 

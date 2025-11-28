@@ -15,10 +15,6 @@ priority: medium
 **Abstract:** (IEEE blocked - metadata unavailable) TTN proposes a Temporal Transformer Network for video-based face anti-spoofing using depth supervision, with Pyramid Temporal Aggregation and Temporal Difference Attentions to capture spatio-temporal cues.
 
 **Method:** TTN (Temporal Transformer Network)
-- **Supervision:** Depth
-- **Backbone:** ViT with Pyramid Temporal Aggregation, Temporal Difference Attentions
-- **Input:** RGB
-- **Static/Dynamic:** D
 
 What problem does this paper address?
 

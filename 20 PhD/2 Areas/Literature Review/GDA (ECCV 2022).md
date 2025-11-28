@@ -12,10 +12,6 @@ dateread:
 priority: medium
 ---
 ## What does the paper present?
-- **Backbone:** DepthNet
-- **Loss:** CE Loss, Depth loss, Inter-domain Neural Statistic Consistency, phase consistency, Perceptual loss
-- **Static/Dynamic:** S
-
 What problem does this paper address?
 
 *Describe the model/approach*

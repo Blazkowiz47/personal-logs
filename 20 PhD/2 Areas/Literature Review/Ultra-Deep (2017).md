@@ -15,10 +15,6 @@ priority: medium
 **Abstract:** (Springer blocked - metadata unavailable) Ultra-Deep proposes an ultra-deep network combining ResNet50 with LSTM for video-based face anti-spoofing, leveraging both spatial and temporal features.
 
 **Method:** Ultra-Deep
-- **Backbone:** ResNet50+LSTM
-- **Loss:** Binary CE loss
-- **Input:** RGB
-- **Static/Dynamic:** D
 
 What problem does this paper address?
 

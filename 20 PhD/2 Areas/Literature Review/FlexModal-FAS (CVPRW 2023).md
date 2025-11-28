@@ -12,11 +12,6 @@ dateread:
 priority: medium
 ---
 ## What does the paper present?
-- **Backbone:** CDCN, ResNet50, ViT
-- **Loss:** BCE loss, Pixel-wise binary loss
-- **Input:** RGB, Depth, IR
-- **Fusion:** Feature-level
-
 What problem does this paper address?
 
 *Describe the model/approach*

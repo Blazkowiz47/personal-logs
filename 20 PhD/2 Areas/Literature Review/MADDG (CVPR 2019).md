@@ -12,10 +12,6 @@ dateread:
 priority: medium
 ---
 ## What does the paper present?
-- **Backbone:** DepthNet
-- **Loss:** Binary CE & Depth loss, Multi-adversarial loss, Dual-force Triplet loss
-- **Static/Dynamic:** S
-
 What problem does this paper address?
 
 *Describe the model/approach*

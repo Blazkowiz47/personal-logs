@@ -12,10 +12,6 @@ dateread:
 priority: medium
 ---
 ## What does the paper present?
-- **Backbone:** DepthNet
-- **Loss:** Binary CE loss, Pixel-wise binary loss
-- **Static/Dynamic:** S
-
 What problem does this paper address?
 
 *Describe the model/approach*

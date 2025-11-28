@@ -12,18 +12,11 @@ dateread:
 priority: medium
 ---
 ## What does the paper present?
-- **Supervision:** BinaryMask
-- **Backbone:** Tree Network
-- **Input:** RGB, HSV
-- **Static/Dynamic:** S
-
 Zero-Shot Face Anti-spoofing (ZSFA): Detecting unknown spoof attacks that were not seen during training. Previous works only studied 1-2 types.
 
 1.  **Deep Tree Network (DTN):** Learns to partition spoof samples into semantic sub-groups in an unsupervised fashion.
 2.  **Zero-Shot Detection:** Routes input to the most similar spoof cluster or detects it as unknown/live.
 3.  **Diverse Attack Dataset:** Introduces a dataset with 13 types of spoof attacks.
-
-- **Tree Structure:** Hierarchical clustering of spoof types.
 
 - SiW-M (Spoof in the Wild - Multi-attack).
 

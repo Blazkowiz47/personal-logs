@@ -12,11 +12,6 @@ dateread:
 priority: medium
 ---
 ## What does the paper present?
-- **Supervision:** BinaryMask
-- **Backbone:** Dual-ResNet50
-- **Input:** RGB + frequency map
-- **Static/Dynamic:** S
-
 What problem does this paper address?
 
 *Describe the model/approach*

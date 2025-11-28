@@ -12,23 +12,11 @@ dateread:
 priority: medium
 ---
 ## What does the paper present?
-- **Backbone:** DepthNet (likely)
-- **Loss:** Meta-learning loss, MMD loss
-- **Input:** RGB
-- **Static/Dynamic:** S
-
 Existing DG methods assume known domain labels. Real-world data has mixture domains with unknown labels.
 
 1.  **Mixture Domain DG:** Addresses the problem where domain labels are unknown.
 2.  **D2AM:** Domain Dynamic Adjustment Meta-learning. Iteratively divides mixture domains via discriminative domain representation.
 3.  **DRLM:** Domain Representation Learning Module using Instance Normalization (IN).
-
-- **DRLM:** Extracts domain features.
-- **Clustering:** Divides data into domains dynamically.
-- **Meta-Learning:** Trains a generalizable model on these discovered domains.
-
-- **Instance Normalization (IN):** For domain style features.
-- **MMD (Maximum Mean Discrepancy):** To align distributions and reduce outlier effects.
 
 - Standard cross-domain protocols.
 

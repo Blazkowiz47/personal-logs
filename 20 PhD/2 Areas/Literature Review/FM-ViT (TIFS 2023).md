@@ -12,11 +12,6 @@ dateread:
 priority: medium
 ---
 ## What does the paper present?
-- **Backbone:** ViT
-- **Loss:** BCE loss for flexible-modal classification heads
-- **Input:** RGB, Depth, IR
-- **Fusion:** Feature-level
-
 What problem does this paper address?
 
 *Describe the model/approach*

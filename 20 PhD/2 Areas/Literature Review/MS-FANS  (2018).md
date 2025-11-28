@@ -12,11 +12,6 @@ dateread:
 priority: medium
 ---
 ## What does the paper present?
-- **Backbone:** AlexNet+LSTM
-- **Loss:** Binary CE loss
-- **Input:** RGB
-- **Static/Dynamic:** S
-
 What problem does this paper address?
 
 *Describe the model/approach*

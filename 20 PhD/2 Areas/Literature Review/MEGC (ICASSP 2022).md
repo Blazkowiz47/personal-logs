@@ -12,11 +12,6 @@ dateread:
 priority: medium
 ---
 ## What does the paper present?
-- **Supervision:** Depth, Relection, Moire, Boundary
-- **Backbone:** DepthNet+Feature Enrichment
-- **Input:** RGB, HSV
-- **Static/Dynamic:** S
-
 What problem does this paper address?
 
 *Describe the model/approach*

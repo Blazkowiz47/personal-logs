@@ -12,11 +12,6 @@ dateread:
 priority: medium
 ---
 ## What does the paper present?
-- **Backbone:** RetinaNet (FPN+ResNet18)
-- **Loss:** Landmark regression, Focal loss
-- **Input:** Grayscale-Depth-Infrared composition
-- **Fusion:** Input-level
-
 What problem does this paper address?
 
 *Describe the model/approach*

@@ -12,11 +12,6 @@ dateread:
 priority: medium
 ---
 ## What does the paper present?
-- **Backbone:** DenseNet161
-- **Loss:** Binary mask loss
-- **Input:** SWIR images differences
-- **Static/Dynamic:** S
-
 What problem does this paper address?
 
 *Describe the model/approach*

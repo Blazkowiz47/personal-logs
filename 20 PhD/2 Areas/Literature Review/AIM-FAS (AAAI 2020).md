@@ -29,10 +29,6 @@ priority: medium
 > **Correction:** I will search for the correct "AIM-FAS" paper (likely "Zero-Shot Face Anti-Spoofing" or similar from AAAI 2020) in the next step. For now, I am flagging this note as a mismatch.
 
 ## What does the paper present?
-- **Backbone:** DepthNet
-- **Loss:** Depth loss, Contrastive Depth loss
-- **Input:** RGB
-
 **(Content below refers to the mismatched driving paper found at the URL)**
 This paper proposes a driver-centric definition of risk and a causal inference framework for identifying risk objects in driving scenes.
 
@@ -45,4 +41,4 @@ This paper proposes a driver-centric definition of risk and a causal inference f
 (Mismatched)
 
 ## What are my views on it?
-- **ACTION REQUIRED:** Find the correct paper for "AIM-FAS (AAAI 2020)". It might be "Adversarial Interference for Model..." or similar.
+

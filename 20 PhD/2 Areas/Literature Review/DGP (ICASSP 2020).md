@@ -12,18 +12,10 @@ dateread:
 priority: medium
 ---
 ## What does the paper present?
-- **Backbone:** DenseNet161
-- **Loss:** Feature divergence measure, BinaryMask loss
-- **Input:** RGB
-- **Static/Dynamic:** S
-
 PAD systems fail to generalize to new domains (datasets). Collecting PA data in the target domain is difficult/expensive.
 
 1.  **One-Class Domain Adaptation:** Adapts to a target domain using only bona fide samples (minimal information).
 2.  **Domain Guided Pruning:** Prunes the network to adapt it to the target domain.
-
-- **Backbone:** DenseNet161.
-- **Pruning:** Adapts the network by pruning filters that are not useful for the target domain.
 
 - Cross-dataset evaluations.
 

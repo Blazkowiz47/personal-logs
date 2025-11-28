@@ -29,11 +29,6 @@ priority: medium
 # Deep Spatial Gradient and Temporal Depth Learning for Face Anti-spoofing (FAS-SGTD)
 
 ## What does the paper present?
-- **Supervision:** Depth, Contrastive Depth Loss
-- **Backbone:** Custom (RSGB + STPM)
-- **Input:** RGB (Multi-frame)
-- **Static/Dynamic:** Dynamic (Spatio-Temporal)
-
 This paper proposes a method that leverages **Spatial Gradient** and **Temporal Depth** information. It argues that stacked vanilla convolutions discard detailed discriminative clues (like gradient magnitude). It introduces a **Residual Spatial Gradient Block (RSGB)** to capture these details and a **Spatio-Temporal Propagation Module (STPM)** to model the temporal dynamics of 3D moving faces.
 
 1.  Vanilla convolutions may smooth out or discard fine-grained spatial gradient information which is crucial for distinguishing real skin from spoof mediums (paper, screen).
@@ -43,12 +38,6 @@ This paper proposes a method that leverages **Spatial Gradient** and **Temporal 
 2.  **Spatio-Temporal Propagation Module (STPM):** Efficiently encodes spatio-temporal information from multiple frames.
 3.  **Contrastive Depth Loss:** A novel loss function for more accurate depth supervision.
 4.  **Double-modal Anti-spoofing Dataset (DMAD):** A new dataset collected by the authors (though less standard than OULU).
-
-- **RSGB:** Replaces standard residual blocks. It includes a branch that computes the gradient (difference) of the input features.
-- **STPM:** Propagates features across time steps to capture motion cues.
-
-- **Gradient Learning:** Explicitly modeling the "texture" or "noise" via gradients.
-- **Temporal Modeling:** Using multiple frames to check for consistency and 3D motion.
 
 - DMAD (Custom)
 

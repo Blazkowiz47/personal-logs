@@ -15,10 +15,6 @@ priority: medium
 **Abstract:** Face Liveness Detection Using Thermal Face-CNN with External Knowledge. This paper proposes a thermal face-based CNN approach for face anti-spoofing using external knowledge from facial temperature patterns to distinguish between live faces and presentation attacks.
 
 **Method:** Thermal-FaceCNN
-- **Backbone:** AlexNet
-- **Loss:** Regression loss
-- **Input:** Thermal infrared face image
-- **Static/Dynamic:** S
 
 What problem does this paper address?
 

@@ -12,18 +12,10 @@ dateread:
 priority: medium
 ---
 ## What does the paper present?
-- **Backbone:** VGG16 (likely)
-- **Loss:** Binary CE loss, Channel & Spatial discriminability
-- **Input:** RGB + Optical Flow (Dynamic Textures)
-- **Static/Dynamic:** D
-
 3D mask attacks are challenging because they mimic 3D structure. However, real faces have subtle motion patterns (micro-expressions, blinking) that rigid masks lack.
 
 1.  **Deep Dynamic Textures:** Captures subtle facial motion using deep features from video.
 2.  **Joint Discriminative Learning:** Weights the discriminability of features from different spatial regions and channels to focus on the most useful motion cues.
-
-- **Input:** Video frames (to capture motion).
-- **Feature Learning:** Extracts dynamic textures.
 
 - 3D Mask datasets (likely 3DMAD, HKBU-MARs).
 

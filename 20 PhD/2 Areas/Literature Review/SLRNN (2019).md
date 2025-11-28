@@ -17,11 +17,6 @@ priority: medium
 > Face biometric systems are vulnerable to spoofing attacks because of criminals who are developing different techniques such as print attack, replay attack, 3D mask attack, etc. to easily fool the face recognition systems. To improve the security measures of biometric systems, we propose a simple and effective architecture called sample learning based recurrent neural network (SLRNN). The proposed sample learning is based on sparse filtering which is applied for augmenting the features by leveraging Residual Networks.
 
 ## What does the paper present?
-- **Backbone:** ResNet50+LSTM
-- **Loss:** Binary CE loss
-- **Input:** RGB
-- **Static/Dynamic:** D
-
 What problem does this paper address?
 
 *Describe the model/approach*

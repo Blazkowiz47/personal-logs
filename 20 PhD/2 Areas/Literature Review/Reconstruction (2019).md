@@ -17,11 +17,6 @@ priority: medium
 > In this paper, a novel auto-encoder image reconstruction model is proposed to address the face anti-spoofing problem and introduces the multi-scale skip connections to excavate multi-level semantics contained in images. The proposed method utilizes an image reconstruction model to address the face anti-spoofing problem, guiding the network towards better reconstruction results.
 
 ## What does the paper present?
-- **Supervision:** RGB Input (live), ZeroMap (spoof)
-- **Backbone:** U-Net
-- **Input:** RGB
-- **Static/Dynamic:** S
-
 **Abstract:** In this paper, a novel auto-encoder image reconstruction model is proposed to address the face anti-spoofing problem and introduces the multi-scale skip connections to excavate multi-level semantics contained in images. The proposed method utilizes an image reconstruction model to address the face anti-spoofing problem, guiding the network towards better reconstruction results.
 
 What problem does this paper address?

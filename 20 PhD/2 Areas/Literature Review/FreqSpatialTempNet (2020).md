@@ -12,11 +12,6 @@ dateread:
 priority: medium
 ---
 ## What does the paper present?
-- **Backbone:** ResNet18
-- **Loss:** Binary CE loss
-- **Input:** RGB, HSV, Spectral
-- **Static/Dynamic:** D
-
 What problem does this paper address?
 
 *Describe the model/approach*

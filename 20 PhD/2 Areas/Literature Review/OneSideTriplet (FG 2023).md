@@ -17,10 +17,6 @@ priority: medium
 > With the increasing variations of face presentation attacks, model generalization becomes an essential challenge for a practical face anti-spoofing system. This paper presents a generalized face anti-spoofing framework that consists of three tasks: depth estimation, face parsing, and live/spoof classification. With the pixel-wise supervision from the face parsing and depth estimation tasks, the regularized features can better distinguish spoof faces. While simulating domain shift with meta-learning techniques, the proposed one-side triplet loss can further improve the generalization capability by a large margin. Extensive experiments on four public datasets demonstrate that the proposed framework and training strategies are more effective than previous works for model generalization to unseen domains.
 
 ## What does the paper present?
-- **Backbone:** DepthNet+UNet
-- **Loss:** CE loss, triplet loss, Depth loss, Segmentation loss
-- **Static/Dynamic:** S
-
 What problem does this paper address?
 
 *Describe the model/approach*

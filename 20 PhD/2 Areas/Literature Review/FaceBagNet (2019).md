@@ -12,11 +12,6 @@ dateread:
 priority: medium
 ---
 ## What does the paper present?
-- **Backbone:** Multi-stream CNN
-- **Loss:** Binary CE loss
-- **Input:** RGB, Depth, NIR face patches
-- **Fusion:** Feature-level
-
 What problem does this paper address?
 
 *Describe the model/approach*

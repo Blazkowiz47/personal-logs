@@ -12,11 +12,6 @@ dateread:
 priority: medium
 ---
 ## What does the paper present?
-- **Backbone:** ResNet18/50
-- **Loss:** Binary CE loss
-- **Input:** RGB, NIR, Depth
-- **Fusion:** Feature-level
-
 What problem does this paper address?
 
 *Describe the model/approach*

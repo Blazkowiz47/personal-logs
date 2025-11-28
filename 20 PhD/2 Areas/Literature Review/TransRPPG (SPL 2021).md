@@ -15,10 +15,6 @@ priority: medium
 **Abstract:** (IEEE blocked - metadata unavailable) TransRPPG proposes a Vision Transformer approach for face anti-spoofing using remote photoplethysmography (rPPG) signal maps as input to detect presentation attacks through physiological signals.
 
 **Method:** TransRPPG
-- **Backbone:** Vision Transformer
-- **Loss:** Binary CE loss
-- **Input:** rPPG map
-- **Static/Dynamic:** D
 
 What problem does this paper address?
 

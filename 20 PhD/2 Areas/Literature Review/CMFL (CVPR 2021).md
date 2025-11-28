@@ -23,11 +23,6 @@ priority: medium
 # Cross Modal Focal Loss for RGBD Face Anti-Spoofing (CMFL)
 
 ## What does the paper present?
-- **Backbone:** Multi-channel architecture (e.g., MC-PixBiS or similar)
-- **Loss:** Cross Modal Focal Loss (CMFL)
-- **Input:** RGB, Depth (or other channels)
-- **Fusion:** Loss-level / Training strategy
-
 This paper proposes a novel loss function, **Cross Modal Focal Loss (CMFL)**, for RGB-D Face Anti-Spoofing. It addresses the issue where one modality (e.g., RGB) might overfit or dominate the learning. CMFL dynamically modulates the loss contribution of each channel based on the confidence of the individual channels, encouraging the model to learn complementary information from both modalities.
 
 Multi-channel PAD methods often fail to generalize because they may overfit to one modality (usually RGB) or fail to effectively leverage the complementary information from additional channels (like Depth) when data is limited.
@@ -37,8 +32,6 @@ Multi-channel PAD methods often fail to generalize because they may overfit to o
 
 - Uses a multi-stream architecture where each stream processes a different modality (RGB, Depth).
 - The streams are trained jointly with the CMFL.
-
-- **Focal Loss Adaptation:** Extends the concept of Focal Loss (which focuses on hard samples) to the multi-modal setting (focusing on the "harder" or less confident modality, or balancing them).
 
 - WMCA (Wide Multi-Channel Presentation Attack)
 

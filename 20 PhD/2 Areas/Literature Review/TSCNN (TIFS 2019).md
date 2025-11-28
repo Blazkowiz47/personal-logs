@@ -15,10 +15,6 @@ priority: medium
 **Abstract:** (IEEE blocked - metadata unavailable) TSCNN proposes a two-stream CNN architecture for face anti-spoofing that combines RGB and MSR (Multi-Scale Retinex) features for improved spoof detection.
 
 **Method:** TSCNN (Two-Stream CNN)
-- **Backbone:** ResNet18
-- **Loss:** Binary CE loss
-- **Input:** RGB, MSR
-- **Static/Dynamic:** S
 
 What problem does this paper address?
 

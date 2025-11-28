@@ -12,11 +12,6 @@ dateread:
 priority: medium
 ---
 ## What does the paper present?
-- **Backbone:** ViT+Multi-Level Attention Module
-- **Loss:** CE Loss
-- **Input:** RGB
-- **Static/Dynamic:** S
-
 What problem does this paper address?
 
 *Describe the model/approach*

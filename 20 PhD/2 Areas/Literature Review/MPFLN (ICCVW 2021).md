@@ -12,11 +12,6 @@ dateread:
 priority: medium
 ---
 ## What does the paper present?
-- **Supervision:** Depth, BinaryMask
-- **Backbone:** CDCN, 3D-CDCN
-- **Input:** RGB
-- **Static/Dynamic:** S, D
-
 What problem does this paper address?
 
 *Describe the model/approach*

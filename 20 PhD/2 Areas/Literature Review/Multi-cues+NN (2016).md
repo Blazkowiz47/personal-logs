@@ -12,11 +12,6 @@ dateread:
 priority: medium
 ---
 ## What does the paper present?
-- **Backbone:** MLP
-- **Loss:** Binary CE loss
-- **Input:** RGB+OFM
-- **Static/Dynamic:** D
-
 What problem does this paper address?
 
 *Describe the model/approach*

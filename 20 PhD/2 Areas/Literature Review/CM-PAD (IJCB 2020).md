@@ -12,11 +12,6 @@ dateread:
 priority: medium
 ---
 ## What does the paper present?
-- **Replay or not:** with Replay
-- **Backbone:** DepthNet / ResNet
-- **Loss:** Meta-learning loss (Gradient alignment)
-- **Input:** RGB
-
 PAD systems need to adapt to new attack types continuously (Lifelong Learning) without forgetting previous ones (Catastrophic Forgetting).
 
 1.  **Lifelong Learning Framework:** Formulates PAD as a lifelong learning problem.
@@ -24,9 +19,6 @@ PAD systems need to adapt to new attack types continuously (Lifelong Learning) w
 3.  **Gradient Alignment:** Uses gradient alignment to ensure updates for new tasks don't interfere with old ones.
 
 - Uses a meta-learning framework (likely MAML-based).
-
-- **Continual Learning:** Adapting to new domains/attacks.
-- **Meta-Learning:** Learning to learn.
 
 - Standard PAD datasets (likely OULU-NPU, SiW, etc. in a sequential protocol).
 

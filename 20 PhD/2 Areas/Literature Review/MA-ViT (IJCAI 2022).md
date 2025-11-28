@@ -12,11 +12,6 @@ dateread:
 priority: medium
 ---
 ## What does the paper present?
-- **Backbone:** ViT-S/16
-- **Loss:** Binary CE Loss on image and modality
-- **Input:** RGB, Depth, NIR
-- **Fusion:** Input&Feature-level
-
 What problem does this paper address?
 
 *Describe the model/approach*

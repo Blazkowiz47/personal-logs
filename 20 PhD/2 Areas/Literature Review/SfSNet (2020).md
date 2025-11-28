@@ -17,11 +17,6 @@ priority: medium
 > We present SfSNet, an end-to-end learning framework for producing an accurate decomposition of an unconstrained human face image into shape, reflectance and illuminance. SfSNet is designed to reflect a physical lambertian rendering model. SfSNet learns from a mixture of labeled synthetic and unlabeled real world images. This allows the network to capture low frequency variations from synthetic and high frequency details from real images through the photometric reconstruction loss. SfSNet consists of a new decomposition architecture with residual blocks that learns a complete separation of albedo and normal. This is used along with the original image to predict lighting. SfSNet produces significantly better quantitative and qualitative results than state-of-the-art methods for inverse rendering and independent normal and illumination estimation.
 
 ## What does the paper present?
-- **Backbone:** 6-layer CNN
-- **Loss:** Binary CE loss
-- **Input:** Albedo, Depth, Reflection
-- **Static/Dynamic:** S
-
 What problem does this paper address?
 
 *Describe the model/approach*

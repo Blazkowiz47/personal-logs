@@ -12,11 +12,6 @@ dateread:
 priority: medium
 ---
 ## What does the paper present?
-- **Backbone:** CycleGAN, ResNet18
-- **Loss:** Binary CE loss, GAN loss
-- **Input:** RGB, NIR
-- **Fusion:** Feature-level
-
 What problem does this paper address?
 
 *Describe the model/approach*

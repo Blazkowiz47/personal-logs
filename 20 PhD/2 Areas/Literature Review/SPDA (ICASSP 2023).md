@@ -17,10 +17,6 @@ priority: medium
 > With the widespread deployment of face authentication systems, domain generalization (DG) based face anti-spoofing (FAS) security approaches have drawn growing attention. Existing generalization-based methods always attempt to extract domain-invariant task information from data and eliminate domain-dependent information from representation space. However, they neglect that domain-related information may also contain helpful features for the classification task. To address this issue, we propose a self-paced partial domain-aware framework (SPDA) to preserve domain-related features helpful for the discrimination of fake and real faces, thereby increasing generalization for unseen domains. Specifically, a training strategy based on contrastive learning is adopted to construct domain-adapted and domain-aware task-related representation spaces. Then, a partial domain-aware adaptation module (PDA) is proposed to preserve valuable domain-related information for the task features that the network considers useful for mixture-domain classification. In addition, the proposed self-paced method(SCM) continuously explores potential clusters with insufficient representation to enhance further the feature extractor’s capability and the effectiveness of the PDA module. Extensive experiments demonstrate the effectiveness of our method compared to SOTA algorithms.
 
 ## What does the paper present?
-- **Backbone:** ResNet18
-- **Loss:** BCE loss, Domain loss, Self-paced Cluster Mining loss, orthogonal loss
-- **Static/Dynamic:** S
-
 What problem does this paper address?
 
 *Describe the model/approach*

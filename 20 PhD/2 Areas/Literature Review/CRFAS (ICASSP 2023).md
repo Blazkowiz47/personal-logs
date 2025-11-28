@@ -12,22 +12,11 @@ dateread:
 priority: medium
 ---
 ## What does the paper present?
-- **Backbone:** ResNet18
-- **Loss:** Supervised Contrastive Loss (for counterfactual generation), Backdoor Adjustment
-- **Input:** RGB
-- **Static/Dynamic:** S
-
 Existing DG methods (adversarial/metric learning) are flawed from a causal view. Domain-invariant features don't generalize well theoretically.
 
 1.  **Causal Perspective:** Models FAS data generation via Structural Causal Model (SCM).
 2.  **Backdoor Adjustment:** Extracts causal features using backdoor adjustment without prior assumptions.
 3.  **Counterfactual Feature Generation:** Uses supervised contrastive loss to generate realistic counterfactual features for the adjustment.
-
-- **Causal Feature Extractor:** Learned via backdoor adjustment.
-- **Counterfactual Generator:** Generates counterfactual samples to de-confound the domain influence.
-
-- **Structural Causal Model (SCM):** Modeling the causal graph.
-- **Backdoor Adjustment:** A causal inference technique.
 
 - Standard cross-domain protocols (OULU-NPU, CASIA-FASD, etc.).
 

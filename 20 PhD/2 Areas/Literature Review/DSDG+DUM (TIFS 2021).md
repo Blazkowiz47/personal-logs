@@ -12,18 +12,10 @@ dateread:
 priority: medium
 ---
 ## What does the paper present?
-- **Supervision:** Depth
-- **Backbone:** CDCN (likely)
-- **Input:** RGB
-- **Static/Dynamic:** S
-
 Existing FAS datasets lack diversity (insufficient identities and variances), limiting generalization.
 
 1.  **DSDG (Dual Spoof Disentanglement Generation):** Uses a VAE to disentangle identity and spoofing patterns, allowing generation of large-scale paired live/spoof images to boost diversity.
 2.  **DUM (Depth Uncertainty Module):** Handles noisy generated samples (distorted faces) by estimating depth uncertainty, preventing them from harming the training.
-
-- **VAE:** For disentanglement and generation.
-- **DUM:** Lightweight module to estimate uncertainty in depth predictions.
 
 - Standard benchmarks.
 

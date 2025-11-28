@@ -12,11 +12,6 @@ dateread:
 priority: medium
 ---
 ## What does the paper present?
-- **Backbone:** 1D-CNN
-- **Loss:** Trained with SVM
-- **Input:** Reflection (Intrinsic Image Decomposition)
-- **Static/Dynamic:** D
-
 What problem does this paper address?
 
 *Describe the model/approach*

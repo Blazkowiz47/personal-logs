@@ -33,10 +33,6 @@ priority: medium
 > **Correction:** I will search for the correct "AISL" paper (likely "Adversarial Image Synthesis Learning" or similar) in the next step. For now, I am flagging this note as a mismatch.
 
 ## What does the paper present?
-- **Supervision:** Depth
-- **Backbone:** DepthNet
-- **Input:** RGB
-
 **(Content below refers to the mismatched Optics paper found at the URL)**
 This paper reviews work on topological phenomena in photorefractive photonic lattices.
 
@@ -49,4 +45,4 @@ This paper reviews work on topological phenomena in photorefractive photonic lat
 (Mismatched)
 
 ## What are my views on it?
-- **ACTION REQUIRED:** Find the correct paper for "AISL (PRL 2021)".
+

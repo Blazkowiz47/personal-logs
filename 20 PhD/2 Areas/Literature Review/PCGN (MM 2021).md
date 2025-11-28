@@ -17,11 +17,6 @@ priority: medium
 > Face anti-spoofing is an important step for secure face recognition. One of the main challenges is how to learn and build a general classifier that is able to resist various presentation attacks. Recently, the patch-based face anti-spoofing schemes are shown to be able to improve the robustness of the classifier. These schemes extract subtle liveness cues from small local patches independently, which do not fully exploit the correlations among the patches. In this paper, we propose a Patch-based Compact Graph Network (PCGN) to diffuse the subtle liveness cues from all the patches. Firstly, the image is encoded into a compact graph by connecting each node with its backward neighbors. We then propose an asymmetrical updating strategy to update the compact graph. Such a strategy aggregates the node based on whether it is a sender or receiver, which leads to better message-passing. The updated graph is eventually decoded for making the final decision. We conduct the experiments on four public databases with four intra-database protocols and eight cross-database protocols, the results of which demonstrate the effectiveness of our PCGN for face anti-spoofing.
 
 ## What does the paper present?
-- **Backbone:** ResNet101+GCN
-- **Loss:** CE Loss for node and edge
-- **Input:** RGB whole image
-- **Static/Dynamic:** S
-
 What problem does this paper address?
 
 *Describe the model/approach*

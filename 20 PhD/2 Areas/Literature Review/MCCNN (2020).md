@@ -12,10 +12,6 @@ dateread:
 priority: medium
 ---
 ## What does the paper present?
-- **Backbone:** LightCNN
-- **Loss:** Binary CE loss, Contrastive loss
-- **Input:** Grayscale, IR, Depth, Thermal
-
 What problem does this paper address?
 
 *Describe the model/approach*

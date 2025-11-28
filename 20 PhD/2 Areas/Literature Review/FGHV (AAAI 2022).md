@@ -12,10 +12,6 @@ dateread:
 priority: medium
 ---
 ## What does the paper present?
-- **Backbone:** DepthNet
-- **Loss:** Variance + Relative Correlation + Distribution Discrimination Constraints
-- **Static/Dynamic:** S
-
 What problem does this paper address?
 
 *Describe the model/approach*

@@ -31,10 +31,6 @@ priority: medium
 > **Correction:** I will search for the correct "3DPC-Net" paper (likely "3D Point Cloud Network for Face Anti-Spoofing" from IJCB 2020) in the next step. For now, I am flagging this note as a mismatch.
 
 ## What does the paper present?
-- **Supervision:** 3D Point Cloud
-- **Backbone:** ResNet18
-- **Input:** RGB
-
 **(Content below refers to the mismatched VoxelNet paper found at the URL)**
 This paper proposes a deep 3D energy-based model to represent volumetric shapes for 3D synthesis and analysis.
 
@@ -47,4 +43,4 @@ This paper proposes a deep 3D energy-based model to represent volumetric shapes 
 (Mismatched)
 
 ## What are my views on it?
-- **ACTION REQUIRED:** Find the correct paper for "3DPC-Net (IJCB 2020)".
+

@@ -12,20 +12,11 @@ dateread:
 priority: medium
 ---
 ## What does the paper present?
-- **Backbone:** Two-stream CNN
-- **Loss:** Discriminative loss
-- **Input:** RGB (Spatial + Temporal/Dynamic Texture)
-- **Static/Dynamic:** D
-
 Detecting 3D mask attacks which have realistic depth and texture, making them harder than 2D attacks.
 
 1.  **Deep Dynamic Textures (DDT):** Modeling facial micro-motion as dynamic textures.
 2.  **Joint Learning:** Jointly learning spatial and temporal features.
 3.  **Discriminative Loss:** Enhancing feature separability.
-
-- **Two-stream CNN:** One for spatial, one for temporal (dynamic texture).
-
-- **Dynamic Texture Analysis:** Capturing subtle motion patterns.
 
 - 3DMAD
 

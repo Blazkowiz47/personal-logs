@@ -12,11 +12,6 @@ dateread:
 priority: medium
 ---
 ## What does the paper present?
-- **Backbone:** ResNet50
-- **Loss:** Metric-Softmax Loss, Triplet Focal Loss
-- **Input:** RGB
-- **Approach:** One-Class Classification (Anomaly Detection)
-
 FAS is typically treated as binary classification, but "spoof" attacks are unbounded and diverse, while "live" faces are consistent. Generalization to unseen attacks is a major challenge.
 
 1. **Anomaly Detection Formulation:** Reformulates Generalized PAD (GPAD) as an anomaly detection problem.
@@ -24,52 +19,4 @@ FAS is typically treated as binary classification, but "spoof" attacks are unbou
 3. **Triplet Focal Loss:** Regularization to push anomalies away from the live center, focusing on hard examples.
 4. **Few-Shot Estimation:** Introduces a posteriori probability estimation without training a classifier.
 
-- **Backbone:** ResNet-50.
-- **Framework:** Deep Metric Learning.
-
-- **Metric-Softmax:** A loss function to enforce compactness of the "live" class in the embedding space.
-- **Triplet Focal Loss:** Ensures a margin between live and spoof samples, handling class imbalance and hard examples.
-- **Inference:** Distance to the learned "live center" determines the score.
-
-- **GPAD as Anomaly Detection:** Shifting from binary classification to one-class learning.
-
-- **GRAD-GPAD:** Aggregated dataset for Generalized PAD.
-
-- **Performance:** Outperforms state-of-the-art methods on the GRAD-GPAD framework, showing better generalization.
-
-*What components were tested?*
-
-*Anything useful for implementing this*
-
-- [[]]
-
-- [[]]
-
-- [[]]
-
 ## What are my views on it?
-*My thoughts on the paper*
-
-*How does this relate to my PAD research?*
-
->
-
-- Figure X:
-
-$$
-$$
-
-*Discussions with advisor/colleagues about this paper*
-
-- [ ]
-- [ ]
-
----
-**Reading Progress:**
-- [ ] Abstract
-- [ ] Introduction
-- [ ] Related Work
-- [ ] Methodology
-- [ ] Experiments
-- [ ] Conclusion
-- [ ] Supplementary Material

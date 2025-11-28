@@ -12,11 +12,6 @@ dateread:
 priority: medium
 ---
 ## What does the paper present?
-- **Backbone:** ResNet50
-- **Loss:** Trained with SVM
-- **Input:** RGB (Depth, Salience, Illumination maps)
-- **Static/Dynamic:** S
-
 What problem does this paper address?
 
 *Describe the model/approach*

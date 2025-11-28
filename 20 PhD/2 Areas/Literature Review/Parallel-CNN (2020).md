@@ -17,11 +17,6 @@ priority: medium
 > In this paper, we develop an effective framework based on deep learning for face liveness detection. Liveness detection is a great challenge in computer vision. Over the past decade, the interest of people in safety management has increased, and face recognition technology has gradually expanded into the commercial areas. However, general face recognition systems also present risks in terms of security and are vulnerable to spoofing attacks. Therefore, we propose a practical deep learning framework to improve the accuracy of classification. First, we observe the image and label the areas with outline and facial features. Second, we introduce an attention model, which fuses local features and global features to obtain multi-channel features. Third, we use pyramid structures and multiple convolutional neural networks with different depths to classify them in parallel and combine them with multiple results. We evaluated the performance of this method on the CASIA-SURF data set. Experiments show that the proposed frame-trained human face classifier has better performance than the existing classifier.
 
 ## What does the paper present?
-- **Backbone:** Attentional CNN
-- **Loss:** Binary CE loss
-- **Input:** Depth, NIR
-- **Fusion:** Feature-level
-
 What problem does this paper address?
 
 *Describe the model/approach*

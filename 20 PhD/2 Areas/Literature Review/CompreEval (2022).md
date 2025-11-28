@@ -12,20 +12,11 @@ dateread:
 priority: medium
 ---
 ## What does the paper present?
-- **Backbone:** MC-PixBiS (Multi-Channel Pixel-wise Binary Supervision)
-- **Loss:** BCE + Pixel-wise Loss
-- **Input:** RGB, Depth, NIR, SWIR, Thermal (14 modalities total)
-- **Fusion:** Input-level / Model-level
-
 Lack of understanding of which sensors (modalities) are most effective for PAD against various attacks. High cost of multi-sensor systems requires optimal selection.
 
 1.  **Large-Scale Evaluation:** Evaluates 14 different sensing modalities (RGB, NIR, SWIR, Depth, Thermal, etc.).
 2.  **Dataset:** Uses a multi-channel PAD dataset (likely HQ-WMCA or similar internal dataset).
 3.  **Analysis:** Provides pointers for sensor selection based on performance against 2D, 3D, and partial attacks.
-
-- **MC-PixBiS:** A multi-channel version of PixBiS.
-
-- **Multi-modal Analysis:** Systematic ablation of channels.
 
 - Multi-channel PAD dataset (likely HQ-WMCA).
 
