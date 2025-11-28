@@ -1,3 +1,4 @@
+---
 aliases: [pad_gan_fas]
 tags: [paper, pad, deep-fas-survey, domain-generalization]
 authors: Guoqing Wang, Hu Han, Shiguang Shan, Xilin Chen
@@ -9,6 +10,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
+---
 # Cross-domain Face Presentation Attack Detection via Multi-domain Disentangled Representation Learning
 
 > [!abstract]

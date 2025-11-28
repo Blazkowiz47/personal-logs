@@ -1,3 +1,4 @@
+---
 aliases: [ssr_fcn_fas]
 tags: [paper, pad, deep-fas-survey, binary-supervision]
 authors: Debayan Deb, Anil K. Jain
@@ -9,6 +10,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
+---
 # Look Locally Infer Globally: A Generalizable Face Anti-Spoofing Approach
 
 > [!abstract]

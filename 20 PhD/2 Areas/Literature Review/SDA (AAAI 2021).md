@@ -1,3 +1,4 @@
+---
 aliases: [sda_fas]
 tags: [paper, pad, deep-fas-survey, domain-generalization]
 authors: Jingjing Wang, Jingyi Zhang, Ying Bian, Youyi Cai, Chunmao Wang, Shiliang Pu
@@ -9,6 +10,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
+---
 # Self-Domain Adaptation for Face Anti-Spoofing
 
 > [!abstract]

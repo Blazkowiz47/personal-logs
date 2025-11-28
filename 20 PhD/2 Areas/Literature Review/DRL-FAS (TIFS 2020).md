@@ -1,3 +1,4 @@
+---
 aliases: [drl_fas]
 tags: [paper, pad, deep-fas-survey, reinforcement-learning, attention]
 authors: Rizhao Cai, Haoliang Li, Shiqi Wang, Changsheng Chen, Alex Chichung Kot
@@ -9,6 +10,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread:
 priority: medium
+---
 ## What does the paper present?
 Humans glance globally first, then focus on local regions to detect spoofing. Standard CNNs process the whole image at once or use fixed patches.
 

@@ -1,3 +1,4 @@
+---
 aliases: [adversarial_fas]
 tags: [paper, pad, deep-fas-survey, domain-adaptation]
 authors: 
@@ -9,6 +10,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
+---
 ## What does the paper present?
 > [!WARNING] Content Fetch Failed
 > Could not automatically fetch the content for this paper (IEEE link rejected).

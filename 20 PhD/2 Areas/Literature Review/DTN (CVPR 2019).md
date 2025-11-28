@@ -1,3 +1,4 @@
+---
 aliases: [dtn_fas]
 tags: [paper, pad, deep-fas-survey, zero-shot, anomaly-detection]
 authors: Yaojie Liu, Joel Stehouwer, Amin Jourabloo, Xiaoming Liu
@@ -9,6 +10,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread:
 priority: medium
+---
 ## What does the paper present?
 Zero-Shot Face Anti-spoofing (ZSFA): Detecting unknown spoof attacks that were not seen during training. Previous works only studied 1-2 types.
 

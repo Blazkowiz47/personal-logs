@@ -1,3 +1,4 @@
+---
 aliases: [vgg_lbp_fas]
 tags: [paper, pad, deep-fas-survey, hybrid-method]
 authors: 
@@ -9,6 +10,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
+---
 ## What does the paper present?
 **Abstract:** (IEEE blocked - metadata unavailable) VGG+LBP proposes a hybrid approach combining VGG16 deep features with Local Binary Patterns (LBP) handcrafted features for face anti-spoofing.
 

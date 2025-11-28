@@ -1,3 +1,4 @@
+---
 aliases: [cdftn_fas]
 tags: [paper, pad, deep-fas-survey, domain-adaptation]
 authors: Haixiao Yue, Keyao Wang, Guosheng Zhang, Haocheng Feng, Junyu Han, Errui Ding, Jingdong Wang
@@ -9,6 +10,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
+---
 ## What does the paper present?
 This paper proposes a domain adaptation method that generates pseudo-labeled samples by disentangling "liveness features" (domain-invariant) from "content features" (domain-specific). It uses a cyclic translation process to synthesize images that look like the target domain but preserve the liveness information from the source, enabling robust training on unlabeled target domains.
 

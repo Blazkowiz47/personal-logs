@@ -1,3 +1,4 @@
+---
 aliases: [stdn_fas]
 tags: [paper, pad, deep-fas-survey, generative-model]
 authors: Yaojie Liu, Joel Stehouwer, Xiaoming Liu
@@ -9,6 +10,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
+---
 # On Disentangling Spoof Trace for Generic Face Anti-Spoofing
 
 > [!abstract]

@@ -1,3 +1,4 @@
+---
 aliases: [sfsnet_fas]
 tags: [paper, pad, deep-fas-survey, binary-supervision]
 authors: Soumyadip Sengupta, Angjoo Kanazawa, Carlos D. Castillo, David W. Jacobs
@@ -9,6 +10,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
+---
 # SfSNet: Learning Shape, Reflectance and Illuminance of Faces in the Wild
 
 > [!abstract]

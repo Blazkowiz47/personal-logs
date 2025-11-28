@@ -1,3 +1,4 @@
+---
 aliases: [rf_meta_fas]
 tags: [paper, pad, deep-fas-survey, domain-generalization]
 authors: Rui Shao, Xiangyuan Lan, Pong C. Yuen
@@ -9,6 +10,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
+---
 # Regularized Fine-grained Meta Face Anti-spoofing
 
 > [!abstract]

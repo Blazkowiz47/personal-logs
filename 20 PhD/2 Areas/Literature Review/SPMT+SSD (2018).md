@@ -1,3 +1,4 @@
+---
 aliases: [spmt_ssd_fas]
 tags: [paper, pad, deep-fas-survey, hybrid-method]
 authors: Xiao Song, Xu Zhao, Liangji Fang, Tianwei Lin
@@ -9,6 +10,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
+---
 # Discriminative representation combinations for accurate face spoofing detection
 
 > [!abstract]

@@ -1,3 +1,4 @@
+---
 aliases: [pixbis_fas]
 tags: [paper, pad, deep-fas-survey, auxiliary-supervision]
 authors: Anjith George, Sébastien Marcel
@@ -9,6 +10,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
+---
 # Deep Pixel-wise Binary Supervision for Face Presentation Attack Detection
 
 > [!abstract]

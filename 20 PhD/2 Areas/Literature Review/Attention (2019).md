@@ -1,3 +1,4 @@
+---
 aliases: [attention_fas]
 tags: [paper, pad, deep-fas-survey, multimodal]
 authors: 
@@ -9,6 +10,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
+---
 ## What does the paper present?
 Traditional PAD approaches lack generalization due to limited modalities and subjects. Simple concatenation of modalities is suboptimal as not all features are equally important.
 

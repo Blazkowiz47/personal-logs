@@ -1,3 +1,4 @@
+---
 aliases:
   - fmf_fas
 tags:
@@ -17,6 +18,7 @@ status: ✅ Read
 dateadded: 2025-10-18
 dateread: 2025-11-20
 priority: high
+---
 # Flexible-Modal Face Anti-Spoofing - A Benchmark
 
 > [!abstract] **One-Liner**

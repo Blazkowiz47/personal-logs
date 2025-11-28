@@ -1,3 +1,4 @@
+---
 aliases: [df_mslbp_fas]
 tags: [paper, pad, deep-fas-survey, hybrid-method, deep-forest]
 authors: Rizhao Cai, Changsheng Chen
@@ -9,6 +10,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread:
 priority: medium
+---
 ## What does the paper present?
 CNNs are vulnerable to adversarial attacks. Handcrafted features combined with non-differentiable models (like Random Forests) might be more robust.
 

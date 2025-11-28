@@ -1,3 +1,4 @@
+---
 aliases: [vitranz_fas]
 tags: [paper, pad, deep-fas-survey, zero-shot, vit]
 authors: Anjith George, Sebastien Marcel
@@ -9,6 +10,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
+---
 ## What does the paper present?
 This paper investigates the effectiveness of Vision Transformers (ViT) for the task of zero-shot face anti-spoofing. By leveraging transfer learning from a pre-trained ViT, the authors demonstrate that transformers can generalize better to unseen attacks compared to CNN-based methods, achieving state-of-the-art results on HQ-WMCA and SiW-M datasets.
 

@@ -1,3 +1,4 @@
+---
 aliases: [saplc_fas]
 tags: [paper, pad, deep-fas-survey, auxiliary-supervision]
 authors: Wenyun Sun, Yu Song, Changsheng Chen, Jiwu Huang, Alex C. Kot
@@ -9,6 +10,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
+---
 # Face Spoofing Detection Based on Local Ternary Label Supervision in Fully Convolutional Networks
 
 > [!abstract]

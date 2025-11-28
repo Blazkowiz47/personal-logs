@@ -1,3 +1,4 @@
+---
 aliases: [disentangled_fas]
 tags: [paper, pad, deep-fas-survey, auxiliary-supervision, disentangled-representation]
 authors: Ke-Yue Zhang, Taiping Yao, Jian Zhang, Ying Tai, Shouhong Ding, Jilin Li, Feiyue Huang, Haichuan Song, Lizhuang Ma
@@ -9,6 +10,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread:
 priority: medium
+---
 ## What does the paper present?
 
 

@@ -1,3 +1,4 @@
+---
 aliases: [depthseg_fas]
 tags: [paper, pad, deep-fas-survey, auxiliary-supervision]
 authors: Licheng Zhang, Nan Sun, Xihong Wu, Dingsheng Luo
@@ -10,6 +11,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
+---
 # Advanced Face Anti-Spoofing with Depth Segmentation
 
 ## What does the paper present?

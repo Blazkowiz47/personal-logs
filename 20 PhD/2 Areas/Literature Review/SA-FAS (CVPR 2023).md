@@ -1,3 +1,4 @@
+---
 aliases: [sa_fas]
 tags: [paper, pad, deep-fas-survey, domain-generalization]
 authors: Yiyou Sun, Yaojie Liu, Xiaoming Liu, Yixuan Li, Wen-Sheng Chu
@@ -9,6 +10,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
+---
 # Rethinking Domain Generalization for Face Anti-spoofing: Separability and Alignment
 
 > [!abstract]

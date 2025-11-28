@@ -1,3 +1,4 @@
+---
 aliases:
   - dc_cdn_fas
 tags:
@@ -21,6 +22,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
+---
 # Dual-Cross Central Difference Network for Face Anti-Spoofing (DC-CDN)
 
 ## What does the paper present?

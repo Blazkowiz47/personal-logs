@@ -1,3 +1,4 @@
+---
 aliases: [compreeval_fas]
 tags: [paper, pad, deep-fas-survey, multimodal, benchmark]
 authors: Anjith George, David Geissbuhler, Sebastien Marcel
@@ -9,6 +10,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread:
 priority: medium
+---
 ## What does the paper present?
 Lack of understanding of which sensors (modalities) are most effective for PAD against various attacks. High cost of multi-sensor systems requires optimal selection.
 

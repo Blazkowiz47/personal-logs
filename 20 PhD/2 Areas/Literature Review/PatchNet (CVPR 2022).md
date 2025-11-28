@@ -1,3 +1,4 @@
+---
 aliases: [patchnet_fas]
 tags: [paper, pad, deep-fas-survey, binary-supervision]
 authors: Chien-Yi Wang, Yu-Ding Lu, Shang-Ta Yang, Shang-Hong Lai
@@ -9,6 +10,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
+---
 # PatchNet: A Simple Face Anti-Spoofing Framework via Fine-Grained Patch Recognition
 
 > [!abstract]

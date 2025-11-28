@@ -1,3 +1,4 @@
+---
 aliases: [snm_fas]
 tags: [paper, pad, deep-fas-survey, multimodal]
 authors: Pengchao Deng, Chenyang Ge, Xin Qiao, Hao Wei, Yuan Sun
@@ -9,6 +10,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
+---
 # Attention-Aware Dual-Stream Network for Multimodal Face Anti-Spoofing
 
 > [!abstract]

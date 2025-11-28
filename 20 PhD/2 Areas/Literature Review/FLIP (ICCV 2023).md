@@ -1,3 +1,4 @@
+---
 aliases:
   - flip_fas
   - flip-fas
@@ -18,6 +19,7 @@ status: 📚 To Read
 dateadded: 2025-11-28
 dateread:
 priority: medium
+---
 ## What does the paper present?
 Uses CLIP pretrained weights and perform finetuning.
 

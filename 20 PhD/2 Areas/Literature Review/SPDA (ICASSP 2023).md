@@ -1,3 +1,4 @@
+---
 aliases: [spda_fas]
 tags: [paper, pad, deep-fas-survey, domain-generalization]
 authors: Zhiyi Chen, Yao Lu, Xinzhe Deng, Jia Meng, Shengchuan Zhang, Liujuan Cao
@@ -9,6 +10,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
+---
 # Self-Paced Partial Domain-Aware Learning for Face Anti-Spoofing
 
 > [!abstract]

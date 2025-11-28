@@ -1,3 +1,4 @@
+---
 aliases: [ssan_fas]
 tags: [paper, pad, deep-fas-survey, domain-generalization]
 authors: Zhuo Wang, Zezheng Wang, Zitong Yu, Weihong Deng, Jiahong Li, Tingting Gao, Zhongyuan Wang
@@ -9,6 +10,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
+---
 # Domain Generalization via Shuffled Style Assembly for Face Anti-Spoofing
 
 > [!abstract]

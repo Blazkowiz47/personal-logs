@@ -1,3 +1,4 @@
+---
 aliases: [trans_fas]
 tags: [paper, pad, deep-fas-survey, auxiliary-supervision]
 authors: 
@@ -9,6 +10,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
+---
 ## What does the paper present?
 **Abstract:** (IEEE blocked - metadata unavailable) TransFAS proposes a Transformer-based architecture for face anti-spoofing with Cross-Layer Attentions and depth supervision for improved feature extraction.
 

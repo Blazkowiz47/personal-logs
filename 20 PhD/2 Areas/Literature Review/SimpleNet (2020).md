@@ -1,3 +1,4 @@
+---
 aliases: [simplenet_fas]
 tags: [paper, pad, deep-fas-survey, binary-supervision]
 authors: Aleksandr Parkin, Oleg Grinchuk
@@ -9,6 +10,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
+---
 # Creating Artificial Modalities to Solve RGB Liveness
 
 > [!abstract]

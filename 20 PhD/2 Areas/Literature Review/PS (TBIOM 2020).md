@@ -1,3 +1,4 @@
+---
 aliases: [ps_fas]
 tags: [paper, pad, deep-fas-survey, auxiliary-supervision]
 authors: Zitong Yu, Xiaobai Li, Jingang Shi, Zhaoqiang Xia, Guoying Zhao
@@ -9,6 +10,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
+---
 # Revisiting Pixel-Wise Supervision for Face Anti-Spoofing
 
 > [!abstract]

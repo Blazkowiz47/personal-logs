@@ -1,3 +1,4 @@
+---
 aliases: [spoofnet_fas]
 tags: [paper, pad, deep-fas-survey, binary-supervision]
 authors: David Menotti, Giovani Chiachia, Allan Pinto, William Robson Schwartz, Helio Pedrini, Alexandre Xavier Falcao, Anderson Rocha
@@ -9,6 +10,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
+---
 # Deep Representations for Iris, Face, and Fingerprint Spoofing Detection
 
 > [!abstract]

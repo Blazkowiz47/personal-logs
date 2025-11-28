@@ -1,3 +1,4 @@
+---
 aliases: [stasn_fas]
 tags: [paper, pad, deep-fas-survey, binary-supervision]
 authors: Xiao Yang, Wenhan Luo, Linchao Bao, Yuan Gao, Dihong Gong, Shibao Zheng, Zhifeng Li, Wei Liu
@@ -9,6 +10,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
+---
 # Face Anti-Spoofing: Model Matters, so Does Data
 
 > [!abstract]

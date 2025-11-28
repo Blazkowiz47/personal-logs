@@ -1,3 +1,4 @@
+---
 aliases: [reconstruction_fas]
 tags: [paper, pad, deep-fas-survey, generative-model]
 authors: Yang Chen, Tian Wang, Jingjing Wang, Peng Shi, H. Snoussi
@@ -9,6 +10,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
+---
 # Towards Good Practices in Face Anti-Spoofing: An Image Reconstruction Based Method
 
 > [!abstract]

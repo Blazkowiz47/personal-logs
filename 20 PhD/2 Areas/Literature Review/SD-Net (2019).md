@@ -1,3 +1,4 @@
+---
 aliases: [sd_net_fas]
 tags: [paper, pad, deep-fas-survey, multimodal]
 authors: Ajian Liu, Zichang Tan, Xuan Li, Jun Wan, Sergio Escalera, Guodong Guo, Stan Z. Li
@@ -9,6 +10,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
+---
 # Static and Dynamic Fusion for Multi-modal Cross-ethnicity Face Anti-spoofing
 
 > [!abstract]

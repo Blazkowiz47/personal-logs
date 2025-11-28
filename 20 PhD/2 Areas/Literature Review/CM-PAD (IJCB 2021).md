@@ -1,3 +1,4 @@
+---
 aliases: [cmpad2021_fas]
 tags: [paper, pad, deep-fas-survey, continual-learning, meta-learning]
 authors: Daniel Pérez-Cabo, David Jiménez-Cabello, Artur Costa-Pazo, Roberto Javier López-Sastre
@@ -9,6 +10,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread:
 priority: medium
+---
 ## What does the paper present?
 (See `CM-PAD (IJCB 2020).md`)
 

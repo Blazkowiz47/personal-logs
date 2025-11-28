@@ -1,3 +1,4 @@
+---
 aliases: [fcn_lsa_fas]
 tags: [paper, pad, deep-fas-survey, auxiliary-supervision, local-supervision]
 authors: Wenyun Sun, Yu Song, Changsheng Chen, Jiwu Huang, Alex C. Kot
@@ -9,6 +10,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread:
 priority: medium
+---
 ## What does the paper present?
 
 

@@ -1,3 +1,4 @@
+---
 aliases: [dcn_fas]
 tags:
   - paper
@@ -25,6 +26,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
+---
 # Structure Destruction and Content Combination for Face Anti-Spoofing (DCN)
 
 ## What does the paper present?

@@ -1,3 +1,4 @@
+---
 aliases:
   - 3dpcnet_fas
 tags:
@@ -22,6 +23,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
+---
 # Generative VoxelNet: Learning Energy-Based Models for 3D Shape Synthesis and Analysis (3DPC-Net?)
 
 > **Note:** The file name "3DPC-Net" seems to be a mismatch with the paper found at the URL provided (`https://arxiv.org/abs/2012.13522`). The paper at this URL is titled **"Generative VoxelNet: Learning Energy-Based Models for 3D Shape Synthesis and Analysis"** and is about 3D shape generation, not explicitly Face Anti-Spoofing.

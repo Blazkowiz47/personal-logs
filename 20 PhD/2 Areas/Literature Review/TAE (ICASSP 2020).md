@@ -1,3 +1,4 @@
+---
 aliases: [tae_fas]
 tags: [paper, pad, deep-fas-survey, generative-model]
 authors: Amir Mohammadi, Sushil Bhattacharjee, Sébastien Marcel
@@ -9,6 +10,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
+---
 # Domain Adaptation for Generalization of Face Presentation Attack Detection in Mobile Settings with Minimal Information
 
 > [!abstract]

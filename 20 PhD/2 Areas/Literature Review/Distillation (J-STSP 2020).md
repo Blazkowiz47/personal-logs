@@ -1,3 +1,4 @@
+---
 aliases: [distillation_fas]
 tags: [paper, pad, deep-fas-survey, domain-adaptation]
 authors: Haoliang Li, Shiqi Wang, Peisong He, Anderson Rocha
@@ -10,6 +11,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
+---
 # Face Anti-Spoofing With Deep Neural Network Distillation
 
 ## What does the paper present?

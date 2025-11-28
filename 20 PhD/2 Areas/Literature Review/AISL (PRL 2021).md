@@ -1,3 +1,4 @@
+---
 aliases:
   - aisl_fas
 tags:
@@ -24,6 +25,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
+---
 # Topological phenomena demonstrated in photorefractive photonic lattices (AISL?)
 
 > **Note:** The file name "AISL" seems to be a mismatch with the paper found at the URL provided (`https://arxiv.org/abs/2103.16147`). The paper at this URL is titled **"Topological phenomena demonstrated in photorefractive photonic lattices"** and is about **Optics/Physics**, not Face Anti-Spoofing.

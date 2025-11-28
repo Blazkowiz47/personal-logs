@@ -1,3 +1,4 @@
+---
 aliases: [cnnlbpwld_fas]
 tags: [paper, pad, deep-fas-survey, hybrid-method]
 authors: Mohammed Khammari et al.
@@ -9,6 +10,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread:
 priority: medium
+---
 ## What does the paper present?
 
 

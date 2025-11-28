@@ -1,3 +1,4 @@
+---
 aliases: [parallel_cnn_fas]
 tags: [paper, pad, deep-fas-survey, multimodal]
 authors: Xin Li, Wei Wu, Tao Li, Yang Su, Lilin Yang
@@ -9,6 +10,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
+---
 # Face Liveness Detection Based on Parallel CNN
 
 > [!abstract]

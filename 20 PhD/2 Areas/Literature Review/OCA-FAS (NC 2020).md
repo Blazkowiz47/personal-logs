@@ -1,3 +1,4 @@
+---
 aliases: [oca_fas]
 tags: [paper, pad, deep-fas-survey, domain-adaptation]
 authors: Yunxiao Qin, Weiguo Zhang, Jingping Shi, Zezheng Wang, Longbin Yan
@@ -9,5 +10,6 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
+---
 ## What does the paper present?
 ## What are my views on it?

@@ -1,3 +1,4 @@
+---
 aliases: [basn_fas]
 tags: [paper, pad, deep-fas-survey, auxiliary-supervision, domain-generalization]
 authors: Taewook Kim, YongHyun Kim, Inhan Kim, Daijin Kim
@@ -9,6 +10,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread:
 priority: medium
+---
 ## What does the paper present?
 To be applicable to unconstrained real-world environments, FAS methods require robust generalization capabilities. This paper aims to improve generalization to unseen environments by guiding networks to learn generalizable features.
 

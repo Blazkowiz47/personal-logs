@@ -1,3 +1,4 @@
+---
 aliases: [freqspatialtempnet_fas]
 tags: [paper, pad, deep-fas-survey, binary-supervision, frequency-domain]
 authors: Ying Huang, Wenwei Zhang, Jinzhuo Wang
@@ -9,5 +10,6 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread:
 priority: medium
+---
 ## What does the paper present?
 ## What are my views on it?

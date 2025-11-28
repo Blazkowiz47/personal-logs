@@ -1,3 +1,4 @@
+---
 aliases: [pcgn_fas]
 tags: [paper, pad, deep-fas-survey, binary-supervision]
 authors: Sheng Li, Xun Zhu, Guorui Feng, Xinpeng Zhang, Zhenxing Qian
@@ -9,6 +10,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
+---
 # Diffusing the Liveness Cues for Face Anti-spoofing
 
 > [!abstract]

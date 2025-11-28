@@ -1,3 +1,4 @@
+---
 aliases: [siamese_fas]
 tags: [paper, pad, deep-fas-survey, binary-supervision]
 authors: Huiling Hao, Mingtao Pei, Meng Zhao
@@ -9,6 +10,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
+---
 # Face Liveness Detection Based on Client Identity Using Siamese Network
 
 > [!abstract]

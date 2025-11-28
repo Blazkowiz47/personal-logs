@@ -1,3 +1,4 @@
+---
 aliases: [pdl_fas]
 tags: [paper, pad, deep-fas-survey, domain-generalization]
 authors: Young Eun Kim, Seong-Whan Lee
@@ -9,6 +10,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
+---
 # Domain Generalization with Pseudo-Domain Label for Face Anti-Spoofing
 
 > [!abstract]

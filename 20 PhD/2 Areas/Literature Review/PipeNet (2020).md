@@ -1,3 +1,4 @@
+---
 aliases: [pipenet_fas]
 tags: [paper, pad, deep-fas-survey, multimodal]
 authors: Qing Yang, Xia Zhu, Jong-Kae Fwu, Yun Ye, Ganmei You, Yuan Zhu
@@ -9,6 +10,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
+---
 # PipeNet: Selective Modal Pipeline of Fusion Network for Multi-Modal Face Anti-Spoofing
 
 > [!abstract]

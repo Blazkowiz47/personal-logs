@@ -1,3 +1,4 @@
+---
 aliases: [phystd_fas]
 tags: [paper, pad, deep-fas-survey, generative-model]
 authors: Yaojie Liu, Xiaoming Liu
@@ -9,6 +10,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
+---
 # Physics-Guided Spoof Trace Disentanglement for Generic Face Anti-Spoofing
 
 > [!abstract]

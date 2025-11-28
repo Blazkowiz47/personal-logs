@@ -1,3 +1,4 @@
+---
 aliases: [ms_fans_fas]
 tags: [paper, pad, deep-fas-survey, binary-supervision, multi-scale-features]
 authors: Shichao Luo, Meina Kan, Shiguang Shan, Xilin Chen
@@ -9,5 +10,6 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread:
 priority: medium
+---
 ## What does the paper present?
 ## What are my views on it?

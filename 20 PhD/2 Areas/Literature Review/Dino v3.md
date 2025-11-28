@@ -1,3 +1,4 @@
+---
 aliases:
   - dino_v3_fas
 tags:
@@ -17,6 +18,7 @@ status: "📖 Reading"
 dateadded: 2025-10-27
 dateread:
 priority: medium
+---
 ## Quick Summary
 *One-sentence summary of what this paper does*
 

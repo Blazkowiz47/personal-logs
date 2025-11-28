@@ -1,3 +1,4 @@
+---
 aliases: [dgp_fas]
 tags: [paper, pad, deep-fas-survey, domain-adaptation]
 authors: Amir Mohammadi, Sushil Bhattacharjee, Sébastien Marcel
@@ -9,6 +10,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread:
 priority: medium
+---
 ## What does the paper present?
 PAD systems fail to generalize to new domains (datasets). Collecting PA data in the target domain is difficult/expensive.
 

@@ -1,3 +1,4 @@
+---
 aliases: [sdfanet_fas]
 tags: [paper, pad, deep-fas-survey, domain-generalization]
 authors: Luo Zhou, Jun Luo, Xinbo Gao, Weisheng Li, Baocai Lei
@@ -9,6 +10,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
+---
 # Selective Domain-Invariant Feature Alignment Network for Face Anti-Spoofing
 
 > [!abstract]

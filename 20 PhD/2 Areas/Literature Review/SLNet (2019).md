@@ -1,3 +1,4 @@
+---
 aliases: [slnet_fas]
 tags: [paper, pad, deep-fas-survey, specialized-sensor]
 authors: Yasar Abbas Ur Rehman, Lai-Man Po, Mengyang Liu
@@ -9,6 +10,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
+---
 # SLNet: Stereo face liveness detection via dynamic disparity-maps and convolutional neural network
 
 > [!abstract]

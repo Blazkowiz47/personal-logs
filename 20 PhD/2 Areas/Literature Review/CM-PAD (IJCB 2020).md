@@ -1,3 +1,4 @@
+---
 aliases: [cmpad2020_fas]
 tags: [paper, pad, deep-fas-survey, continual-learning, meta-learning]
 authors: Daniel Pérez-Cabo, David Jiménez-Cabello, Artur Costa-Pazo, Roberto Javier López-Sastre
@@ -9,6 +10,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread:
 priority: medium
+---
 ## What does the paper present?
 PAD systems need to adapt to new attack types continuously (Lifelong Learning) without forgetting previous ones (Catastrophic Forgetting).
 

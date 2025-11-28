@@ -1,3 +1,4 @@
+---
 aliases: [anomaly_fas]
 tags: [paper, pad, deep-fas-survey, anomaly-detection]
 authors: 
@@ -9,6 +10,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
+---
 ## What does the paper present?
 FAS is typically treated as binary classification, but "spoof" attacks are unbounded and diverse, while "live" faces are consistent. Generalization to unseen attacks is a major challenge.
 

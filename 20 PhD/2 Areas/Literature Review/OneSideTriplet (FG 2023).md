@@ -1,3 +1,4 @@
+---
 aliases: [onesidetriplet_fas]
 tags: [paper, pad, deep-fas-survey, domain-generalization]
 authors: Chu-Chun Chuang, Chien-Yi Wang, Shang-Hong Lai
@@ -9,6 +10,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
+---
 # Generalized Face Anti-Spoofing via Multi-Task Learning and One-Side Meta Triplet Loss
 
 > [!abstract]

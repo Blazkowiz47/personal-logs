@@ -1,3 +1,4 @@
+---
 aliases: [contrastiveevt_fas]
 tags: [paper, pad, deep-fas-survey, anomaly-detection, open-set]
 authors: Xin Dong, Hao Liu, Weiwei Cai, Pengyuan Lv, Zekuan Yu
@@ -9,6 +10,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread:
 priority: medium
+---
 ## What does the paper present?
 Standard PAD assumes closed-set attacks. Unseen attacks (Open Set) cause performance degradation. Domain generalization tries to align domains but might fail on unseen attack types.
 

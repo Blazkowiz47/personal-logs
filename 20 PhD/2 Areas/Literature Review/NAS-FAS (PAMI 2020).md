@@ -1,3 +1,4 @@
+---
 aliases:
   - nas_fas
 tags:
@@ -23,6 +24,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
+---
 # NAS-FAS: Static-Dynamic Central Difference Network Search for Face Anti-Spoofing
 
 ## What does the paper present?

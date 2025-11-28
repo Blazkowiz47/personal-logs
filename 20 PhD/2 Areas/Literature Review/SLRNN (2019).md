@@ -1,3 +1,4 @@
+---
 aliases: [slrnn_fas]
 tags: [paper, pad, deep-fas-survey, binary-supervision]
 authors: Umara Muhammad, Tuomas Holmberg, Mourad Oussalah, Jorma Laaksonen
@@ -9,6 +10,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
+---
 # Face anti-spoofing via sample learning based recurrent neural network (RNN)
 
 > [!abstract]

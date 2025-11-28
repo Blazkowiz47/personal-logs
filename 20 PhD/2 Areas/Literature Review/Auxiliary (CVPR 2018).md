@@ -1,3 +1,4 @@
+---
 aliases: [auxiliary_fas]
 tags: [paper, pad, deep-fas-survey, auxiliary-supervision, rppg, depth-estimation]
 authors: Yaojie Liu, Amin Jourabloo, Xiaoming Liu
@@ -9,6 +10,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread:
 priority: high
+---
 ## What does the paper present?
 Previous deep learning approaches formulated FAS as a binary classification problem, which struggled to grasp adequate spoofing cues and generalized poorly. This paper argues for the importance of auxiliary supervision to guide learning toward discriminative and generalizable cues.
 

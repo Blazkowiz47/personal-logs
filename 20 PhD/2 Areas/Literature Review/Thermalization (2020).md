@@ -1,3 +1,4 @@
+---
 aliases: [thermalization_fas]
 tags: [paper, pad, deep-fas-survey, specialized-sensor]
 authors: Marcin Kowalski
@@ -9,6 +10,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
+---
 ## What does the paper present?
 **Abstract:** A Study on Presentation Attack Detection in Thermal Infrared. This paper presents a comprehensive study on using thermal infrared imaging for face presentation attack detection, exploring various attack types and detection methods in the thermal domain.
 

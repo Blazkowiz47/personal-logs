@@ -1,3 +1,4 @@
+---
 aliases: [dtcnn_fas]
 tags: [paper, pad, deep-fas-survey, domain-adaptation, transfer-learning]
 authors: Xiaoguang Tu, Hengsheng Zhang, Mei Xie, Yao Luo, Yuefei Zhang, Zheng Ma
@@ -9,6 +10,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread:
 priority: medium
+---
 ## What does the paper present?
 Poor generalization across datasets due to variety of spoofing materials and environmental conditions. Limited labeled data in target domains.
 

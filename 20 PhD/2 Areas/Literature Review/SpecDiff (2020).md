@@ -1,3 +1,4 @@
+---
 aliases: [specdiff_fas]
 tags: [paper, pad, deep-fas-survey, specialized-sensor]
 authors: Akinori F. Ebihara, Kazuyuki Sakurai, Hitoshi Imaoka
@@ -9,6 +10,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
+---
 # Specular- and Diffuse-reflection-based Face Spoofing Detection for Mobile Devices
 
 > [!abstract]

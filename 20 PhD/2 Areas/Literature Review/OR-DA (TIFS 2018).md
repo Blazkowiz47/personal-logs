@@ -1,3 +1,4 @@
+---
 aliases: [or_da_fas]
 tags: [paper, pad, deep-fas-survey, domain-adaptation]
 authors: Haoliang Li, Wen Li, Hong Cao, Shiqi Wang, Feiyue Huang, Alex C. Kot
@@ -9,5 +10,6 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
+---
 ## What does the paper present?
 ## What are my views on it?

@@ -1,3 +1,4 @@
+---
 aliases: [safpad_fas]
 tags: [paper, pad, deep-fas-survey, auxiliary-supervision]
 authors: Bingyao Yu, Jiwen Lu, Xiu Li, Jie Zhou
@@ -9,6 +10,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
+---
 # Salience-Aware Face Presentation Attack Detection via Deep Reinforcement Learning
 
 > [!abstract]

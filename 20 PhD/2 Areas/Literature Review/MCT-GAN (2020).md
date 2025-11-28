@@ -1,3 +1,4 @@
+---
 aliases: [mct_gan_fas]
 tags: [paper, pad, deep-fas-survey, multimodal, gan-based-translation]
 authors: Fangling Jiang, Pengcheng Liu, Xiaohu Shao, Xiangdong Zhou
@@ -9,5 +10,6 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread:
 priority: medium
+---
 ## What does the paper present?
 ## What are my views on it?

@@ -1,3 +1,4 @@
+---
 aliases: [cnnlbptop_fas]
 tags: [paper, pad, deep-fas-survey, hybrid-method]
 authors: A. Alotaibi and A. Mahmood
@@ -9,6 +10,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread:
 priority: medium
+---
 ## What does the paper present?
 Distinguishing between genuine faces and spoofing attacks (print, replay) using both spatial and temporal information.
 

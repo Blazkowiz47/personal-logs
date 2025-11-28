@@ -1,3 +1,4 @@
+---
 aliases:
   - sgtd_fas
 tags:
@@ -24,6 +25,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
+---
 # Deep Spatial Gradient and Temporal Depth Learning for Face Anti-spoofing (FAS-SGTD)
 
 ## What does the paper present?

@@ -1,3 +1,4 @@
+---
 aliases:
   - cmfl_fas
 tags:
@@ -18,6 +19,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
+---
 # Cross Modal Focal Loss for RGBD Face Anti-Spoofing (CMFL)
 
 ## What does the paper present?

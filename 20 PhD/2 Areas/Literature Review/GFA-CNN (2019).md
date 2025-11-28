@@ -1,3 +1,4 @@
+---
 aliases: [gfa_cnn_fas]
 tags: [paper, pad, deep-fas-survey, domain-generalization, multi-task-learning]
 authors: Xiaoguang Tu, Zheng Ma, Jian Zhao, Guodong Du, Mei Xie, Jiashi Feng
@@ -9,5 +10,6 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread:
 priority: medium
+---
 ## What does the paper present?
 ## What are my views on it?

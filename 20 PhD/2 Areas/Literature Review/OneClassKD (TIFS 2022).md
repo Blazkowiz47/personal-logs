@@ -1,3 +1,4 @@
+---
 aliases: [oneclasskd_fas]
 tags: [paper, pad, deep-fas-survey, anomaly-detection]
 authors: Zhi Li, Rizhao Cai, Haoliang Li, Kwok-Yan Lam, Yongjian Hu, Alex C. Kot
@@ -9,6 +10,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
+---
 # One-Class Knowledge Distillation for Face Presentation Attack Detection
 
 > [!abstract]

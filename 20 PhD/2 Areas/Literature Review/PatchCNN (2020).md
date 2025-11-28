@@ -1,3 +1,4 @@
+---
 aliases: [patchcnn_fas]
 tags: [paper, pad, deep-fas-survey, binary-supervision]
 authors: Waldir R. Almeida, Fernanda A. Andaló, Rafael Padilha, Gabriel Bertocco, William Dias, Ricardo da S. Torres, Jacques Wainer, Anderson Rocha
@@ -9,6 +10,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
+---
 # Detecting face presentation attacks in mobile devices with a patch-based CNN and a sensor-aware loss function
 
 > [!abstract]

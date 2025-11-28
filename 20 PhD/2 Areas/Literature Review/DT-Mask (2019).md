@@ -1,3 +1,4 @@
+---
 aliases: [dt_mask_fas]
 tags: [paper, pad, deep-fas-survey, 3d-mask, dynamic-texture]
 authors: Rui Shao, Xiangyuan Lan, Pong C. Yuen
@@ -9,6 +10,7 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread:
 priority: medium
+---
 ## What does the paper present?
 3D mask attacks are challenging because they mimic 3D structure. However, real faces have subtle motion patterns (micro-expressions, blinking) that rigid masks lack.
 

@@ -1,3 +1,4 @@
+---
 aliases: [hfn_mp_fas]
 tags: [paper, pad, deep-fas-survey, domain-generalization, meta-learning]
 authors: Rizhao Cai, Zhi Li, Renjie Wan, Haoliang Li, Yongjian Hu, Alex ChiChung Kot
@@ -9,5 +10,6 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread:
 priority: medium
+---
 ## What does the paper present?
 ## What are my views on it?
