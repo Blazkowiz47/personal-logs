@@ -11,39 +11,27 @@ dateadded: 2025-11-26
 dateread:
 priority: medium
 ---
-
-## Quick Summary
-**Method:** CRFAS (Causal Representations for Face Anti-Spoofing)
+## What does the paper present?
 - **Backbone:** ResNet18
 - **Loss:** Supervised Contrastive Loss (for counterfactual generation), Backdoor Adjustment
 - **Input:** RGB
 - **Static/Dynamic:** S
 
-## Problem Statement
 Existing DG methods (adversarial/metric learning) are flawed from a causal view. Domain-invariant features don't generalize well theoretically.
 
-## Key Contributions
 1.  **Causal Perspective:** Models FAS data generation via Structural Causal Model (SCM).
 2.  **Backdoor Adjustment:** Extracts causal features using backdoor adjustment without prior assumptions.
 3.  **Counterfactual Feature Generation:** Uses supervised contrastive loss to generate realistic counterfactual features for the adjustment.
 
-## Methodology
-### Architecture
 - **Causal Feature Extractor:** Learned via backdoor adjustment.
 - **Counterfactual Generator:** Generates counterfactual samples to de-confound the domain influence.
 
-### Key Techniques
 - **Structural Causal Model (SCM):** Modeling the causal graph.
 - **Backdoor Adjustment:** A causal inference technique.
 
-## Experiments
-### Datasets Used
 - Standard cross-domain protocols (OULU-NPU, CASIA-FASD, etc.).
 
-## Critical Analysis
-### What Works Well
+## What are my views on it?
 - Causal inference is a theoretically grounded way to handle domain shifts, moving beyond simple statistical alignment.
 
-## Relevance to My Work
-### Ideas Sparked
 - Causal modeling might be the next step after standard DG.

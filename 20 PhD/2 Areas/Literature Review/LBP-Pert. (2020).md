@@ -11,145 +11,49 @@ dateadded: 2025-11-26
 dateread:
 priority: medium
 ---
-
-## Quick Summary
-**Method:** LBP-Pert.
+## What does the paper present?
 - **Backbone:** Multi-scale CNN
 - **Loss:** Binary CE loss
 - **Input:** RGB+LBP
 - **Static/Dynamic:** S
 
-## Abstract
-Face presentation attack detection (PAD) in unconstrained conditions is one of the key issues in face biometric-based authentication and security applications. In this paper, we propose a perturbation layer — a learnable pre-processing layer for low-level deep features — to enhance the discriminative ability of deep features in face PAD. The perturbation layer takes the deep features of a candidate layer in Convolutional Neural Network (CNN), the corresponding hand-crafted features of an input image, and produces adaptive convolutional weights for the deep features of the candidate layer. These adaptive convolutional weights determine the importance of the pixels in the deep features of the candidate layer for face PAD. The proposed perturbation layer adds very little overhead to the total trainable parameters in the model. We evaluated the proposed perturbation layer with Local Binary Patterns (LBP), with and without color information, on three publicly available face PAD databases, i.e., CASIA, Idiap Replay-Attack, and OULU-NPU databases. Our experimental results show that the introduction of the proposed perturbation layer in the CNN improved the face PAD performance, in both intra-database and cross-database scenarios. Our results also highlight the attention created by the proposed perturbation layer in the deep features and its effectiveness for face PAD in general.
-
-
-
-## Problem Statement
 What problem does this paper address?
 
-
-## Key Contributions
-1. 
-2. 
-3. 
-
-## Methodology
-### Architecture
 *Describe the model/approach*
 
-
-### Key Techniques
-- 
-- 
-
-### Novel Components
 *What's new/different from prior work?*
 
-
-## Experiments
-### Datasets Used
-- 
-- 
-
-### Results
 *Key metrics and performance*
 
-| Dataset | Metric | Result | Baseline |
-|---------|--------|--------|----------|
-|         |        |        |          |
-
-### Ablation Studies
 *What components were tested?*
 
-
-## Strengths
-- 
-- 
-
-## Limitations
-- 
-- 
-
-## Critical Analysis
-*My thoughts on the paper*
-
-### What Works Well
-- 
-
-### Concerns/Criticisms
-- 
-
-### Missing Pieces
-- 
-
-## Relevance to My Work
-*How does this relate to my PAD research?*
-
-### Direct Applications
-- 
-
-### Ideas Sparked
-- 
-
-### Techniques to Borrow
-- 
-
-## Implementation Notes
 *Anything useful for implementing this*
 
-### Architecture Details
-- 
-
-### Hyperparameters
-- 
-
-### Training Details
-- 
-
-### Reproducibility Notes
-- 
-
-## Related Papers
-### Cited By This Paper
 - [[]]
 
-### Papers That Cite This
 - [[]]
 
-### Similar Approaches
 - [[]]
 
-## Questions & Future Directions
-### Open Questions
-- 
+## What are my views on it?
+*My thoughts on the paper*
 
-### Extension Ideas
-- 
+*How does this relate to my PAD research?*
 
-### Experimental Ideas
-- 
+>
 
-## Notes & Highlights
-### Key Quotes
-> 
+- Figure X:
 
-### Figures to Remember
-- Figure X: 
-
-### Equations
 $$
 $$
 
-## Meeting Notes
 *Discussions with advisor/colleagues about this paper*
 
-
-## Action Items
-- [ ] 
-- [ ] 
+- [ ]
+- [ ]
 
 ---
-**Reading Progress:** 
+**Reading Progress:**
 - [ ] Abstract
 - [ ] Introduction
 - [ ] Related Work

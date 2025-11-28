@@ -11,34 +11,23 @@ dateadded: 2025-11-26
 dateread:
 priority: medium
 ---
-
-## Quick Summary
-**Method:** DTN (Deep Tree Network)
+## What does the paper present?
 - **Supervision:** BinaryMask
 - **Backbone:** Tree Network
 - **Input:** RGB, HSV
 - **Static/Dynamic:** S
 
-## Problem Statement
 Zero-Shot Face Anti-spoofing (ZSFA): Detecting unknown spoof attacks that were not seen during training. Previous works only studied 1-2 types.
 
-## Key Contributions
 1.  **Deep Tree Network (DTN):** Learns to partition spoof samples into semantic sub-groups in an unsupervised fashion.
 2.  **Zero-Shot Detection:** Routes input to the most similar spoof cluster or detects it as unknown/live.
 3.  **Diverse Attack Dataset:** Introduces a dataset with 13 types of spoof attacks.
 
-## Methodology
-### Architecture
 - **Tree Structure:** Hierarchical clustering of spoof types.
 
-## Experiments
-### Datasets Used
 - SiW-M (Spoof in the Wild - Multi-attack).
 
-## Critical Analysis
-### What Works Well
+## What are my views on it?
 - Treating PAD as an anomaly detection or zero-shot problem is the most realistic setup.
 
-## Relevance to My Work
-### Ideas Sparked
 - The SiW-M dataset is the gold standard for zero-shot testing. I must use it.

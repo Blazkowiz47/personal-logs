@@ -11,147 +11,54 @@ dateadded: 2025-11-26
 dateread: 
 priority: medium
 ---
-
 # Salience-Aware Face Presentation Attack Detection via Deep Reinforcement Learning
 
 > [!abstract]
 > In this paper, we propose a salience-aware face presentation attack detection (SAFPAD) approach, which takes advantage of deep reinforcement learning to exploit the salient local part information in face images. Most existing deep face presentation attack detection approaches extract features from the entire image or several fixed regions. However, the discriminative information beneficial for presentation attack detection is unevenly distributed in the image due to the illumination and presentation attack instrument variation, so treating all regions equally fails to highlight the most discriminative information which is important for more accurate and robust face presentation attack detection. To address this, we propose to identify the discriminative salient parts using deep reinforcement learning and focus on them to alleviate the adverse effects of redundant information in the face images. We fuse the high-level features and the local features which guide the policy network to exploit discriminative patches and assist the classification network to predict more accurate results. We jointly train the SAFPAD model with deep reinforcement learning to generate salient locations. Extensive experiments on five public datasets demonstrate that our approach achieves very competitive performance due to the concentrated employment of salient local information.
 
-## Quick Summary
-**Method:** SAFPAD
+## What does the paper present?
 - **Supervision:** Depth
 - **Backbone:** DepthNet
 - **Input:** RGB & Patch
 - **Static/Dynamic:** S
 
-
-
-## Problem Statement
 What problem does this paper address?
 
-
-## Key Contributions
-1. 
-2. 
-3. 
-
-## Methodology
-### Architecture
 *Describe the model/approach*
 
-
-### Key Techniques
-- 
-- 
-
-### Novel Components
 *What's new/different from prior work?*
 
-
-## Experiments
-### Datasets Used
-- 
-- 
-
-### Results
 *Key metrics and performance*
 
-| Dataset | Metric | Result | Baseline |
-|---------|--------|--------|----------|
-|         |        |        |          |
-
-### Ablation Studies
 *What components were tested?*
 
-
-## Strengths
-- 
-- 
-
-## Limitations
-- 
-- 
-
-## Critical Analysis
-*My thoughts on the paper*
-
-### What Works Well
-- 
-
-### Concerns/Criticisms
-- 
-
-### Missing Pieces
-- 
-
-## Relevance to My Work
-*How does this relate to my PAD research?*
-
-### Direct Applications
-- 
-
-### Ideas Sparked
-- 
-
-### Techniques to Borrow
-- 
-
-## Implementation Notes
 *Anything useful for implementing this*
 
-### Architecture Details
-- 
-
-### Hyperparameters
-- 
-
-### Training Details
-- 
-
-### Reproducibility Notes
-- 
-
-## Related Papers
-### Cited By This Paper
 - [[]]
 
-### Papers That Cite This
 - [[]]
 
-### Similar Approaches
 - [[]]
 
-## Questions & Future Directions
-### Open Questions
-- 
+## What are my views on it?
+*My thoughts on the paper*
 
-### Extension Ideas
-- 
+*How does this relate to my PAD research?*
 
-### Experimental Ideas
-- 
+>
 
-## Notes & Highlights
-### Key Quotes
-> 
+- Figure X:
 
-### Figures to Remember
-- Figure X: 
-
-### Equations
 $$
 $$
 
-## Meeting Notes
 *Discussions with advisor/colleagues about this paper*
 
-
-## Action Items
-- [ ] 
-- [ ] 
+- [ ]
+- [ ]
 
 ---
-**Reading Progress:** 
+**Reading Progress:**
 - [ ] Abstract
 - [ ] Introduction
 - [ ] Related Work

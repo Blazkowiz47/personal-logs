@@ -24,15 +24,13 @@ dateadded: 2025-11-26
 dateread: 
 priority: medium
 ---
-
 # Generative VoxelNet: Learning Energy-Based Models for 3D Shape Synthesis and Analysis (3DPC-Net?)
 
 > **Note:** The file name "3DPC-Net" seems to be a mismatch with the paper found at the URL provided (`https://arxiv.org/abs/2012.13522`). The paper at this URL is titled **"Generative VoxelNet: Learning Energy-Based Models for 3D Shape Synthesis and Analysis"** and is about 3D shape generation, not explicitly Face Anti-Spoofing.
 
 > **Correction:** I will search for the correct "3DPC-Net" paper (likely "3D Point Cloud Network for Face Anti-Spoofing" from IJCB 2020) in the next step. For now, I am flagging this note as a mismatch.
 
-## Quick Summary
-**Method:** 3DPC-Net (Presumed)
+## What does the paper present?
 - **Supervision:** 3D Point Cloud
 - **Backbone:** ResNet18
 - **Input:** RGB
@@ -40,18 +38,13 @@ priority: medium
 **(Content below refers to the mismatched VoxelNet paper found at the URL)**
 This paper proposes a deep 3D energy-based model to represent volumetric shapes for 3D synthesis and analysis.
 
-## Problem Statement
 (Mismatched)
 
-## Key Contributions
 (Mismatched)
 
-## Methodology
 (Mismatched)
 
-## Experiments
 (Mismatched)
 
-## Notes
+## What are my views on it?
 - **ACTION REQUIRED:** Find the correct paper for "3DPC-Net (IJCB 2020)".
-

@@ -20,11 +20,9 @@ dateadded: 2025-11-26
 dateread: 
 priority: medium
 ---
-
 # Cross Modal Focal Loss for RGBD Face Anti-Spoofing (CMFL)
 
-## Quick Summary
-**Method:** CMFL (Cross Modal Focal Loss)
+## What does the paper present?
 - **Backbone:** Multi-channel architecture (e.g., MC-PixBiS or similar)
 - **Loss:** Cross Modal Focal Loss (CMFL)
 - **Input:** RGB, Depth (or other channels)
@@ -32,37 +30,23 @@ priority: medium
 
 This paper proposes a novel loss function, **Cross Modal Focal Loss (CMFL)**, for RGB-D Face Anti-Spoofing. It addresses the issue where one modality (e.g., RGB) might overfit or dominate the learning. CMFL dynamically modulates the loss contribution of each channel based on the confidence of the individual channels, encouraging the model to learn complementary information from both modalities.
 
-## Problem Statement
 Multi-channel PAD methods often fail to generalize because they may overfit to one modality (usually RGB) or fail to effectively leverage the complementary information from additional channels (like Depth) when data is limited.
 
-## Key Contributions
 1.  **Cross Modal Focal Loss (CMFL):** A loss function that adjusts the weight of each modality's loss based on how well that modality is currently performing (confidence).
 2.  **Robustness:** Improves generalization to unseen attacks by preventing the model from relying solely on the easiest modality.
 
-## Methodology
-### Architecture
 - Uses a multi-stream architecture where each stream processes a different modality (RGB, Depth).
 - The streams are trained jointly with the CMFL.
 
-### Key Techniques
 - **Focal Loss Adaptation:** Extends the concept of Focal Loss (which focuses on hard samples) to the multi-modal setting (focusing on the "harder" or less confident modality, or balancing them).
 
-## Experiments
-### Datasets Used
 - WMCA (Wide Multi-Channel Presentation Attack)
-- HQ-WMCA
 
-### Results
 - Demonstrates effectiveness on these datasets, showing better generalization than standard cross-entropy or independent training.
 
-## Critical Analysis
-### What Works Well
+## What are my views on it?
 - The idea of dynamically balancing modalities is crucial. Often, depth channels are noisy or sparse, and RGB is too easy to overfit. This loss seems to handle that trade-off elegantly.
 
-## Relevance to My Work
-### Ideas Sparked
 - If I use multi-modal data (e.g., RGB + IR), I should consider this loss to ensure my model actually uses the IR channel and doesn't just ignore it.
 
-## Notes & Highlights
 - Anjith George and Sébastien Marcel are from Idiap, known for the WMCA dataset.
-

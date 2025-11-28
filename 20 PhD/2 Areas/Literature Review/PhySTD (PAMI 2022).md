@@ -11,147 +11,54 @@ dateadded: 2025-11-26
 dateread: 
 priority: medium
 ---
-
 # Physics-Guided Spoof Trace Disentanglement for Generic Face Anti-Spoofing
 
 > [!abstract]
 > Prior studies show that the key to face anti-spoofing lies in the subtle image pattern, termed "spoof trace", e.g., color distortion, 3D mask edge, Moire pattern, and many others. Designing a generic face anti-spoofing model to estimate those spoof traces can improve not only the generalization of the spoof detection, but also the interpretability of the model's decision. Yet, this is a challenging task due to the diversity of spoof types and the lack of ground truth in spoof traces. In this work, we design a novel adversarial learning framework to disentangle spoof faces into the spoof traces and the live counterparts. Guided by physical properties, the spoof generation is represented as a combination of additive process and inpainting process. Additive process describes spoofing as spoof material introducing extra patterns (e.g., moire pattern), where the live counterpart can be recovered by removing those patterns. Inpainting process describes spoofing as spoof material fully covering certain regions, where the live counterpart of those regions has to be "guessed". We use 3 additive components and 1 inpainting component to represent traces at different frequency bands. The disentangled spoof traces can be utilized to synthesize realistic new spoof faces after proper geometric correction, and the synthesized spoof can be used for training and improve the generalization of spoof detection. Our approach demonstrates superior spoof detection performance on 3 testing scenarios: known attacks, unknown attacks, and open-set attacks. Meanwhile, it provides a visually-convincing estimation of the spoof traces.
 
-## Quick Summary
-**Method:** PhySTD
+## What does the paper present?
 - **Supervision:** Depth, RGB Input (live)
 - **Backbone:** U-Net, PatchGAN
 - **Input:** Frequency Trace
 - **Static/Dynamic:** S
 
-
-
-## Problem Statement
 What problem does this paper address?
 
-
-## Key Contributions
-1. 
-2. 
-3. 
-
-## Methodology
-### Architecture
 *Describe the model/approach*
 
-
-### Key Techniques
-- 
-- 
-
-### Novel Components
 *What's new/different from prior work?*
 
-
-## Experiments
-### Datasets Used
-- 
-- 
-
-### Results
 *Key metrics and performance*
 
-| Dataset | Metric | Result | Baseline |
-|---------|--------|--------|----------|
-|         |        |        |          |
-
-### Ablation Studies
 *What components were tested?*
 
-
-## Strengths
-- 
-- 
-
-## Limitations
-- 
-- 
-
-## Critical Analysis
-*My thoughts on the paper*
-
-### What Works Well
-- 
-
-### Concerns/Criticisms
-- 
-
-### Missing Pieces
-- 
-
-## Relevance to My Work
-*How does this relate to my PAD research?*
-
-### Direct Applications
-- 
-
-### Ideas Sparked
-- 
-
-### Techniques to Borrow
-- 
-
-## Implementation Notes
 *Anything useful for implementing this*
 
-### Architecture Details
-- 
-
-### Hyperparameters
-- 
-
-### Training Details
-- 
-
-### Reproducibility Notes
-- 
-
-## Related Papers
-### Cited By This Paper
 - [[]]
 
-### Papers That Cite This
 - [[]]
 
-### Similar Approaches
 - [[]]
 
-## Questions & Future Directions
-### Open Questions
-- 
+## What are my views on it?
+*My thoughts on the paper*
 
-### Extension Ideas
-- 
+*How does this relate to my PAD research?*
 
-### Experimental Ideas
-- 
+>
 
-## Notes & Highlights
-### Key Quotes
-> 
+- Figure X:
 
-### Figures to Remember
-- Figure X: 
-
-### Equations
 $$
 $$
 
-## Meeting Notes
 *Discussions with advisor/colleagues about this paper*
 
-
-## Action Items
-- [ ] 
-- [ ] 
+- [ ]
+- [ ]
 
 ---
-**Reading Progress:** 
+**Reading Progress:**
 - [ ] Abstract
 - [ ] Introduction
 - [ ] Related Work

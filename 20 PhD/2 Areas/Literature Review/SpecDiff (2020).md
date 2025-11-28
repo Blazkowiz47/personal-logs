@@ -11,147 +11,54 @@ dateadded: 2025-11-26
 dateread: 
 priority: medium
 ---
-
 # Specular- and Diffuse-reflection-based Face Spoofing Detection for Mobile Devices
 
 > [!abstract]
 > In light of the rising demand for biometric-authentication systems, preventing face spoofing attacks is a critical issue for the safe deployment of face recognition systems. Here, we propose an efficient face presentation attack detection (PAD) algorithm that requires minimal hardware and only a small database, making it suitable for resource-constrained devices such as mobile phones. Utilizing one monocular visible light camera, the proposed algorithm takes two facial photos, one taken with a flash, the other without a flash. The proposed SpecDiff descriptor is constructed by leveraging two types of reflection: (i) specular reflections from the iris region that have a specific intensity distribution depending on liveness, and (ii) diffuse reflections from the entire face region that represents the 3D structure of a subject's face. Classifiers trained with SpecDiff descriptor outperforms other flash-based PAD algorithms on both an in-house database and on publicly available NUAA, Replay-Attack, and SiW databases. Moreover, the proposed algorithm achieves statistically significantly better accuracy to that of an end-to-end, deep neural network classifier, while being approximately six-times faster execution speed.
 
-## Quick Summary
-**Method:** SpecDiff
+## What does the paper present?
 - **Backbone:** ResNet4
 - **Loss:** Binary CE loss
 - **Input:** Concatenated face images w/ and w/o flash
 - **Static/Dynamic:** S
 
-
-
-## Problem Statement
 What problem does this paper address?
 
-
-## Key Contributions
-1. 
-2. 
-3. 
-
-## Methodology
-### Architecture
 *Describe the model/approach*
 
-
-### Key Techniques
-- 
-- 
-
-### Novel Components
 *What's new/different from prior work?*
 
-
-## Experiments
-### Datasets Used
-- 
-- 
-
-### Results
 *Key metrics and performance*
 
-| Dataset | Metric | Result | Baseline |
-|---------|--------|--------|----------|
-|         |        |        |          |
-
-### Ablation Studies
 *What components were tested?*
 
-
-## Strengths
-- 
-- 
-
-## Limitations
-- 
-- 
-
-## Critical Analysis
-*My thoughts on the paper*
-
-### What Works Well
-- 
-
-### Concerns/Criticisms
-- 
-
-### Missing Pieces
-- 
-
-## Relevance to My Work
-*How does this relate to my PAD research?*
-
-### Direct Applications
-- 
-
-### Ideas Sparked
-- 
-
-### Techniques to Borrow
-- 
-
-## Implementation Notes
 *Anything useful for implementing this*
 
-### Architecture Details
-- 
-
-### Hyperparameters
-- 
-
-### Training Details
-- 
-
-### Reproducibility Notes
-- 
-
-## Related Papers
-### Cited By This Paper
 - [[]]
 
-### Papers That Cite This
 - [[]]
 
-### Similar Approaches
 - [[]]
 
-## Questions & Future Directions
-### Open Questions
-- 
+## What are my views on it?
+*My thoughts on the paper*
 
-### Extension Ideas
-- 
+*How does this relate to my PAD research?*
 
-### Experimental Ideas
-- 
+>
 
-## Notes & Highlights
-### Key Quotes
-> 
+- Figure X:
 
-### Figures to Remember
-- Figure X: 
-
-### Equations
 $$
 $$
 
-## Meeting Notes
 *Discussions with advisor/colleagues about this paper*
 
-
-## Action Items
-- [ ] 
-- [ ] 
+- [ ]
+- [ ]
 
 ---
-**Reading Progress:** 
+**Reading Progress:**
 - [ ] Abstract
 - [ ] Introduction
 - [ ] Related Work
