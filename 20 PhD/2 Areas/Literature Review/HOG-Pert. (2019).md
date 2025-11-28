@@ -6,9 +6,9 @@ year: 2019
 venue: CISIS
 paper_url: https://link.springer.com/chapter/10.1007/978-3-030-20005-3_1
 code_url: 
-status: "✅ Read"
+status: "📚 To Read"
 dateadded: 2025-11-26
-dateread: 2025-11-26
+dateread:
 priority: medium
 ---
 

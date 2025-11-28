@@ -6,9 +6,9 @@ year: 2022
 venue: SEKE
 paper_url: http://ksiresearch.org/seke/seke22paper/paper076.pdf
 code_url: 
-status: "✅ Read"
+status: "📚 To Read"
 dateadded: 2025-11-26
-dateread: 2025-11-26
+dateread:
 priority: medium
 ---
 

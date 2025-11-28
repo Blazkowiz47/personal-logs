@@ -6,9 +6,9 @@ year: TIFS 2022
 venue: TIFS
 paper_url: https://ieeexplore.ieee.org/document/9796574
 code_url: https://github.com/WeihangWANG/Conv-MLP
-status: "✅ Read"
+status: "📚 To Read"
 dateadded: 2025-11-26
-dateread: 2025-11-26
+dateread:
 priority: medium
 ---
 

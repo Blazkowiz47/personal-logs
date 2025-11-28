@@ -6,9 +6,9 @@ year: 2021
 venue: ICCV
 paper_url: https://openaccess.thecvf.com/content/ICCV2021/papers/Rostami_Detection_and_Continual_Learning_of_Novel_Face_Presentation_Attacks_ICCV_2021_paper.pdf
 code_url: 
-status: "✅ Read"
+status: "📚 To Read"
 dateadded: 2025-11-26
-dateread: 2025-11-26
+dateread:
 priority: medium
 ---
 

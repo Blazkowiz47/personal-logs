@@ -6,9 +6,9 @@ year: CVPR 2019
 venue: CVPR
 paper_url: https://openaccess.thecvf.com/content_CVPR_2019/html/Liu_Deep_Tree_Learning_for_Zero-Shot_Face_Anti-Spoofing_CVPR_2019_paper.html
 code_url: 
-status: "✅ Read"
+status: "📚 To Read"
 dateadded: 2025-11-26
-dateread: 2025-11-26
+dateread:
 priority: medium
 ---
 

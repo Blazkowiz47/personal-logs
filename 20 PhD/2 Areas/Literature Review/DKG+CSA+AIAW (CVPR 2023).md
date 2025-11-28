@@ -6,9 +6,9 @@ year: CVPR 2023
 venue: CVPR
 paper_url: https://arxiv.org/abs/2304.05640
 code_url: https://github.com/qianyuzqy/IADG
-status: "✅ Read"
+status: "📚 To Read"
 dateadded: 2025-11-26
-dateread: 2025-11-26
+dateread:
 priority: medium
 ---
 

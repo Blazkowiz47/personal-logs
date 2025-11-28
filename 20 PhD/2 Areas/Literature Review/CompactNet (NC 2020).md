@@ -6,9 +6,9 @@ year: 2020
 venue: Neurocomputing
 paper_url: https://www.sciencedirect.com/science/article/pii/S0925231220308237
 code_url: 
-status: "✅ Read"
+status: "📚 To Read"
 dateadded: 2025-11-26
-dateread: 2025-11-26
+dateread:
 priority: medium
 ---
 

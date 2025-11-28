@@ -6,9 +6,9 @@ year: 2017
 venue: ICIAR
 paper_url: https://link.springer.com/chapter/10.1007/978-3-319-59876-5_4
 code_url: 
-status: "✅ Read"
+status: "📚 To Read"
 dateadded: 2025-11-26
-dateread: 2025-11-26
+dateread:
 priority: medium
 ---
 

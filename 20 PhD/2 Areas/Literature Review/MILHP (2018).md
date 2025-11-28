@@ -6,9 +6,9 @@ year: 2018
 venue: IJCAI
 paper_url: https://www.ijcai.org/proceedings/2018/0113.pdf
 code_url: 
-status: "✅ Read"
+status: "📚 To Read"
 dateadded: 2025-11-26
-dateread: 2025-11-26
+dateread:
 priority: medium
 ---
 

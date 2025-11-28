@@ -6,9 +6,9 @@ year: 2021
 venue: ICCVW
 paper_url: https://openaccess.thecvf.com/content/ICCV2021W/HTCV/papers/Wang_Multi-Perspective_Features_Learning_for_Face_Anti-Spoofing_ICCVW_2021_paper.pdf
 code_url: 
-status: "✅ Read"
+status: "📚 To Read"
 dateadded: 2025-11-26
-dateread: 2025-11-26
+dateread:
 priority: medium
 ---
 

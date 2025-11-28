@@ -6,9 +6,9 @@ year: 2019
 venue: CVPRW
 paper_url: https://arxiv.org/abs/1904.09290
 code_url: 
-status: "✅ Read"
+status: "📚 To Read"
 dateadded: 2025-11-26
-dateread: 2025-11-26
+dateread:
 priority: medium
 ---
 

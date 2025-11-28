@@ -6,9 +6,9 @@ year: 2020
 venue: IJCB
 paper_url: https://arxiv.org/abs/2007.05856
 code_url: https://github.com/yashasvi97/IJCB2020_anomaly
-status: "✅ Read"
+status: "📚 To Read"
 dateadded: 2025-11-26
-dateread: 2025-11-26
+dateread:
 priority: medium
 ---
 

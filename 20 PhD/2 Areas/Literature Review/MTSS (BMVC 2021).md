@@ -6,9 +6,9 @@ year: 2021
 venue: BMVC
 paper_url: https://cse.buffalo.edu/~siweilyu/papers/BMVC2021.pdf
 code_url: 
-status: "✅ Read"
+status: "📚 To Read"
 dateadded: 2025-11-26
-dateread: 2025-11-26
+dateread:
 priority: medium
 ---
 

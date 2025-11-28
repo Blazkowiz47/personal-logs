@@ -6,9 +6,9 @@ year: 2020
 venue: CVPR
 paper_url: https://openaccess.thecvf.com/content_CVPR_2020/papers/Stehouwer_Noise_Modeling_Synthesis_and_Classification_for_Generic_Object_Anti-Spoofing_CVPR_2020_paper.pdf
 code_url: http://cvlab.cse.msu.edu/project-goas.html
-status: "✅ Read"
+status: "📚 To Read"
 dateadded: 2025-11-26
-dateread: 2025-11-26
+dateread:
 priority: medium
 ---
 

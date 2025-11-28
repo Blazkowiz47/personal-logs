@@ -6,9 +6,9 @@ year: 2018
 venue: Expert Systems with Applications (ESA)
 paper_url: http://www.ee.cityu.edu.hk/~lmpo/publications/2018_ESA_LiveNet.pdf
 code_url: 
-status: "✅ Read"
+status: "📚 To Read"
 dateadded: 2025-11-26
-dateread: 2025-11-26
+dateread:
 priority: medium
 ---
 

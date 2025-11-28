@@ -6,9 +6,9 @@ year: 2019
 venue: IJIGSP
 paper_url: http://www.mecs-press.org/ijigsp/ijigsp-v11-n2/IJIGSP-V11-N2-2.pdf
 code_url: 
-status: "✅ Read"
+status: "📚 To Read"
 dateadded: 2025-11-26
-dateread: 2025-11-26
+dateread:
 priority: medium
 ---
 

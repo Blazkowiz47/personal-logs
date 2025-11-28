@@ -6,9 +6,9 @@ year: 2020
 venue: Multimedia Tools and Applications
 paper_url: https://link.springer.com/article/10.1007/s11042-020-08952-0
 code_url: 
-status: "✅ Read"
+status: "📚 To Read"
 dateadded: 2025-11-26
-dateread: 2025-11-26
+dateread:
 priority: medium
 ---
 

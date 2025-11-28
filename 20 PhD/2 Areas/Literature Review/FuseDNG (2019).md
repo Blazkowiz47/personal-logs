@@ -6,9 +6,9 @@ year: 2019
 venue: JVCIR
 paper_url: http://www.ee.cityu.edu.hk/~lmpo/publications/2019_VComm_Face_Liveness
 code_url: 
-status: "✅ Read"
+status: "📚 To Read"
 dateadded: 2025-11-26
-dateread: 2025-11-26
+dateread:
 priority: medium
 ---
 

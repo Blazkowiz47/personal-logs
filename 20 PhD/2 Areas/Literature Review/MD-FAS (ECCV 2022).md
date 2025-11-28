@@ -6,9 +6,9 @@ year: 2022
 venue: ECCV
 paper_url: https://arxiv.org/pdf/2208.11148.pdf
 code_url: 
-status: "✅ Read"
+status: "📚 To Read"
 dateadded: 2025-11-26
-dateread: 2025-11-26
+dateread:
 priority: medium
 ---
 

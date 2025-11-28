@@ -6,9 +6,9 @@ year: CVPRW 2020
 venue: CVPRW
 paper_url: https://openaccess.thecvf.com/content_CVPRW_2020/papers/w48/Saha_Domain_Agnostic_Feature_Learning_for_Image_and_Video_Based_Face_CVPRW_2020_paper.pdf
 code_url: 
-status: "✅ Read"
+status: "📚 To Read"
 dateadded: 2025-11-26
-dateread: 2025-11-26
+dateread:
 priority: medium
 ---
 

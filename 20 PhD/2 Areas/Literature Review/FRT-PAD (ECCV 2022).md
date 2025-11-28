@@ -6,9 +6,9 @@ year: 2022
 venue: ECCV
 paper_url: https://wentianzhang-ml.github.io/pad
 code_url: https://github.com/WentianZhang-ML/FRT-PAD
-status: "✅ Read"
+status: "📚 To Read"
 dateadded: 2025-11-26
-dateread: 2025-11-26
+dateread:
 priority: medium
 ---
 

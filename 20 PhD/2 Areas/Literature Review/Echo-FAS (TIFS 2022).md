@@ -6,9 +6,9 @@ year: 2022
 venue: TIFS
 paper_url: https://ieeexplore.ieee.org/abstract/document/9868051
 code_url: 
-status: "✅ Read"
+status: "📚 To Read"
 dateadded: 2025-11-26
-dateread: 2025-11-26
+dateread:
 priority: medium
 ---
 

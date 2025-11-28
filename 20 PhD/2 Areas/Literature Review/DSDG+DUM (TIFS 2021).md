@@ -6,9 +6,9 @@ year: TIFS 2021
 venue: TIFS
 paper_url: https://arxiv.org/abs/2112.00568
 code_url: https://github.com/JDAI-CV/FaceX-Zoo/tree/main/addition_module/DSDG
-status: "✅ Read"
+status: "📚 To Read"
 dateadded: 2025-11-26
-dateread: 2025-11-26
+dateread:
 priority: medium
 ---
 

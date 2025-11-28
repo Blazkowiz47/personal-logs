@@ -6,9 +6,9 @@ year: 2020
 venue: arXiv
 paper_url: https://arxiv.org/abs/2006.06756
 code_url: 
-status: "✅ Read"
+status: "📚 To Read"
 dateadded: 2025-11-26
-dateread: 2025-11-26
+dateread:
 priority: medium
 ---
 

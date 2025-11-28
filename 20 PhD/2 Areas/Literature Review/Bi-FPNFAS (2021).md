@@ -6,9 +6,9 @@ year: 2021
 venue: Sensors (MDPI)
 paper_url: https://www.mdpi.com/1424-8220/21/8/2799
 code_url: 
-status: "✅ Read"
+status: "📚 To Read"
 dateadded: 2025-11-26
-dateread: 2025-11-26
+dateread:
 priority: medium
 ---
 

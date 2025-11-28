@@ -6,9 +6,9 @@ year: 2020
 venue: IET Biometrics
 paper_url: https://onlinelibrary.wiley.com/doi/10.1049/iet-bmt.2019.0155
 code_url: 
-status: "✅ Read"
+status: "📚 To Read"
 dateadded: 2025-11-26
-dateread: 2025-11-26
+dateread:
 priority: medium
 ---
 

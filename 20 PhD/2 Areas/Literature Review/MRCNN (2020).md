@@ -6,9 +6,9 @@ year: 2020
 venue: Pattern Recognition Letters
 paper_url: https://www.sciencedirect.com/science/article/pii/S0167865520300015
 code_url: 
-status: "✅ Read"
+status: "📚 To Read"
 dateadded: 2025-11-26
-dateread: 2025-11-26
+dateread:
 priority: medium
 ---
 

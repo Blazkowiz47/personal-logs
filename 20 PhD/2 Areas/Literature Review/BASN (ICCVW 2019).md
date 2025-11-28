@@ -6,9 +6,9 @@ year: ICCVW 2019
 venue: ICCVW
 paper_url: https://openaccess.thecvf.com/content_ICCVW_2019/papers/DFW/Kim_BASN_Enriching_Feature_Representation_Using_Bipartite_Auxiliary_Supervisions_for_Face_ICCVW_2019_paper.pdf
 code_url: 
-status: "✅ Read"
+status: "📚 To Read"
 dateadded: 2025-11-26
-dateread: 2025-11-26
+dateread:
 priority: medium
 ---
 

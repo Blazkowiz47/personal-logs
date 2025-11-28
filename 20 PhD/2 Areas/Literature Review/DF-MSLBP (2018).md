@@ -6,9 +6,9 @@ year: 2018
 venue: PRL (Submitted) / arXiv
 paper_url: https://arxiv.org/abs/1910.03850
 code_url: 
-status: "✅ Read"
+status: "📚 To Read"
 dateadded: 2025-11-26
-dateread: 2025-11-26
+dateread:
 priority: medium
 ---
 

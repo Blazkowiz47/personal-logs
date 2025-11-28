@@ -6,9 +6,9 @@ year: 2020
 venue: CVPRW
 paper_url: https://openaccess.thecvf.com/content_CVPRW_2020/papers/w39/Yu_Multi-Modal_Face_Anti-Spoofing_Based_on_Central_Difference_Networks_CVPRW_2020_paper.pdf
 code_url: 
-status: "✅ Read"
+status: "📚 To Read"
 dateadded: 2025-11-26
-dateread: 2025-11-26
+dateread:
 priority: medium
 ---
 

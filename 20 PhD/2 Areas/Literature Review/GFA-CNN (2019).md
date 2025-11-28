@@ -6,9 +6,9 @@ year: 2020
 venue: ACM TIST
 paper_url: https://dl.acm.org/doi/abs/10.1145/3402446
 code_url: 
-status: "✅ Read"
+status: "📚 To Read"
 dateadded: 2025-11-26
-dateread: 2025-11-26
+dateread:
 priority: medium
 ---
 

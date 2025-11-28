@@ -6,9 +6,9 @@ year: 2023
 venue: arXiv
 paper_url: https://arxiv.org/abs/2303.09914
 code_url: 
-status: "✅ Read"
+status: "📚 To Read"
 dateadded: 2025-11-26
-dateread: 2025-11-26
+dateread:
 priority: medium
 ---
 

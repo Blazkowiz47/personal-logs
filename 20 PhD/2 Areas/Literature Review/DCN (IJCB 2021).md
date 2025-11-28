@@ -22,7 +22,7 @@ year: 2021
 venue: IJCB
 paper_url: https://arxiv.org/abs/2107.10628
 code_url: 
-status: "✅ Read"
+status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium

@@ -6,9 +6,9 @@ year: 2022
 venue: WACV
 paper_url: https://arxiv.org/abs/2110.09157
 code_url: 
-status: "✅ Read"
+status: "📚 To Read"
 dateadded: 2025-11-26
-dateread: 2025-11-26
+dateread:
 priority: medium
 ---
 

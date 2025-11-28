@@ -6,9 +6,9 @@ year: 2017
 venue: FADS
 paper_url: https://ieeexplore.ieee.org/document/8253209
 code_url: 
-status: "✅ Read"
+status: "📚 To Read"
 dateadded: 2025-11-26
-dateread: 2025-11-26
+dateread:
 priority: medium
 ---
 

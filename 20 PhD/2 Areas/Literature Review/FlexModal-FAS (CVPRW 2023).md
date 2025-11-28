@@ -6,9 +6,9 @@ year: 2023
 venue: CVPRW
 paper_url: https://arxiv.org/abs/2202.08192
 code_url: https://github.com/ZitongYu/Flex-Modal-FAS
-status: "✅ Read"
+status: "📚 To Read"
 dateadded: 2025-11-26
-dateread: 2025-11-26
+dateread:
 priority: medium
 ---
 

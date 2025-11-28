@@ -6,9 +6,9 @@ year: 2019
 venue: CVPRW
 paper_url: https://openaccess.thecvf.com/content_CVPRW_2019/html/CFS/Shen_FaceBagNet_Bag-Of-Local-Features_Model_for_Multi-Modal_Face_Anti-Spoofing_CVPRW_2019_paper.html
 code_url: 
-status: "✅ Read"
+status: "📚 To Read"
 dateadded: 2025-11-26
-dateread: 2025-11-26
+dateread:
 priority: medium
 ---
 

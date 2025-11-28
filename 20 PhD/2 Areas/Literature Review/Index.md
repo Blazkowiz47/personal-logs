@@ -5,7 +5,7 @@
 ## Quick Stats
 ```dataview
 TABLE WITHOUT ID
-	choice(status = "✅ Read", "✅", choice(status = "📖 Reading", "📖", "📚")) as "📊",
+	status as "Status",
 	length(rows) as "Count"
 FROM "20 PhD/2 Areas/Literature Review"
 WHERE contains(tags, "paper")
@@ -151,6 +151,8 @@ WHERE contains(tags, "feature-learning") OR contains(tags, "representation")
 SORT status ASC, year DESC
 ```
 
+
+
 ## Papers by Venue
 
 ### Top CV Conferences
@@ -189,6 +191,8 @@ WHERE contains(venue, "arXiv")
 SORT year DESC, dateadded DESC
 ```
 
+
+
 ## Papers by Year
 
 ```dataview
@@ -201,6 +205,7 @@ FROM "20 PhD/2 Areas/Literature Review"
 WHERE contains(tags, "paper")
 SORT year DESC, venue ASC
 ```
+
 
 ## Recently Added
 ```dataview
@@ -215,6 +220,7 @@ WHERE contains(tags, "paper")
 SORT dateadded DESC
 LIMIT 10
 ```
+
 
 ## Papers with Code
 ```dataview
@@ -264,6 +270,11 @@ SORT year ASC
 ```
 
 ---
+
+## Status Guide:
+	- "✅ Read", "✅" 
+	- "📖 Reading", "📖"
+	- "📚 To Read", "📚"
 
 ## Tag Guide
 
