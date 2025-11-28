@@ -1,4 +1,3 @@
----
 aliases: [stdn_fas]
 tags: [paper, pad, deep-fas-survey, generative-model]
 authors: Yaojie Liu, Joel Stehouwer, Xiaoming Liu
@@ -10,54 +9,10 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
----
 # On Disentangling Spoof Trace for Generic Face Anti-Spoofing
 
 > [!abstract]
 > Prior studies show that the key to face anti-spoofing lies in the subtle image pattern, termed "spoof trace", e.g., color distortion, 3D mask edge, Moire pattern, and many others. Designing a generic anti-spoofing model to estimate those spoof traces can improve not only the generalization of the spoof detection, but also the interpretability of the model's decision. Yet, this is a challenging task due to the diversity of spoof types and the lack of ground truth in spoof traces. This work designs a novel adversarial learning framework to disentangle the spoof traces from input faces as a hierarchical combination of patterns at multiple scales. With the disentangled spoof traces, we unveil the live counterpart of the original spoof face, and further synthesize realistic new spoof faces after a proper geometric correction. Our method demonstrates superior spoof detection performance on both seen and unseen spoof scenarios while providing visually convincing estimation of spoof traces.
 
 ## What does the paper present?
-What problem does this paper address?
-
-*Describe the model/approach*
-
-*What's new/different from prior work?*
-
-*Key metrics and performance*
-
-*What components were tested?*
-
-*Anything useful for implementing this*
-
-- [[]]
-
-- [[]]
-
-- [[]]
-
 ## What are my views on it?
-*My thoughts on the paper*
-
-*How does this relate to my PAD research?*
-
->
-
-- Figure X:
-
-$$
-$$
-
-*Discussions with advisor/colleagues about this paper*
-
-- [ ]
-- [ ]
-
----
-**Reading Progress:**
-- [ ] Abstract
-- [ ] Introduction
-- [ ] Related Work
-- [ ] Methodology
-- [ ] Experiments
-- [ ] Conclusion
-- [ ] Supplementary Material

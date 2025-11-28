@@ -1,4 +1,3 @@
----
 aliases: [echo_fas]
 tags: [paper, pad, deep-fas-survey, multimodal, acoustic-based]
 authors: Chenqi Kong, Kexin Zheng, Shiqi Wang, Anderson Rocha, Haoliang Li
@@ -10,7 +9,6 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread:
 priority: medium
----
 ## What does the paper present?
 
 

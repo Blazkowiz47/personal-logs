@@ -1,4 +1,3 @@
----
 aliases: [cnnlsp_fas]
 tags: [paper, pad, deep-fas-survey, hybrid-method]
 authors: Rui Shao, Xiangyuan Lan, Pong C. Yuen
@@ -10,7 +9,6 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread:
 priority: medium
----
 ## What does the paper present?
 Detecting 3D mask attacks which have realistic depth and texture, making them harder than 2D attacks.
 

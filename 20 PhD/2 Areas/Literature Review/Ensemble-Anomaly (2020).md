@@ -1,4 +1,3 @@
----
 aliases: [ensemble_anomaly_fas]
 tags: [paper, pad, deep-fas-survey, anomaly-detection, ensemble-learning]
 authors: Soroush Fatemifar, Muhammad Awais, Josef Kittler, Ali Akbari
@@ -10,7 +9,6 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread:
 priority: medium
----
 ## What does the paper present?
 
 

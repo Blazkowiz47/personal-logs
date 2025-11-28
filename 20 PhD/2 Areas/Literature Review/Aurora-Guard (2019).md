@@ -1,4 +1,3 @@
----
 aliases: [auroraguard_fas]
 tags: [paper, pad, deep-fas-survey, specialized-sensor]
 authors: 
@@ -10,7 +9,6 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
----
 ## What does the paper present?
 Passive FAS methods struggle with complex attacks and generalization. Active methods using specific hardware (IR/Depth) are expensive. This paper proposes a cost-effective active solution using the screen light.
 

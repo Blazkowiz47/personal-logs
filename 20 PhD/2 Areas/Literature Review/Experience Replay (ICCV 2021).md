@@ -1,4 +1,3 @@
----
 aliases: [experience_replay_fas]
 tags: [paper, pad, deep-fas-survey, continual-learning, experience-replay]
 authors: Mohammad Rostami, Leonidas Spinoulas, Mohamed Hussein, Wael Abd-Almageed
@@ -10,7 +9,6 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread:
 priority: medium
----
 ## What does the paper present?
 
 

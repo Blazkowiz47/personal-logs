@@ -1,4 +1,3 @@
----
 aliases:
   - dino_v3_fas
 tags:
@@ -18,16 +17,11 @@ status: "📖 Reading"
 dateadded: 2025-10-27
 dateread:
 priority: medium
----
-
 ## Quick Summary
 *One-sentence summary of what this paper does*
 
 
 ## Problem Statement
-What problem does this paper address?
-
-
 ## Key Contributions
 1. 
 2. 
@@ -35,33 +29,22 @@ What problem does this paper address?
 
 ## Methodology
 ### Architecture
-*Describe the model/approach*
-
-
 ### Key Techniques
 - 
 - 
 
 ### Novel Components
-*What's new/different from prior work?*
-
-
 ## Experiments
 ### Datasets Used
 - 
 - 
 
 ### Results
-*Key metrics and performance*
-
 | Dataset | Metric | Result | Baseline |
 |---------|--------|--------|----------|
 |         |        |        |          |
 
 ### Ablation Studies
-*What components were tested?*
-
-
 ## Strengths
 - 
 - 
@@ -71,8 +54,6 @@ What problem does this paper address?
 - 
 
 ## Critical Analysis
-*My thoughts on the paper*
-
 ### What Works Well
 - 
 
@@ -83,8 +64,6 @@ What problem does this paper address?
 - 
 
 ## Relevance to My Work
-*How does this relate to my PAD research?*
-
 ### Direct Applications
 - 
 
@@ -95,8 +74,6 @@ What problem does this paper address?
 - 
 
 ## Implementation Notes
-*Anything useful for implementing this*
-
 ### Architecture Details
 - 
 
@@ -111,14 +88,8 @@ What problem does this paper address?
 
 ## Related Papers
 ### Cited By This Paper
-- [[]]
-
 ### Papers That Cite This
-- [[]]
-
 ### Similar Approaches
-- [[]]
-
 ## Questions & Future Directions
 ### Open Questions
 - 
@@ -131,29 +102,7 @@ What problem does this paper address?
 
 ## Notes & Highlights
 ### Key Quotes
-> 
-
 ### Figures to Remember
-- Figure X: 
-
 ### Equations
-$$
-$$
-
 ## Meeting Notes
-*Discussions with advisor/colleagues about this paper*
-
-
 ## Action Items
-- [ ] 
-- [ ] 
-
----
-**Reading Progress:** 
-- [ ] Abstract
-- [ ] Introduction
-- [ ] Related Work
-- [ ] Methodology
-- [ ] Experiments
-- [ ] Conclusion
-- [ ] Supplementary Material

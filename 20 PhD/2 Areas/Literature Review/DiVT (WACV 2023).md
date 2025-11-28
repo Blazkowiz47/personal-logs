@@ -1,4 +1,3 @@
----
 aliases:
   - divt_fas
 tags:
@@ -18,7 +17,6 @@ status: 📖 Reading
 dateadded: 2025-11-26
 dateread: 2025-11-28
 priority: medium
----
 ## What does the paper present?
 
 

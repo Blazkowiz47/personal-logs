@@ -1,4 +1,3 @@
----
 aliases: [ttn_fas]
 tags: [paper, pad, deep-fas-survey, auxiliary-supervision]
 authors: 
@@ -10,53 +9,9 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
----
 ## What does the paper present?
 **Abstract:** (IEEE blocked - metadata unavailable) TTN proposes a Temporal Transformer Network for video-based face anti-spoofing using depth supervision, with Pyramid Temporal Aggregation and Temporal Difference Attentions to capture spatio-temporal cues.
 
 **Method:** TTN (Temporal Transformer Network)
 
-What problem does this paper address?
-
-*Describe the model/approach*
-
-*What's new/different from prior work?*
-
-*Key metrics and performance*
-
-*What components were tested?*
-
-*Anything useful for implementing this*
-
-- [[]]
-
-- [[]]
-
-- [[]]
-
 ## What are my views on it?
-*My thoughts on the paper*
-
-*How does this relate to my PAD research?*
-
->
-
-- Figure X:
-
-$$
-$$
-
-*Discussions with advisor/colleagues about this paper*
-
-- [ ]
-- [ ]
-
----
-**Reading Progress:**
-- [ ] Abstract
-- [ ] Introduction
-- [ ] Related Work
-- [ ] Methodology
-- [ ] Experiments
-- [ ] Conclusion
-- [ ] Supplementary Material

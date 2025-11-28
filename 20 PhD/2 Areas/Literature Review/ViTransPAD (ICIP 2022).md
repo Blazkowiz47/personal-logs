@@ -1,4 +1,3 @@
----
 aliases: [vitranspad_fas]
 tags: [paper, pad, deep-fas-survey, binary-supervision]
 authors: Zuheng Ming, Zitong Yu, Musab Al-Ghadi, Muriel Visani, Muhammad Muzzamil Luqman, Jean-Christophe Burie
@@ -10,53 +9,9 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
----
 ## What does the paper present?
 **Abstract:** Face Presentation Attack Detection (PAD) is an important measure to prevent spoof attacks for face biometric systems. Many works based on Convolution Neural Networks (CNNs) for face PAD formulate the problem as an image-level binary classification task without considering the context. Alternatively, Vision Transformers (ViT) using self-attention to attend the context of an image become the mainstreams in face PAD. Inspired by ViT, we propose a Video-based Transformer for face PAD (ViTransPAD) with short/long-range spatio-temporal attention which can not only focus on local details with short attention within a frame but also capture long-range dependencies over frames. Instead of using coarse image patches with single-scale as in ViT, we propose the Multi-scale Multi-Head Self-Attention (MsMHSA) architecture to accommodate multi-scale patch partitions of Q, K, V feature maps to the heads of transformer in a coarse-to-fine manner, which enables to learn a fine-grained representation to perform pixel-level discrimination for face PAD. Due to lack inductive biases of convolutions in pure transformers, we also introduce convolutions to the proposed ViTransPAD to integrate the desirable properties of CNNs by using convolution patch embedding and convolution projection.
 
 **Method:** ViTransPAD
 
-What problem does this paper address?
-
-*Describe the model/approach*
-
-*What's new/different from prior work?*
-
-*Key metrics and performance*
-
-*What components were tested?*
-
-*Anything useful for implementing this*
-
-- [[]]
-
-- [[]]
-
-- [[]]
-
 ## What are my views on it?
-*My thoughts on the paper*
-
-*How does this relate to my PAD research?*
-
->
-
-- Figure X:
-
-$$
-$$
-
-*Discussions with advisor/colleagues about this paper*
-
-- [ ]
-- [ ]
-
----
-**Reading Progress:**
-- [ ] Abstract
-- [ ] Introduction
-- [ ] Related Work
-- [ ] Methodology
-- [ ] Experiments
-- [ ] Conclusion
-- [ ] Supplementary Material

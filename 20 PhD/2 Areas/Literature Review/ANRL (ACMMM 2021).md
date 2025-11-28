@@ -1,4 +1,3 @@
----
 aliases: [anrl_fas]
 tags: [paper, pad, deep-fas-survey, domain-generalization]
 authors: Shubao Liu, Ke-Yue Zhang, Taiping Yao, Mingwei Bi, Shouhong Ding, Jilin Li, Feiyue Huang, Lizhuang Ma
@@ -10,7 +9,6 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
----
 ## What does the paper present?
 This paper proposes an Adaptive Normalized Representation Learning (ANRL) framework for domain generalization in FAS. It focuses on the feature normalization process, adaptively selecting normalization methods based on inputs to learn domain-agnostic features. It also introduces Dual Calibration Constraints to ensure inter-domain compatibility and inter-class separability.
 

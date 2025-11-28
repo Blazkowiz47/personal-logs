@@ -1,4 +1,3 @@
----
 aliases: [dr_uda_fas]
 tags: [paper, pad, deep-fas-survey, domain-adaptation]
 authors: Guoqing Wang, Hu Han, Shiguang Shan, Xilin Chen
@@ -10,7 +9,6 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
----
 ## What does the paper present?
 
 

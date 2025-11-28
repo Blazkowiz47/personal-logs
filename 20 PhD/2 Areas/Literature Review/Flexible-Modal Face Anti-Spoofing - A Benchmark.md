@@ -1,4 +1,3 @@
----
 aliases:
   - fmf_fas
 tags:
@@ -18,8 +17,6 @@ status: ✅ Read
 dateadded: 2025-10-18
 dateread: 2025-11-20
 priority: high
----
-
 # Flexible-Modal Face Anti-Spoofing - A Benchmark
 
 > [!abstract] **One-Liner**
@@ -33,8 +30,6 @@ priority: high
 1. First flexible-modal benchmark.
 2. **Cross-attention fusion module** to efficiently mine cross-modal clues.
 3. Insight: Modality dropout works well for intra-testing but poorly for cross-testing.
-
----
 
 ## ⚙️ Methodology
 **Architecture:**
@@ -62,8 +57,6 @@ priority: high
 - **Modality Dropout:** Randomly zero out modalities during training to mimic missing sensors in deployment.
 - **Settings:** Finetuned for 30 epochs, halving LR after 20th.
 
----
-
 ## 📊 Results & Analysis
 **Datasets:** [[CASIA-SURF]], [[CeFA]], [[WMCA]]
 
@@ -71,8 +64,6 @@ priority: high
 - **Best Case:** When all three modalities are available.
 - **Generalization:** "Bad performance in general... Cross dataset sucks to generalise."
 - **Failure Mode:** The model struggles when the domain shifts (cross-testing), likely because it overfits to the specific sensor characteristics of the training set.
-
----
 
 ## 🧠 Critical Review
 | **Strengths** | **Limitations** |
@@ -83,8 +74,6 @@ priority: high
 **My Take:**
 The idea of "One-for-all" is practical for industry, but the reliance on modality dropout seems insufficient for true domain generalization. The cross-attention mechanism is the most interesting part.
 
----
-
 ## 🧪 Experimental Ideas & Logs
 *Connect this paper to my experiments.*
 
@@ -92,21 +81,9 @@ The idea of "One-for-all" is practical for industry, but the reliance on modalit
 - **Related Experiment:** [[Experiment - Frequency Modalities for Flex-FAS]] (Proposed)
 - **Hypothesis:** Frequency domain might be more robust to domain shifts than raw pixel depth/IR.
 
----
-
 ## 🔗 References
 - **Code:** [GitHub](https://github.com/ZitongYu/Flex-Modal-FAS)
 - **Related Papers:**
 	- [[CASIA-SURF]] (Dataset)
 	- [[CeFA]] (Dataset)
 	- [[WMCA]] (Dataset)
-
----
-**Reading Progress:**
-- [x] Abstract
-- [x] Introduction
-- [x] Related Work
-- [x] Methodology
-- [x] Experiments
-- [x] Conclusion
-- [x] Supplementary Material

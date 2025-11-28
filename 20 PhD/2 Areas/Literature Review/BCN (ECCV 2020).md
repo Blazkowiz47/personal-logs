@@ -1,4 +1,3 @@
----
 aliases: [bcn_fas]
 tags: [paper, pad, deep-fas-survey, bilateral-convolution]
 authors: 
@@ -10,7 +9,6 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
----
 ## What does the paper present?
 
 

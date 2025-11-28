@@ -1,4 +1,3 @@
----
 aliases: [ccdd_fas]
 tags: [paper, pad, deep-fas-survey, domain-generalization, domain-agnostic]
 authors: Suman Saha, Wenhao Xu, Menelaos Kanakis, Stamatios Georgoulis, Yuhua Chen, Danda Pani Paudel, Luc Van Gool
@@ -10,7 +9,6 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread:
 priority: medium
----
 ## What does the paper present?
 FAS techniques typically fail to generalize to new samples due to large variability in backgrounds, lighting, camera resolutions, and spoof materials. This paper tackles the generalization problem by learning domain-agnostic features.
 
@@ -23,4 +21,3 @@ FAS techniques typically fail to generalize to new samples due to large variabil
 -   Shows effectiveness over existing techniques in terms of numerical improvement and feature visualization (t-SNE).
 
 ## What are my views on it?
-

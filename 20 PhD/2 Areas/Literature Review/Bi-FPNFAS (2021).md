@@ -1,4 +1,3 @@
----
 aliases: [bi_fpn_fas]
 tags: [paper, pad, deep-fas-survey, auxiliary-supervision, fourier-spectra, feature-pyramid]
 authors: Koushik Roy, Md. Hasan, Labiba Rupty, Md. Sourave Hossain, Shirshajit Sengupta, Shehzad Noor Taus, Nabeel Mohammed
@@ -10,7 +9,6 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread:
 priority: medium
----
 ## What does the paper present?
 Face anti-spoofing (FAS) models often fail to generalize due to environmental variances. Existing pixel-wise supervision methods (like DeepPixBis) use multi-scale features but don't fully leverage Feature Pyramid Networks (FPN) for semantic robustness. This paper aims to use BiFPN for multi-scale feature extraction and Fourier spectra for texture-based auxiliary supervision.
 
@@ -22,4 +20,3 @@ Face anti-spoofing (FAS) models often fail to generalize due to environmental va
 -   Self-acquired dataset (3 subjects)
 
 ## What are my views on it?
-

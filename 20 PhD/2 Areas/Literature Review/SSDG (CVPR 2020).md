@@ -1,4 +1,3 @@
----
 aliases:
   - ssdg_fas
 tags:
@@ -22,7 +21,6 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
----
 # Single-Side Domain Generalization for Face Anti-Spoofing (SSDG)
 
 > [!abstract]

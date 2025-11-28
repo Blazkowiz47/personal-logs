@@ -1,4 +1,3 @@
----
 aliases: [drdg_fas]
 tags: [paper, pad, deep-fas-survey, domain-generalization, reweighting]
 authors: Shubao Liu, Ke-Yue Zhang, Taiping Yao, Kekai Sheng, Shouhong Ding, Ying Tai, Jilin Li, Yuan Xie, Lizhuang Ma
@@ -10,7 +9,6 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread:
 priority: medium
----
 ## What does the paper present?
 Treating all samples from multiple domains equally during training corrupts generalization because of complex and biased data distributions. Some samples have large domain bias.
 

@@ -1,4 +1,3 @@
----
 aliases:
   - aim_fas
 tags:
@@ -21,7 +20,6 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
----
 # Who Make Drivers Stop? Towards Driver-centric Risk Assessment (AIM-FAS?)
 
 > **Note:** The file name "AIM-FAS" seems to be a mismatch with the paper found at the URL provided in the original note (`https://arxiv.org/abs/2003.02425`). The paper at this URL is titled **"Who Make Drivers Stop? Towards Driver-centric Risk Assessment: Risk Object Identification via Causal Inference"** and is about autonomous driving/robotics, not Face Anti-Spoofing.
@@ -41,4 +39,3 @@ This paper proposes a driver-centric definition of risk and a causal inference f
 (Mismatched)
 
 ## What are my views on it?
-

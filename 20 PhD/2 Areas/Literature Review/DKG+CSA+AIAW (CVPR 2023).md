@@ -1,4 +1,3 @@
----
 aliases: [dkg_csa_aiaw_fas]
 tags: [paper, pad, deep-fas-survey, domain-generalization, instance-aware]
 authors: Qianyu Zhou, Ke-Yue Zhang, Taiping Yao, Xuequan Lu, Ran Yi, Shouhong Ding, Lizhuang Ma
@@ -10,7 +9,6 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread:
 priority: medium
----
 ## What does the paper present?
 Existing DG methods rely on coarse-grained domain labels, which are subjective and don't reflect real distributions. They align at the domain level, ignoring instance-level style variations.
 

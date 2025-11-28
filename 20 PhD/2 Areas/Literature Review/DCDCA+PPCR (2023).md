@@ -1,4 +1,3 @@
----
 aliases: [dcdca_ppcr_fas]
 tags: [paper, pad, deep-fas-survey, continual-learning, domain-generalization]
 authors: Rizhao Cai, Yawen Cui, Zhi Li, Zitong Yu, Haoliang Li, Yongjian Hu, Alex Kot
@@ -10,7 +9,6 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread:
 priority: medium
----
 ## What does the paper present?
 Continual learning in FAS usually requires replay buffers (storing old data), which is a privacy risk. Existing methods suffer from catastrophic forgetting without replay.
 

@@ -1,4 +1,3 @@
----
 aliases: [fas_net]
 tags: [paper, pad, deep-fas-survey, binary-supervision, transfer-learning]
 authors: Oeslle Lucena, Amadeu Junior, Vitor Moia, Roberto Souza, Eduardo Valle, Roberto Lotufo
@@ -10,7 +9,6 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread:
 priority: medium
----
 ## What does the paper present?
 
 

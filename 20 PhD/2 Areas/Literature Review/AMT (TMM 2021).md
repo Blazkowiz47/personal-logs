@@ -1,4 +1,3 @@
----
 aliases:
   - amt_fas
 tags:
@@ -24,7 +23,6 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
----
 # Asymmetric Modality Translation For Face Presentation Attack Detection (AMT)
 
 ## What does the paper present?

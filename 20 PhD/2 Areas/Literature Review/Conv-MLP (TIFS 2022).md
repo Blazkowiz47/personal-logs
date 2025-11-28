@@ -1,4 +1,3 @@
----
 aliases: [convmlp_fas]
 tags: [paper, pad, deep-fas-survey, multimodal, architecture]
 authors: Weihang Wang, Fei Wen, Haoyuan Zheng, Rendong Ying, Peilin Liu
@@ -10,7 +9,6 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread:
 priority: medium
----
 ## What does the paper present?
 CNNs are good at local features but struggle with long-range dependencies. Pure MLPs/Transformers are heavy. Need a balance.
 

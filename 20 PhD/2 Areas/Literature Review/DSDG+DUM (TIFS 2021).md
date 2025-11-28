@@ -1,4 +1,3 @@
----
 aliases: [dsdg_dum_fas]
 tags: [paper, pad, deep-fas-survey, generative-model, disentanglement]
 authors: Hangtong Wu, Dan Zeng, Yibo Hu, Hailin Shi, Tao Mei
@@ -10,7 +9,6 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread:
 priority: medium
----
 ## What does the paper present?
 Existing FAS datasets lack diversity (insufficient identities and variances), limiting generalization.
 

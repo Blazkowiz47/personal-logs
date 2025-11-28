@@ -1,4 +1,3 @@
----
 aliases:
   - amel_fas
 tags:
@@ -24,7 +23,6 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread: 
 priority: medium
----
 # Adaptive Mixture of Experts Learning for Generalizable Face Anti-Spoofing (AMEL)
 
 ## What does the paper present?

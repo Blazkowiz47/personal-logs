@@ -1,4 +1,3 @@
----
 aliases: [compactnet_fas]
 tags: [paper, pad, deep-fas-survey, binary-supervision]
 authors: Lei Li, Zhaoqiang Xia, Xiaoyue Jiang, Fabio Roli, Xiaoyi Feng
@@ -10,7 +9,6 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread:
 priority: medium
----
 ## What does the paper present?
 Standard color spaces (RGB, HSV) are designed for display, not discrimination. Existing features might not be compact enough for PAD.
 

@@ -1,4 +1,3 @@
----
 aliases: [cr_fas]
 tags: [paper, pad, deep-fas-survey, domain-generalization, causal-learning]
 authors: Guanghao Zheng, Yuchen Liu, Wenrui Dai, Chenglin Li, Junni Zou, Hongkai Xiong
@@ -10,7 +9,6 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread:
 priority: medium
----
 ## What does the paper present?
 Existing DG methods (adversarial/metric learning) are flawed from a causal view. Domain-invariant features don't generalize well theoretically.
 

@@ -1,4 +1,3 @@
----
 aliases: [clientanomaly_fas]
 tags: [paper, pad, deep-fas-survey, anomaly-detection, one-class-classification]
 authors: Soroush Fatemifar, Shervin Rahimzadeh Arashloo, Muhammad Awais, Josef Kittler
@@ -10,7 +9,6 @@ status: "📚 To Read"
 dateadded: 2025-11-26
 dateread:
 priority: medium
----
 ## What does the paper present?
 Standard binary classifiers fail on unseen attacks. Anomaly detection is better, but generic anomaly detectors ignore client-specific information.
 
