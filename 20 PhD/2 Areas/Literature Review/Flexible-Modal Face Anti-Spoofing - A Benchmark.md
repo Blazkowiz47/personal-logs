@@ -14,9 +14,9 @@ year: "2022"
 venue: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition
 paper_url: https://arxiv.org/pdf/2202.08192
 code_url: https://github.com/ZitongYu/Flex-Modal-FAS
-status: "📚 To Read"
+status: ✅ Read
 dateadded: 2025-10-18
-dateread:
+dateread: 2025-11-20
 priority: high
 ---
 ## Quick Summary
@@ -40,11 +40,32 @@ Developing a single model which can be deployed flexibly with different modaliti
 ### Results
 bad performance in general.
 when all three modalities are used while testing it works best.
-- [ ] Cross dataset sucks to generalise.
+- Cross dataset sucks to generalise.
 
-| Dataset | Metric | Result | Baseline |
-|---------|--------|--------|----------|
-|         |        |        |          |
+## Implementation Notes
+
+### Architecture Details
+#### 3 Ways of fusion:
+- Direct concatenation fusion:
+	- F$_{fuse}$ = ReLU(BN(Conv(Concat(F$_{RGB}$, F$_{Depth}$, F$_{IR}$))))
+	Default method.
+    
+- Squeeze-and-excitation fusion:
+	- F$^{SE}_{RGB}$ = F$_{RGB}$ $\times$ $\sigma$(FC(ReLU(FC(AvgPool(F$_{RGB}$)))))
+	- F$^{SE}_{Depth}$ = F$_{Depth}$ $\times$ $\sigma$(FC(ReLU(FC(AvgPool(F$_{Depth}$)))))
+	- F$^{SE}_{IR}$ = F$_{IR}$ $\times$ $\sigma$(FC(ReLU(FC(AvgPool(F$_{IR}$)))))
+	- F$_{fuse}$ = ReLU(BN(Conv(Concat(F$^{SE}_{RGB}$,F$^{SE}_{Depth}$,F$^{SE}_{IR}$))))
+	Intermediate channel numbers are reduced to one eighth of original channels.
+- Cross-attention fusion:
+    - F$^{CA}_{Depth}$ = Softmax(F$_{Depth}$(F$_{RGB}$)$^{T}$)F$_{RGB}$
+    - F$^{CA}_{IR}$ = Softmax(F$_{IR}$(F$_{RGB}$)$^{T}$)F$_{RGB}$
+    - F$_{fuse}$ = ReLU(BN(Conv(F$_{RGB}$+F$^{CA}_{Depth}$+F$^{CA}_{IR}$))) # element wise addition
+
+Missing modalities are simply blocked as zeros in testing phase and to mimic these scenarios random dropout of modalities is done during the training.
+
+### Training Details
+- Finetuned for 30 epochs with epoch halving after 20th epoch.
+
 
 ### Ablation Studies
 *What components were tested?*
@@ -73,70 +94,6 @@ when all three modalities are used while testing it works best.
 ## Relevance to My Work
 *How does this relate to my PAD research?*
 
-### Direct Applications
--
-
-### Ideas Sparked
--
-
-### Techniques to Borrow
--
-
-## Implementation Notes
-
-### Architecture Details
-#### 3 Ways of fusion:
-- Direct concatenation fusion:
-	- F$_{fuse}$ = ReLU(BN(Conv(Concat(F$_{RGB}$, F$_{Depth}$, F$_{IR}$))))
-	Default method.
-    
-- Squeeze-and-excitation fusion:
-	- F$^{SE}_{RGB}$ = F$_{RGB}$ $\times$ $\sigma$(FC(ReLU(FC(AvgPool(F$_{RGB}$)))))
-	- F$^{SE}_{Depth}$ = F$_{Depth}$ $\times$ $\sigma$(FC(ReLU(FC(AvgPool(F$_{Depth}$)))))
-	- F$^{SE}_{IR}$ = F$_{IR}$ $\times$ $\sigma$(FC(ReLU(FC(AvgPool(F$_{IR}$)))))
-	- F$_{fuse}$ = ReLU(BN(Conv(Concat(F$^{SE}_{RGB}$,F$^{SE}_{Depth}$,F$^{SE}_{IR}$))))
-	Intermediate channel numbers are reduced to one eighth of original channels.
-- Cross-attention fusion:
-    - F$^{CA}_{Depth}$ = Softmax(F$_{Depth}$(F$_{RGB}$)$^{T}$)F$_{RGB}$
-    - F$^{CA}_{IR}$ = Softmax(F$_{IR}$(F$_{RGB}$)$^{T}$)F$_{RGB}$
-    - F$_{fuse}$ = ReLU(BN(Conv(F$_{RGB}$+F$^{CA}_{Depth}$+F$^{CA}_{IR}$))) # element wise addition
-
-Missing modalities are simply blocked as zeros in testing phase and to mimic these scenarios random dropout of modalities is done during the training.
-
-### Training Details
-- Finetuned for 30 epochs with epoch halving after 20th epoch.
-
-
-## Related Papers
-### Cited By This Paper
-- 
-
-### Papers That Cite This
-- 
-
-### Similar Approaches
-- 
-
-## Questions & Future Directions
-### Open Questions
--
-
-### Extension Ideas
-- 
-
-### Experimental Ideas
-- What if we use fourier transform images maybe  low pass and high pass filetered images as 2 modalities..
-
-## Notes & Highlights
-### Key Quotes
->
-
-### Figures to Remember
-- Figure X:
-
-### Equations
-$$
-$$
 
 ## Meeting Notes
 *Discussions with advisor/colleagues about this paper*

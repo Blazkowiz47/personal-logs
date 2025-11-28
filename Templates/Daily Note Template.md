@@ -40,9 +40,6 @@
 ## 🏃 Wellness
 - [ ] Gym (30 min) - Returned by 3:15 PM
 - [ ] Shambhavi Mahamudra evening (25 min)
-- [ ] NoFap day ✓
-- [ ] Quality time with wife (dinner & stroll)
-- [ ] Quality time in bed
 
 ## 🌟 Daily Reflection
 **What went well:**
