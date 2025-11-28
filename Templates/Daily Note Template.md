@@ -14,16 +14,9 @@
 3. [ ] 
 
 ## 💼 Work Log (Mobai)
-**Standup:**
-- Yesterday: 
-- Today: 
-- Blockers: 
-
-**Progress:**
-- 
-
-**Notes:**
-- 
+- **Focus**: 
+- **Notes**:
+	- 
 
 ## 🔬 PhD Work (8-10 PM)
 **Focus:** 

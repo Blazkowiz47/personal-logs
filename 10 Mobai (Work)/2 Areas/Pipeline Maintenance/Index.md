@@ -58,7 +58,6 @@ Single repository with stitched pipelines:
 
 ## Related Areas
 - [[PAD Algorithm Development/Index]]
-- [[SOTA Research Tracking/Index]]
 
 ## Future Improvements
 *After refactoring project completes*

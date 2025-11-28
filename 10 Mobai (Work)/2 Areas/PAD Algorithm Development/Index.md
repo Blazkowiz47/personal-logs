@@ -22,7 +22,6 @@ Improving PAD backend with SOTA models from academia
 - 
 
 ## Related Notes
-- [[SOTA Research Tracking]]
 - [[Pipeline Maintenance]]
 
 ---
