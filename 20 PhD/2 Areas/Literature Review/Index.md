@@ -14,22 +14,6 @@ GROUP BY status
 
 ## Papers by Status
 
-### 📚 To Read
-```dataview
-TABLE WITHOUT ID
-	file.link as "Paper",
-	authors as "Authors",
-	year as "Year",
-	venue as "Venue",
-	dateadded as "Added"
-FROM "20 PhD/2 Areas/Literature Review"
-WHERE contains(tags, "paper") AND status = "📚 To Read"
-SORT year DESC, dateadded DESC
-```
-
-## Surveys
-- [[Deep Learning for Face Anti-Spoofing - A Survey]]
-
 ### 📖 Currently Reading
 ```dataview
 TABLE WITHOUT ID
@@ -41,6 +25,19 @@ TABLE WITHOUT ID
 FROM "20 PhD/2 Areas/Literature Review"
 WHERE contains(tags, "paper") AND status = "📖 Reading"
 SORT dateadded DESC
+```
+
+### 📚 To Read
+```dataview
+TABLE WITHOUT ID
+	file.link as "Paper",
+	authors as "Authors",
+	year as "Year",
+	venue as "Venue",
+	dateadded as "Added"
+FROM "20 PhD/2 Areas/Literature Review"
+WHERE contains(tags, "paper") AND status = "📚 To Read"
+SORT year DESC, dateadded DESC
 ```
 
 ### ✅ Read
