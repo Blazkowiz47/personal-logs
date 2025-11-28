@@ -1,5 +1,6 @@
 ---
-aliases: [dino_v3_fas]
+aliases:
+  - dino_v3_fas
 tags:
   - paper
   - pad
@@ -13,7 +14,7 @@ year: "2025"
 venue: Arxiv
 paper_url: https://arxiv.org/pdf/2508.10104
 code_url: https://github.com/facebookresearch/dinov3
-status: 🟡 In Progress
+status: "📖 Reading"
 dateadded: 2025-10-27
 dateread:
 priority: medium

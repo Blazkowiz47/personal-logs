@@ -1,6 +1,6 @@
 ---
 tags: [survey, pad, deep-fas]
-status: 📚 To Read
+status: "📚 To Read"
 ---
 
 # 👏 Survey of Deep Face Anti-spoofing 🔥
@@ -29,24 +29,28 @@ We present a comprehensive review of recent deep learning methods for face anti-
 ---
 ## Contents
 
-- [Datasets](#data)
-  - [Using commercial RGB camera](#data_RGB)
-  - [With multiple modalities or specialized sensors](#data_Multimodal)
-- [Deep FAS methods with commercial RGB camera](#methods_RGB)
-  - [Hybrid (handcrafted + deep)](#hybrid)
-  - [End-to-end binary cross-entropy supervision](#binary)
-  - [Pixel-wise auxiliary supervision](#auxiliary)
-  - [Generative model with pixel-wise supervision](#generative)
-  - [Domain adaptation](#DA)
-  - [Domain generalization](#DG)
-  - [Zero/Few-shot learning](#zero-shot)
-  - [Anomaly detection](#oneclass)
-  - [Semi-supervision & Self-supervision](#semiself)
-  - [Continual learning](#CL)
-- [Deep FAS methods with advanced sensor](#methods_advanced)
-  - [Learning upon specialized sensor](#sensor)
-  - [Multi-modal learning](#multimodal)
-  - [Flexible-modal learning](#flexmodal)
+- [👏 Survey of Deep Face Anti-spoofing 🔥](#-survey-of-deep-face-anti-spoofing-)
+    - [Citation](#citation)
+  - [Introduction](#introduction)
+  - [Contents](#contents)
+    - [1️⃣ Datasets](#1️⃣-datasets)
+      - [Datasets recorded with commercial RGB camera](#datasets-recorded-with-commercial-rgb-camera)
+      - [Datasets with multiple modalities or specialized sensors](#datasets-with-multiple-modalities-or-specialized-sensors)
+    - [2️⃣ Deep FAS methods with commercial RGB camera](#2️⃣-deep-fas-methods-with-commercial-rgb-camera)
+      - [Hybrid (handcrafted + deep)](#hybrid-handcrafted--deep)
+      - [End-to-end binary cross-entropy supervision](#end-to-end-binary-cross-entropy-supervision)
+      - [Pixel-wise auxiliary supervision](#pixel-wise-auxiliary-supervision)
+      - [Generative model with pixel-wise supervision](#generative-model-with-pixel-wise-supervision)
+      - [Domain adaptation](#domain-adaptation)
+      - [Domain generalization](#domain-generalization)
+      - [Zero/Few-shot learning](#zerofew-shot-learning)
+      - [Anomaly detection](#anomaly-detection)
+      - [Semi- \& Self-supervision](#semi---self-supervision)
+      - [Continual learning](#continual-learning)
+    - [3️⃣ Deep FAS methods with advanced sensor](#3️⃣-deep-fas-methods-with-advanced-sensor)
+      - [Learning upon specialized sensor](#learning-upon-specialized-sensor)
+      - [Multi-modal learning](#multi-modal-learning)
+      - [Flexible-modal learning](#flexible-modal-learning)
 
 ---
 ![[DeepFAS-Topology.png]]

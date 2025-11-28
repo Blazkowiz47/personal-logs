@@ -14,7 +14,7 @@ year: "2022"
 venue: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition
 paper_url: https://arxiv.org/pdf/2202.08192
 code_url: https://github.com/ZitongYu/Flex-Modal-FAS
-status: ✅ Read
+status: "✅ Read"
 dateadded: 2025-10-18
 dateread:
 priority: high
