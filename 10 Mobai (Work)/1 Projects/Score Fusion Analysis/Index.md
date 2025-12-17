@@ -1,5 +1,10 @@
 ---
-aliases: [score fusion analysis, Score Fusion, fusion analysis, fusion techniques]
+aliases:
+  - score fusion analysis
+  - Score Fusion
+  - fusion analysis
+  - fusion techniques
+status: ⏸️ Inactive
 ---
 # Score Fusion Analysis
 
@@ -7,7 +12,7 @@ aliases: [score fusion analysis, Score Fusion, fusion analysis, fusion technique
 Thorough analysis of various score fusion techniques on current PAD models
 
 ## Status
-🟡 In Progress
+🟡 In Progress / 🟢 Active /  ⏸️ Inactive / 🔴 Blocked / ✅ Complete
 
 ## Timeline
 - **Start Date:** 2025-10-04
