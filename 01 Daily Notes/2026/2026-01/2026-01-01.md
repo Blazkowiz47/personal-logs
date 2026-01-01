@@ -2,10 +2,7 @@
 
 ## 🌅 Morning Routine
 - [ ] Wake up at 6:00 AM
-- [ ] Brush teeth by 6:15 AM
-- [ ] Drink water
-- [ ] Shambhavi Mahamudra (40 min)
-- [ ] Prepare food
+- [ ] Morning routine completed
 - [ ] Leave for work by 8:00 AM
 
 ## 🎯 Today's Top 3
@@ -31,8 +28,8 @@
 - 
 
 ## 🏃 Wellness
-- [ ] Gym (30 min) - Returned by 3:15 PM
-- [ ] Shambhavi Mahamudra evening (25 min)
+- [ ] Exercise/Gym
+- [ ] Evening routine
 
 ## 🌟 Daily Reflection
 **What went well:**
