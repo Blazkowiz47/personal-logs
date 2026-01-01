@@ -3,7 +3,7 @@
 ## 🎯 Q4 Goals (Oct-Dec 2025)
 
 ### Work (Mobai)
-- [ ] **Refactor pad_candidate pipeline** - Make it scalable for PAD/MAD/DeepFake
+- [x] **Refactor pad_candidate pipeline** - Make it scalable for PAD/MAD/DeepFake
   - Progress: Planning phase
   - Deadline: End of Q4
 - [ ] **Implement 3 new SOTA PAD models**
