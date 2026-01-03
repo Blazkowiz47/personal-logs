@@ -1,0 +1,1 @@
+what if similar to lora, we pass in a batch of images through vit/clip/dino and then add smaller layers in between for temporal attention 
