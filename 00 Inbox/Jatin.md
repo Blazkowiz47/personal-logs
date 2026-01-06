@@ -40,3 +40,15 @@ My role is quite diverse, primarily focused on three pillars:
 Beyond my core responsibilities, I have always stayed close to research and social impact. During my undergrad, I presented a review paper at ICMMSEIR and a poster on Additive Manufacturing at the Aero-3D conference. I also spent time with **Prayaas**, an NGO club where I taught government school students for state scholarship exams—an experience that taught me as much about empathy as it did about leadership.
 
 I am now looking to transition into a management role to leverage this technical and supply chain foundation to solve larger business challenges."
+
+
+### Biggest obstacle you have come around... 
+There was this one time, we mostly used to procure the gun powder from domestic supplies but we thought of expansion of our supply chain.. and we tried to import it from the european market. Although they don't practice sharing material test certificate, as we have it here. Gunpowder is the crucial  raw material for us, so, we need important parameter from the test certificate known as initial charge mass to begin our production.  Essentially, initial charge mass is the amount of gunpowder  required to acheive the standard pressure, velocity and accuracy. There was a situation, where our domestic gunpowder inventory was near to exhaustion, and we had no other option but to use the imported gun powder. We had trouble reaching out the the foreign supplier as the person from our company who initiated the contact left his job. The new supply chain lead tried his best to reachout to the supplier but to no avail. If we didn't get the test certificate for the foreign inventory of the gunpowder soon, then there could have been a production halt. At that point of time, my manager was also on leave, thus the call ended up on my shoulders. Gun powder ingredients remains the same globally, so i sought out all the older domestic test reports and noted their performance. Based on rigorous analysis, i proposed 5 different initial charge mass estimates and during testing the 3rd estimate showed promising results. And then, as lead incoming quality control, i gave green light for production with the estimated initial charge mass. Later, when the foreign vendor reverted back with the ballistic test certificates, my estimate was an exact match !!! Voila!!!
+
+Where do you think it went wrong? 
+
+How to correct/prevent it? 
+
+
+
+
