@@ -12,33 +12,21 @@
 
 ## 💼 Work Log (Mobai)
 - **Focus**: 
+	- 
 - **Notes**:
 	- 
 
 ## 🔬 PhD Work (8-10 PM)
-**Focus:** 
-
-**Progress:**
-- 
-
-**Papers Read:**
-- 
-
-**Concepts Learned:**
-- 
-
-## 🏃 Wellness
-- [ ] Exercise/Gym
-- [ ] Evening routine
+- **Focus:** 
+	- 
+- **Notes:**
+	- 
 
 ## 🌟 Daily Reflection
 **What went well:**
 
-
 **What to improve:**
 
-
-**Grateful for:**
 
 
 **Tomorrow's priority:**
