@@ -3,7 +3,7 @@
 ## 🌅 Morning Routine
 - [ ] Wake up at 6:00 AM
 - [ ] Morning routine completed
-- [ ] Leave for work by 8:00 AM
+- [ ] Leave for work by 7:30 AM
 
 ## 🎯 Today's Top 3
 1. [ ] 
