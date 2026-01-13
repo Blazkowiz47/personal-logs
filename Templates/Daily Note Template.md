@@ -16,7 +16,7 @@
 - **Notes**:
 	- 
 
-## 🔬 PhD Work (8-10 PM)
+## 🔬 PhD Work 
 - **Focus:** 
 	- 
 - **Notes:**
