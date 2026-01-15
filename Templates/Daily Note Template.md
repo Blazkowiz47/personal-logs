@@ -1,9 +1,7 @@
 # <% tp.date.now("YYYY-MM-DD") %> - <% tp.date.now("dddd") %>
 
 ## 🌅 Morning Routine
-- [ ] Wake up at 6:00 AM
 - [ ] Morning routine completed
-- [ ] Leave for work by 7:30 AM
 
 ## 🎯 Today's Top 3
 1. [ ] 
