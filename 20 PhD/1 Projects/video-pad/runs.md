@@ -35,3 +35,15 @@ Observations:
 
 Next steps:
 - 1) ...
+
+Quantitative metrics (table template)
+
+| metric | value | notes |
+|---|---:|---|
+| FID |  | e.g. lower is better; reference eval script/command |
+| PSNR |  | |
+| SSIM |  | |
+| Runtime (s) |  | per clip |
+
+Notes
+- Paste the small table into the run entry after the YAML frontmatter. Keep qualitative observations above and the quantitative table here for quick scanning and copy/paste into reports.
