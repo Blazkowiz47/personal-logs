@@ -3,12 +3,12 @@
 Objective
 - Explore recursion-based image padding techniques to generate plausible content for missing regions.
 
-- Where to find things
-- Runs: `runs.md`
+Where to find things
+- Runs: `runs.md` (qualitative notes + quantitative table)
 - Learnings: `learnings.md`
-- Bugs: `bugs.md`
-- Artifacts: `artifacts/`
-- Tests: `tests/`
+- Bugs: `bugs.md` (checklist-style)
+- Artifacts: store externally — put short references/URLs in run entries, not files in this repo
+- Tests: none (keep repo lightweight)
 
 Run example
 ```
