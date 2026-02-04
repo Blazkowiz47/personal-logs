@@ -155,26 +155,26 @@
 
 ![test/[global] eer](plots/metric_evolution_test_[global] eer.png)
 
-![validation/f1](plots/metric_evolution_validation_f1.png)
+![validation/f1](20%20PhD/1%20Projects/Filtered%20PAD/vit_initial_sweep/plots/metric_evolution_validation_f1.png)
 
-![test/f1](plots/metric_evolution_test_f1.png)
+![test/f1](20%20PhD/1%20Projects/Filtered%20PAD/vit_initial_sweep/plots/metric_evolution_test_f1.png)
 
-![validation/loss](plots/metric_evolution_validation_loss.png)
+![validation/loss](20%20PhD/1%20Projects/Filtered%20PAD/vit_initial_sweep/plots/metric_evolution_validation_loss.png)
 
-![validation/auc](plots/metric_evolution_validation_auc.png)
+![validation/auc](20%20PhD/1%20Projects/Filtered%20PAD/vit_initial_sweep/plots/metric_evolution_validation_auc.png)
 
-![test/auc](plots/metric_evolution_test_auc.png)
+![test/auc](20%20PhD/1%20Projects/Filtered%20PAD/vit_initial_sweep/plots/metric_evolution_test_auc.png)
 
 ![test/[global] apcer_at_bpcer_3_0](plots/metric_evolution_test_[global] apcer_at_bpcer_3_0.png)
 
 ![test/[global] apcer_at_bpcer_5_0](plots/metric_evolution_test_[global] apcer_at_bpcer_5_0.png)
 
-![test/accuracy](plots/metric_evolution_test_accuracy.png)
+![test/accuracy](20%20PhD/1%20Projects/Filtered%20PAD/vit_initial_sweep/plots/metric_evolution_test_accuracy.png)
 
 ### Metric Distributions
 
-![Distributions](plots/metric_distributions.png)
+![Distributions](20%20PhD/1%20Projects/Filtered%20PAD/vit_initial_sweep/plots/metric_distributions.png)
 
 ### Best Epochs
 
-![Best Epochs](plots/best_epochs.png)
+![Best Epochs](20%20PhD/1%20Projects/Filtered%20PAD/vit_initial_sweep/plots/best_epochs.png)
