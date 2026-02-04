@@ -14,3 +14,15 @@ Run example
 ```
 python train.py --cfg cfgs/rim.yaml --seed 42
 ```
+
+Quantitative table template (copy into `runs.md`)
+
+| metric | value | notes |
+|---|---:|---|
+| FID |  | lower is better |
+| PSNR |  | |
+| SSIM |  | |
+| Runtime (s) |  | per image |
+
+Usage
+- Paste the table into the run entry after the YAML frontmatter and qualitative notes. Keep the README as a quick reference only.
